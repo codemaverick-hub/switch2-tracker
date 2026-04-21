@@ -1,0 +1,52 @@
+name: Update Switch 2 Game Data
+
+on:
+  schedule:
+    # Run every day at 06:00 UTC (after Wikipedia editors in Asia/Europe have had time to update)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    # Also allow manual runs from the Actions tab in GitHub
+
+permissions:
+  contents: write   # needed to commit the updated games.json
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run scraper
+        run: python scripts/scrape.py
+
+      - name: Check if data changed
+        id: diff
+        run: |
+          git diff --quiet data/games.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated game data
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "Switch2-Bot"
+          git config user.email "actions@github.com"
+          git add data/games.json
+          COUNT=$(python3 -c "import json; d=json.load(open('data/games.json')); print(d['count'])")
+          DATE=$(date -u '+%Y-%m-%d')
+          git commit -m "chore: update game list → ${COUNT} games (${DATE})"
+          git push
+
+      - name: No changes detected
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Game data is already up to date. No commit needed."
