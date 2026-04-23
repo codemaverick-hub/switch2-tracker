@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
 Nintendo Switch 2 game list scraper.
-Fetches the Wikipedia game list, merges with local format/region overrides,
-and writes data/games.json.
 
-Run manually:  python scripts/scrape.py
-Run by:        GitHub Actions (.github/workflows/update-games.yml)
+Data sources (priority order):
+  1. r/NSCollectors Google Sheet  — primary: accurate titles + per-region release dates
+  2. Wikipedia                    — secondary: publisher / format type
+  3. data/overrides.json          — manual corrections that override everything
+
+Run: python scripts/scrape.py
 """
 
-import json
-import re
-import sys
-import time
+import csv, io, json, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -19,243 +18,250 @@ try:
     import requests
     from bs4 import BeautifulSoup
 except ImportError:
-    print("Missing dependencies. Run: pip install requests beautifulsoup4")
+    print("Missing deps. Run: pip install requests beautifulsoup4")
     sys.exit(1)
 
-# ── Paths ────────────────────────────────────────────────────────────────────
-ROOT = Path(__file__).parent.parent
+ROOT           = Path(__file__).parent.parent
 OVERRIDES_FILE = ROOT / "data" / "overrides.json"
 OUT_FILE       = ROOT / "data" / "games.json"
 
-WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
-HEADERS = {"User-Agent": "Switch2Tracker/1.0 (github.com/yourname/switch2-tracker; educational)"}
+SHEET_ID  = "1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8"
+SHEET_GID = "558942722"
+SHEET_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={SHEET_GID}"
+WIKI_URL  = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
+HEADERS   = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"}
 
-# ── Nintendo first-party publishers (→ NS2 Exclusive if title isn't NS2 Edition) ──
-NINTENDO_PUBLISHERS = {
-    "nintendo", "nintendo epd", "hal laboratory", "retro studios",
-    "intelligent systems", "game freak", "the pokémon company",
-    "camelot software planning", "monolith soft", "nd cube",
-    "bandai namco studios, sora ltd.",  # Kirby Air Riders
-}
+REGION_COLS = ["USA","KOR","JPN","EUR","CHT","AUS","ASI"]
+NINTENDO_PUBS = {"nintendo","nintendo epd","hal laboratory","retro studios",
+                 "intelligent systems","game freak","the pokemon company",
+                 "camelot software planning","monolith soft","nd cube"}
 
-# ── Genre inference from title/publisher keywords ────────────────────────────
 GENRE_HINTS = [
-    (r"kart|racing|formula|speed|drift|rally|moto", "Racing"),
-    (r"mario party|party|jamboree", "Party"),
-    (r"zelda|breath of the wild|tears of the kingdom|hyrule warriors|age of imprisonment", "Action-Adventure"),
-    (r"pokemon|pokémon", "RPG"),
-    (r"kirby|platformer|wonder|bananza|yoshi", "Platformer"),
-    (r"fire emblem|disgaea|tactics|strategy|nobunaga|dynasty warriors|duskbloods", "Strategy RPG"),
-    (r"splatoon|drag x drive", "Sports"),
-    (r"tennis|madden|nba|nfl|pga|efl|fc 2|fifa|football|soccer|basketball|baseball|hockey|golf", "Sports"),
-    (r"metroid|resident evil|fatal frame|project zero|horror|nightmare|bloober|phasmophobia|cronos", "Horror"),
-    (r"final fantasy|dragon quest|octopath|bravely|persona|atelier|tales of|ys |xenoblade|elden ring|rpg|granblue|suikoden|rune factory|story of seasons|fantasy life|cyberpunk|yakuza|yakuza|raidou", "Action RPG"),
-    (r"animal crossing|stardew|tomodachi|time at|my time|evershine|life sim|farming|dave the diver|no man", "Life Sim"),
-    (r"hollow knight|silksong|hades|enter the gungeon|balatro|roguelike|rogue", "Action Roguelike"),
-    (r"street fighter|mortal kombat|tekken|dragon ball|fighting", "Fighting"),
-    (r"hitman|assassin|star wars|indiana jones|hogwarts|batman|lego", "Action-Adventure"),
+    (r"kart|racing|moto|sonic racing|fast fusion", "Racing"),
+    (r"mario party|jamboree", "Party"),
+    (r"zelda|hyrule warriors", "Action-Adventure"),
+    (r"pokemon|pok.mon", "RPG"),
+    (r"kirby|wonder|bananza|yoshi|yooka|pac.man|mega man|hollow knight|silksong|platformer", "Platformer"),
+    (r"fire emblem|disgaea|tactics|nobunaga|dynasty warriors|duskbloods|brigandine", "Strategy RPG"),
+    (r"drag.x.drive|tennis|madden|nba|nfl|pga|fc 2[56]|football|basketball|hockey|golf", "Sports"),
+    (r"metroid|resident evil|fatal frame|project zero|nightmare|phasmophobia|cronos|layers of fear", "Horror"),
+    (r"final fantasy|dragon quest|octopath|bravely|persona|atelier|tales of|ys |xenoblade|elden ring|granblue|suikoden|rune factory|story of seasons|fantasy life|cyberpunk|yakuza|raidou|borderlands|fallout|hogwarts", "Action RPG"),
+    (r"animal crossing|tomodachi|my time|evershine|farming|dave the diver|no man|pokopia", "Life Sim"),
+    (r"hades|enter the gungeon|balatro|roguelike", "Action Roguelike"),
+    (r"street fighter|mortal kombat|dragon ball|fighting|virtua fighter", "Fighting"),
+    (r"hitman|assassin|star wars|indiana jones|batman|lego|007", "Action-Adventure"),
     (r"overwatch|apex|fortnite|battle royale", "Battle Royale"),
-    (r"a-train|train|simulator|farming|powerwash|goat sim", "Simulation"),
-    (r"factorio|overcooked|cook|civilization|civ 7", "Strategy"),
-    (r"layton|professor layton|puzzle|puyo|tetris", "Puzzle"),
-    (r"sonic|pac-man|mega man|yooka|hollow knight|kirby|platformer|wonder|bananza|bubsy|bubsy", "Platformer"),
+    (r"a.train|simulator|farming|powerwash|goat sim|factorio", "Simulation"),
+    (r"overcooked|cook|civilization", "Strategy"),
+    (r"layton|puzzle|puyo|tetris|chromagun", "Puzzle"),
 ]
 
-def infer_genre(title: str, publisher: str) -> str:
-    combined = (title + " " + publisher).lower()
-    for pattern, genre in GENRE_HINTS:
-        if re.search(pattern, combined):
-            return genre
-    return "Action"  # fallback
+def infer_genre(title, pub=""):
+    s = (title + " " + pub).lower()
+    for pat, g in GENRE_HINTS:
+        if re.search(pat, s): return g
+    return "Action"
 
-
-def classify_type(title: str, publisher: str, developer: str) -> str:
-    """Return 'e' (NS2 exclusive), 'n' (NS2 Edition), or 't' (third-party)."""
-    title_lower = title.lower()
-    if "nintendo switch 2 edition" in title_lower or "– ns2 ed" in title_lower:
-        return "n"
-    pub_lower = publisher.lower()
-    # If any Nintendo studio is listed as publisher it's first-party
-    if any(n in pub_lower for n in NINTENDO_PUBLISHERS):
-        return "e"
+def classify_type(title, pub, dev=""):
+    if "nintendo switch 2 edition" in title.lower(): return "n"
+    if any(n in (pub+" "+dev).lower() for n in NINTENDO_PUBS): return "e"
     return "t"
 
+def norm(title):
+    t = re.sub(r'[-\u2013\u2014]', ' ', title.lower())
+    t = re.sub(r'[^a-z0-9 ]', '', t)
+    return re.sub(r'\s+', ' ', t).strip()
 
-def parse_date(raw: str) -> tuple[str, str]:
-    """Return (display_date, status) where status is 'r' or 'u'."""
-    raw = raw.strip()
-    now = datetime.now(timezone.utc)
+def fuzzy(needle, mapping):
+    nn = norm(needle)
+    for k in mapping:
+        nk = norm(k)
+        if nn == nk or (len(nn) > 8 and (nn in nk or nk in nn)):
+            return k
+    return None
 
-    # Remove citation markers like [1], [a]
-    raw = re.sub(r'\[.*?\]', '', raw).strip()
+def parse_ymd(raw):
+    try:
+        d = datetime.strptime(raw.strip(), "%Y/%m/%d").replace(tzinfo=timezone.utc)
+        fmt = "%b %-d, %Y" if sys.platform != "win32" else "%b %#d, %Y"
+        now = datetime.now(timezone.utc)
+        return d.strftime(fmt), "r" if d <= now else "u"
+    except: return raw.strip(), "u"
 
-    if not raw or raw.upper() in ("TBA", "N/A", ""):
-        return "TBA", "u"
+def clean_title(t):
+    t = re.sub(r'\s*[\(\[]\s*(JP|JPN|Japan|Japan Only|Asia|KOR|Korea)[^\)\]]*[\)\]]', '', t, flags=re.I)
+    t = re.sub(r'^(.+),\s+(The|A|An)$', r'\2 \1', t.strip())
+    return t.strip()
 
-    # Loose year-only: "2025" or "2026"
-    m = re.fullmatch(r'(\d{4})', raw)
-    if m:
-        yr = int(m.group(1))
-        return raw, "r" if yr <= now.year else "u"
-
-    # Quarter: "Q1 2026"
-    m = re.match(r'Q(\d)\s+(\d{4})', raw, re.I)
-    if m:
-        q, yr = int(m.group(1)), int(m.group(2))
-        q_month = {1: 3, 2: 6, 3: 9, 4: 12}[q]
-        d = datetime(yr, q_month, 30, tzinfo=timezone.utc)
-        return raw, "r" if d <= now else "u"
-
-    # Season
-    seasons = {"spring": (3, 21), "summer": (6, 21), "fall": (9, 22), "autumn": (9, 22), "winter": (12, 21)}
-    for season, (mo, dy) in seasons.items():
-        m = re.search(rf'{season}\s+(\d{{4}})', raw, re.I)
-        if m:
-            yr = int(m.group(1))
-            d = datetime(yr, mo, dy, tzinfo=timezone.utc)
-            return raw, "r" if d <= now else "u"
-
-    # Full date: "June 5, 2025" or "5 June 2025"
-    fmts = ["%B %d, %Y", "%d %B %Y", "%b %d, %Y", "%d %b %Y",
-            "%B %d %Y", "%d/%m/%Y", "%Y-%m-%d"]
-    clean = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', raw)
-    for fmt in fmts:
-        try:
-            d = datetime.strptime(clean.strip(), fmt).replace(tzinfo=timezone.utc)
-            return raw, "r" if d <= now else "u"
-        except ValueError:
-            continue
-
-    return raw, "u"
-
-
-def scrape_wikipedia() -> list[dict]:
-    print(f"Fetching {WIKIPEDIA_URL} …")
-    r = requests.get(WIKIPEDIA_URL, headers=HEADERS, timeout=30)
+# ── 1. Google Sheet ───────────────────────────────────────────────────────────
+def fetch_sheet():
+    print("Fetching r/NSCollectors sheet …")
+    r = requests.get(SHEET_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+    rows = list(csv.reader(io.StringIO(r.text)))
 
-    # The game list is in a wikitable — there may be multiple; grab the main one
-    table = soup.find("table", class_="wikitable")
-    if not table:
-        raise ValueError("Could not find wikitable on the page")
+    # Find header row
+    hdr_idx = next((i for i,row in enumerate(rows) if "Game Title" in row), None)
+    if hdr_idx is None: raise ValueError("Header row not found in sheet")
+    headers = rows[hdr_idx]
+    print(f"  Headers: {headers}")
 
     games = []
-    rows = table.find_all("tr")[1:]  # skip header
+    for row in rows[hdr_idx+1:]:
+        if not row or not row[0].strip().isdigit(): continue
+        rec = {headers[i].strip(): row[i].strip() for i in range(min(len(headers),len(row)))}
 
-    for row in rows:
-        cells = row.find_all(["td", "th"])
-        if len(cells) < 4:
-            continue
+        title = clean_title(rec.get("Game Title",""))
+        if not title: continue
 
-        # Wikipedia columns: Title | Developer(s) | Publisher(s) | Release date | Ref
-        title_cell = cells[0]
-        dev_cell   = cells[1]
-        pub_cell   = cells[2]
-        date_cell  = cells[3]
+        # Per-region dates
+        releases = {}
+        filled = {}
+        for col in REGION_COLS:
+            val = rec.get(col,"").strip()
+            if val and re.match(r'\d{4}/\d{2}/\d{2}', val):
+                filled[col] = val
+                disp, _ = parse_ymd(val)
+                releases[col.lower()] = disp
 
-        title = title_cell.get_text(" ", strip=True)
-        title = re.sub(r'\[.*?\]', '', title).strip()
-        developer  = dev_cell.get_text(", ", strip=True)
-        publisher  = pub_cell.get_text(", ", strip=True)
-        date_raw   = date_cell.get_text(" ", strip=True)
+        # Region classification
+        if not filled:
+            region = "ww"
+        elif set(filled.keys()) == {"JPN"}:
+            region = "jp"
+        elif len(filled) >= 5:
+            region = "ww"
+        else:
+            region = "var"
 
-        # Skip empty / stub rows
-        if not title or title.lower() in ("title", ""):
-            continue
-
-        display_date, status = parse_date(date_raw)
-        game_type = classify_type(title, publisher, developer)
-        genre     = infer_genre(title, publisher)
+        # Best display date = Grand Total or earliest filled
+        gt = rec.get("Grand Total","").strip()
+        if gt and re.match(r'\d{4}/\d{2}/\d{2}', gt):
+            date, status = parse_ymd(gt)
+        elif filled:
+            earliest_raw = min(filled.values())
+            date, status = parse_ymd(earliest_raw)
+        else:
+            date, status = "TBA", "u"
 
         games.append({
-            "title":     title,
-            "publisher": publisher,
-            "developer": developer,
-            "type":      game_type,    # e / n / t
-            "genre":     genre,
-            "date":      display_date,
-            "status":    status,       # r / u
-            "fmt":       "?",          # overridden by overrides.json
-            "region":    "ww",         # overridden by overrides.json
-            "note":      "",
+            "title": title, "publisher":"", "developer":"",
+            "type":"t", "genre": infer_genre(title),
+            "date": date, "status": status,
+            "fmt":"?", "region": region,
+            "releases": releases, "note":"",
         })
 
-    print(f"  Scraped {len(games)} games from Wikipedia")
+    print(f"  {len(games)} games from sheet")
     return games
 
+# ── 2. Wikipedia ──────────────────────────────────────────────────────────────
+def fetch_wiki():
+    print("Fetching Wikipedia …")
+    try:
+        r = requests.get(WIKI_URL, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"  ⚠ Wikipedia failed: {e}")
+        return []
+    soup = BeautifulSoup(r.text, "html.parser")
+    table = soup.find("table", class_="wikitable")
+    if not table:
+        print("  ⚠ wikitable not found")
+        return []
+    games = []
+    for row in table.find_all("tr")[1:]:
+        cells = row.find_all(["td","th"])
+        if len(cells) < 4: continue
+        title = re.sub(r'\[.*?\]','', cells[0].get_text(" ",strip=True)).strip()
+        dev   = cells[1].get_text(", ",strip=True)
+        pub   = cells[2].get_text(", ",strip=True)
+        if not title: continue
+        games.append({"title":title,"publisher":pub,"developer":dev,
+                      "type":classify_type(title,pub,dev),
+                      "genre":infer_genre(title,pub)})
+    print(f"  {len(games)} games from Wikipedia")
+    return games
 
-def load_overrides() -> dict:
-    """
-    overrides.json maps normalised title → override fields.
-    Example:
-    {
-      "Daemon X Machina: Titanic Scion": {
-        "fmt": "c",
-        "region": "var",
-        "note": "Full cart in West; GKC in Japan"
-      }
-    }
-    """
-    if not OVERRIDES_FILE.exists():
-        print("  No overrides.json found — using defaults")
-        return {}
+# ── 3. Overrides ──────────────────────────────────────────────────────────────
+def load_overrides():
+    if not OVERRIDES_FILE.exists(): return {}
     with open(OVERRIDES_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-    print(f"  Loaded {len(data)} overrides")
-    return data
+        d = json.load(f)
+    d = {k:v for k,v in d.items() if not k.startswith("_")}
+    print(f"  {len(d)} overrides loaded")
+    return d
 
+# ── 4. Merge ──────────────────────────────────────────────────────────────────
+def merge_all(sheet, wiki, overrides):
+    wiki_map = {norm(g["title"]): g for g in wiki}
+    sheet_norms = {norm(g["title"]) for g in sheet}
+    merged = []
 
-def normalise(title: str) -> str:
-    """Lowercase + strip punctuation for fuzzy matching."""
-    return re.sub(r'[^a-z0-9 ]', '', title.lower()).strip()
+    for g in sheet:
+        g = dict(g)
+        # Merge Wikipedia metadata
+        wk = fuzzy(g["title"], wiki_map)
+        if wk:
+            wg = wiki_map[wk]
+            g["publisher"] = wg["publisher"]
+            g["developer"] = wg["developer"]
+            g["type"]      = wg["type"]
+            if g["genre"] == "Action":
+                g["genre"] = wg["genre"]
+        # Apply overrides (highest priority)
+        ok = fuzzy(g["title"], overrides)
+        if ok:
+            for k,v in overrides[ok].items():
+                if not k.startswith("_"): g[k] = v
+        merged.append(g)
 
+    # Add Wikipedia-only games (not yet in sheet — future unannounced dates)
+    for wg in wiki:
+        if norm(wg["title"]) not in sheet_norms:
+            g = {"title":wg["title"],"publisher":wg["publisher"],"developer":wg["developer"],
+                 "type":wg["type"],"genre":wg["genre"],"date":"TBA","status":"u",
+                 "fmt":"?","region":"ww","releases":{},"note":""}
+            ok = fuzzy(g["title"], overrides)
+            if ok:
+                for k,v in overrides[ok].items():
+                    if not k.startswith("_"): g[k] = v
+            merged.append(g)
 
-def merge(games: list[dict], overrides: dict) -> list[dict]:
-    """Apply overrides to scraped games by fuzzy title match."""
-    norm_map = {normalise(k): v for k, v in overrides.items()}
-    for game in games:
-        key = normalise(game["title"])
-        # Exact normalised match
-        if key in norm_map:
-            game.update(norm_map[key])
-            continue
-        # Partial match (override key is substring of game title)
-        for ok, ov in norm_map.items():
-            if ok in key or key in ok:
-                game.update(ov)
-                break
-    return games
+    return merged
 
-
-def assign_ids(games: list[dict]) -> list[dict]:
-    """Stable sequential IDs sorted by title."""
+def assign_ids(games):
     for i, g in enumerate(sorted(games, key=lambda x: x["title"].lower()), start=1):
         g["id"] = i
     return games
 
-
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
-    games = scrape_wikipedia()
+    try:
+        sheet = fetch_sheet()
+    except Exception as e:
+        print(f'  ⚠ Sheet fetch failed ({e}), falling back to Wikipedia only')
+        sheet = []
+    wiki  = fetch_wiki()
     overrides = load_overrides()
-    games = merge(games, overrides)
+    games = merge_all(sheet, wiki, overrides)
     games = assign_ids(games)
 
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
-        "source":  WIKIPEDIA_URL,
-        "count":   len(games),
-        "games":   games,
+        "sources": {"sheet": SHEET_URL, "wikipedia": WIKI_URL},
+        "count": len(games),
+        "games": games,
     }
-
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=2)
+    with open(OUT_FILE,"w",encoding="utf-8") as f:
+        json.dump(out,f,ensure_ascii=False,indent=2)
 
-    print(f"\n✓ Wrote {len(games)} games → {OUT_FILE}")
-    print(f"  Released: {sum(1 for g in games if g['status']=='r')}")
-    print(f"  Upcoming: {sum(1 for g in games if g['status']=='u')}")
-
+    released = sum(1 for g in games if g["status"]=="r")
+    upcoming = sum(1 for g in games if g["status"]=="u")
+    print(f"\n✓ {len(games)} games → {OUT_FILE}")
+    print(f"  Released: {released}  Upcoming: {upcoming}")
+    print(f"  Sheet: {len(sheet)}  Wiki-only additions: {len(games)-len(sheet)}")
 
 if __name__ == "__main__":
     main()
