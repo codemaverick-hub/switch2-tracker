@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e60012">
-<meta name="description" content="Track your Nintendo Switch 2 game collection by region.">
+<meta name="description" content="Track your Nintendo Switch 2 game collection by region and edition.">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Switch 2 Master Tracker</title>
@@ -20,29 +20,42 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:13px;min-height:100vh;padding:20px 16px 60px}
 .app{max-width:1200px;margin:0 auto}
+
+/* Header */
 .hdr{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
 .logo{display:flex;align-items:center;gap:12px}
 .logo-icon{width:38px;height:38px;background:linear-gradient(135deg,#e60012,#cc0010);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
 .logo h1{font-size:20px;font-weight:700;letter-spacing:-.3px}
 .logo p{font-size:11px;color:var(--muted);margin-top:2px;font-family:'DM Mono',monospace}
+
+/* Banners */
 .update-banner{background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:8px;justify-content:space-between}
 .update-banner.show{display:flex}
 .update-banner button{background:var(--green);color:#000;border:none;border-radius:5px;padding:4px 10px;font-size:11px;cursor:pointer;font-weight:600}
 .install-bar{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:10px;justify-content:space-between}
 .install-bar.show{display:flex}
 .install-bar .install-btn{background:var(--red);color:#fff;border:none;border-radius:5px;padding:5px 12px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
+
+/* Tabs */
 .tabs{display:flex;gap:2px;margin-bottom:20px;background:var(--surface);border-radius:10px;padding:3px;width:fit-content}
 .tab{padding:7px 18px;border-radius:8px;font-size:12.5px;font-weight:500;cursor:pointer;border:none;background:transparent;color:var(--muted);transition:all .15s;letter-spacing:.2px}
 .tab.active{background:var(--surface2);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.4)}
+
+/* Stats */
 .stats{display:grid;gap:8px;margin-bottom:16px}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
 .stat-num{font-size:22px;font-weight:700;font-family:'DM Mono',monospace;line-height:1}
 .stat-lbl{font-size:10px;color:var(--muted);margin-top:4px;letter-spacing:.3px;text-transform:uppercase}
+
+/* Controls */
 .ctrl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
 .ctrl input,.ctrl select{background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:11.5px;padding:6px 10px;font-family:'DM Sans',sans-serif;outline:none}
 .ctrl input{flex:1;min-width:140px}
+
+/* Legend */
 .legend{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;align-items:center;font-size:10.5px;color:var(--muted)}
 .legend strong{color:var(--text);font-size:10px;text-transform:uppercase;letter-spacing:.4px}
+
 /* Badges */
 .b{display:inline-block;font-size:9.5px;font-weight:500;padding:2px 7px;border-radius:999px;letter-spacing:.2px;line-height:1.6;white-space:nowrap;font-family:'DM Mono',monospace}
 .be{background:#0d2e1c;color:#3ddc84}
@@ -60,13 +73,24 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .ccat-ctrl{background:#1e0d3d;color:#b47eff}.ccat-grip{background:#1e0d3d;color:#d4a0ff}
 .ccat-cam{background:#0d1e3d;color:#4b9eff}.ccat-case{background:#0d2e2a;color:#3dd6c8}
 .ccat-dock{background:#2e2000;color:#f5a623}.ccat-stor{background:#0d2e1c;color:#3ddc84}
+
+/* Edition variant badges */
+.ed-std{background:#1a1a1a;color:#c0c0c0;border:1px solid #333}
+.ed-dlx{background:#1a1500;color:#e8c840;border:1px solid #4a3c00}
+.ed-ltd{background:#1a0d00;color:#ff8c40;border:1px solid #4a2800}
+.ed-col{background:#1a0020;color:#d080ff;border:1px solid #4a0060}
+.ed-spe{background:#001a15;color:#40d4a0;border:1px solid #004a38}
+.ed-oth{background:#0d0d1a;color:#8090d0;border:1px solid #202040}
+
 .rc{font-size:11px;color:var(--muted);margin-bottom:8px;font-family:'DM Mono',monospace}
-/* Cards */
+
+/* ── Game cards ── */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s}
 .card:hover{border-color:var(--faint)}
 .card.plat-s2{border-left:3px solid #ff4b4b}
 .card.plat-b{border-left:3px solid #4b9eff}
+
 /* Box art */
 .card-art{height:145px;position:relative;overflow:hidden;flex-shrink:0;display:flex;align-items:flex-end;background:#111}
 .card-art.as{background:linear-gradient(145deg,#2a0808,#4a1010 50%,#1a0404)}
@@ -79,6 +103,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .art-overlay{position:relative;z-index:3;width:100%;padding:6px 10px 8px;background:linear-gradient(transparent,rgba(0,0,0,.88))}
 .art-title{font-size:11.5px;font-weight:700;color:#fff;line-height:1.3;letter-spacing:-.2px}
 .art-pub{font-size:9.5px;color:rgba(255,255,255,.5);margin-top:2px}
+
 /* Card body */
 .card-body{padding:8px 12px 10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .brow{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
@@ -87,8 +112,11 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .rdates{display:flex;flex-wrap:wrap;gap:3px;margin-top:2px}
 .rdate-chip{font-size:8.5px;font-family:'DM Mono',monospace;padding:1px 5px;border-radius:4px;border:1px solid var(--border);color:var(--muted)}
 .rdate-chip span{color:var(--text);font-weight:600}
-/* Ownership */
+
+/* ── Ownership section ── */
 .own-section{margin-top:4px;display:flex;flex-direction:column;gap:3px;padding-top:6px;border-top:1px solid var(--border)}
+
+/* Global quick buttons */
 .own-global{display:flex;gap:3px}
 .obtn{flex:1;font-size:9px;font-weight:500;padding:5px 2px;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;transition:all .1s;font-family:'DM Sans',sans-serif;text-align:center;line-height:1.2}
 .obtn:hover:not(:disabled){background:var(--surface2);color:var(--text)}
@@ -96,22 +124,37 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .obtn.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
 .obtn.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
 .obtn:disabled{opacity:.22;cursor:not-allowed;font-size:8.5px}
+
+/* Region expand toggle row */
 .region-toggle{display:flex;align-items:center;justify-content:space-between;margin-top:3px}
-.region-toggle-btn{font-size:9px;color:var(--muted);background:transparent;border:1px dashed var(--border);border-radius:4px;padding:2px 7px;cursor:pointer;font-family:'DM Mono',monospace;letter-spacing:.2px;transition:all .1s}
+.region-toggle-btn{font-size:9px;color:var(--muted);background:transparent;border:1px dashed var(--border);border-radius:4px;padding:2px 8px;cursor:pointer;font-family:'DM Mono',monospace;letter-spacing:.2px;transition:all .1s}
 .region-toggle-btn:hover{color:var(--text);border-color:var(--faint)}
 .owned-indicator{font-size:9px;font-family:'DM Mono',monospace;color:var(--green)}
-.region-rows{display:flex;flex-direction:column;gap:3px;margin-top:4px}
-.own-row{display:flex;align-items:center;gap:3px}
-.own-rlabel{font-size:8.5px;font-family:'DM Mono',monospace;font-weight:600;min-width:28px;color:var(--muted);letter-spacing:.3px}
-.own-rating{font-size:8px;color:var(--faint);min-width:32px}
-.own-btns{display:flex;gap:2px;flex:1}
-.obtn-sm{flex:1;font-size:8.5px;padding:3px 2px;border:1px solid var(--border);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;text-align:center;font-family:'DM Sans',sans-serif;transition:all .1s;line-height:1.2}
-.obtn-sm:hover:not(:disabled){background:var(--surface2);color:var(--text)}
-.obtn-sm.op{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
-.obtn-sm.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
-.obtn-sm.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
-.obtn-sm:disabled{opacity:.2;cursor:not-allowed;text-decoration:line-through}
-/* Console/acc cards */
+
+/* ── Per-region rows with edition columns ── */
+.region-rows{display:flex;flex-direction:column;gap:5px;margin-top:5px}
+
+.region-block{background:var(--surface2);border:1px solid var(--border);border-radius:7px;padding:5px 7px;display:flex;flex-direction:column;gap:4px}
+.region-header{display:flex;align-items:center;gap:5px}
+.own-rlabel{font-size:9px;font-family:'DM Mono',monospace;font-weight:700;color:var(--text);letter-spacing:.4px;min-width:28px}
+.own-rating{font-size:8px;color:var(--muted);min-width:32px}
+.region-dig-wish{display:flex;gap:3px;margin-left:auto}
+
+/* Edition rows inside region block */
+.edition-rows{display:flex;flex-direction:column;gap:2px}
+.edition-row{display:flex;align-items:center;gap:4px}
+.edition-label{font-size:8px;font-weight:600;padding:1px 5px;border-radius:3px;min-width:56px;text-align:center;font-family:'DM Mono',monospace}
+.edition-btns{display:flex;gap:2px;flex:1}
+
+/* Small ownership buttons used in edition rows */
+.obtn-xs{flex:1;font-size:8px;padding:3px 2px;border:1px solid var(--border);border-radius:4px;background:transparent;color:var(--muted);cursor:pointer;text-align:center;font-family:'DM Sans',sans-serif;transition:all .1s;line-height:1.2;white-space:nowrap}
+.obtn-xs:hover:not(:disabled){background:var(--surface2);color:var(--text)}
+.obtn-xs.op{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+.obtn-xs.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
+.obtn-xs.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
+.obtn-xs:disabled{opacity:.2;cursor:not-allowed;text-decoration:line-through}
+
+/* Console/accessory cards */
 .cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:8px}
 .acc-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px}
@@ -120,13 +163,14 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .ul{font-size:10.5px;padding-left:16px;color:#9a9aaa;margin-top:2px}
 .ul li{margin-top:3px;line-height:1.3}
 .ct{font-size:12px;font-weight:600;line-height:1.35;letter-spacing:-.1px;margin-top:1px}
-.pub{font-size:10px;color:var(--muted)}
 .xbtn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .1s}
 .xbtn:hover{background:var(--surface2);color:var(--text)}
 .xbtn.ax{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+
 .compat-info{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:12px;font-size:11px;color:var(--muted);line-height:1.6}
 .compat-info strong{color:var(--text)}
 .compat-row{display:flex;align-items:center;gap:8px;margin-top:6px}
+
 .empty{text-align:center;padding:40px;color:var(--muted);grid-column:1/-1;font-size:13px}
 .empty span{display:block;font-size:28px;margin-bottom:10px}
 .loading{text-align:center;padding:60px;color:var(--muted)}
@@ -157,6 +201,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
   <div id="grid"><div class="loading"><div class="spinner"></div>Fetching game data…</div></div>
 </div>
 <script>
+// ── Constants ────────────────────────────────────────────────────────────────
 const RATING_BOARD={usa:'ESRB',eur:'PEGI',jpn:'CERO',aus:'ACB',kor:'GRAC',cht:'CSRR',asi:'varies'};
 const REGION_LABEL={usa:'USA',eur:'EUR',jpn:'JPN',aus:'AUS',kor:'KOR',cht:'CHT',asi:'ASI'};
 const REGION_ORDER=['usa','eur','jpn','aus','kor','cht','asi'];
@@ -166,13 +211,21 @@ const FMC={c:'fc',k:'fk',d:'fd','?':'fq'};
 const TY={e:'NS2 Exclusive',n:'NS2 Edition',t:'Third-Party'};
 const TYC={e:'be',n:'bn',t:'bt'};
 const ACAT={Controller:'ccat-ctrl','Grip & Adapter':'ccat-grip',Camera:'ccat-cam',Case:'ccat-case','Dock & Power':'ccat-dock',Storage:'ccat-stor'};
-const ART_BG={s2only:'as',both:'ab'};
+
+// Edition display styles
+const ED_CLASS={
+  'Standard':'ed-std','Deluxe':'ed-dlx','Limited':'ed-ltd',
+  "Collector's":'ed-col','Special':'ed-spe','Premium':'ed-dlx',
+  'Day One':'ed-oth','Launch':'ed-oth','Anniversary':'ed-col',
+};
+function edClass(e){return ED_CLASS[e]||'ed-oth';}
 
 function getPlatform(g){return g.type==='n'?'both':'s2only';}
 const PLAT_BADGE={s2only:'<span class="b plat-s2only">Switch 2 Only</span>',both:'<span class="b plat-both">Switch 1 &amp; 2</span>'};
 const PLAT_CLASS={s2only:'plat-s2',both:'plat-b'};
+const ART_BG={s2only:'as',both:'ab'};
 
-// Static console & accessory data
+// ── Static console/accessory data ────────────────────────────────────────────
 const C=[
 ['c1','Switch 2 Standard – International','Worldwide','$449.99 / €469.99 / £395.99 / AU$699.95 / CA$629.99',['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],'Released Jun 5, 2025. Region-free; 16 languages; all-region Nintendo Accounts.'],
 ['c2','Switch 2 Standard – JP Language Edition','Japan Only (retail)','¥49,980 (~$335)',['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],'Released Jun 5, 2025. Japanese language only; Japan-region accounts only.'],
@@ -202,43 +255,49 @@ const A=[
 ['a52','microSD Express Card – 1TB','Storage','~$149.99','Late 2025','Licensed for Switch 2.'],
 ];
 
+// ── State ────────────────────────────────────────────────────────────────────
 let GAMES=[], curTab='g';
-function loadState(){try{return JSON.parse(localStorage.getItem('sw2v7')||'{}');}catch{return {};}}
-function saveState(s){try{localStorage.setItem('sw2v7',JSON.stringify(s));}catch{}}
+function loadState(){try{return JSON.parse(localStorage.getItem('sw2v8')||'{}');}catch{return {};}}
+function saveState(s){try{localStorage.setItem('sw2v8',JSON.stringify(s));}catch{}}
 let state=loadState();
 
 function getV(id){const e=document.getElementById(id);return e?e.value:'';}
 function statEl(n,l,c=''){return `<div class="stat"><div class="stat-num"${c?` style="color:${c}"`:''}>${n}</div><div class="stat-lbl">${l}</div></div>`;}
-function getOwn(id,r=null){return state[(r?`g${id}_${r}`:`g${id}`)]||'0';}
-function setOwn(id,r,val){const k=r?`g${id}_${r}`:`g${id}`;state[k]=state[k]===val?'0':val;saveState(state);render();}
-function ownedRegions(id){return REGION_ORDER.filter(r=>getOwn(id,r)==='p'||getOwn(id,r)==='d');}
-function anyOwned(id){return getOwn(id)!=='0'||ownedRegions(id).length>0;}
+
+// Ownership keys:
+//   global:          g{id}        = p|d|w|0
+//   per-region:      g{id}_{r}    = p|d|w|0  (used when no edition data)
+//   per-edition:     g{id}_{r}_{edkey} = p|d|w|0
+function edKey(e){return e.toLowerCase().replace(/[^a-z0-9]/g,'').substring(0,6);}
+function getOwn(id,r=null,ed=null){
+  const k = ed ? `g${id}_${r}_${edKey(ed)}` : r ? `g${id}_${r}` : `g${id}`;
+  return state[k]||'0';
+}
+function setOwn(id,r,ed,val){
+  const k = ed ? `g${id}_${r}_${edKey(ed)}` : r ? `g${id}_${r}` : `g${id}`;
+  state[k] = state[k]===val ? '0' : val;
+  saveState(state); render();
+}
+function ownedRegions(id){
+  return REGION_ORDER.filter(r=>{
+    if(getOwn(id,r)==='p'||getOwn(id,r)==='d') return true;
+    // Check edition-level ownership
+    return Object.keys(state).some(k=>k.startsWith(`g${id}_${r}_`)&&(state[k]==='p'||state[k]==='d'));
+  });
+}
+function anyOwned(id){
+  return getOwn(id)!=='0'||ownedRegions(id).length>0;
+}
 function isExpanded(id){return !!state[`exp_${id}`];}
 function toggleExpand(id){state[`exp_${id}`]=!state[`exp_${id}`];saveState(state);render();}
 
-// Determine if a region has physical available based on g.formats
-function regionHasPhysical(g, r) {
-  if (!g.formats) {
-    // No per-region data: fall back to global format
-    return g.fmt === 'c' || g.fmt === 'k';
-  }
-  const rf = g.formats[r];
-  if (rf) return rf === 'c' || rf === 'k';
-  // Region not in formats dict → not released physically there
-  // But if the overall format says physical exists somewhere, don't completely deny it
-  return false;
+function effectiveFmt(g){
+  if(!g.formats||Object.keys(g.formats).length===0) return g.fmt||'?';
+  const v=Object.values(g.formats);
+  return v.includes('c')?'c':v.includes('k')?'k':v.includes('?')?'?':'d';
 }
 
-// Determine effective format badge: use best available format across all regions
-function effectiveFmt(g) {
-  if (!g.formats || Object.keys(g.formats).length === 0) return g.fmt || '?';
-  const vals = Object.values(g.formats);
-  if (vals.includes('c')) return 'c';
-  if (vals.includes('k')) return 'k';
-  if (vals.includes('?')) return '?';
-  return 'd';
-}
-
+// ── Fetch games ───────────────────────────────────────────────────────────────
 async function fetchGames(){
   for(const url of [`data/games.json?t=${Math.floor(Date.now()/3600000)}`,'data/games.json']){
     try{
@@ -247,15 +306,14 @@ async function fetchGames(){
     }catch{}
   }return false;
 }
-
 function subText(){
   if(!window._gamesData)return`${GAMES.length} games`;
   const d=new Date(window._gamesData.updated||'');
   const ds=isNaN(d)?'':` · updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
-  const src=' · NSCollectors + Nintendo EU';
-  return`${GAMES.length} games${src}${ds}`;
+  return`${GAMES.length} games · NSCollectors + Nintendo EU${ds}`;
 }
 
+// ── Tab switching ─────────────────────────────────────────────────────────────
 function sw(t){
   curTab=t;
   ['g','c','a'].forEach(x=>document.getElementById('t'+x).classList.toggle('active',x===t));
@@ -268,89 +326,123 @@ function render(){
   if(curTab==='g')renderG();else if(curTab==='c')renderC();else renderA();
 }
 
-// ── Game card ──────────────────────────────────────────────────────────────
+// ── Build game card ───────────────────────────────────────────────────────────
 function buildGameCard(g){
   const plat=getPlatform(g);
-  const fmt=effectiveFmt(g);       // best format across all regions
-  const rawFmt=g.fmt||'?';         // what the scraper stored
+  const fmt=effectiveFmt(g);
   const type=g.type||'t';
   const reg=g.region||'ww';
   const releases=g.releases||{};
   const formats=g.formats||{};
-  const releaseRegions=REGION_ORDER.filter(r=>releases[r]);
-  const hasMultiRegionData=releaseRegions.length>1;
-
-  // Physical availability
+  const editions=g.editions||{};  // {region: ['Standard','Deluxe',...]}
+  const releaseRegions=REGION_ORDER.filter(r=>releases[r]||formats[r]);
+  const hasRegionData=releaseRegions.length>0;
   const hasAnyPhysical=fmt==='c'||fmt==='k';
-  // A game is "definitively digital only" if: no physical anywhere AND worldwide (no regional variants)
   const definitelyDigital=!hasAnyPhysical&&(reg==='ww'||Object.keys(formats).length===0);
 
-  // Art
+  // Box art
   const artSrc=g.art||'';
   const initials=(g.title||'').split(' ').filter(w=>w.length>1).slice(0,2).map(w=>w[0].toUpperCase()).join('');
   const artBg=ART_BG[plat]||'an';
 
   // Regional date chips
-  const datechips=(hasMultiRegionData)
-    ?`<div class="rdates">${releaseRegions.map(r=>`<span class="rdate-chip"><span>${REGION_LABEL[r]}</span> ${releases[r]}</span>`).join('')}</div>`:'';
+  const datechips=(hasRegionData&&reg!=='ww')
+    ?`<div class="rdates">${releaseRegions.filter(r=>releases[r]).map(r=>`<span class="rdate-chip"><span>${REGION_LABEL[r]}</span> ${releases[r]}</span>`).join('')}</div>`:'';
 
-  // Ownership UI
+  // ── Ownership UI ──
   const expanded=isExpanded(g.id);
   const ownedR=ownedRegions(g.id);
   let ownUI='';
 
   if(definitelyDigital){
-    // Worldwide digital only: no physical option at all
     const sv=getOwn(g.id);
     ownUI=`<div class="own-section">
       <div class="own-global">
-        <button class="obtn" disabled title="No physical release">Phys N/A</button>
-        <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,'d')">Own (dig)</button>
-        <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,'w')">Wishlist</button>
+        <button class="obtn" disabled>Phys N/A</button>
+        <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,null,'d')">Own (dig)</button>
+        <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,null,'w')">Wishlist</button>
       </div>
     </div>`;
   } else {
-    // Has physical in at least one region (or unknown) → show global + regional expand
     const sv=getOwn(g.id);
+    const regionsToShow=Object.keys(formats).length>0
+      ? REGION_ORDER.filter(r=>formats[r]||releases[r])
+      : (releaseRegions.length>0 ? releaseRegions : COLLECTOR_REGIONS);
 
-    // Which regions to show in the expanded view
-    let regionsToShow;
-    if(Object.keys(formats).length>0){
-      // Use regions from formats dict (regions that have any release in details tab)
-      regionsToShow=REGION_ORDER.filter(r=>formats[r]||releases[r]);
-      if(regionsToShow.length===0) regionsToShow=COLLECTOR_REGIONS;
-    } else if(hasMultiRegionData){
-      regionsToShow=releaseRegions;
-    } else {
-      regionsToShow=COLLECTOR_REGIONS;
+    // Count all owned copies (by edition or by region)
+    let ownedCount=0;
+    for(const r of regionsToShow){
+      const eds=editions[r]||['Standard'];
+      if(eds.length>1){
+        ownedCount+=eds.filter(e=>getOwn(g.id,r,e)==='p'||getOwn(g.id,r,e)==='d').length;
+      } else {
+        if(getOwn(g.id,r)==='p'||getOwn(g.id,r)==='d') ownedCount++;
+      }
     }
+    const ownedStr=ownedCount>0?`<span class="owned-indicator">✓ ${ownedCount} cop${ownedCount===1?'y':'ies'}</span>`:'';
 
-    const ownedStr=ownedR.length>0?`<span class="owned-indicator">✓ ${ownedR.length} region${ownedR.length>1?'s':''}</span>`:'';
+    let regionRows='';
+    if(expanded){
+      regionRows=`<div class="region-rows">
+        ${regionsToShow.map(r=>{
+          const physOk=(formats[r]==='c'||formats[r]==='k')||(Object.keys(formats).length===0);
+          const rating=RATING_BOARD[r]||'';
+          const regionEditions=editions[r]||['Standard'];
+          const hasMultiEd=regionEditions.length>1;
 
-    const regionRows=expanded?`<div class="region-rows">
-      ${regionsToShow.map(r=>{
-        const rs=getOwn(g.id,r);
-        const physOk=regionHasPhysical(g,r)||(Object.keys(formats).length===0);
-        return`<div class="own-row">
-          <span class="own-rlabel">${REGION_LABEL[r]}</span>
-          <span class="own-rating">${RATING_BOARD[r]||''}</span>
-          <div class="own-btns">
-            <button class="obtn-sm${rs==='p'?' op':''}"${!physOk?' disabled title="No physical in this region"':''} onclick="${physOk?`setOwn(${g.id},'${r}','p')`:''}">Phys</button>
-            <button class="obtn-sm${rs==='d'?' od':''}" onclick="setOwn(${g.id},'${r}','d')">Dig</button>
-            <button class="obtn-sm${rs==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}','w')">Wish</button>
-          </div>
-        </div>`;
-      }).join('')}
-    </div>`:'';
+          if(hasMultiEd){
+            // Show a block with one row per edition
+            return`<div class="region-block">
+              <div class="region-header">
+                <span class="own-rlabel">${REGION_LABEL[r]}</span>
+                <span class="own-rating">${rating}</span>
+                <div class="region-dig-wish">
+                  <button class="obtn-xs${getOwn(g.id,r)==='d'?' od':''}" onclick="setOwn(${g.id},'${r}',null,'d')">Dig</button>
+                  <button class="obtn-xs${getOwn(g.id,r)==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}',null,'w')">Wish</button>
+                </div>
+              </div>
+              <div class="edition-rows">
+                ${regionEditions.map(ed=>{
+                  const es=getOwn(g.id,r,ed);
+                  return`<div class="edition-row">
+                    <span class="edition-label b ${edClass(ed)}">${ed}</span>
+                    <div class="edition-btns">
+                      <button class="obtn-xs${es==='p'?' op':''}"${!physOk?' disabled':''} onclick="${physOk?`setOwn(${g.id},'${r}','${ed}','p')`:''}">Phys</button>
+                      <button class="obtn-xs${es==='d'?' od':''}" onclick="setOwn(${g.id},'${r}','${ed}','d')">Dig</button>
+                      <button class="obtn-xs${es==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}','${ed}','w')">Wish</button>
+                    </div>
+                  </div>`;
+                }).join('')}
+              </div>
+            </div>`;
+          } else {
+            // Single edition — simple row
+            const rs=getOwn(g.id,r);
+            return`<div class="region-block">
+              <div class="region-header">
+                <span class="own-rlabel">${REGION_LABEL[r]}</span>
+                <span class="own-rating">${rating}</span>
+                ${regionEditions[0]!=='Standard'?`<span class="edition-label b ${edClass(regionEditions[0])}" style="margin-left:2px">${regionEditions[0]}</span>`:''}
+                <div class="region-dig-wish" style="margin-left:auto">
+                  <button class="obtn-xs${rs==='p'?' op':''}"${!physOk?' disabled':''} onclick="${physOk?`setOwn(${g.id},'${r}',null,'p')`:''}">Phys</button>
+                  <button class="obtn-xs${rs==='d'?' od':''}" onclick="setOwn(${g.id},'${r}',null,'d')">Dig</button>
+                  <button class="obtn-xs${rs==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}',null,'w')">Wish</button>
+                </div>
+              </div>
+            </div>`;
+          }
+        }).join('')}
+      </div>`;
+    }
 
     ownUI=`<div class="own-section">
       <div class="own-global">
-        <button class="obtn${sv==='p'?' op':''}" onclick="setOwn(${g.id},null,'p')">Own (phys)</button>
-        <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,'d')">Own (dig)</button>
-        <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,'w')">Wishlist</button>
+        <button class="obtn${sv==='p'?' op':''}" onclick="setOwn(${g.id},null,null,'p')">Own (phys)</button>
+        <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,null,'d')">Own (dig)</button>
+        <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,null,'w')">Wishlist</button>
       </div>
       <div class="region-toggle">
-        <button class="region-toggle-btn" onclick="toggleExpand(${g.id})">${expanded?'− Hide regions':'+ Regional copies'}</button>
+        <button class="region-toggle-btn" onclick="toggleExpand(${g.id})">${expanded?'− Hide regions':'+ Regions &amp; editions'}</button>
         ${ownedStr}
       </div>
       ${regionRows}
@@ -382,6 +474,7 @@ function buildGameCard(g){
   </div>`;
 }
 
+// ── Games tab ─────────────────────────────────────────────────────────────────
 function renderG(){
   if(!document.getElementById('sq')){
     const genres=[...new Set(GAMES.map(g=>g.genre||'Unknown'))].sort();
@@ -404,6 +497,7 @@ function renderG(){
       <div class="legend">
         <strong>Type:</strong><span class="b be">NS2 Exclusive</span><span class="b bn">NS2 Edition</span><span class="b bt">Third-Party</span>
         &ensp;<strong>Format:</strong><span class="b fc">Physical Cart</span><span class="b fk">Game-Key Card</span><span class="b fd">Digital Only</span>
+        &ensp;<strong>Edition:</strong><span class="b ed-std">Standard</span><span class="b ed-dlx">Deluxe</span><span class="b ed-ltd">Limited</span><span class="b ed-col">Collector's</span>
       </div>`;
   }
 
@@ -425,20 +519,22 @@ function renderG(){
     return true;
   });
 
-  const total=GAMES.length,owned=GAMES.filter(g=>anyOwned(g.id)).length;
+  const total=GAMES.length, owned=GAMES.filter(g=>anyOwned(g.id)).length;
   const upc=GAMES.filter(g=>g.status==='u').length;
-  const s2only=GAMES.filter(g=>getPlatform(g)==='s2only').length;
+  const s2=GAMES.filter(g=>getPlatform(g)==='s2only').length;
   const both=GAMES.filter(g=>getPlatform(g)==='both').length;
 
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(5,1fr)">
-    ${statEl(total,'Total games')}${statEl(owned,'In collection','#3ddc84')}${statEl(s2only,'S2 Only','#ff6b6b')}${statEl(both,'S1 & S2','#4b9eff')}${statEl(upc,'Upcoming')}
+    ${statEl(total,'Total games')}${statEl(owned,'In collection','#3ddc84')}${statEl(s2,'S2 Only','#ff6b6b')}${statEl(both,'S1 & S2','#4b9eff')}${statEl(upc,'Upcoming')}
   </div>`;
   document.getElementById('rc').textContent=`Showing ${f.length} of ${GAMES.length} games`;
   document.getElementById('grid').className='grid';
-  document.getElementById('grid').innerHTML=f.length?f.map(g=>buildGameCard(g)).join('')
+  document.getElementById('grid').innerHTML=f.length
+    ?f.map(g=>buildGameCard(g)).join('')
     :'<div class="empty"><span>🔍</span>No games match your filters.</div>';
 }
 
+// ── Consoles tab ──────────────────────────────────────────────────────────────
 function renderC(){
   const ow=C.filter(c=>state['c'+c[0]]).length,jp=C.filter(c=>c[2].toLowerCase().includes('japan')).length;
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
@@ -459,6 +555,7 @@ function renderC(){
   }).join('');
 }
 
+// ── Accessories tab ───────────────────────────────────────────────────────────
 function renderA(){
   if(!document.getElementById('facat')){
     const cats=[...new Set(A.map(a=>a[2]))];
@@ -486,6 +583,7 @@ function renderA(){
 
 function togB(p,id){const k=p+id;state[k]=!state[k];saveState(state);render();}
 
+// ── PWA ────────────────────────────────────────────────────────────────────────
 let deferredInstall=null;
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;document.getElementById('install-bar').classList.add('show');});
 async function installPWA(){if(!deferredInstall)return;deferredInstall.prompt();const{outcome}=await deferredInstall.userChoice;if(outcome==='accepted')document.getElementById('install-bar').classList.remove('show');deferredInstall=null;}
@@ -503,6 +601,7 @@ if('serviceWorker' in navigator){
   });
 }
 
+// ── Boot ──────────────────────────────────────────────────────────────────────
 (async()=>{
   const ok=await fetchGames();
   if(!ok){document.getElementById('grid').innerHTML='<div class="err">⚠️ Could not load game data. <a href="javascript:location.reload()">Retry</a></div>';return;}

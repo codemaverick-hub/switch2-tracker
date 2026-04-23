@@ -3,13 +3,11 @@
 Nintendo Switch 2 game list scraper.
 
 Data sources (priority order):
-  1. r/NSCollectors Release Details tab  — per-region Card Type (Game Card / GKC)
+  1. r/NSCollectors Release Details tab  — per-region Card Type + Editions
   2. r/NSCollectors Release Summary tab  — per-region release dates
   3. Wikipedia                           — publisher / developer / game type
   4. Nintendo Europe search API          — box art URLs (max 40 new per run)
   5. data/overrides.json                 — manual corrections (highest priority)
-
-Run: python scripts/scrape.py
 """
 
 import csv, io, json, re, sys, time
@@ -33,7 +31,6 @@ DETAILS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=
 WIKI_URL    = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
 NINTENDO_EU = "https://searching.nintendo-europe.com/en/select"
 
-# Max new art fetches per run (keeps the workflow fast; existing cache is reused)
 MAX_NEW_ART_PER_RUN = 40
 
 HEADERS = {
@@ -44,11 +41,46 @@ HEADERS = {
 REGION_COLS = ["USA","KOR","JPN","EUR","CHT","AUS","ASI"]
 
 CARD_TYPE_MAP = {
-    "game card":      "c",
-    "game-key card":  "k",
-    "digital only":   "d",
-    "digital":        "d",
+    "game card":     "c",
+    "game-key card": "k",
+    "digital only":  "d",
+    "digital":       "d",
 }
+
+# Normalise edition strings → canonical display names
+EDITION_NORM = {
+    "standard":          "Standard",
+    "deluxe":            "Deluxe",
+    "deluxe edition":    "Deluxe",
+    "limited":           "Limited",
+    "limited edition":   "Limited",
+    "collector":         "Collector's",
+    "collector's":       "Collector's",
+    "collectors":        "Collector's",
+    "collector's edition": "Collector's",
+    "collectors edition":  "Collector's",
+    "special":           "Special",
+    "special edition":   "Special",
+    "premium":           "Premium",
+    "premium edition":   "Premium",
+    "day one":           "Day One",
+    "day one edition":   "Day One",
+    "launch edition":    "Launch",
+    "launch":            "Launch",
+    "anniversary":       "Anniversary",
+}
+
+def parse_editions(raw):
+    """'Standard, Deluxe' → ['Standard', 'Deluxe']"""
+    if not raw or not raw.strip():
+        return ["Standard"]
+    parts = [p.strip() for p in raw.replace(";", ",").split(",") if p.strip()]
+    result = []
+    for p in parts:
+        canonical = EDITION_NORM.get(p.lower().strip(), p.strip())
+        if canonical and canonical not in result:
+            result.append(canonical)
+    return result if result else ["Standard"]
 
 NINTENDO_PUBS = {"nintendo","nintendo epd","hal laboratory","retro studios",
                  "intelligent systems","game freak","the pokemon company",
@@ -112,9 +144,8 @@ def clean_title(t):
     return t.strip()
 
 
-# ── 1. Load existing data (for art cache + safety fallback) ─────────────────
+# ── 1. Load existing data ────────────────────────────────────────────────────
 def load_existing():
-    """Returns (art_cache, existing_games). existing_games used as fallback if scrape fails."""
     try:
         with open(OUT_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -125,7 +156,7 @@ def load_existing():
         return {}, []
 
 
-# ── 2. Release Details tab (per-region Card Type) ────────────────────────────
+# ── 2. Release Details tab (Card Type + Editions) ─────────────────────────────
 def fetch_details():
     print("Fetching Release Details tab…")
     r = requests.get(DETAILS_URL, headers=HEADERS, timeout=30)
@@ -135,30 +166,40 @@ def fetch_details():
     if hdr_idx is None:
         raise ValueError("Header row not found in details tab")
     hdrs = rows[hdr_idx]
-    ti = hdrs.index('Game Title')
-    ri = hdrs.index('Region')
-    ci = hdrs.index('Card Type')
-    pi = next((i for i,h in enumerate(hdrs) if h.strip()=='Publisher'), None)
-    ni = next((i for i,h in enumerate(hdrs) if 'NS1' in h), None)
 
+    ti  = hdrs.index('Game Title')
+    ri  = hdrs.index('Region')
+    ci  = hdrs.index('Card Type')
+    pi  = next((i for i,h in enumerate(hdrs) if h.strip()=='Publisher'), None)
+    ei  = next((i for i,h in enumerate(hdrs) if h.strip()=='Editions'), None)
+    ni  = next((i for i,h in enumerate(hdrs) if 'NS1' in h), None)
+
+    # details[norm_title][region_lower] = {fmt, publisher, editions, ns1}
     details = {}
     for row in rows[hdr_idx+1:]:
         if len(row) <= max(ti, ri, ci): continue
         title = row[ti].strip()
         if not title: continue
-        region = row[ri].strip().lower()
-        fmt = CARD_TYPE_MAP.get(row[ci].strip().lower(), '?')
+        region    = row[ri].strip().lower()
+        fmt       = CARD_TYPE_MAP.get(row[ci].strip().lower(), '?')
         publisher = row[pi].strip() if pi and pi < len(row) else ''
-        ns1 = (row[ni].strip().lower() == 'yes') if ni and ni < len(row) else False
+        editions  = parse_editions(row[ei].strip() if ei and ei < len(row) else '')
+        ns1       = (row[ni].strip().lower() == 'yes') if ni and ni < len(row) else False
         nk = norm(title)
         if nk not in details: details[nk] = {}
-        details[nk][region] = {'fmt': fmt, 'publisher': publisher, 'ns1': ns1}
+        details[nk][region] = {'fmt': fmt, 'publisher': publisher, 'editions': editions, 'ns1': ns1}
 
-    print(f"  {len(details)} unique titles in details tab")
+    # Collect all unique editions across all games for stats
+    all_editions = set()
+    for rd in details.values():
+        for rv in rd.values():
+            all_editions.update(rv['editions'])
+
+    print(f"  {len(details)} unique titles · editions found: {sorted(all_editions)}")
     return details
 
 
-# ── 3. Release Summary tab (regional dates) ──────────────────────────────────
+# ── 3. Release Summary tab ────────────────────────────────────────────────────
 def fetch_summary():
     print("Fetching Release Summary tab…")
     r = requests.get(SUMMARY_URL, headers=HEADERS, timeout=30)
@@ -166,7 +207,7 @@ def fetch_summary():
     rows = list(csv.reader(io.StringIO(r.text)))
     hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
     if hdr_idx is None:
-        raise ValueError("Header row not found in summary tab")
+        raise ValueError("Header row not found")
     headers = rows[hdr_idx]
 
     games = []
@@ -184,10 +225,10 @@ def fetch_summary():
                 disp, _ = parse_ymd(val)
                 releases[col.lower()] = disp
 
-        if not filled:                             region = "ww"
-        elif set(filled.keys()) == {"JPN"}:        region = "jp"
-        elif len(filled) >= 5:                     region = "ww"
-        else:                                      region = "var"
+        if not filled:                          region = "ww"
+        elif set(filled.keys()) == {"JPN"}:     region = "jp"
+        elif len(filled) >= 5:                  region = "ww"
+        else:                                   region = "var"
 
         gt = rec.get("Grand Total","").strip()
         if gt and re.match(r'\d{4}/\d{2}/\d{2}', gt):
@@ -199,7 +240,8 @@ def fetch_summary():
 
         games.append({"title":title,"publisher":"","developer":"","type":"t",
                       "genre":infer_genre(title),"date":date,"status":status,
-                      "fmt":"?","region":region,"releases":releases,"formats":{},"note":""})
+                      "fmt":"?","region":region,"releases":releases,
+                      "formats":{},"editions":{},"note":""})
 
     print(f"  {len(games)} games from summary tab")
     return games
@@ -222,7 +264,8 @@ def fetch_wiki():
         cells = row.find_all(["td","th"])
         if len(cells) < 4: continue
         title = re.sub(r'\[.*?\]','', cells[0].get_text(" ",strip=True)).strip()
-        dev, pub = cells[1].get_text(", ",strip=True), cells[2].get_text(", ",strip=True)
+        dev   = cells[1].get_text(", ",strip=True)
+        pub   = cells[2].get_text(", ",strip=True)
         if title:
             games.append({"title":title,"publisher":pub,"developer":dev,
                           "type":classify_type(title,pub,dev),"genre":infer_genre(title,pub)})
@@ -230,20 +273,15 @@ def fetch_wiki():
     return games
 
 
-# ── 5. Box art (Nintendo EU) — limited per run ────────────────────────────────
+# ── 5. Box art ────────────────────────────────────────────────────────────────
 def fetch_art_batch(titles_needing_art, session):
-    """Fetch art for up to MAX_NEW_ART_PER_RUN titles. Returns {title: url_or_None}."""
     results = {}
     batch = list(titles_needing_art)[:MAX_NEW_ART_PER_RUN]
-    print(f"  Fetching art for {len(batch)} new titles (of {len(titles_needing_art)} needing art)…")
+    print(f"  Fetching art for {len(batch)} new titles…")
     for title in batch:
         try:
-            params = {
-                "q": title,
-                "fq": "type:GAME AND system_type:nintendoswitch*",
-                "rows": "1",
-                "fl": "image_url_sq_s,image_url_h2x1_s,title"
-            }
+            params = {"q":title,"fq":"type:GAME AND system_type:nintendoswitch*",
+                      "rows":"1","fl":"image_url_sq_s,image_url_h2x1_s,title"}
             r = session.get(NINTENDO_EU, params=params, timeout=3)
             r.raise_for_status()
             docs = r.json().get("response",{}).get("docs",[])
@@ -279,20 +317,19 @@ def merge_all(summary, wiki, details, overrides, art_cache):
     summary_norms = {norm(g["title"]) for g in summary}
     session = requests.Session()
     session.headers.update(HEADERS)
-
-    # Titles we still need art for
     titles_needing_art = []
-
     merged = []
+
     for g in summary:
         g = dict(g)
         nk = norm(g["title"])
 
-        # Details tab: per-region formats
+        # Details tab: formats + editions per region
         dk = fuzzy(g["title"], {k:k for k in details})
         if dk:
             rd = details[dk]
-            g['formats'] = {r: v['fmt'] for r,v in rd.items()}
+            g['formats']  = {r: v['fmt']      for r,v in rd.items()}
+            g['editions'] = {r: v['editions'] for r,v in rd.items()}
             fmts = list(g['formats'].values())
             g['fmt'] = 'c' if 'c' in fmts else ('k' if 'k' in fmts else (fmts[0] if fmts else '?'))
             if not g['publisher']:
@@ -318,11 +355,8 @@ def merge_all(summary, wiki, details, overrides, art_cache):
                 if not k.startswith("_"): g[k] = v
 
         # Art
-        if nk in art_cache:
-            g['art'] = art_cache[nk]
-        else:
-            g['art'] = None
-            titles_needing_art.append(g["title"])
+        if nk in art_cache:   g['art'] = art_cache[nk]
+        else:                  g['art'] = None; titles_needing_art.append(g["title"])
 
         merged.append(g)
 
@@ -331,22 +365,19 @@ def merge_all(summary, wiki, details, overrides, art_cache):
         if norm(wg["title"]) not in summary_norms:
             g = {"title":wg["title"],"publisher":wg["publisher"],"developer":wg["developer"],
                  "type":wg["type"],"genre":wg["genre"],"date":"TBA","status":"u",
-                 "fmt":"?","region":"ww","releases":{},"formats":{},"note":"","art":None}
+                 "fmt":"?","region":"ww","releases":{},"formats":{},"editions":{},"note":"","art":None}
             ok = fuzzy(g["title"], overrides)
             if ok:
                 for k,v in overrides[ok].items():
                     if not k.startswith("_"): g[k] = v
             nk = norm(g["title"])
-            if nk in art_cache:
-                g['art'] = art_cache[nk]
-            else:
-                titles_needing_art.append(g["title"])
+            if nk in art_cache: g['art'] = art_cache[nk]
+            else: titles_needing_art.append(g["title"])
             merged.append(g)
 
-    # Fetch art for new titles (limited batch)
+    # Fetch art
     if titles_needing_art:
         new_art = fetch_art_batch(titles_needing_art, session)
-        # Apply to merged list
         title_map = {g["title"]: g for g in merged}
         for title, url in new_art.items():
             if title in title_map:
@@ -355,7 +386,6 @@ def merge_all(summary, wiki, details, overrides, art_cache):
     return merged
 
 
-# ── 8. Assign IDs ─────────────────────────────────────────────────────────────
 def assign_ids(games):
     for i, g in enumerate(sorted(games, key=lambda x: x["title"].lower()), start=1):
         g["id"] = i
@@ -370,7 +400,7 @@ def main():
     try:
         details = fetch_details()
     except Exception as e:
-        print(f"  ⚠ Details tab failed ({e}), skipping per-region formats")
+        print(f"  ⚠ Details tab failed ({e})")
         details = {}
 
     try:
@@ -384,13 +414,12 @@ def main():
     games     = merge_all(summary, wiki, details, overrides, art_cache)
     games     = assign_ids(games)
 
-    # ── Safety guard: never overwrite with 0 games ──
     if len(games) == 0:
         if existing_games:
-            print(f"  ⚠ All sources failed — keeping existing {len(existing_games)} games unchanged")
-            sys.exit(0)   # exit cleanly so workflow doesn't fail, but no commit needed
+            print(f"  ⚠ All sources failed — keeping existing {len(existing_games)} games")
+            sys.exit(0)
         else:
-            print("  ⚠ No games found and no existing data to fall back to")
+            print("  ⚠ No games found and no existing data")
             sys.exit(1)
 
     out = {
@@ -403,11 +432,13 @@ def main():
     with open(OUT_FILE,"w",encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
-    released = sum(1 for g in games if g["status"]=="r")
-    upcoming = sum(1 for g in games if g["status"]=="u")
+    released  = sum(1 for g in games if g["status"]=="r")
+    upcoming  = sum(1 for g in games if g["status"]=="u")
     with_art  = sum(1 for g in games if g.get("art"))
+    with_ed   = sum(1 for g in games if any(len(v)>1 for v in g.get("editions",{}).values()))
     print(f"\n✓ {len(games)} games → {OUT_FILE}")
-    print(f"  Released: {released}  Upcoming: {upcoming}  With art: {with_art}/{len(games)}")
+    print(f"  Released: {released}  Upcoming: {upcoming}")
+    print(f"  With art: {with_art}  With multiple editions: {with_ed}")
 
 if __name__ == "__main__":
     main()
