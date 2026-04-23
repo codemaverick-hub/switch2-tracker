@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e60012">
-<meta name="description" content="Track your Nintendo Switch 2 game collection, wishlists, consoles, and accessories.">
+<meta name="description" content="Track your Nintendo Switch 2 game collection by region, with platform compatibility info.">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Switch 2 Master Tracker</title>
@@ -14,87 +14,154 @@
   --bg:#0f0f11;--surface:#17171a;--surface2:#1e1e22;--border:#2a2a30;
   --text:#e8e8ec;--muted:#7a7a8a;--faint:#3a3a44;
   --red:#ff4b4b;--green:#3ddc84;--green-dim:#0d2e1c;
-  --amber:#f5a623;--amber-dim:#2e2000;--blue:#4b9eff;
+  --amber:#f5a623;--amber-dim:#2e2000;--blue:#4b9eff;--blue-dim:#0d1e3d;
   --purple:#b47eff;--purple-dim:#1e0d3d;--teal:#3dd6c8;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:13px;min-height:100vh;padding:20px 16px 60px}
-a{color:var(--blue);text-decoration:none}
 .app{max-width:1200px;margin:0 auto}
+
 /* Header */
 .hdr{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
 .logo{display:flex;align-items:center;gap:12px}
 .logo-icon{width:38px;height:38px;background:linear-gradient(135deg,#e60012,#cc0010);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
 .logo h1{font-size:20px;font-weight:700;letter-spacing:-.3px}
 .logo p{font-size:11px;color:var(--muted);margin-top:2px;font-family:'DM Mono',monospace}
+
 /* Update banner */
 .update-banner{background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:8px;justify-content:space-between}
 .update-banner.show{display:flex}
 .update-banner button{background:var(--green);color:#000;border:none;border-radius:5px;padding:4px 10px;font-size:11px;cursor:pointer;font-weight:600}
+
+/* Install bar */
+.install-bar{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:10px;justify-content:space-between}
+.install-bar.show{display:flex}
+.install-bar .install-btn{background:var(--red);color:#fff;border:none;border-radius:5px;padding:5px 12px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
+
 /* Tabs */
 .tabs{display:flex;gap:2px;margin-bottom:20px;background:var(--surface);border-radius:10px;padding:3px;width:fit-content}
 .tab{padding:7px 18px;border-radius:8px;font-size:12.5px;font-weight:500;cursor:pointer;border:none;background:transparent;color:var(--muted);transition:all .15s;letter-spacing:.2px}
 .tab.active{background:var(--surface2);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.4)}
+
 /* Stats */
-.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:16px}
+.stats{display:grid;gap:8px;margin-bottom:16px}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
 .stat-num{font-size:22px;font-weight:700;font-family:'DM Mono',monospace;line-height:1}
 .stat-lbl{font-size:10px;color:var(--muted);margin-top:4px;letter-spacing:.3px;text-transform:uppercase}
+
 /* Controls */
 .ctrl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
-.ctrl input,.ctrl select{background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:11.5px;padding:6px 10px;font-family:'DM Sans',sans-serif;outline:none;transition:border-color .15s}
-.ctrl input:focus,.ctrl select:focus{border-color:var(--faint)}
+.ctrl input,.ctrl select{background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:11.5px;padding:6px 10px;font-family:'DM Sans',sans-serif;outline:none}
 .ctrl input{flex:1;min-width:140px}
+
 /* Legend */
 .legend{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;align-items:center;font-size:10.5px;color:var(--muted)}
 .legend strong{color:var(--text);font-size:10px;text-transform:uppercase;letter-spacing:.4px}
-/* Badges */
+
+/* ── Badges ── */
 .b{display:inline-block;font-size:9.5px;font-weight:500;padding:2px 7px;border-radius:999px;letter-spacing:.2px;line-height:1.6;white-space:nowrap;font-family:'DM Mono',monospace}
-.be{background:#0d2e1c;color:#3ddc84}.bn{background:var(--purple-dim);color:var(--purple)}.bt{background:var(--amber-dim);color:var(--amber)}
-.fc{background:#0d2e1c;color:#3ddc84;border:1px solid #1a4a2a}.fk{background:#2e1e00;color:#f5a623;border:1px solid #4a3000}
-.fd{background:#0d1e3d;color:#4b9eff;border:1px solid #1a2e5a}.fq{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
-.sr{background:#0a200a;color:#3ddc84}.su{background:#200a0a;color:#ff6b6b}
-.rj{background:#2e1500;color:#ff9940;border:1px solid #5a2a00}.rv{background:#001a2e;color:#4bb4ff;border:1px solid #003050}
-.ccat-ctrl{background:#1e0d3d;color:#b47eff}.ccat-grip{background:#1e0d3d;color:#d4a0ff}
-.ccat-cam{background:#0d1e3d;color:#4b9eff}.ccat-case{background:#0d2e2a;color:#3dd6c8}
-.ccat-dock{background:#2e2000;color:#f5a623}.ccat-stor{background:#0d2e1c;color:#3ddc84}
+
+/* Type */
+.be{background:#0d2e1c;color:#3ddc84}
+.bn{background:var(--purple-dim);color:var(--purple)}
+.bt{background:var(--amber-dim);color:var(--amber)}
+
+/* Platform compatibility — most prominent badge */
+.plat-s2only{background:#3d0d0d;color:#ff6b6b;border:1px solid #6b1a1a;font-weight:700}
+.plat-both{background:#0d1e3d;color:#4b9eff;border:1px solid #1a3a6b;font-weight:700}
+.plat-bc{background:#1a1a0d;color:#cccc44;border:1px solid #4a4a1a;font-weight:700}
+
+/* Format */
+.fc{background:#0d2e1c;color:#3ddc84;border:1px solid #1a4a2a}
+.fk{background:#2e1e00;color:#f5a623;border:1px solid #4a3000}
+.fd{background:#0d1e3d;color:#4b9eff;border:1px solid #1a2e5a}
+.fq{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
+
+/* Status */
+.sr{background:#0a200a;color:#3ddc84}
+.su{background:#200a0a;color:#ff6b6b}
+
+/* Region */
+.rj{background:#2e1500;color:#ff9940;border:1px solid #5a2a00}
+.rv{background:#001a2e;color:#4bb4ff;border:1px solid #003050}
+
+/* Accessory / console cats */
+.ccat-ctrl{background:#1e0d3d;color:#b47eff}
+.ccat-grip{background:#1e0d3d;color:#d4a0ff}
+.ccat-cam{background:#0d1e3d;color:#4b9eff}
+.ccat-case{background:#0d2e2a;color:#3dd6c8}
+.ccat-dock{background:#2e2000;color:#f5a623}
+.ccat-stor{background:#0d2e1c;color:#3ddc84}
+
 /* Result count */
 .rc{font-size:11px;color:var(--muted);margin-bottom:8px;font-family:'DM Mono',monospace}
-/* Grids */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(186px,1fr));gap:8px}
+
+/* ── Game card ── */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px;transition:border-color .15s}
+.card:hover{border-color:var(--faint)}
+
+/* Platform-coloured left border on the card itself */
+.card.plat-s2{border-left:3px solid #ff4b4b}
+.card.plat-b{border-left:3px solid #4b9eff}
+.card.plat-c{border-left:3px solid #cccc44}
+
+.brow{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
+.ct{font-size:12px;font-weight:600;line-height:1.35;letter-spacing:-.1px;margin-top:1px}
+.pub{font-size:10px;color:var(--muted)}
+.dt{font-size:10.5px;color:#9a9aaa}
+.nt{font-size:10px;color:var(--muted);font-style:italic;line-height:1.4}
+
+/* ── Per-region ownership ── */
+.own-section{margin-top:4px;display:flex;flex-direction:column;gap:4px}
+.own-row{display:flex;align-items:center;gap:4px}
+.own-region-label{font-size:9px;font-family:'DM Mono',monospace;font-weight:600;min-width:32px;color:var(--muted);letter-spacing:.4px}
+.own-rating{font-size:8.5px;color:var(--faint);min-width:34px}
+.own-btns{display:flex;gap:3px;flex:1}
+.obtn{flex:1;font-size:9px;font-weight:500;padding:4px 2px;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;transition:all .1s;font-family:'DM Sans',sans-serif;text-align:center}
+.obtn:hover{background:var(--surface2);color:var(--text)}
+.obtn.op{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+.obtn.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
+.obtn.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
+
+/* Simple btns for non-regional games */
+.btns{display:flex;gap:3px;margin-top:3px}
+.btn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .1s;font-family:'DM Sans',sans-serif}
+.btn:hover{background:var(--surface2);color:var(--text)}
+.btn.ap{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+.btn.ad{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
+.btn.aw{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
+
+/* Regional release date chips */
+.rdates{display:flex;flex-wrap:wrap;gap:3px;margin-top:2px}
+.rdate-chip{font-size:8.5px;font-family:'DM Mono',monospace;padding:1px 5px;border-radius:4px;border:1px solid var(--border);color:var(--muted)}
+.rdate-chip span{color:var(--text);font-weight:600}
+
+/* Console / accessory cards */
 .cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:8px}
-/* Cards */
-.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:6px;transition:border-color .15s}
-.card:hover{border-color:var(--faint)}
-.card.op{border-left:3px solid var(--green)}.card.od{border-left:3px solid var(--purple)}
-.card.ow{border-left:3px solid var(--amber)}.card.ox{border-left:2px solid var(--green)}
-.brow{display:flex;gap:3px;flex-wrap:wrap}
-.ct{font-size:12px;font-weight:600;line-height:1.35;letter-spacing:-.1px}
-.pub{font-size:10px;color:var(--muted)}.dt{font-size:10.5px;color:#9a9aaa}
-.nt{font-size:10px;color:var(--muted);font-style:italic;line-height:1.4}
 .pr{font-size:13px;font-weight:700;font-family:'DM Mono',monospace}
 .ul{font-size:10.5px;padding-left:16px;color:#9a9aaa;margin-top:2px}
 .ul li{margin-top:3px;line-height:1.3}
-.btns{display:flex;gap:4px;margin-top:2px}
-.btn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;transition:all .1s;font-family:'DM Sans',sans-serif;letter-spacing:.2px}
-.btn:hover{background:var(--surface2);border-color:var(--faint);color:var(--text)}
-.ap{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
-.ad{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
-.aw{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
-.ax{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+.card.ox{border-left:2px solid var(--green)}
+.xbtn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif}
+.xbtn.ax{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
+
+/* Platform compat explanation box */
+.compat-info{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:12px;font-size:11px;color:var(--muted);line-height:1.6}
+.compat-info strong{color:var(--text)}
+.compat-row{display:flex;align-items:center;gap:8px;margin-top:6px}
+
 /* Empty / loading */
 .empty{text-align:center;padding:40px;color:var(--muted);grid-column:1/-1;font-size:13px}
 .empty span{display:block;font-size:28px;margin-bottom:10px}
 .loading{text-align:center;padding:60px;color:var(--muted)}
 .loading .spinner{width:28px;height:28px;border:2px solid var(--border);border-top-color:var(--red);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 14px}
 @keyframes spin{to{transform:rotate(360deg)}}
-/* Error */
 .err{background:#200a0a;border:1px solid #4a1a1a;color:#ff9999;border-radius:8px;padding:12px 16px;font-size:12px;margin:20px 0}
-/* Install prompt */
-.install-bar{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:10px;justify-content:space-between}
-.install-bar.show{display:flex}
-.install-bar .install-btn{background:var(--red);color:#fff;border:none;border-radius:5px;padding:5px 12px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
+
+/* Owned count indicator on card */
+.owned-indicator{font-size:9px;font-family:'DM Mono',monospace;color:var(--green);margin-left:auto}
 </style>
 </head>
 <body>
@@ -102,22 +169,16 @@ a{color:var(--blue);text-decoration:none}
   <header class="hdr">
     <div class="logo">
       <div class="logo-icon">🎮</div>
-      <div>
-        <h1>Switch 2 Master Tracker</h1>
-        <p id="sub">Loading game data…</p>
-      </div>
+      <div><h1>Switch 2 Master Tracker</h1><p id="sub">Loading…</p></div>
     </div>
   </header>
 
-  <!-- Update notification -->
   <div class="update-banner" id="update-banner">
     <span id="update-msg">New game data available!</span>
-    <button onclick="applyUpdate()">Refresh</button>
+    <button onclick="location.reload()">Refresh</button>
   </div>
-
-  <!-- Install prompt (shown when PWA is installable) -->
   <div class="install-bar" id="install-bar">
-    <span>📲 Install as an app for offline access and home screen shortcut</span>
+    <span>📲 Install as an app for offline access</span>
     <button class="install-btn" onclick="installPWA()">Install</button>
   </div>
 
@@ -133,21 +194,36 @@ a{color:var(--blue);text-decoration:none}
   <div class="rc" id="rc"></div>
   <div id="grid"><div class="loading"><div class="spinner"></div>Fetching game data…</div></div>
 </div>
-
 <script>
-// ── State ────────────────────────────────────────────────────────────────────
-let GAMES = [], curTab = 'g', gamesUpdated = '', gamesCount = 0;
+// ── Rating boards per region ──────────────────────────────────────────────────
+const RATING_BOARD = {
+  usa: 'ESRB', eur: 'PEGI', jpn: 'CERO', aus: 'ACB',
+  kor: 'GRAC', cht: 'CSRR', asi: 'varies'
+};
+const REGION_LABEL = {
+  usa:'USA', eur:'EUR', jpn:'JPN', aus:'AUS',
+  kor:'KOR', cht:'CHT', asi:'ASI'
+};
+// Region display order
+const REGION_ORDER = ['usa','eur','jpn','aus','kor','cht','asi'];
 
-// User collection stored in localStorage
-function loadState() {
-  try { return JSON.parse(localStorage.getItem('sw2v5') || '{}'); } catch { return {}; }
+// ── Platform compatibility ────────────────────────────────────────────────────
+// type 'e' = Switch 2 exclusive (S2 only)
+// type 'n' = NS2 Edition (works on both Switch 1 AND Switch 2)
+// type 't' = third-party Switch 2 game (S2 only unless noted)
+function getPlatform(game) {
+  if (game.type === 'n') return 'both';      // NS2 Edition = both consoles
+  if (game.type === 'e') return 's2only';    // Nintendo exclusive = S2 only
+  return 's2only';                            // third-party S2 game = S2 only
 }
-function saveState(s) {
-  try { localStorage.setItem('sw2v5', JSON.stringify(s)); } catch {}
-}
-let state = loadState();
 
-// ── Static data (consoles & accessories don't change often) ──────────────────
+const PLAT_BADGE = {
+  s2only: '<span class="b plat-s2only">Switch 2 Only</span>',
+  both:   '<span class="b plat-both">Switch 1 &amp; 2</span>',
+};
+const PLAT_CLASS = { s2only:'plat-s2', both:'plat-b', bc:'plat-c' };
+
+// ── Static data ───────────────────────────────────────────────────────────────
 const C=[
 ['c1','Switch 2 Standard – International','Worldwide','$449.99 / €469.99 / £395.99 / AU$699.95 / CA$629.99',
 ['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
@@ -157,309 +233,350 @@ const C=[
 'Released Jun 5, 2025. Japanese language only; Japan-region accounts only. Priced lower to deter grey-market imports.'],
 ['c3','Switch 2 Standard – All Languages (Japan My Nintendo Store)','Japan – My Nintendo Store only','¥69,980 (~$467)',
 ['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
-'Released Jun 5, 2025. Exclusive to Japan My Nintendo Store. Multi-language; all-region accounts.'],
+'Released Jun 5, 2025. Japan My Nintendo Store only. Multi-language; all-region accounts.'],
 ['c4','Switch 2 + Mario Kart World Bundle – International','Worldwide','$499.99 / €509.99 / £429.99 / AU$769.95 / CA$699.99',
 ['Console (Black)','Mario Kart World (download code)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
 'Released Jun 5, 2025. Limited availability.'],
 ['c5','Switch 2 + Mario Kart World Bundle – JP Language Edition','Japan Only (retail)','¥53,980 (~$360)',
 ['Console (Black)','Mario Kart World (download code)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
-'Released Jun 5, 2025. JP Language lock; Japan accounts only. Limited availability.'],
+'Released Jun 5, 2025. JP Language lock; Japan accounts only.'],
 ['c6','Switch 2 + Mario Kart World Bundle – All Languages (Japan My Nintendo Store)','Japan – My Nintendo Store only','¥73,980 (~$494)',
 ['Console (Black)','Mario Kart World (download code)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
-'Released Jun 5, 2025. Japan My Nintendo Store only. Multi-language; all-region accounts.'],
+'Released Jun 5, 2025. Japan My Nintendo Store only. Multi-language.'],
 ['c7','Switch 2 + Pokémon Legends: Z-A Bundle','Worldwide (limited)','$499.99 / €509.99 / £429.99',
 ['Console (Black)','Pokémon Legends: Z-A – NS2 Edition (download code)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],
 'Released Oct 16, 2025. Limited worldwide. JP: ¥53,980 (JP Language Edition).'],
 ];
 
 const A=[
-['a1','Joy-Con 2 (L+R) – Light Blue / Light Red','Controller','$89.99','Jun 5, 2025','Included with console; sold separately for multiplayer. Mouse controls, HD Rumble 2, C Button, motion controls.'],
-['a2','Joy-Con 2 (L+R) – Light Purple / Light Green','Controller','$99.99','Feb 12, 2026','First alternate color set. Slightly pricier than standard pair.'],
-['a3','Joy-Con 2 (L) – Light Blue','Controller','~$49.99','Jun 5, 2025','Sold individually for replacement or extra player.'],
-['a4','Joy-Con 2 (R) – Light Red','Controller','~$49.99','Jun 5, 2025','Sold individually for replacement or extra player.'],
-['a5','Nintendo Switch 2 Pro Controller','Controller','$79.99','Jun 5, 2025','HD Rumble 2, motion controls, C Button, programmable GL/GR buttons, amiibo, audio jack, ~40hr battery.'],
-['a6','Nintendo Switch 2 Pro Controller – Resident Evil Requiem Edition','Controller','Limited','2026','Gunmetal-black design with in-world RE Requiem newspaper artwork. Limited edition.'],
+['a1','Joy-Con 2 (L+R) – Light Blue / Light Red','Controller','$89.99','Jun 5, 2025','Included with console. Mouse controls, HD Rumble 2, C Button, motion controls.'],
+['a2','Joy-Con 2 (L+R) – Light Purple / Light Green','Controller','$99.99','Feb 12, 2026','First alternate color set.'],
+['a3','Joy-Con 2 (L) – Light Blue','Controller','~$49.99','Jun 5, 2025','Sold individually.'],
+['a4','Joy-Con 2 (R) – Light Red','Controller','~$49.99','Jun 5, 2025','Sold individually.'],
+['a5','Nintendo Switch 2 Pro Controller','Controller','$79.99','Jun 5, 2025','HD Rumble 2, motion controls, C Button, GL/GR buttons, amiibo, audio jack, ~40hr battery.'],
+['a6','Nintendo Switch 2 Pro Controller – Resident Evil Requiem Edition','Controller','Limited','2026','Gunmetal-black design with in-world RE Requiem newspaper artwork.'],
 ['a10','Joy-Con 2 Charging Grip','Grip & Adapter','$34.99','Jun 5, 2025','Classic controller-style grip. Charges Joy-Con 2 via USB-C. GL/GR buttons. Not included with console.'],
-['a11','Joy-Con 2 Strap Set (L+R pair)','Grip & Adapter','$12.99','Jun 5, 2025','Improves grip and mouse-mode stability. Console includes 2 straps.'],
-['a12','Joy-Con 2 Wheel Set (L+R pair)','Grip & Adapter','$19.99','Jun 5, 2025','Racing wheel attachments for Mario Kart World. Magnetic connection. Light Blue + Light Red.'],
-['a20','Nintendo Switch 2 Camera','Camera','$49.99','Jun 5, 2025','USB-C; wide-angle adjustable lens; built-in privacy shutter; face detection; for GameChat and in-game camera features.'],
-['a30','Nintendo Switch 2 Carrying Case & Screen Protector','Case','$34.99','Jun 5, 2025','Holds 6 game cards + 2 Joy-Con 2 straps. Includes screen protector + cleaning cloth.'],
-['a31','Nintendo Switch 2 All-In-One Carrying Case','Case','~$79.99','Jul 24, 2025','Full travel case — stores entire TV-mode setup: console, dock, cables, Joy-Con 2, up to 6 game cards.'],
-['a40','Nintendo Switch 2 Dock Set','Dock & Power','$109.99','Jun 5, 2025','Extra or replacement dock. Includes dock + AC Adapter + USB-C Cable + Ultra High-Speed HDMI Cable.'],
-['a41','Nintendo Switch 2 AC Adapter','Dock & Power','$29.99','Jun 5, 2025','Replacement AC adapter. Connects to console or dock. USB-C cable is detachable.'],
-['a50','microSD Express Card – 256GB','Storage','~$49.99','Jun 5, 2025','Licensed for Switch 2. Faster than standard microSD; required for expanded storage.'],
-['a51','microSD Express Card – 512GB','Storage','~$89.99','Jun 5, 2025','Licensed for Switch 2. Good for medium-large digital libraries.'],
-['a52','microSD Express Card – 1TB','Storage','~$149.99','Late 2025','Licensed for Switch 2. For large digital collections.'],
+['a11','Joy-Con 2 Strap Set (L+R pair)','Grip & Adapter','$12.99','Jun 5, 2025','Improves grip and mouse-mode stability.'],
+['a12','Joy-Con 2 Wheel Set (L+R pair)','Grip & Adapter','$19.99','Jun 5, 2025','Racing wheel attachments. Magnetic connection.'],
+['a20','Nintendo Switch 2 Camera','Camera','$49.99','Jun 5, 2025','USB-C; wide-angle lens; privacy shutter; face detection; for GameChat.'],
+['a30','Nintendo Switch 2 Carrying Case & Screen Protector','Case','$34.99','Jun 5, 2025','Holds 6 game cards. Includes screen protector + cleaning cloth.'],
+['a31','Nintendo Switch 2 All-In-One Carrying Case','Case','~$79.99','Jul 24, 2025','Stores full TV-mode setup: console, dock, cables, Joy-Con 2.'],
+['a40','Nintendo Switch 2 Dock Set','Dock & Power','$109.99','Jun 5, 2025','Includes dock + AC Adapter + USB-C Cable + Ultra High-Speed HDMI Cable.'],
+['a41','Nintendo Switch 2 AC Adapter','Dock & Power','$29.99','Jun 5, 2025','Replacement. USB-C cable detachable.'],
+['a50','microSD Express Card – 256GB','Storage','~$49.99','Jun 5, 2025','Licensed for Switch 2.'],
+['a51','microSD Express Card – 512GB','Storage','~$89.99','Jun 5, 2025','Licensed for Switch 2.'],
+['a52','microSD Express Card – 1TB','Storage','~$149.99','Late 2025','Licensed for Switch 2.'],
 ];
 
-// ── Label / badge maps ───────────────────────────────────────────────────────
+// ── Labels ────────────────────────────────────────────────────────────────────
 const FM={c:'Physical Cart',k:'Game-Key Card',d:'Digital Only','?':'Format TBA'};
 const FMC={c:'fc',k:'fk',d:'fd','?':'fq'};
 const TY={e:'NS2 Exclusive',n:'NS2 Edition',t:'Third-Party'};
 const TYC={e:'be',n:'bn',t:'bt'};
 const ACAT={Controller:'ccat-ctrl','Grip & Adapter':'ccat-grip',Camera:'ccat-cam',Case:'ccat-case','Dock & Power':'ccat-dock',Storage:'ccat-stor'};
 
-// ── Fetch game data ──────────────────────────────────────────────────────────
-async function fetchGames() {
-  const cacheBust = `?t=${Math.floor(Date.now()/3600000)}`; // hourly bust
-  try {
-    const r = await fetch(`data/games.json${cacheBust}`);
-    if (!r.ok) throw new Error(`HTTP ${r.status}`);
-    const data = await r.json();
-    GAMES = data.games || [];
-    gamesUpdated = data.updated || '';
-    gamesCount = data.count || GAMES.length;
-    return true;
-  } catch(e) {
-    // If network fails, service worker may serve cached version
-    try {
-      const r = await fetch('data/games.json');
-      if (!r.ok) throw new Error('cache miss');
-      const data = await r.json();
-      GAMES = data.games || [];
-      gamesUpdated = data.updated || '';
-      gamesCount = data.count || GAMES.length;
-      return true;
-    } catch {
-      return false;
-    }
+// ── State ─────────────────────────────────────────────────────────────────────
+let GAMES=[], curTab='g';
+// state structure: 
+//   global game: state['g{id}'] = 'p'|'d'|'w'|'0'
+//   per-region:  state['g{id}_usa'] = 'p'|'d'|'w'|'0'
+function loadState(){try{return JSON.parse(localStorage.getItem('sw2v6')||'{}');}catch{return {};}}
+function saveState(s){try{localStorage.setItem('sw2v6',JSON.stringify(s));}catch{}}
+let state=loadState();
+
+function getV(id){const e=document.getElementById(id);return e?e.value:'';}
+function stat(n,l,c=''){return `<div class="stat"><div class="stat-num"${c?` style="color:${c}"`:''}">${n}</div><div class="stat-lbl">${l}</div></div>`;}
+
+// ── Fetch game data ───────────────────────────────────────────────────────────
+async function fetchGames(){
+  try{
+    const r=await fetch(`data/games.json?t=${Math.floor(Date.now()/3600000)}`);
+    if(!r.ok) throw new Error(`HTTP ${r.status}`);
+    const data=await r.json();
+    GAMES=data.games||[]; window._gamesData=data; return true;
+  }catch{
+    try{
+      const r=await fetch('data/games.json');
+      if(!r.ok) throw new Error();
+      const data=await r.json();
+      GAMES=data.games||[]; window._gamesData=data; return true;
+    }catch{return false;}
   }
 }
 
-// ── Tab switching ────────────────────────────────────────────────────────────
-function sw(t) {
-  curTab = t;
-  ['g','c','a'].forEach(x => document.getElementById('t'+x).classList.toggle('active', x===t));
-  document.getElementById('ctrli').innerHTML = '';
-  document.getElementById('lgndi').innerHTML = '';
+// ── Sub text ──────────────────────────────────────────────────────────────────
+function subText(){
+  if(!window._gamesData) return `${GAMES.length} games`;
+  const d=new Date(window._gamesData.updated||'');
+  const dateStr=isNaN(d)?'':` · updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
+  const src=window._gamesData.sources?.sheet?' · NSCollectors + Wikipedia':' · Wikipedia';
+  return `${GAMES.length} games${src}${dateStr}`;
+}
+
+// ── Ownership helpers ─────────────────────────────────────────────────────────
+function getOwn(id, region=null){
+  const key = region ? `g${id}_${region}` : `g${id}`;
+  return state[key]||'0';
+}
+function setOwn(id, region, val){
+  const key = region ? `g${id}_${region}` : `g${id}`;
+  state[key] = state[key]===val ? '0' : val;
+  saveState(state); render();
+}
+
+// Count how many regions of a game are owned
+function ownedRegions(id){
+  return REGION_ORDER.filter(r => getOwn(id,r)==='p'||getOwn(id,r)==='d');
+}
+
+// Is this game owned in any region / globally?
+function anyOwned(id){
+  return getOwn(id)!=='0'||ownedRegions(id).length>0;
+}
+
+// Card border class based on global ownership
+function cardBorderClass(id, plat){
+  const s=getOwn(id);
+  if(s==='p'||s==='d') return ` own-highlight`;
+  if(ownedRegions(id).length>0) return ` own-highlight`;
+  return '';
+}
+
+// ── Tab switching ─────────────────────────────────────────────────────────────
+function sw(t){
+  curTab=t;
+  ['g','c','a'].forEach(x=>document.getElementById('t'+x).classList.toggle('active',x===t));
+  document.getElementById('ctrli').innerHTML='';
+  document.getElementById('lgndi').innerHTML='';
   render();
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
-function getV(id) { const e=document.getElementById(id); return e?e.value:''; }
-function stat(n, l, c='') {
-  return `<div class="stat"><div class="stat-num"${c?` style="color:${c}"`:''}">${n}</div><div class="stat-lbl">${l}</div></div>`;
-}
-function sub() {
-  if (!gamesUpdated) return `${GAMES.length} games`;
-  const d = new Date(gamesUpdated);
-  return `${GAMES.length} games · updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
-}
-
-// ── Render dispatch ──────────────────────────────────────────────────────────
-function render() {
+function render(){
   document.getElementById('sub').textContent =
-    curTab==='g' ? sub() :
-    curTab==='c' ? `${C.length} official console models & bundles` :
-                   `${A.length} official Nintendo accessories`;
-  if (curTab==='g') renderG();
-  else if (curTab==='c') renderC();
+    curTab==='g'?subText():curTab==='c'?`${C.length} official models & bundles`:`${A.length} official accessories`;
+  if(curTab==='g') renderG();
+  else if(curTab==='c') renderC();
   else renderA();
 }
 
-// ── Games tab ────────────────────────────────────────────────────────────────
-function renderG() {
-  if (!document.getElementById('sq')) {
-    const genres = [...new Set(GAMES.map(g=>g.genre||'Unknown'))].sort();
+// ── Games tab ─────────────────────────────────────────────────────────────────
+function renderG(){
+  if(!document.getElementById('sq')){
+    const genres=[...new Set(GAMES.map(g=>g.genre||'Unknown'))].sort();
     document.getElementById('ctrli').innerHTML=`<div class="ctrl">
       <input id="sq" placeholder="Search title or publisher…" oninput="render()">
       <select id="fty" onchange="render()"><option value="">All types</option><option value="e">NS2 Exclusive</option><option value="n">NS2 Edition</option><option value="t">Third-Party</option></select>
+      <select id="fpl" onchange="render()"><option value="">Any platform</option><option value="s2only">Switch 2 Only</option><option value="both">Switch 1 &amp; 2</option></select>
       <select id="fst" onchange="render()"><option value="">Any status</option><option value="r">Released</option><option value="u">Upcoming</option></select>
       <select id="ffm" onchange="render()"><option value="">Any format</option><option value="c">Physical Cart</option><option value="k">Game-Key Card</option><option value="d">Digital Only</option><option value="?">TBA</option></select>
       <select id="frg" onchange="render()"><option value="">All regions</option><option value="ww">Worldwide</option><option value="jp">Japan Only</option><option value="var">Regional Variation</option></select>
-      <select id="fcl" onchange="render()"><option value="">All ownership</option><option value="p">Own (physical)</option><option value="d">Own (digital)</option><option value="w">Wishlisted</option><option value="0">Untracked</option></select>
+      <select id="fcl" onchange="render()"><option value="">All ownership</option><option value="owned">Any Owned</option><option value="w">Wishlisted</option><option value="0">Untracked</option></select>
       <select id="fgn" onchange="render()"><option value="">All genres</option>${genres.map(g=>`<option>${g}</option>`).join('')}</select>
     </div>`;
-    document.getElementById('lgndi').innerHTML='<div class="legend"><strong>Type:</strong><span class="b be">NS2 Exclusive</span><span class="b bn">NS2 Edition</span><span class="b bt">Third-Party</span>&ensp;<strong>Format:</strong><span class="b fc">Physical Cart</span><span class="b fk">Game-Key Card</span><span class="b fd">Digital Only</span><span class="b fq">TBA</span>&ensp;<strong>Region:</strong><span class="b rj">Japan Only</span><span class="b rv">Varies</span></div>';
+
+    document.getElementById('lgndi').innerHTML=`
+      <div class="compat-info">
+        <strong>Platform compatibility</strong>
+        <div class="compat-row"><span class="b plat-s2only">Switch 2 Only</span> Cannot be played on the original Switch. Includes all Switch 2 exclusives and third-party Switch 2 ports.</div>
+        <div class="compat-row"><span class="b plat-both">Switch 1 &amp; 2</span> NS2 Edition games — the physical cart includes both the original Switch 1 version and the Switch 2 upgrade pack. Plays on either console.</div>
+      </div>
+      <div class="legend">
+        <strong>Type:</strong><span class="b be">NS2 Exclusive</span><span class="b bn">NS2 Edition</span><span class="b bt">Third-Party</span>
+        &ensp;<strong>Format:</strong><span class="b fc">Physical Cart</span><span class="b fk">Game-Key Card</span><span class="b fd">Digital Only</span>
+        &ensp;<strong>Region:</strong><span class="b rj">Japan Only</span><span class="b rv">Varies</span>
+      </div>`;
   }
 
-  const q=getV('sq').toLowerCase(),fty=getV('fty'),fst=getV('fst'),ffm=getV('ffm'),frg=getV('frg'),fcl=getV('fcl'),fgn=getV('fgn');
-  const f = GAMES.filter(g => {
-    const reg = g.region || 'ww';
-    if (q && !g.title.toLowerCase().includes(q) && !(g.publisher||'').toLowerCase().includes(q)) return false;
-    if (fty && g.type !== fty) return false;
-    if (fst && g.status !== fst) return false;
-    if (ffm && g.fmt !== ffm) return false;
-    if (frg && (frg==='ww' ? reg!=='ww' : reg!==frg)) return false;
-    if (fgn && g.genre !== fgn) return false;
-    const s = state['g'+g.id] || '0';
-    if (fcl==='p' && s!=='p') return false;
-    if (fcl==='d' && s!=='d') return false;
-    if (fcl==='w' && s!=='w') return false;
-    if (fcl==='0' && (s==='p'||s==='d'||s==='w')) return false;
+  const q=getV('sq').toLowerCase(),fty=getV('fty'),fpl=getV('fpl'),fst=getV('fst'),
+        ffm=getV('ffm'),frg=getV('frg'),fcl=getV('fcl'),fgn=getV('fgn');
+
+  const f=GAMES.filter(g=>{
+    const reg=g.region||'ww', plat=getPlatform(g);
+    if(q&&!g.title.toLowerCase().includes(q)&&!(g.publisher||'').toLowerCase().includes(q))return false;
+    if(fty&&g.type!==fty)return false;
+    if(fpl&&plat!==fpl)return false;
+    if(fst&&g.status!==fst)return false;
+    if(ffm&&g.fmt!==ffm)return false;
+    if(frg&&(frg==='ww'?reg!=='ww':reg!==frg))return false;
+    if(fgn&&g.genre!==fgn)return false;
+    if(fcl==='owned'&&!anyOwned(g.id))return false;
+    if(fcl==='w'&&getOwn(g.id)!=='w'&&!REGION_ORDER.some(r=>getOwn(g.id,r)==='w'))return false;
+    if(fcl==='0'&&anyOwned(g.id))return false;
     return true;
   });
 
-  const ownP = GAMES.filter(g=>state['g'+g.id]==='p').length;
-  const ownD = GAMES.filter(g=>state['g'+g.id]==='d').length;
-  const ownW = GAMES.filter(g=>state['g'+g.id]==='w').length;
+  const totalOwned = GAMES.filter(g=>anyOwned(g.id)).length;
+  const ownP = GAMES.filter(g=>getOwn(g.id)==='p'||ownedRegions(g.id).some(r=>getOwn(g.id,r)==='p')).length;
   const upc  = GAMES.filter(g=>g.status==='u').length;
+  const s2only = GAMES.filter(g=>getPlatform(g)==='s2only').length;
+  const both   = GAMES.filter(g=>getPlatform(g)==='both').length;
 
-  document.getElementById('stats').innerHTML=`<div class="stats">
+  document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(5,1fr)">
     ${stat(GAMES.length,'Total games')}
-    ${stat(ownP,'Own (physical)','#3ddc84')}
-    ${stat(ownD,'Own (digital)','#b47eff')}
-    ${stat(ownW,'Wishlisted','#f5a623')}
+    ${stat(totalOwned,'In collection','#3ddc84')}
+    ${stat(s2only,'Switch 2 Only','#ff6b6b')}
+    ${stat(both,'Switch 1 & 2','#4b9eff')}
     ${stat(upc,'Upcoming')}
   </div>`;
 
-  document.getElementById('rc').textContent = `Showing ${f.length} of ${GAMES.length} games`;
-  document.getElementById('grid').className = 'grid';
-  document.getElementById('grid').innerHTML = f.length ? f.map(g => {
-    const s = state['g'+g.id] || '0';
-    const reg = g.region || 'ww';
-    const type = g.type || 't';
-    const fmt  = g.fmt  || '?';
-    return `<div class="card${s==='p'?' op':s==='d'?' od':s==='w'?' ow':''}">
-      <div class="brow">
-        <span class="b ${TYC[type]||'bt'}">${TY[type]||type}</span>
-        <span class="b ${FMC[fmt]||'fq'}">${FM[fmt]||fmt}</span>
-        <span class="b ${g.status==='r'?'sr':'su'}">${g.status==='r'?'Out':'Coming'}</span>
-        ${reg==='jp'?'<span class="b rj">Japan Only</span>':reg==='var'?'<span class="b rv">Varies</span>':''}
-      </div>
-      <div class="ct">${g.title}</div>
-      <div class="pub">${g.publisher||''}</div>
-      <div class="dt">${g.genre||''} · ${g.date||''}</div>
-      ${g.note?`<div class="nt">${g.note}</div>`:''}
-      <div class="btns">
-        <button class="btn${s==='p'?' ap':''}" onclick="tog('g${g.id}','p')">Own (phys)</button>
-        <button class="btn${s==='d'?' ad':''}" onclick="tog('g${g.id}','d')">Own (dig)</button>
-        <button class="btn${s==='w'?' aw':''}" onclick="tog('g${g.id}','w')">Wishlist</button>
-      </div>
-    </div>`;
-  }).join('') : '<div class="empty"><span>🔍</span>No games match your filters.</div>';
+  document.getElementById('rc').textContent=`Showing ${f.length} of ${GAMES.length} games`;
+  document.getElementById('grid').className='grid';
+  document.getElementById('grid').innerHTML=f.length?f.map(g=>buildGameCard(g)).join('')
+    :'<div class="empty"><span>🔍</span>No games match your filters.</div>';
 }
 
-// ── Consoles tab ─────────────────────────────────────────────────────────────
-function renderC() {
-  const ow = C.filter(c=>state['c'+c[0]]).length;
-  const jp = C.filter(c=>c[2].toLowerCase().includes('japan')).length;
-  document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
-    ${stat(C.length,'Total models')}
-    ${stat(ow,'Owned','#3ddc84')}
-    ${stat(C.length-jp,'International')}
-    ${stat(jp,'Japan variants','#f5a623')}
+function buildGameCard(g){
+  const plat=getPlatform(g);
+  const reg=g.region||'ww';
+  const fmt=g.fmt||'?';
+  const type=g.type||'t';
+  const releases=g.releases||{};
+  const hasRegions=Object.keys(releases).length>0;
+
+  // Regional date chips (for jp/var games)
+  const datechips = (reg!=='ww' && hasRegions)
+    ? `<div class="rdates">${REGION_ORDER.filter(r=>releases[r]).map(r=>`<span class="rdate-chip"><span>${REGION_LABEL[r]}</span> ${releases[r]}</span>`).join('')}</div>`
+    : '';
+
+  // Ownership UI
+  // For physical cart games with regional variants → per-region ownership rows
+  // For digital/GKC/worldwide → simple global buttons
+  const isPhysical = fmt==='c' || fmt==='k';
+  const hasReleaseRegions = REGION_ORDER.filter(r=>releases[r]).length>1;
+  const showRegional = isPhysical && hasReleaseRegions;
+
+  let ownUI = '';
+  if(showRegional){
+    const regionRows = REGION_ORDER.filter(r=>releases[r]).map(r=>{
+      const s=getOwn(g.id,r);
+      return `<div class="own-row">
+        <span class="own-region-label">${REGION_LABEL[r]}</span>
+        <span class="own-rating">${RATING_BOARD[r]||''}</span>
+        <div class="own-btns">
+          <button class="obtn${s==='p'?' op':''}" onclick="setOwn(${g.id},'${r}','p')">Phys</button>
+          <button class="obtn${s==='d'?' od':''}" onclick="setOwn(${g.id},'${r}','d')">Dig</button>
+          <button class="obtn${s==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}','w')">Wish</button>
+        </div>
+      </div>`;
+    }).join('');
+    const owned=ownedRegions(g.id);
+    const ownedStr=owned.length>0?`<span class="owned-indicator">✓ ${owned.length} region${owned.length>1?'s':''}</span>`:'';
+    ownUI=`<div class="own-section" style="margin-top:5px;padding-top:5px;border-top:1px solid var(--border)">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:3px">
+        <span style="font-size:9.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px">Own by region</span>
+        ${ownedStr}
+      </div>
+      ${regionRows}
+    </div>`;
+  } else {
+    // Simple global buttons
+    const s=getOwn(g.id);
+    ownUI=`<div class="btns">
+      <button class="btn${s==='p'?' ap':''}" onclick="setOwn(${g.id},null,'p')">Own (phys)</button>
+      <button class="btn${s==='d'?' ad':''}" onclick="setOwn(${g.id},null,'d')">Own (dig)</button>
+      <button class="btn${s==='w'?' aw':''}" onclick="setOwn(${g.id},null,'w')">Wishlist</button>
+    </div>`;
+  }
+
+  return `<div class="card ${PLAT_CLASS[plat]||''}">
+    <div class="brow">
+      ${PLAT_BADGE[plat]||''}
+      <span class="b ${TYC[type]||'bt'}">${TY[type]||type}</span>
+      <span class="b ${FMC[fmt]||'fq'}">${FM[fmt]||fmt}</span>
+      <span class="b ${g.status==='r'?'sr':'su'}">${g.status==='r'?'Out':'Coming'}</span>
+      ${reg==='jp'?'<span class="b rj">Japan Only</span>':reg==='var'?'<span class="b rv">Varies</span>':''}
+    </div>
+    <div class="ct">${g.title}</div>
+    <div class="pub">${g.publisher||''}</div>
+    <div class="dt">${g.genre||''} · ${g.date||'TBA'}</div>
+    ${g.note?`<div class="nt">${g.note}</div>`:''}
+    ${datechips}
+    ${ownUI}
   </div>`;
-  document.getElementById('rc').textContent = `${C.length} official console models and bundles`;
-  document.getElementById('grid').className = 'cgrid';
-  document.getElementById('grid').innerHTML = C.map(([id,name,region,price,contents,note]) => {
-    const owned = state['c'+id];
-    const isJp  = region.toLowerCase().includes('japan');
+}
+
+// ── Consoles tab ──────────────────────────────────────────────────────────────
+function renderC(){
+  const ow=C.filter(c=>state['c'+c[0]]).length;
+  const jp=C.filter(c=>c[2].toLowerCase().includes('japan')).length;
+  document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
+    ${stat(C.length,'Total models')}${stat(ow,'Owned','#3ddc84')}${stat(C.length-jp,'International')}${stat(jp,'Japan variants','#f5a623')}
+  </div>`;
+  document.getElementById('rc').textContent=`${C.length} official models and bundles`;
+  document.getElementById('grid').className='cgrid';
+  document.getElementById('grid').innerHTML=C.map(([id,name,region,price,contents,note])=>{
+    const owned=state['c'+id], isJp=region.toLowerCase().includes('japan');
     return `<div class="card${owned?' ox':''}">
       <div class="brow"><span class="b ${isJp?'rj':'sr'}">${region}</span></div>
       <div class="ct">${name}</div>
       <div class="pr" style="margin-top:2px">${price}</div>
       <ul class="ul">${contents.map(c=>`<li>${c}</li>`).join('')}</ul>
       <div class="nt" style="margin-top:3px">${note}</div>
-      <div class="btns"><button class="btn${owned?' ax':''}" onclick="togB('c','${id}')">${owned?'✓ Owned':'Mark Owned'}</button></div>
+      <div class="btns" style="margin-top:4px"><button class="btn${owned?' ap':''} xbtn${owned?' ax':''}" onclick="togB('c','${id}')">${owned?'✓ Owned':'Mark Owned'}</button></div>
     </div>`;
   }).join('');
 }
 
-// ── Accessories tab ──────────────────────────────────────────────────────────
-function renderA() {
-  if (!document.getElementById('facat')) {
-    const cats = [...new Set(A.map(a=>a[2]))];
+// ── Accessories tab ───────────────────────────────────────────────────────────
+function renderA(){
+  if(!document.getElementById('facat')){
+    const cats=[...new Set(A.map(a=>a[2]))];
     document.getElementById('ctrli').innerHTML=`<div class="ctrl"><select id="facat" onchange="render()"><option value="">All categories</option>${cats.map(c=>`<option>${c}</option>`).join('')}</select></div>`;
   }
-  const fcat = getV('facat');
-  const f = A.filter(a => !fcat || a[2]===fcat);
-  const ow = A.filter(a=>state['a'+a[0]]).length;
+  const fcat=getV('facat');
+  const f=A.filter(a=>!fcat||a[2]===fcat);
+  const ow=A.filter(a=>state['a'+a[0]]).length;
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
-    ${stat(A.length,'Total accessories')}
-    ${stat(ow,'Owned','#3ddc84')}
-    ${stat(A.filter(a=>a[2]==='Controller').length,'Controllers')}
-    ${stat(A.filter(a=>a[2]==='Storage').length,'Storage cards')}
+    ${stat(A.length,'Total accessories')}${stat(ow,'Owned','#3ddc84')}${stat(A.filter(a=>a[2]==='Controller').length,'Controllers')}${stat(A.filter(a=>a[2]==='Storage').length,'Storage cards')}
   </div>`;
-  document.getElementById('rc').textContent = `Showing ${f.length} of ${A.length} accessories`;
-  document.getElementById('grid').className = 'agrid';
-  document.getElementById('grid').innerHTML = f.map(([id,name,cat,price,avail,note]) => {
-    const ow = state['a'+id];
+  document.getElementById('rc').textContent=`Showing ${f.length} of ${A.length} accessories`;
+  document.getElementById('grid').className='agrid';
+  document.getElementById('grid').innerHTML=f.map(([id,name,cat,price,avail,note])=>{
+    const ow=state['a'+id];
     return `<div class="card${ow?' ox':''}">
       <div class="brow"><span class="b ${ACAT[cat]||'fq'}">${cat}</span></div>
       <div class="ct">${name}</div>
       <div class="pr">${price}</div>
       <div class="dt">Available: ${avail}</div>
       <div class="nt">${note}</div>
-      <div class="btns"><button class="btn${ow?' ax':''}" onclick="togB('a','${id}')">${ow?'✓ Owned':'Mark Owned'}</button></div>
+      <div class="btns"><button class="btn xbtn${ow?' ax':''}" onclick="togB('a','${id}')">${ow?'✓ Owned':'Mark Owned'}</button></div>
     </div>`;
   }).join('');
 }
 
-// ── Tracking actions ─────────────────────────────────────────────────────────
-function tog(key, val) { state[key] = state[key]===val?'0':val; saveState(state); render(); }
-function togB(p, id) { const k=p+id; state[k]=!state[k]; saveState(state); render(); }
+function togB(p,id){const k=p+id;state[k]=!state[k];saveState(state);render();}
 
-// ── Update notification ──────────────────────────────────────────────────────
-function applyUpdate() {
-  window.location.reload();
-}
+// ── PWA install ───────────────────────────────────────────────────────────────
+let deferredInstall=null;
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;document.getElementById('install-bar').classList.add('show');});
+async function installPWA(){if(!deferredInstall)return;deferredInstall.prompt();const{outcome}=await deferredInstall.userChoice;if(outcome==='accepted')document.getElementById('install-bar').classList.remove('show');deferredInstall=null;}
+window.addEventListener('appinstalled',()=>document.getElementById('install-bar').classList.remove('show'));
 
-// ── PWA install prompt ───────────────────────────────────────────────────────
-let deferredInstallPrompt = null;
-window.addEventListener('beforeinstallprompt', e => {
-  e.preventDefault();
-  deferredInstallPrompt = e;
-  document.getElementById('install-bar').classList.add('show');
-});
-async function installPWA() {
-  if (!deferredInstallPrompt) return;
-  deferredInstallPrompt.prompt();
-  const { outcome } = await deferredInstallPrompt.userChoice;
-  if (outcome === 'accepted') document.getElementById('install-bar').classList.remove('show');
-  deferredInstallPrompt = null;
-}
-window.addEventListener('appinstalled', () => {
-  document.getElementById('install-bar').classList.remove('show');
-});
-
-// ── Service worker registration ───────────────────────────────────────────────
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').then(reg => {
-    // Periodically check for updated game data (every 4 hours)
-    setInterval(() => {
-      if (reg.active) reg.active.postMessage({ type: 'CHECK_UPDATE' });
-    }, 4 * 60 * 60 * 1000);
+// ── Service worker ────────────────────────────────────────────────────────────
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').then(reg=>{
+    setInterval(()=>{if(reg.active)reg.active.postMessage({type:'CHECK_UPDATE'});},4*60*60*1000);
   });
-
-  // Listen for update messages from the service worker
-  navigator.serviceWorker.addEventListener('message', event => {
-    if (event.data?.type === 'DATA_UPDATED') {
-      const banner = document.getElementById('update-banner');
-      document.getElementById('update-msg').textContent =
-        `New game data available (${event.data.count} games — updated ${new Date(event.data.updated).toLocaleDateString()})`;
-      banner.classList.add('show');
+  navigator.serviceWorker.addEventListener('message',e=>{
+    if(e.data?.type==='DATA_UPDATED'){
+      document.getElementById('update-msg').textContent=`New game data available (${e.data.count} games)`;
+      document.getElementById('update-banner').classList.add('show');
     }
   });
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
-(async () => {
-  const ok = await fetchGames();
-  if (!ok) {
-    document.getElementById('grid').innerHTML = `<div class="err">
-      ⚠️ Couldn't load game data. <a href="javascript:location.reload()">Try again</a> or check your internet connection.
-    </div>`;
-    document.getElementById('stats').innerHTML = '';
-    document.getElementById('sub').textContent = 'Game data unavailable';
+(async()=>{
+  const ok=await fetchGames();
+  if(!ok){
+    document.getElementById('grid').innerHTML='<div class="err">⚠️ Could not load game data. <a href="javascript:location.reload()">Retry</a></div>';
     return;
   }
-
-  // Check URL params for deep links (e.g. ?tab=games&filter=wishlist)
-  const params = new URLSearchParams(location.search);
-  const tabParam = params.get('tab');
-  if (tabParam === 'consoles') { curTab='c'; document.getElementById('tc').classList.add('active'); document.getElementById('tg').classList.remove('active'); }
-  else if (tabParam === 'accessories') { curTab='a'; document.getElementById('ta').classList.add('active'); document.getElementById('tg').classList.remove('active'); }
-
+  const params=new URLSearchParams(location.search);
+  const tabParam=params.get('tab');
+  if(tabParam==='consoles'){curTab='c';document.getElementById('tc').classList.add('active');document.getElementById('tg').classList.remove('active');}
+  else if(tabParam==='accessories'){curTab='a';document.getElementById('ta').classList.add('active');document.getElementById('tg').classList.remove('active');}
   render();
-
-  // Apply wishlist deep link filter after controls are rendered
-  if (params.get('filter') === 'wishlist') {
-    setTimeout(() => {
-      const el = document.getElementById('fcl');
-      if (el) { el.value='w'; render(); }
-    }, 50);
-  }
 })();
 </script>
 </body>
