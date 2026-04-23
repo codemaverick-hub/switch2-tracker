@@ -1,7 +1,8 @@
 {
-  "updated": "2026-04-23T10:55:00.402133+00:00",
+  "updated": "2026-04-23T13:31:21.517388+00:00",
   "sources": {
-    "sheet": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
+    "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
+    "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
   },
   "count": 379,
@@ -20,7 +21,12 @@
         "usa": "Apr 17, 2026",
         "eur": "Apr 17, 2026"
       },
+      "formats": {
+        "usa": "k",
+        "eur": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pragmata/1x1_Pragmata_image500w.jpg",
       "id": 248
     },
     {
@@ -39,7 +45,14 @@
         "aus": "Apr 16, 2026",
         "asi": "Apr 16, 2026"
       },
+      "formats": {
+        "usa": "c",
+        "eur": "c",
+        "aus": "c",
+        "asi": "c"
+      },
       "note": "",
+      "art": null,
       "id": 369
     },
     {
@@ -56,7 +69,9 @@
         "usa": "Apr 10, 2026",
         "eur": "Apr 10, 2026"
       },
+      "formats": {},
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/therogueprinceofpersia/1x1_TheRoguePrinceOfPersia_image500w.jpg",
       "id": 338
     },
     {
@@ -67,12 +82,16 @@
       "genre": "Action",
       "date": "Apr 10, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Apr 10, 2026"
       },
+      "formats": {
+        "usa": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/miomemoriesinorbit/1x1_MioMemoriesInOrbit_image500w.jpg",
       "id": 205
     },
     {
@@ -83,20 +102,25 @@
       "genre": "Fighting",
       "date": "Mar 26, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Mar 26, 2026",
         "eur": "Mar 26, 2026"
       },
+      "formats": {
+        "usa": "k",
+        "eur": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/virtuafighter5revoworldstage/1x1_VirtuaFighter5REVOWorldStage_image500w.jpg",
       "id": 359
     },
     {
       "title": "Super Mario Bros. Wonder + Meetup in Bellabel Park -Nintendo Switch 2 Edition-",
-      "publisher": "",
+      "publisher": "Nintendo",
       "developer": "",
-      "type": "t",
+      "type": "n",
       "genre": "Platformer",
       "date": "Mar 26, 2026",
       "status": "r",
@@ -111,7 +135,17 @@
         "aus": "Mar 26, 2026",
         "asi": "Mar 26, 2026"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 313
     },
     {
@@ -122,7 +156,7 @@
       "genre": "Racing",
       "date": "Mar 26, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {
         "usa": "Mar 26, 2026",
@@ -131,57 +165,79 @@
         "eur": "Mar 26, 2026",
         "cht": "Mar 26, 2026"
       },
+      "formats": {
+        "jpn": "c",
+        "cht": "c",
+        "kor": "c",
+        "eur": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/sonicracingcrossworlds/2x1_SonicRacingCrossWorlds_image500w.jpg",
       "id": 288
     },
     {
       "title": "Bang! Bang! Bandits -Nintendo Switch 2 Edition-",
-      "publisher": "",
+      "publisher": "Nippon Columbia",
       "developer": "",
-      "type": "t",
+      "type": "n",
       "genre": "Action",
       "date": "Mar 19, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "jp",
       "releases": {
         "jpn": "Mar 19, 2026"
       },
+      "formats": {
+        "jpn": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bangbangbandits/1x1_BangBangBandits_image500w.jpg",
       "id": 45
     },
     {
       "title": "Snoopy: The Great Mystery Club",
-      "publisher": "GameMill Entertainment",
+      "publisher": "Game Mill",
       "developer": "Cradle Games",
       "type": "t",
       "genre": "Action",
       "date": "Mar 17, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "eur": "Mar 17, 2026"
       },
+      "formats": {
+        "eur": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/snoopythegreatmysteryclub/1x1_SnoopyTheGreatMysteryClub_image500w.jpg",
       "id": 287
     },
     {
       "title": "WWE 2K26",
-      "publisher": "2K",
+      "publisher": "2k",
       "developer": "Visual Concepts",
       "type": "t",
       "genre": "Action",
       "date": "Mar 13, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Mar 13, 2026",
         "eur": "Mar 13, 2026",
         "aus": "Mar 13, 2026"
       },
+      "formats": {
+        "usa": "k",
+        "eur": "k",
+        "aus": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k26/1x1_Wwe2K26_image500w.jpg",
       "id": 368
     },
     {
@@ -202,7 +258,16 @@
         "cht": "Mar 13, 2026",
         "asi": "Mar 13, 2026"
       },
+      "formats": {
+        "jpn": "k",
+        "asi": "k",
+        "eur": "k",
+        "usa": "k",
+        "cht": "k",
+        "kor": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/monsterhunterstories3twistedreflection/1x1_MonsterHunterStories3TwistedReflection_image500w.jpg",
       "id": 208
     },
     {
@@ -221,7 +286,14 @@
         "eur": "Apr 17, 2026",
         "cht": "Mar 13, 2026"
       },
+      "formats": {
+        "eur": "c",
+        "usa": "c",
+        "jpn": "c",
+        "cht": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/marvelcosmicinvasion/1x1_MarvelCosmicInvasion_image500w.jpg",
       "id": 195
     },
     {
@@ -232,14 +304,20 @@
       "genre": "Action",
       "date": "Mar 12, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "jpn": "Mar 19, 2026",
         "eur": "Mar 12, 2026",
         "cht": "Mar 19, 2026"
       },
+      "formats": {
+        "jpn": "c",
+        "eur": "c",
+        "cht": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/rushingbeatxreturnofbrawlbrothers_1/1x1_RushingBeatXReturnOfBrawlBrothers_image500w.jpg",
       "id": 274
     },
     {
@@ -250,12 +328,16 @@
       "genre": "Strategy RPG",
       "date": "Mar 12, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "jp",
       "releases": {
         "jpn": "Mar 12, 2026"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rtypetacticsi_iicosmos/1x1_RTypeTacticsI_IICosmos_image500w.jpg",
       "id": 255
     },
     {
@@ -276,12 +358,21 @@
         "aus": "Mar 12, 2026",
         "asi": "Mar 12, 2026"
       },
+      "formats": {
+        "jpn": "k",
+        "cht": "k",
+        "asi": "k",
+        "eur": "k",
+        "aus": "k",
+        "usa": "k"
+      },
       "note": "Known as PROJECT ZERO II in Europe",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fatalframeiicrimsonbutterflyremake/1x1_FatalFrameIICrimsonButterflyRemake_image500w.jpg",
       "id": 129
     },
     {
       "title": "PokÃ©mon Pokopia",
-      "publisher": "Nintendo, ,, The Pokémon Company",
+      "publisher": "Nintendo",
       "developer": "Koei Tecmo",
       "type": "e",
       "genre": "Life Sim",
@@ -298,12 +389,22 @@
         "aus": "Mar 5, 2026",
         "asi": "Mar 5, 2026"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pokemonpokopia/1x1_NSwitch2_PokemonPokopia_image500w.png",
       "id": 244
     },
     {
       "title": "Back to the Dawn",
-      "publisher": "Clouded Leopard Entertainment, Sprial Up Games",
+      "publisher": "Clouded Leopard Entertainment",
       "developer": "Metal Head Games",
       "type": "t",
       "genre": "Action",
@@ -316,7 +417,13 @@
         "cht": "Mar 5, 2026",
         "asi": "Mar 5, 2026"
       },
+      "formats": {
+        "cht": "k",
+        "asi": "k",
+        "jpn": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/backtothedawn/1x1_BackToTheDawn_image500w.jpg",
       "id": 42
     },
     {
@@ -327,7 +434,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {
         "usa": "Feb 27, 2026",
@@ -337,7 +444,16 @@
         "cht": "Feb 27, 2026",
         "asi": "Feb 27, 2026"
       },
+      "formats": {
+        "kor": "k",
+        "asi": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevilvillagegoldedition/1x1_ResidentEvilVillageGoldEdition_image500w.jpg",
       "id": 266
     },
     {
@@ -359,7 +475,17 @@
         "aus": "Feb 27, 2026",
         "asi": "Feb 27, 2026"
       },
+      "formats": {
+        "kor": "k",
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevilrequiem/1x1_ResidentEvilRequiem_02_image500w.jpg",
       "id": 264
     },
     {
@@ -370,7 +496,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {
         "usa": "Feb 27, 2026",
@@ -380,23 +506,36 @@
         "cht": "Feb 27, 2026",
         "asi": "Feb 27, 2026"
       },
+      "formats": {
+        "kor": "k",
+        "asi": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevil7biohazardgoldedition/1x1_ResidentEvil7BiohazardGoldEdition_image500w.jpg",
       "id": 263
     },
     {
       "title": "Daisenryaku SSB2",
-      "publisher": "SystemSoft Beta",
+      "publisher": "System Soft",
       "developer": "SystemSoft Beta",
       "type": "t",
       "genre": "Action",
       "date": "Feb 26, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "jp",
       "releases": {
         "jpn": "Feb 26, 2026"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 92
     },
     {
@@ -407,13 +546,18 @@
       "genre": "Action",
       "date": "Feb 19, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "jpn": "Feb 19, 2026",
         "eur": "Feb 19, 2026"
       },
+      "formats": {
+        "jpn": "k",
+        "eur": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/gearclubunlimited3/1x1_GearClubUnlimited3_image500w.jpg",
       "id": 137
     },
     {
@@ -424,7 +568,7 @@
       "genre": "Action",
       "date": "Feb 13, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {
         "usa": "Feb 13, 2026",
@@ -433,7 +577,15 @@
         "eur": "Feb 13, 2026",
         "aus": "Feb 13, 2026"
       },
+      "formats": {
+        "kor": "k",
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/reanimal/1x1_Reanimal_image500w.jpg",
       "id": 259
     },
     {
@@ -453,7 +605,17 @@
         "eur": "Feb 12, 2026",
         "cht": "Feb 12, 2026"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami3anddarkties/1x1_YakuzaKiwami3AndDarkTies_image500w.jpg",
       "id": 373
     },
     {
@@ -475,7 +637,17 @@
         "aus": "Feb 12, 2026",
         "asi": "Feb 12, 2026"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mariotennisfever/1x1_NSwitch2_MarioTennisFever_BASE_image500w.jpg",
       "id": 194
     },
     {
@@ -492,7 +664,12 @@
         "usa": "Feb 12, 2026",
         "eur": "Feb 20, 2026"
       },
+      "formats": {
+        "eur": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/chromagun2dy_hard/1x1_ChromaGun2DyeHard_image500w.jpg",
       "id": 71
     },
     {
@@ -510,7 +687,13 @@
         "eur": "Feb 6, 2026",
         "aus": "Feb 6, 2026"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pgatour2k25/1x1_PgaTour2K25_image500w.jpg",
       "id": 239
     },
     {
@@ -532,24 +715,39 @@
         "aus": "Feb 5, 2026",
         "asi": "Feb 5, 2026"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonquestviireimagined/1x1_DragonQuestVIIReimagined_image500w.jpg",
       "id": 113
     },
     {
       "title": "Makaism: Frenzy of the Netherworld",
-      "publisher": "",
+      "publisher": "Nippon Ichi Software",
       "developer": "",
       "type": "t",
       "genre": "Action",
       "date": "Jan 29, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "jpn": "Jan 29, 2026",
         "asi": "Jan 29, 2026"
       },
+      "formats": {
+        "asi": "k",
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 192
     },
     {
@@ -565,7 +763,11 @@
       "releases": {
         "jpn": "Jan 29, 2026"
       },
+      "formats": {
+        "jpn": "c"
+      },
       "note": "",
+      "art": null,
       "id": 66
     },
     {
@@ -587,7 +789,17 @@
         "aus": "Jan 22, 2026",
         "asi": "Jan 22, 2026"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviiremakeintegrade/1x1_NSwitch2_FinalFantasyVIIRemakeI_image500w.jpg",
       "id": 132
     },
     {
@@ -609,7 +821,17 @@
         "aus": "Jan 22, 2026",
         "asi": "Jan 22, 2026"
       },
+      "formats": {
+        "kor": "k",
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dynastywarriorsorigins/1x1_DynastyWarriorsOrigins_image500w.jpg",
       "id": 117
     },
     {
@@ -626,7 +848,9 @@
         "usa": "Jan 15, 2026",
         "eur": "Jan 15, 2026"
       },
+      "formats": {},
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
       "id": 331
     },
     {
@@ -648,30 +872,46 @@
         "aus": "Jan 15, 2026",
         "asi": "Jan 15, 2026"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "4K; 12-player island; mouse controls",
+      "art": null,
       "id": 12
     },
     {
       "title": "Yooka-Re-Playlee",
-      "publisher": "",
+      "publisher": "PM Studios",
       "developer": "",
       "type": "t",
-      "genre": "Platformer",
+      "genre": "Action",
       "date": "Dec 18, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Dec 18, 2025",
         "eur": "Dec 18, 2025",
         "aus": "Dec 18, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "eur": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 376
     },
     {
       "title": "Obakeidoro 2: Chase & Seek",
-      "publisher": "Free Style",
+      "publisher": "Free Style Games",
       "developer": "Free Style",
       "type": "t",
       "genre": "Action",
@@ -682,23 +922,31 @@
       "releases": {
         "jpn": "Dec 18, 2025"
       },
+      "formats": {
+        "jpn": "?"
+      },
       "note": "Revealed in JP Direct only",
+      "art": null,
       "id": 223
     },
     {
       "title": "A-Train Hajimaru Kankou Keikaku -Nintendo Switch 2 Edition- Guidebook Pack",
-      "publisher": "",
+      "publisher": "Artdink",
       "developer": "",
-      "type": "t",
+      "type": "n",
       "genre": "Simulation",
       "date": "Dec 18, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "jp",
       "releases": {
         "jpn": "Dec 18, 2025"
       },
+      "formats": {
+        "jpn": "c"
+      },
       "note": "",
+      "art": null,
       "id": 3
     },
     {
@@ -716,7 +964,13 @@
         "eur": "Dec 12, 2025",
         "aus": "Dec 12, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "eur": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mortalkombatlegacykollection/1x1_MortalKombatLegacyKollection_image500w.jpg",
       "id": 210
     },
     {
@@ -733,7 +987,12 @@
         "usa": "Dec 9, 2025",
         "eur": "Dec 9, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/goodnightuniverse/1x1_GoodnightUniverse_image500w.jpg",
       "id": 141
     },
     {
@@ -752,24 +1011,36 @@
         "jpn": "Jan 22, 2026",
         "eur": "Dec 9, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/farmingsimulatorsignatureedition/1x1_FarmingSimulatorSignatureEdition_image500w.jpg",
       "id": 127
     },
     {
       "title": "Nicktoons & The Dice of Destiny",
-      "publisher": "GameMill Entertainment",
+      "publisher": "Game Mill",
       "developer": "Fair Play Labs, Petit Fabrik",
       "type": "t",
       "genre": "Action",
       "date": "Dec 5, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Dec 5, 2025",
         "eur": "Dec 5, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 215
     },
     {
@@ -786,7 +1057,12 @@
         "usa": "Dec 5, 2025",
         "eur": "Dec 5, 2025"
       },
+      "formats": {
+        "eur": "?",
+        "usa": "?"
+      },
       "note": "Free to play",
+      "art": null,
       "id": 135
     },
     {
@@ -797,12 +1073,16 @@
       "genre": "Action",
       "date": "Dec 4, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "jp",
       "releases": {
         "jpn": "Dec 4, 2025"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 272
     },
     {
@@ -824,7 +1104,17 @@
         "aus": "Dec 4, 2025",
         "asi": "Dec 4, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 224
     },
     {
@@ -846,7 +1136,17 @@
         "aus": "Dec 4, 2025",
         "asi": "Dec 4, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "Mouse aiming support",
+      "art": null,
       "id": 200
     },
     {
@@ -868,28 +1168,42 @@
         "aus": "Dec 2, 2025",
         "asi": "Dec 2, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 36
     },
     {
       "title": "RippleIsland Kyle and Cal's Restaurant",
-      "publisher": "",
+      "publisher": "Sunsoft",
       "developer": "",
       "type": "t",
       "genre": "Action",
       "date": "Nov 27, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "jp",
       "releases": {
         "jpn": "Nov 27, 2025"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 268
     },
     {
       "title": "Little Nightmares Enhanced Edition Complete Edition",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Engine Software",
       "type": "t",
       "genre": "Horror",
@@ -900,7 +1214,11 @@
       "releases": {
         "eur": "Nov 20, 2025"
       },
+      "formats": {
+        "eur": "k"
+      },
       "note": "",
+      "art": null,
       "id": 180
     },
     {
@@ -922,7 +1240,17 @@
         "aus": "Nov 20, 2025",
         "asi": "Nov 20, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 168
     },
     {
@@ -941,7 +1269,14 @@
         "eur": "Nov 20, 2025",
         "aus": "Nov 20, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "eur": "c",
+        "jpn": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 144
     },
     {
@@ -952,19 +1287,25 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Nov 18, 2025",
         "jpn": "Nov 18, 2025",
         "eur": "Nov 18, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 294
     },
     {
       "title": "Dragon Ball: Sparking! Zero",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Spike Chunsoft",
       "type": "t",
       "genre": "Fighting",
@@ -981,7 +1322,17 @@
         "aus": "Nov 14, 2025",
         "asi": "Nov 14, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 111
     },
     {
@@ -1003,7 +1354,17 @@
         "aus": "Dec 8, 2025",
         "asi": "Nov 13, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 374
     },
     {
@@ -1025,7 +1386,17 @@
         "aus": "Dec 8, 2025",
         "asi": "Nov 13, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 371
     },
     {
@@ -1041,12 +1412,16 @@
       "releases": {
         "jpn": "Nov 13, 2025"
       },
+      "formats": {
+        "jpn": "c"
+      },
       "note": "Japan exclusive",
+      "art": null,
       "id": 207
     },
     {
       "title": "Hyrule Warriors: Age of Imprisonment",
-      "publisher": "Koei Tecmo,, Nintendo",
+      "publisher": "Koei Tecmo",
       "developer": "AAA Games Studio",
       "type": "e",
       "genre": "Action-Adventure",
@@ -1063,7 +1438,17 @@
         "aus": "Nov 6, 2025",
         "asi": "Nov 6, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 160
     },
     {
@@ -1074,13 +1459,18 @@
       "genre": "Action",
       "date": "Oct 30, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "jpn": "Oct 30, 2025",
         "asi": "Oct 30, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "jpn": "c"
+      },
       "note": "",
+      "art": null,
       "id": 191
     },
     {
@@ -1102,7 +1492,17 @@
         "aus": "Oct 30, 2025",
         "asi": "Oct 30, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 112
     },
     {
@@ -1113,7 +1513,7 @@
       "genre": "Action",
       "date": "Oct 28, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {
         "usa": "Oct 28, 2025",
@@ -1122,12 +1522,20 @@
         "eur": "Oct 28, 2025",
         "cht": "Dec 4, 2025"
       },
+      "formats": {
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 351
     },
     {
       "title": "Persona 3 Reload",
-      "publisher": "Sega",
+      "publisher": "Atlus",
       "developer": "Atlus",
       "type": "t",
       "genre": "Action RPG",
@@ -1143,7 +1551,16 @@
         "cht": "Oct 23, 2025",
         "aus": "Oct 23, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 238
     },
     {
@@ -1161,12 +1578,18 @@
         "jpn": "Oct 23, 2025",
         "asi": "Oct 23, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "jpn": "k",
+        "kor": "k"
+      },
       "note": "GKC in Japan; digital only in West",
+      "art": null,
       "id": 136
     },
     {
       "title": "PokÃ©mon Legends: Z-A -Nintendo Switch 2 Edition-",
-      "publisher": "Nintendo, ,, The Pokémon Company",
+      "publisher": "Nintendo",
       "developer": "Game Freak",
       "type": "n",
       "genre": "RPG",
@@ -1183,12 +1606,22 @@
         "aus": "Oct 16, 2025",
         "asi": "Oct 16, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 243
     },
     {
       "title": "Little Nightmares III",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Supermassive Games",
       "type": "t",
       "genre": "Horror",
@@ -1205,7 +1638,17 @@
         "aus": "Oct 10, 2025",
         "asi": "Oct 10, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 181
     },
     {
@@ -1222,7 +1665,12 @@
         "usa": "Oct 10, 2025",
         "eur": "Oct 10, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 105
     },
     {
@@ -1238,12 +1686,16 @@
       "releases": {
         "jpn": "Sep 30, 2025"
       },
+      "formats": {
+        "jpn": "?"
+      },
       "note": "",
+      "art": null,
       "id": 130
     },
     {
       "title": "Pac-Man World 2 Re-Pac",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Now Production",
       "type": "t",
       "genre": "Platformer",
@@ -1254,12 +1706,16 @@
       "releases": {
         "usa": "Sep 26, 2025"
       },
+      "formats": {
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 234
     },
     {
       "title": "EA Sports FC 26",
-      "publisher": "EA Sports",
+      "publisher": "EA",
       "developer": "EA Vancouver, ,, EA Romania",
       "type": "t",
       "genre": "Sports",
@@ -1274,12 +1730,20 @@
         "eur": "Sep 26, 2025",
         "aus": "Sep 26, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 118
     },
     {
       "title": "NBA 2K26",
-      "publisher": "2K",
+      "publisher": "2k",
       "developer": "Visual Concepts",
       "type": "t",
       "genre": "Sports",
@@ -1293,7 +1757,14 @@
         "eur": "Sep 5, 2025",
         "aus": "Sep 5, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 214
     },
     {
@@ -1314,7 +1785,16 @@
         "cht": "Sep 5, 2025",
         "aus": "Sep 5, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "cht": "k",
+        "eur": "c",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "c"
+      },
       "note": "Full cart in West; GKC in Japan",
+      "art": null,
       "id": 91
     },
     {
@@ -1333,7 +1813,14 @@
         "eur": "Sep 5, 2025",
         "aus": "Sep 5, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 88
     },
     {
@@ -1354,14 +1841,23 @@
         "aus": "Sep 4, 2025",
         "asi": "Sep 4, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 298
     },
     {
       "title": "Kirby and the Forgotten Land + Star-Crossed World -Nintendo Switch 2 Edition-",
-      "publisher": "",
+      "publisher": "Nintendo",
       "developer": "",
-      "type": "t",
+      "type": "n",
       "genre": "Platformer",
       "date": "Aug 28, 2025",
       "status": "r",
@@ -1376,12 +1872,22 @@
         "aus": "Aug 28, 2025",
         "asi": "Aug 28, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "Includes new Star-Crossed World DLC expansion",
+      "art": null,
       "id": 169
     },
     {
       "title": "Story of Seasons: Grand Bazaar -Nintendo Switch 2 Edition-",
-      "publisher": "Marvelous",
+      "publisher": "Xseed Games",
       "developer": "Marvelous",
       "type": "n",
       "genre": "Action RPG",
@@ -1396,12 +1902,20 @@
         "cht": "Aug 28, 2025",
         "aus": "Aug 27, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 305
     },
     {
       "title": "EA Sports Madden NFL 26",
-      "publisher": "EA Sports",
+      "publisher": "EA",
       "developer": "EA Orlando",
       "type": "t",
       "genre": "Sports",
@@ -1413,12 +1927,17 @@
         "usa": "Aug 14, 2025",
         "eur": "Aug 14, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 119
     },
     {
       "title": "Fantasy Life i: The Girl Who Steals Time -Nintendo Switch 2 Edition-",
-      "publisher": "Level-5",
+      "publisher": "Level 5",
       "developer": "Level-5",
       "type": "n",
       "genre": "Action RPG",
@@ -1429,12 +1948,16 @@
       "releases": {
         "jpn": "Aug 7, 2025"
       },
+      "formats": {
+        "jpn": "c"
+      },
       "note": "",
+      "art": null,
       "id": 126
     },
     {
       "title": "Ys X: Proud Nordics",
-      "publisher": "Nihon Falcom",
+      "publisher": "NIS America",
       "developer": "Nihon Falcom",
       "type": "t",
       "genre": "Action RPG",
@@ -1449,7 +1972,15 @@
         "eur": "Feb 20, 2026",
         "cht": "Aug 21, 2025"
       },
+      "formats": {
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "Japan released Summer 2025; West Jan 2026",
+      "art": null,
       "id": 379
     },
     {
@@ -1469,7 +2000,15 @@
         "cht": "Jul 25, 2025",
         "asi": "Jul 25, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k"
+      },
       "note": "",
+      "art": null,
       "id": 363
     },
     {
@@ -1487,14 +2026,20 @@
         "jpn": "Jul 25, 2025",
         "eur": "Jul 25, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 219
     },
     {
       "title": "Super Mario Party Jamboree + Jamboree TV -Nintendo Switch 2 Edition -",
-      "publisher": "",
+      "publisher": "Nintendo",
       "developer": "",
-      "type": "t",
+      "type": "n",
       "genre": "Party",
       "date": "Jul 24, 2025",
       "status": "r",
@@ -1509,30 +2054,46 @@
         "aus": "Jul 24, 2025",
         "asi": "Jul 24, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 315
     },
     {
       "title": "WWE 2K25",
-      "publisher": "2K",
+      "publisher": "2k",
       "developer": "Visual Concepts",
       "type": "t",
       "genre": "Action",
       "date": "Jul 23, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Jul 23, 2025",
         "eur": "Jul 23, 2025",
         "aus": "Jul 23, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "usa": "?"
+      },
       "note": "",
+      "art": null,
       "id": 367
     },
     {
       "title": "Shadow Labyrinth",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Bandai Namco Studios",
       "type": "n",
       "genre": "Action",
@@ -1543,7 +2104,11 @@
       "releases": {
         "jpn": "Jul 18, 2025"
       },
+      "formats": {
+        "jpn": "?"
+      },
       "note": "",
+      "art": null,
       "id": 277
     },
     {
@@ -1565,12 +2130,22 @@
         "aus": "Jul 17, 2025",
         "asi": "Jul 17, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 109
     },
     {
       "title": "Tony Hawk's Pro Skater 3+4",
-      "publisher": "",
+      "publisher": "Activision",
       "developer": "",
       "type": "t",
       "genre": "Action",
@@ -1582,18 +2157,23 @@
         "usa": "Jul 11, 2025",
         "eur": "Jul 11, 2025"
       },
+      "formats": {
+        "eur": "?",
+        "usa": "?"
+      },
       "note": "",
+      "art": null,
       "id": 347
     },
     {
       "title": "Tamagotchi Plaza -Nintendo Switch 2 Edition-",
-      "publisher": "Bandai Namco Entertainment",
+      "publisher": "Bandai Namco",
       "developer": "Hyde",
       "type": "n",
       "genre": "Action",
       "date": "Jun 26, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "kor": "Jun 26, 2025",
@@ -1601,15 +2181,22 @@
         "cht": "Jun 26, 2025",
         "asi": "Jun 26, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "cht": "c",
+        "jpn": "c",
+        "kor": "c"
+      },
       "note": "",
+      "art": null,
       "id": 322
     },
     {
       "title": "Raidou Remastered: The Mystery of the Soulless Army",
-      "publisher": "Atlus,, Sega",
+      "publisher": "Atlus",
       "developer": "Atlus",
       "type": "t",
-      "genre": "Action RPG",
+      "genre": "Action",
       "date": "Jun 19, 2025",
       "status": "r",
       "fmt": "k",
@@ -1621,7 +2208,15 @@
         "cht": "Jun 19, 2025",
         "aus": "Jun 19, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 257
     },
     {
@@ -1643,7 +2238,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "Switch 2 exclusive port",
+      "art": null,
       "id": 370
     },
     {
@@ -1660,12 +2265,17 @@
         "jpn": "Jun 5, 2025",
         "eur": "Nov 6, 2025"
       },
+      "formats": {
+        "eur": "k",
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 318
     },
     {
       "title": "Suikoden I & II Remaster: Gate Rune and Dunan Unification Wars",
-      "publisher": "",
+      "publisher": "Konami",
       "developer": "",
       "type": "t",
       "genre": "Action RPG",
@@ -1677,7 +2287,12 @@
         "jpn": "Jun 5, 2025",
         "cht": "Jun 5, 2025"
       },
+      "formats": {
+        "cht": "k",
+        "jpn": "k"
+      },
       "note": "Japan first release",
+      "art": null,
       "id": 310
     },
     {
@@ -1699,12 +2314,22 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 307
     },
     {
       "title": "Split Fiction",
-      "publisher": "Electronic Arts",
+      "publisher": "EA",
       "developer": "Hazelight Studios",
       "type": "t",
       "genre": "Action",
@@ -1719,7 +2344,15 @@
         "eur": "Jun 5, 2025",
         "aus": "Jun 5, 2025"
       },
+      "formats": {
+        "aus": "?",
+        "eur": "?",
+        "jpn": "?",
+        "kor": "?",
+        "usa": "?"
+      },
       "note": "",
+      "art": null,
       "id": 293
     },
     {
@@ -1741,7 +2374,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 289
     },
     {
@@ -1760,7 +2403,14 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "?",
+        "aus": "?",
+        "eur": "?",
+        "usa": "?"
+      },
       "note": "",
+      "art": null,
       "id": 283
     },
     {
@@ -1776,7 +2426,11 @@
       "releases": {
         "jpn": "Jun 5, 2025"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "Japan exclusive (JP Direct reveal)",
+      "art": null,
       "id": 281
     },
     {
@@ -1797,7 +2451,16 @@
         "cht": "Jun 5, 2025",
         "aus": "Jun 5, 2025"
       },
+      "formats": {
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "",
+      "art": null,
       "id": 273
     },
     {
@@ -1817,7 +2480,15 @@
         "cht": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "cht": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "Japan first; Western dates TBA",
+      "art": null,
       "id": 253
     },
     {
@@ -1834,7 +2505,12 @@
         "jpn": "Jun 5, 2025",
         "cht": "Jun 5, 2025"
       },
+      "formats": {
+        "cht": "k",
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 221
     },
     {
@@ -1856,7 +2532,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 26, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "Launch title; bundled with console",
+      "art": null,
       "id": 193
     },
     {
@@ -1878,7 +2564,9 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 26, 2025"
       },
+      "formats": {},
       "note": "4K/60fps; free upgrade from NS1",
+      "art": null,
       "id": 333
     },
     {
@@ -1900,7 +2588,9 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 26, 2025"
       },
+      "formats": {},
       "note": "4K/60fps; free upgrade from NS1",
+      "art": null,
       "id": 332
     },
     {
@@ -1916,12 +2606,16 @@
       "releases": {
         "jpn": "Jun 5, 2025"
       },
+      "formats": {
+        "jpn": "k"
+      },
       "note": "",
+      "art": null,
       "id": 172
     },
     {
       "title": "Hogwarts Legacy",
-      "publisher": "Warner Bros. Games",
+      "publisher": "WB Games",
       "developer": "Avalanche Software",
       "type": "t",
       "genre": "Action RPG",
@@ -1938,7 +2632,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 154
     },
     {
@@ -1957,12 +2661,19 @@
         "eur": "Jun 5, 2025",
         "aus": "Jun 5, 2025"
       },
+      "formats": {
+        "aus": "k",
+        "eur": "k",
+        "jpn": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 152
     },
     {
       "title": "Cyberpunk 2077: Ultimate Edition",
-      "publisher": "CD Projekt",
+      "publisher": "CD Projekt Red",
       "developer": "CD Projekt Red",
       "type": "t",
       "genre": "Action RPG",
@@ -1979,7 +2690,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 5, 2025"
       },
+      "formats": {
+        "asi": "c",
+        "aus": "c",
+        "cht": "c",
+        "eur": "c",
+        "jpn": "c",
+        "kor": "c",
+        "usa": "c"
+      },
       "note": "Full 64GB cartridge",
+      "art": null,
       "id": 89
     },
     {
@@ -2001,7 +2722,17 @@
         "aus": "Jun 5, 2025",
         "asi": "Jun 26, 2025"
       },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
       "note": "",
+      "art": null,
       "id": 61
     },
     {
@@ -2015,7 +2746,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 1
     },
     {
@@ -2029,7 +2762,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 2
     },
     {
@@ -2043,7 +2778,9 @@
       "fmt": "k",
       "region": "jp",
       "releases": {},
+      "formats": {},
       "note": "Japan / Asia focus",
+      "art": null,
       "id": 5
     },
     {
@@ -2057,7 +2794,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 4
     },
     {
@@ -2071,7 +2810,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 6
     },
     {
@@ -2085,7 +2826,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 324
     },
     {
@@ -2099,7 +2842,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 7
     },
     {
@@ -2113,7 +2858,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 8
     },
     {
@@ -2127,7 +2874,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 9
     },
     {
@@ -2141,7 +2890,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 10
     },
     {
@@ -2155,7 +2906,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 11
     },
     {
@@ -2169,7 +2922,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 13
     },
     {
@@ -2183,7 +2938,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 14
     },
     {
@@ -2197,7 +2954,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Free to play",
+      "art": null,
       "id": 15
     },
     {
@@ -2211,7 +2970,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 16
     },
     {
@@ -2225,7 +2986,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 17
     },
     {
@@ -2239,7 +3002,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 18
     },
     {
@@ -2253,7 +3018,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 19
     },
     {
@@ -2267,7 +3034,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 20
     },
     {
@@ -2281,7 +3050,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 21
     },
     {
@@ -2295,7 +3066,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 22
     },
     {
@@ -2309,7 +3082,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 23
     },
     {
@@ -2323,7 +3098,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 24
     },
     {
@@ -2337,7 +3114,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 25
     },
     {
@@ -2351,7 +3130,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 26
     },
     {
@@ -2365,7 +3146,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 27
     },
     {
@@ -2379,7 +3162,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 28
     },
     {
@@ -2393,7 +3178,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 29
     },
     {
@@ -2407,7 +3194,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 30
     },
     {
@@ -2421,7 +3210,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 31
     },
     {
@@ -2435,7 +3226,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 32
     },
     {
@@ -2449,7 +3242,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 33
     },
     {
@@ -2463,7 +3258,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 34
     },
     {
@@ -2477,7 +3274,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 35
     },
     {
@@ -2491,7 +3290,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 39
     },
     {
@@ -2505,7 +3306,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 37
     },
     {
@@ -2519,7 +3322,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 38
     },
     {
@@ -2533,7 +3338,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 40
     },
     {
@@ -2547,7 +3354,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 41
     },
     {
@@ -2561,7 +3370,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 43
     },
     {
@@ -2575,7 +3386,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 44
     },
     {
@@ -2589,7 +3402,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 46
     },
     {
@@ -2603,7 +3418,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 47
     },
     {
@@ -2617,7 +3434,9 @@
       "fmt": "k",
       "region": "jp",
       "releases": {},
+      "formats": {},
       "note": "Japan / Asia release",
+      "art": null,
       "id": 48
     },
     {
@@ -2631,7 +3450,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 325
     },
     {
@@ -2645,7 +3466,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 49
     },
     {
@@ -2659,7 +3482,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 50
     },
     {
@@ -2673,7 +3498,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 51
     },
     {
@@ -2687,7 +3514,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 52
     },
     {
@@ -2701,7 +3530,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 53
     },
     {
@@ -2715,7 +3546,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 54
     },
     {
@@ -2729,7 +3562,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 55
     },
     {
@@ -2743,7 +3578,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 56
     },
     {
@@ -2757,7 +3594,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 57
     },
     {
@@ -2771,7 +3610,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 58
     },
     {
@@ -2785,7 +3626,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "2-player co-op; two linked worlds",
+      "art": null,
       "id": 59
     },
     {
@@ -2793,13 +3636,15 @@
       "publisher": "2K",
       "developer": "Gearbox Software",
       "type": "t",
-      "genre": "Action RPG",
+      "genre": "Action",
       "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Delayed indefinitely",
+      "art": null,
       "id": 60
     },
     {
@@ -2813,7 +3658,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 62
     },
     {
@@ -2827,7 +3674,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 63
     },
     {
@@ -2841,7 +3690,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 64
     },
     {
@@ -2855,7 +3706,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 67
     },
     {
@@ -2869,7 +3722,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 65
     },
     {
@@ -2883,7 +3738,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 68
     },
     {
@@ -2897,7 +3754,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 69
     },
     {
@@ -2911,7 +3770,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 70
     },
     {
@@ -2925,7 +3786,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 72
     },
     {
@@ -2939,7 +3802,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 73
     },
     {
@@ -2953,7 +3818,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 85
     },
     {
@@ -2967,7 +3834,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 74
     },
     {
@@ -2981,7 +3850,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 75
     },
     {
@@ -2995,7 +3866,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 76
     },
     {
@@ -3009,7 +3882,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 77
     },
     {
@@ -3023,7 +3898,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 78
     },
     {
@@ -3037,7 +3914,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 79
     },
     {
@@ -3051,7 +3930,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 80
     },
     {
@@ -3065,7 +3946,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 81
     },
     {
@@ -3079,7 +3962,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 82
     },
     {
@@ -3093,7 +3978,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 83
     },
     {
@@ -3107,7 +3994,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 84
     },
     {
@@ -3121,7 +4010,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 86
     },
     {
@@ -3135,7 +4026,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 87
     },
     {
@@ -3149,7 +4042,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 90
     },
     {
@@ -3163,7 +4058,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 93
     },
     {
@@ -3177,7 +4074,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 94
     },
     {
@@ -3191,7 +4090,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 95
     },
     {
@@ -3205,7 +4106,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 96
     },
     {
@@ -3219,7 +4122,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 97
     },
     {
@@ -3233,7 +4138,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 98
     },
     {
@@ -3247,7 +4154,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 99
     },
     {
@@ -3261,7 +4170,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 100
     },
     {
@@ -3275,7 +4186,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 101
     },
     {
@@ -3289,7 +4202,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 102
     },
     {
@@ -3303,7 +4218,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 103
     },
     {
@@ -3317,7 +4234,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 104
     },
     {
@@ -3331,7 +4250,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 326
     },
     {
@@ -3345,7 +4266,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 106
     },
     {
@@ -3359,7 +4282,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 107
     },
     {
@@ -3373,7 +4298,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 108
     },
     {
@@ -3387,7 +4314,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 110
     },
     {
@@ -3401,7 +4330,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 114
     },
     {
@@ -3415,7 +4346,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 115
     },
     {
@@ -3429,7 +4362,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 116
     },
     {
@@ -3443,7 +4378,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
+      "art": null,
       "id": 327
     },
     {
@@ -3457,7 +4394,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 120
     },
     {
@@ -3471,7 +4410,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 121
     },
     {
@@ -3485,7 +4426,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 328
     },
     {
@@ -3499,7 +4442,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 329
     },
     {
@@ -3513,7 +4458,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 122
     },
     {
@@ -3527,7 +4474,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 123
     },
     {
@@ -3541,7 +4490,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 330
     },
     {
@@ -3555,7 +4506,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 124
     },
     {
@@ -3563,13 +4516,15 @@
       "publisher": "Bethesda Softworks",
       "developer": "Bethesda Game Studios",
       "type": "t",
-      "genre": "Action RPG",
+      "genre": "Action",
       "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 125
     },
     {
@@ -3583,7 +4538,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 128
     },
     {
@@ -3597,7 +4554,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 131
     },
     {
@@ -3611,7 +4570,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 355
     },
     {
@@ -3625,7 +4586,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 133
     },
     {
@@ -3639,7 +4602,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Free to play",
+      "art": null,
       "id": 134
     },
     {
@@ -3653,7 +4618,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 138
     },
     {
@@ -3667,7 +4634,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 139
     },
     {
@@ -3681,7 +4650,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 140
     },
     {
@@ -3695,7 +4666,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 142
     },
     {
@@ -3709,7 +4682,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 143
     },
     {
@@ -3723,7 +4698,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 145
     },
     {
@@ -3737,7 +4714,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 146
     },
     {
@@ -3751,7 +4730,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 147
     },
     {
@@ -3765,7 +4746,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 148
     },
     {
@@ -3779,7 +4762,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 149
     },
     {
@@ -3793,7 +4778,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 150
     },
     {
@@ -3807,7 +4794,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 151
     },
     {
@@ -3821,7 +4810,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 153
     },
     {
@@ -3835,7 +4826,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 155
     },
     {
@@ -3849,7 +4842,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 156
     },
     {
@@ -3863,7 +4858,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 157
     },
     {
@@ -3877,7 +4874,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 158
     },
     {
@@ -3891,7 +4890,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 159
     },
     {
@@ -3905,7 +4906,9 @@
       "fmt": "k",
       "region": "jp",
       "releases": {},
+      "formats": {},
       "note": "Japan / Asia focus",
+      "art": null,
       "id": 161
     },
     {
@@ -3919,7 +4922,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 162
     },
     {
@@ -3933,7 +4938,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 163
     },
     {
@@ -3947,7 +4954,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 164
     },
     {
@@ -3961,7 +4970,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 165
     },
     {
@@ -3975,7 +4986,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 166
     },
     {
@@ -3989,7 +5002,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 167
     },
     {
@@ -4003,7 +5018,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Includes new Star-Crossed World DLC expansion",
+      "art": null,
       "id": 170
     },
     {
@@ -4017,7 +5034,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 171
     },
     {
@@ -4031,7 +5050,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 173
     },
     {
@@ -4045,7 +5066,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 174
     },
     {
@@ -4059,7 +5082,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 175
     },
     {
@@ -4073,7 +5098,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 176
     },
     {
@@ -4087,7 +5114,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 177
     },
     {
@@ -4101,7 +5130,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 178
     },
     {
@@ -4115,7 +5146,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 179
     },
     {
@@ -4129,7 +5162,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 183
     },
     {
@@ -4143,7 +5178,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 182
     },
     {
@@ -4157,7 +5194,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 184
     },
     {
@@ -4171,7 +5210,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 185
     },
     {
@@ -4185,7 +5226,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 186
     },
     {
@@ -4199,7 +5242,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 187
     },
     {
@@ -4213,7 +5258,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 188
     },
     {
@@ -4227,7 +5274,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 189
     },
     {
@@ -4241,7 +5290,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 190
     },
     {
@@ -4255,7 +5306,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 196
     },
     {
@@ -4269,7 +5322,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 197
     },
     {
@@ -4283,7 +5338,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 198
     },
     {
@@ -4297,7 +5354,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 199
     },
     {
@@ -4311,7 +5370,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 334
     },
     {
@@ -4325,7 +5386,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 201
     },
     {
@@ -4339,7 +5402,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 202
     },
     {
@@ -4353,7 +5418,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 203
     },
     {
@@ -4367,7 +5434,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 204
     },
     {
@@ -4381,7 +5450,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 206
     },
     {
@@ -4395,7 +5466,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 209
     },
     {
@@ -4409,7 +5482,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 212
     },
     {
@@ -4423,7 +5498,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 211
     },
     {
@@ -4437,7 +5514,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 213
     },
     {
@@ -4451,7 +5530,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 335
     },
     {
@@ -4465,7 +5546,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 216
     },
     {
@@ -4479,7 +5562,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Free digital download",
+      "art": null,
       "id": 217
     },
     {
@@ -4493,7 +5578,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 218
     },
     {
@@ -4507,7 +5594,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 220
     },
     {
@@ -4521,7 +5610,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 222
     },
     {
@@ -4535,7 +5626,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 225
     },
     {
@@ -4549,7 +5642,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 226
     },
     {
@@ -4563,7 +5658,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 227
     },
     {
@@ -4577,7 +5674,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 228
     },
     {
@@ -4591,7 +5690,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 229
     },
     {
@@ -4605,7 +5706,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 230
     },
     {
@@ -4619,7 +5722,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 231
     },
     {
@@ -4633,7 +5738,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 232
     },
     {
@@ -4647,7 +5754,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "Free to play",
+      "art": null,
       "id": 233
     },
     {
@@ -4661,7 +5770,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 235
     },
     {
@@ -4675,7 +5786,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 236
     },
     {
@@ -4689,7 +5802,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 237
     },
     {
@@ -4703,7 +5818,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 240
     },
     {
@@ -4717,7 +5834,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 241
     },
     {
@@ -4731,7 +5850,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 242
     },
     {
@@ -4745,7 +5866,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 245
     },
     {
@@ -4759,7 +5882,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 246
     },
     {
@@ -4773,7 +5898,9 @@
       "fmt": "d",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 247
     },
     {
@@ -4787,7 +5914,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 336
     },
     {
@@ -4801,7 +5930,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 337
     },
     {
@@ -4815,7 +5946,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 249
     },
     {
@@ -4829,7 +5962,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 250
     },
     {
@@ -4843,7 +5978,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 251
     },
     {
@@ -4857,7 +5994,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 252
     },
     {
@@ -4871,7 +6010,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 254
     },
     {
@@ -4885,7 +6026,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 256
     },
     {
@@ -4899,7 +6042,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 258
     },
     {
@@ -4913,7 +6058,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 260
     },
     {
@@ -4927,7 +6074,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 261
     },
     {
@@ -4941,7 +6090,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 262
     },
     {
@@ -4955,7 +6106,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 265
     },
     {
@@ -4969,7 +6122,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 267
     },
     {
@@ -4983,7 +6138,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 269
     },
     {
@@ -4997,7 +6154,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 270
     },
     {
@@ -5011,7 +6170,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 271
     },
     {
@@ -5025,7 +6186,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 339
     },
     {
@@ -5039,7 +6202,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 275
     },
     {
@@ -5053,7 +6218,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 276
     },
     {
@@ -5067,7 +6234,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 278
     },
     {
@@ -5081,7 +6250,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 279
     },
     {
@@ -5095,7 +6266,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 280
     },
     {
@@ -5109,7 +6282,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 282
     },
     {
@@ -5123,7 +6298,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 284
     },
     {
@@ -5137,7 +6314,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 285
     },
     {
@@ -5151,7 +6330,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 286
     },
     {
@@ -5165,7 +6346,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 290
     },
     {
@@ -5179,7 +6362,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 291
     },
     {
@@ -5193,7 +6378,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 292
     },
     {
@@ -5207,7 +6394,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 295
     },
     {
@@ -5221,7 +6410,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 303
     },
     {
@@ -5235,7 +6426,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 296
     },
     {
@@ -5249,7 +6442,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 297
     },
     {
@@ -5263,7 +6458,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 299
     },
     {
@@ -5277,7 +6474,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 300
     },
     {
@@ -5291,7 +6490,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 301
     },
     {
@@ -5305,7 +6506,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 302
     },
     {
@@ -5319,7 +6522,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 304
     },
     {
@@ -5333,7 +6538,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 306
     },
     {
@@ -5347,7 +6554,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 308
     },
     {
@@ -5361,7 +6570,9 @@
       "fmt": "k",
       "region": "var",
       "releases": {},
+      "formats": {},
       "note": "Japan first release",
+      "art": null,
       "id": 309
     },
     {
@@ -5375,7 +6586,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 311
     },
     {
@@ -5389,7 +6602,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 312
     },
     {
@@ -5403,7 +6618,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 314
     },
     {
@@ -5417,7 +6634,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 316
     },
     {
@@ -5431,7 +6650,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 317
     },
     {
@@ -5445,7 +6666,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 319
     },
     {
@@ -5459,7 +6682,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 320
     },
     {
@@ -5473,7 +6698,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 321
     },
     {
@@ -5487,7 +6714,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 323
     },
     {
@@ -5501,7 +6730,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 341
     },
     {
@@ -5515,7 +6746,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 342
     },
     {
@@ -5529,7 +6762,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 343
     },
     {
@@ -5543,7 +6778,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 345
     },
     {
@@ -5557,7 +6794,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 344
     },
     {
@@ -5571,7 +6810,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 346
     },
     {
@@ -5585,7 +6826,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 340
     },
     {
@@ -5599,7 +6842,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 348
     },
     {
@@ -5613,7 +6858,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 349
     },
     {
@@ -5627,7 +6874,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 350
     },
     {
@@ -5641,7 +6890,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 352
     },
     {
@@ -5655,7 +6906,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 353
     },
     {
@@ -5669,7 +6922,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 354
     },
     {
@@ -5683,7 +6938,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 356
     },
     {
@@ -5697,7 +6954,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 357
     },
     {
@@ -5711,7 +6970,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 358
     },
     {
@@ -5725,7 +6986,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 360
     },
     {
@@ -5739,7 +7002,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 361
     },
     {
@@ -5753,7 +7018,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 362
     },
     {
@@ -5767,7 +7034,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 364
     },
     {
@@ -5781,7 +7050,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 365
     },
     {
@@ -5795,7 +7066,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 366
     },
     {
@@ -5809,7 +7082,9 @@
       "fmt": "k",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 372
     },
     {
@@ -5823,7 +7098,9 @@
       "fmt": "?",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 375
     },
     {
@@ -5831,13 +7108,15 @@
       "publisher": "Playtonic Friends, PM Studios",
       "developer": "Playtonic Games",
       "type": "t",
-      "genre": "Platformer",
+      "genre": "Puzzle",
       "date": "TBA",
       "status": "u",
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 377
     },
     {
@@ -5851,7 +7130,9 @@
       "fmt": "c",
       "region": "ww",
       "releases": {},
+      "formats": {},
       "note": "",
+      "art": null,
       "id": 378
     }
   ]
