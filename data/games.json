@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T13:31:21.517388+00:00",
+  "updated": "2026-04-23T13:34:57.823010+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -1040,7 +1040,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nicktoonsandthediceofdestiny_1/1x1_NicktoonsAndTheDiceOfDestiny_image500w.jpg",
       "id": 215
     },
     {
@@ -1082,7 +1082,7 @@
         "jpn": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/runformoneyhuntervsrunner_1/1x1_RunForMoneyHunterVsRunner_image500w.jpg",
       "id": 272
     },
     {
@@ -1114,7 +1114,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/octopathtraveler0/1x1_OctopathTraveler0_image500w.jpg",
       "id": 224
     },
     {
@@ -1178,7 +1178,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/assassinscreedshadows/1x1_AssassinsCreedShadows_image500w.jpg",
       "id": 36
     },
     {
@@ -1198,7 +1198,7 @@
         "jpn": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rippleislandkyleandcalsrestaurant/1x1_RippleIslandKyleAndCalsRestaurant_image500w.jpg",
       "id": 268
     },
     {
@@ -1218,7 +1218,7 @@
         "eur": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlenightmaresenhancededitioncompleteedition/1x1_LittleNightmaresEnhancedEditionCompleteEdition_image500w.jpg",
       "id": 180
     },
     {
@@ -1250,7 +1250,7 @@
         "usa": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kirby_air_riders/1x1_NSwitch2_KirbyAirRiders_02_image500w.jpg",
       "id": 168
     },
     {
@@ -1300,7 +1300,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/spongebobsquarepantstitansofthetide/1x1_SpongebobSquarepantsTitansOfTheTide_image500w.jpg",
       "id": 294
     },
     {
@@ -1332,7 +1332,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonballsparkingzero/2x1_DragonBallSparkingZero_image500w.jpg",
       "id": 111
     },
     {
@@ -1364,7 +1364,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
       "id": 374
     },
     {
@@ -1396,7 +1396,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
       "id": 371
     },
     {
@@ -1448,7 +1448,7 @@
         "usa": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hyrulewarriorsageofimprisonment/1x1_NSwitch2_HWAoI_GB_en_image500w.jpg",
       "id": 160
     },
     {
@@ -1502,7 +1502,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonquestiandiihd2dremake_1/1x1_DragonQuestIAndIIHD2DRemake_image500w.jpg",
       "id": 112
     },
     {
@@ -1530,7 +1530,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/twopointmuseum/1x1_TwoPointMuseum_image500w.jpg",
       "id": 351
     },
     {
@@ -1560,7 +1560,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/persona3reload/2x1_Persona3Reload_image500w.jpg",
       "id": 238
     },
     {
@@ -1584,7 +1584,7 @@
         "kor": "k"
       },
       "note": "GKC in Japan; digital only in West",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fullmetalschoolgirl/1x1_FullMetalSchoolgirl_image500w.jpg",
       "id": 136
     },
     {
@@ -1648,7 +1648,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlenightmaresiii/1x1_LittleNightmaresIII_image500w.jpg",
       "id": 181
     },
     {
@@ -1670,7 +1670,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/disgaea7complete/1x1_Disgaea7Complete_image500w.jpg",
       "id": 105
     },
     {
@@ -1690,7 +1690,7 @@
         "jpn": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/finalfantasytacticstheivalicechronicles/2x1_FinalFantasyTacticsTheIvaliceChronicles_image500w.jpg",
       "id": 130
     },
     {
@@ -1710,7 +1710,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_PacManWorldRePac_image500w.jpg",
       "id": 234
     },
     {
@@ -1738,7 +1738,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/easportsfc26/2x1_NSwitch2_EaSportsFC26_image500w.jpg",
       "id": 118
     },
     {
@@ -1764,7 +1764,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nba2k26_1/1x1_NBA2K26_image500w.jpg",
       "id": 214
     },
     {
@@ -1794,7 +1794,7 @@
         "usa": "c"
       },
       "note": "Full cart in West; GKC in Japan",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/daemonxmachinatitanicscion/2x1_DaemonXMachinaTitanicScion_image500w.jpg",
       "id": 91
     },
     {
@@ -1820,7 +1820,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cronosthenewdawn/2x1_CronosTheNewDawn_image500w.jpg",
       "id": 88
     },
     {
@@ -1850,7 +1850,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starwarsoutlawsgoldedition/2x1_StarWarsOutlawsGoldEdition_image500w.jpg",
       "id": 298
     },
     {
