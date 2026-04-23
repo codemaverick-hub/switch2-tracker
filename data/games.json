@@ -1,18 +1,2020 @@
 {
-  "updated": "2026-04-22T10:48:39.322483+00:00",
-  "source": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games",
-  "count": 354,
+  "updated": "2026-04-23T10:55:00.402133+00:00",
+  "sources": {
+    "sheet": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
+    "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
+  },
+  "count": 379,
   "games": [
+    {
+      "title": "Pragmata",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Action",
+      "date": "Apr 17, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 17, 2026",
+        "eur": "Apr 17, 2026"
+      },
+      "note": "",
+      "id": 248
+    },
+    {
+      "title": "Xenoblade Chronicles X: Definitive Edition -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo",
+      "developer": "Monolith Soft",
+      "type": "n",
+      "genre": "Action RPG",
+      "date": "Apr 16, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 16, 2026",
+        "eur": "Apr 16, 2026",
+        "aus": "Apr 16, 2026",
+        "asi": "Apr 16, 2026"
+      },
+      "note": "",
+      "id": 369
+    },
+    {
+      "title": "The Rogue Prince of Persia",
+      "publisher": "Ubisoft",
+      "developer": "Evil Empire",
+      "type": "t",
+      "genre": "Action",
+      "date": "Apr 10, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 10, 2026",
+        "eur": "Apr 10, 2026"
+      },
+      "note": "",
+      "id": 338
+    },
+    {
+      "title": "Mio: Memories In Orbit",
+      "publisher": "Focus Entertainment",
+      "developer": "Douze Dixièmes",
+      "type": "t",
+      "genre": "Action",
+      "date": "Apr 10, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 10, 2026"
+      },
+      "note": "",
+      "id": 205
+    },
+    {
+      "title": "Virtua Fighter 5 R.E.V.O. World Stage 30th Anniversary Edition",
+      "publisher": "Sega",
+      "developer": "Ryu Ga Gotoku Studio, ,, Sega AM2",
+      "type": "t",
+      "genre": "Fighting",
+      "date": "Mar 26, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Mar 26, 2026",
+        "eur": "Mar 26, 2026"
+      },
+      "note": "",
+      "id": 359
+    },
+    {
+      "title": "Super Mario Bros. Wonder + Meetup in Bellabel Park -Nintendo Switch 2 Edition-",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Platformer",
+      "date": "Mar 26, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Mar 26, 2026",
+        "kor": "Mar 26, 2026",
+        "jpn": "Mar 26, 2026",
+        "eur": "Mar 26, 2026",
+        "cht": "Mar 26, 2026",
+        "aus": "Mar 26, 2026",
+        "asi": "Mar 26, 2026"
+      },
+      "note": "",
+      "id": 313
+    },
+    {
+      "title": "Sonic Racing: CrossWorlds -Nintendo Switch 2 Edition-",
+      "publisher": "Sega",
+      "developer": "Sonic Team",
+      "type": "n",
+      "genre": "Racing",
+      "date": "Mar 26, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Mar 26, 2026",
+        "kor": "Mar 26, 2026",
+        "jpn": "Apr 10, 2026",
+        "eur": "Mar 26, 2026",
+        "cht": "Mar 26, 2026"
+      },
+      "note": "",
+      "id": 288
+    },
+    {
+      "title": "Bang! Bang! Bandits -Nintendo Switch 2 Edition-",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 19, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Mar 19, 2026"
+      },
+      "note": "",
+      "id": 45
+    },
+    {
+      "title": "Snoopy: The Great Mystery Club",
+      "publisher": "GameMill Entertainment",
+      "developer": "Cradle Games",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 17, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "eur": "Mar 17, 2026"
+      },
+      "note": "",
+      "id": 287
+    },
+    {
+      "title": "WWE 2K26",
+      "publisher": "2K",
+      "developer": "Visual Concepts",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 13, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Mar 13, 2026",
+        "eur": "Mar 13, 2026",
+        "aus": "Mar 13, 2026"
+      },
+      "note": "",
+      "id": 368
+    },
+    {
+      "title": "Monster Hunter Stories 3: Twisted Reflection",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 13, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Mar 13, 2026",
+        "kor": "Mar 13, 2026",
+        "jpn": "Mar 13, 2026",
+        "eur": "Mar 13, 2026",
+        "cht": "Mar 13, 2026",
+        "asi": "Mar 13, 2026"
+      },
+      "note": "",
+      "id": 208
+    },
+    {
+      "title": "Marvel Cosmic Invasion",
+      "publisher": "Dotemu",
+      "developer": "Tribute Games",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 13, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 17, 2026",
+        "jpn": "Mar 26, 2026",
+        "eur": "Apr 17, 2026",
+        "cht": "Mar 13, 2026"
+      },
+      "note": "",
+      "id": 195
+    },
+    {
+      "title": "Rushing Beat X: Return of Brawl Brothers",
+      "publisher": "Clear River Games",
+      "developer": "City Connection",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 12, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "jpn": "Mar 19, 2026",
+        "eur": "Mar 12, 2026",
+        "cht": "Mar 19, 2026"
+      },
+      "note": "",
+      "id": 274
+    },
+    {
+      "title": "R-Type Tactics I & II Cosmos",
+      "publisher": "Granzella",
+      "developer": "Granzella",
+      "type": "t",
+      "genre": "Strategy RPG",
+      "date": "Mar 12, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Mar 12, 2026"
+      },
+      "note": "",
+      "id": 255
+    },
+    {
+      "title": "Fatal Frame II: Crimson Butterfly Remake",
+      "publisher": "Koei Tecmo",
+      "developer": "Team Ninja",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Mar 12, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Mar 12, 2026",
+        "jpn": "Mar 12, 2026",
+        "eur": "Mar 12, 2026",
+        "cht": "Mar 12, 2026",
+        "aus": "Mar 12, 2026",
+        "asi": "Mar 12, 2026"
+      },
+      "note": "Known as PROJECT ZERO II in Europe",
+      "id": 129
+    },
+    {
+      "title": "PokÃ©mon Pokopia",
+      "publisher": "Nintendo, ,, The Pokémon Company",
+      "developer": "Koei Tecmo",
+      "type": "e",
+      "genre": "Life Sim",
+      "date": "Mar 5, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Mar 5, 2026",
+        "kor": "Mar 5, 2026",
+        "jpn": "Mar 5, 2026",
+        "eur": "Mar 5, 2026",
+        "cht": "Mar 5, 2026",
+        "aus": "Mar 5, 2026",
+        "asi": "Mar 5, 2026"
+      },
+      "note": "",
+      "id": 244
+    },
+    {
+      "title": "Back to the Dawn",
+      "publisher": "Clouded Leopard Entertainment, Sprial Up Games",
+      "developer": "Metal Head Games",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 5, 2026",
+      "status": "r",
+      "fmt": "d",
+      "region": "var",
+      "releases": {
+        "jpn": "Mar 5, 2026",
+        "cht": "Mar 5, 2026",
+        "asi": "Mar 5, 2026"
+      },
+      "note": "",
+      "id": 42
+    },
+    {
+      "title": "Resident Evil Village Gold Edition",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Feb 27, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 27, 2026",
+        "kor": "Feb 27, 2026",
+        "jpn": "Feb 27, 2026",
+        "eur": "Feb 27, 2026",
+        "cht": "Feb 27, 2026",
+        "asi": "Feb 27, 2026"
+      },
+      "note": "",
+      "id": 266
+    },
+    {
+      "title": "Resident Evil Requiem",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Feb 27, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 27, 2026",
+        "kor": "Feb 27, 2026",
+        "jpn": "Feb 27, 2026",
+        "eur": "Feb 27, 2026",
+        "cht": "Feb 27, 2026",
+        "aus": "Feb 27, 2026",
+        "asi": "Feb 27, 2026"
+      },
+      "note": "",
+      "id": 264
+    },
+    {
+      "title": "Resident Evil 7: Biohazard Gold Edition",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Feb 27, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 27, 2026",
+        "kor": "Feb 27, 2026",
+        "jpn": "Feb 27, 2026",
+        "eur": "Feb 27, 2026",
+        "cht": "Feb 27, 2026",
+        "asi": "Feb 27, 2026"
+      },
+      "note": "",
+      "id": 263
+    },
+    {
+      "title": "Daisenryaku SSB2",
+      "publisher": "SystemSoft Beta",
+      "developer": "SystemSoft Beta",
+      "type": "t",
+      "genre": "Action",
+      "date": "Feb 26, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Feb 26, 2026"
+      },
+      "note": "",
+      "id": 92
+    },
+    {
+      "title": "Gear.Club Unlimited 3",
+      "publisher": "Nacon",
+      "developer": "Eden Games",
+      "type": "t",
+      "genre": "Action",
+      "date": "Feb 19, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "jpn": "Feb 19, 2026",
+        "eur": "Feb 19, 2026"
+      },
+      "note": "",
+      "id": 137
+    },
+    {
+      "title": "Reanimal",
+      "publisher": "THQ Nordic",
+      "developer": "Tarsier Studios",
+      "type": "t",
+      "genre": "Action",
+      "date": "Feb 13, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 13, 2026",
+        "kor": "Feb 13, 2026",
+        "jpn": "Feb 13, 2026",
+        "eur": "Feb 13, 2026",
+        "aus": "Feb 13, 2026"
+      },
+      "note": "",
+      "id": 259
+    },
+    {
+      "title": "Yakuza Kiwami 3 & Dark Ties",
+      "publisher": "Sega",
+      "developer": "Ryu Ga Gotoku Studio",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Feb 12, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 12, 2026",
+        "kor": "Feb 12, 2026",
+        "jpn": "Feb 12, 2026",
+        "eur": "Feb 12, 2026",
+        "cht": "Feb 12, 2026"
+      },
+      "note": "",
+      "id": 373
+    },
+    {
+      "title": "Mario Tennis Fever",
+      "publisher": "Nintendo",
+      "developer": "Camelot Software Planning",
+      "type": "e",
+      "genre": "Sports",
+      "date": "Feb 12, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 12, 2026",
+        "kor": "Feb 12, 2026",
+        "jpn": "Feb 12, 2026",
+        "eur": "Feb 12, 2026",
+        "cht": "Feb 12, 2026",
+        "aus": "Feb 12, 2026",
+        "asi": "Feb 12, 2026"
+      },
+      "note": "",
+      "id": 194
+    },
+    {
+      "title": "ChromaGun 2: Dye Hard",
+      "publisher": "PM Studios",
+      "developer": "Pixel Maniacs",
+      "type": "t",
+      "genre": "Puzzle",
+      "date": "Feb 12, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Feb 12, 2026",
+        "eur": "Feb 20, 2026"
+      },
+      "note": "",
+      "id": 71
+    },
+    {
+      "title": "PGA Tour 2K25",
+      "publisher": "2K",
+      "developer": "HB Studios",
+      "type": "t",
+      "genre": "Sports",
+      "date": "Feb 6, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Feb 6, 2026",
+        "eur": "Feb 6, 2026",
+        "aus": "Feb 6, 2026"
+      },
+      "note": "",
+      "id": 239
+    },
+    {
+      "title": "Dragon Quest VII Reimagined",
+      "publisher": "Square Enix",
+      "developer": "Square Enix",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Feb 5, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Feb 5, 2026",
+        "kor": "Feb 5, 2026",
+        "jpn": "Feb 5, 2026",
+        "eur": "Feb 5, 2026",
+        "cht": "Feb 5, 2026",
+        "aus": "Feb 5, 2026",
+        "asi": "Feb 5, 2026"
+      },
+      "note": "",
+      "id": 113
+    },
+    {
+      "title": "Makaism: Frenzy of the Netherworld",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jan 29, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "jpn": "Jan 29, 2026",
+        "asi": "Jan 29, 2026"
+      },
+      "note": "",
+      "id": 192
+    },
+    {
+      "title": "Card-en-Ciel -Nintendo Switch 2 Edition-",
+      "publisher": "Inti Creates",
+      "developer": "Inti Creates",
+      "type": "n",
+      "genre": "Action",
+      "date": "Jan 29, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Jan 29, 2026"
+      },
+      "note": "",
+      "id": 66
+    },
+    {
+      "title": "Final Fantasy VII Remake Intergrade",
+      "publisher": "Square Enix",
+      "developer": "Square Enix Creative Business Unit I",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jan 22, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jan 22, 2026",
+        "kor": "Jan 22, 2026",
+        "jpn": "Jan 22, 2026",
+        "eur": "Jan 22, 2026",
+        "cht": "Jan 22, 2026",
+        "aus": "Jan 22, 2026",
+        "asi": "Jan 22, 2026"
+      },
+      "note": "",
+      "id": 132
+    },
+    {
+      "title": "Dynasty Warriors Origins",
+      "publisher": "Koei Tecmo",
+      "developer": "Omega Force",
+      "type": "t",
+      "genre": "Strategy RPG",
+      "date": "Jan 22, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jan 22, 2026",
+        "kor": "Jan 22, 2026",
+        "jpn": "Jan 22, 2026",
+        "eur": "Jan 22, 2026",
+        "cht": "Jan 22, 2026",
+        "aus": "Jan 22, 2026",
+        "asi": "Jan 22, 2026"
+      },
+      "note": "",
+      "id": 117
+    },
+    {
+      "title": "The Legend of Heroes: Trails beyond the Horizon",
+      "publisher": "NIS America",
+      "developer": "Nihon Falcom",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jan 15, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Jan 15, 2026",
+        "eur": "Jan 15, 2026"
+      },
+      "note": "",
+      "id": 331
+    },
+    {
+      "title": "Animal Crossing: New Horizons -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD",
+      "type": "n",
+      "genre": "Life Sim",
+      "date": "Jan 15, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jan 15, 2026",
+        "kor": "Jan 15, 2026",
+        "jpn": "Jan 15, 2026",
+        "eur": "Jan 15, 2026",
+        "cht": "Jan 15, 2026",
+        "aus": "Jan 15, 2026",
+        "asi": "Jan 15, 2026"
+      },
+      "note": "4K; 12-player island; mouse controls",
+      "id": 12
+    },
+    {
+      "title": "Yooka-Re-Playlee",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Platformer",
+      "date": "Dec 18, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 18, 2025",
+        "eur": "Dec 18, 2025",
+        "aus": "Dec 18, 2025"
+      },
+      "note": "",
+      "id": 376
+    },
+    {
+      "title": "Obakeidoro 2: Chase & Seek",
+      "publisher": "Free Style",
+      "developer": "Free Style",
+      "type": "t",
+      "genre": "Action",
+      "date": "Dec 18, 2025",
+      "status": "r",
+      "fmt": "d",
+      "region": "jp",
+      "releases": {
+        "jpn": "Dec 18, 2025"
+      },
+      "note": "Revealed in JP Direct only",
+      "id": 223
+    },
+    {
+      "title": "A-Train Hajimaru Kankou Keikaku -Nintendo Switch 2 Edition- Guidebook Pack",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Simulation",
+      "date": "Dec 18, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Dec 18, 2025"
+      },
+      "note": "",
+      "id": 3
+    },
+    {
+      "title": "Mortal Kombat Legacy Kollection",
+      "publisher": "Atari",
+      "developer": "Digital Eclipse",
+      "type": "t",
+      "genre": "Fighting",
+      "date": "Dec 12, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 12, 2025",
+        "eur": "Dec 12, 2025",
+        "aus": "Dec 12, 2025"
+      },
+      "note": "",
+      "id": 210
+    },
+    {
+      "title": "Goodnight Universe",
+      "publisher": "Skybound Games",
+      "developer": "Nice Dream",
+      "type": "t",
+      "genre": "Action",
+      "date": "Dec 9, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 9, 2025",
+        "eur": "Dec 9, 2025"
+      },
+      "note": "",
+      "id": 141
+    },
+    {
+      "title": "Farming Simulator: Signature Edition",
+      "publisher": "Giants Software",
+      "developer": "Giants Software",
+      "type": "t",
+      "genre": "Life Sim",
+      "date": "Dec 9, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 9, 2025",
+        "kor": "Jan 22, 2026",
+        "jpn": "Jan 22, 2026",
+        "eur": "Dec 9, 2025"
+      },
+      "note": "",
+      "id": 127
+    },
+    {
+      "title": "Nicktoons & The Dice of Destiny",
+      "publisher": "GameMill Entertainment",
+      "developer": "Fair Play Labs, Petit Fabrik",
+      "type": "t",
+      "genre": "Action",
+      "date": "Dec 5, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 5, 2025",
+        "eur": "Dec 5, 2025"
+      },
+      "note": "",
+      "id": 215
+    },
+    {
+      "title": "Fortnite: Darkfire & Ice Bundle",
+      "publisher": "Epic Games",
+      "developer": "Epic Games",
+      "type": "t",
+      "genre": "Battle Royale",
+      "date": "Dec 5, 2025",
+      "status": "r",
+      "fmt": "d",
+      "region": "var",
+      "releases": {
+        "usa": "Dec 5, 2025",
+        "eur": "Dec 5, 2025"
+      },
+      "note": "Free to play",
+      "id": 135
+    },
+    {
+      "title": "Run for Money: Hunters vs Runners! Can you Win as Either?",
+      "publisher": "D3 Publisher",
+      "developer": "D3 Publisher",
+      "type": "t",
+      "genre": "Action",
+      "date": "Dec 4, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Dec 4, 2025"
+      },
+      "note": "",
+      "id": 272
+    },
+    {
+      "title": "Octopath Traveler 0",
+      "publisher": "Square Enix",
+      "developer": "Square Enix, , DokiDoki Grooveworks",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Dec 4, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Dec 4, 2025",
+        "kor": "Dec 4, 2025",
+        "jpn": "Dec 4, 2025",
+        "eur": "Dec 4, 2025",
+        "cht": "Dec 4, 2025",
+        "aus": "Dec 4, 2025",
+        "asi": "Dec 4, 2025"
+      },
+      "note": "",
+      "id": 224
+    },
+    {
+      "title": "Metroid Prime 4: Beyond -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo",
+      "developer": "Retro Studios",
+      "type": "n",
+      "genre": "Horror",
+      "date": "Dec 4, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Dec 4, 2025",
+        "kor": "Dec 4, 2025",
+        "jpn": "Dec 4, 2025",
+        "eur": "Dec 4, 2025",
+        "cht": "Dec 4, 2025",
+        "aus": "Dec 4, 2025",
+        "asi": "Dec 4, 2025"
+      },
+      "note": "Mouse aiming support",
+      "id": 200
+    },
+    {
+      "title": "Assassin's Creed Shadows",
+      "publisher": "Ubisoft",
+      "developer": "Ubisoft Quebec",
+      "type": "t",
+      "genre": "Action-Adventure",
+      "date": "Dec 2, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Dec 2, 2025",
+        "kor": "Dec 2, 2025",
+        "jpn": "Dec 2, 2025",
+        "eur": "Dec 2, 2025",
+        "cht": "Dec 2, 2025",
+        "aus": "Dec 2, 2025",
+        "asi": "Dec 2, 2025"
+      },
+      "note": "",
+      "id": 36
+    },
+    {
+      "title": "RippleIsland Kyle and Cal's Restaurant",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Action",
+      "date": "Nov 27, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Nov 27, 2025"
+      },
+      "note": "",
+      "id": 268
+    },
+    {
+      "title": "Little Nightmares Enhanced Edition Complete Edition",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Engine Software",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Nov 20, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "eur": "Nov 20, 2025"
+      },
+      "note": "",
+      "id": 180
+    },
+    {
+      "title": "Kirby Air Riders",
+      "publisher": "Nintendo",
+      "developer": "Bandai Namco Studios, ,, Sora Ltd.",
+      "type": "e",
+      "genre": "Platformer",
+      "date": "Nov 20, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Nov 20, 2025",
+        "kor": "Nov 20, 2025",
+        "jpn": "Nov 20, 2025",
+        "eur": "Nov 20, 2025",
+        "cht": "Nov 20, 2025",
+        "aus": "Nov 20, 2025",
+        "asi": "Nov 20, 2025"
+      },
+      "note": "",
+      "id": 168
+    },
+    {
+      "title": "Hades II -Nintendo Switch 2 Edition-",
+      "publisher": "Supergiant Games",
+      "developer": "Supergiant Games",
+      "type": "n",
+      "genre": "Action Roguelike",
+      "date": "Nov 20, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Nov 20, 2025",
+        "jpn": "Nov 20, 2025",
+        "eur": "Nov 20, 2025",
+        "aus": "Nov 20, 2025"
+      },
+      "note": "",
+      "id": 144
+    },
+    {
+      "title": "Spongebob Squarepants: Titans of the Tide",
+      "publisher": "THQ Nordic",
+      "developer": "Purple Lamp",
+      "type": "t",
+      "genre": "Action",
+      "date": "Nov 18, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Nov 18, 2025",
+        "jpn": "Nov 18, 2025",
+        "eur": "Nov 18, 2025"
+      },
+      "note": "",
+      "id": 294
+    },
+    {
+      "title": "Dragon Ball: Sparking! Zero",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Spike Chunsoft",
+      "type": "t",
+      "genre": "Fighting",
+      "date": "Nov 14, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Nov 14, 2025",
+        "kor": "Nov 14, 2025",
+        "jpn": "Nov 14, 2025",
+        "eur": "Nov 14, 2025",
+        "cht": "Nov 14, 2025",
+        "aus": "Nov 14, 2025",
+        "asi": "Nov 14, 2025"
+      },
+      "note": "",
+      "id": 111
+    },
+    {
+      "title": "Yakuza Kiwami II",
+      "publisher": "Sega",
+      "developer": "Ryu Ga Gotoku Studio",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Nov 13, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Nov 13, 2025",
+        "kor": "Nov 13, 2025",
+        "jpn": "Nov 13, 2025",
+        "eur": "Dec 8, 2025",
+        "cht": "Nov 13, 2025",
+        "aus": "Dec 8, 2025",
+        "asi": "Nov 13, 2025"
+      },
+      "note": "",
+      "id": 374
+    },
+    {
+      "title": "Yakuza Kiwami",
+      "publisher": "Sega",
+      "developer": "Ryu Ga Gotoku Studio",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Nov 13, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Nov 13, 2025",
+        "kor": "Nov 13, 2025",
+        "jpn": "Nov 13, 2025",
+        "eur": "Dec 8, 2025",
+        "cht": "Nov 13, 2025",
+        "aus": "Dec 8, 2025",
+        "asi": "Nov 13, 2025"
+      },
+      "note": "",
+      "id": 371
+    },
+    {
+      "title": "Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru -Nintendo Switch 2 Edition-",
+      "publisher": "Konami",
+      "developer": "Konami",
+      "type": "n",
+      "genre": "Action",
+      "date": "Nov 13, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Nov 13, 2025"
+      },
+      "note": "Japan exclusive",
+      "id": 207
+    },
+    {
+      "title": "Hyrule Warriors: Age of Imprisonment",
+      "publisher": "Koei Tecmo,, Nintendo",
+      "developer": "AAA Games Studio",
+      "type": "e",
+      "genre": "Action-Adventure",
+      "date": "Nov 6, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Nov 6, 2025",
+        "kor": "Nov 6, 2025",
+        "jpn": "Nov 6, 2025",
+        "eur": "Nov 6, 2025",
+        "cht": "Nov 6, 2025",
+        "aus": "Nov 6, 2025",
+        "asi": "Nov 6, 2025"
+      },
+      "note": "",
+      "id": 160
+    },
+    {
+      "title": "Majogami: The Witch of Luludidea",
+      "publisher": "Inti Creates",
+      "developer": "Inti Creates",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 30, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "jpn": "Oct 30, 2025",
+        "asi": "Oct 30, 2025"
+      },
+      "note": "",
+      "id": 191
+    },
+    {
+      "title": "Dragon Quest I & II HD-2D Remake",
+      "publisher": "Square Enix",
+      "developer": "Square Enix",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Oct 30, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Oct 30, 2025",
+        "kor": "Oct 30, 2025",
+        "jpn": "Oct 30, 2025",
+        "eur": "Oct 30, 2025",
+        "cht": "Oct 30, 2025",
+        "aus": "Oct 30, 2025",
+        "asi": "Oct 30, 2025"
+      },
+      "note": "",
+      "id": 112
+    },
+    {
+      "title": "Two Point Museum: Explorer Edition",
+      "publisher": "Sega",
+      "developer": "Two Point Studios",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 28, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Oct 28, 2025",
+        "kor": "Oct 28, 2025",
+        "jpn": "Dec 4, 2025",
+        "eur": "Oct 28, 2025",
+        "cht": "Dec 4, 2025"
+      },
+      "note": "",
+      "id": 351
+    },
+    {
+      "title": "Persona 3 Reload",
+      "publisher": "Sega",
+      "developer": "Atlus",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Oct 23, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Oct 23, 2025",
+        "kor": "Oct 23, 2025",
+        "jpn": "Oct 23, 2025",
+        "eur": "Oct 23, 2025",
+        "cht": "Oct 23, 2025",
+        "aus": "Oct 23, 2025"
+      },
+      "note": "",
+      "id": 238
+    },
+    {
+      "title": "Full Metal Schoolgirl",
+      "publisher": "D3 Publisher",
+      "developer": "Yuke's",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 23, 2025",
+      "status": "r",
+      "fmt": "d",
+      "region": "var",
+      "releases": {
+        "kor": "Oct 23, 2025",
+        "jpn": "Oct 23, 2025",
+        "asi": "Oct 23, 2025"
+      },
+      "note": "GKC in Japan; digital only in West",
+      "id": 136
+    },
+    {
+      "title": "PokÃ©mon Legends: Z-A -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo, ,, The Pokémon Company",
+      "developer": "Game Freak",
+      "type": "n",
+      "genre": "RPG",
+      "date": "Oct 16, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Oct 16, 2025",
+        "kor": "Oct 16, 2025",
+        "jpn": "Oct 16, 2025",
+        "eur": "Oct 16, 2025",
+        "cht": "Oct 16, 2025",
+        "aus": "Oct 16, 2025",
+        "asi": "Oct 16, 2025"
+      },
+      "note": "",
+      "id": 243
+    },
+    {
+      "title": "Little Nightmares III",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Supermassive Games",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Oct 10, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Oct 10, 2025",
+        "kor": "Oct 10, 2025",
+        "jpn": "Oct 10, 2025",
+        "eur": "Oct 10, 2025",
+        "cht": "Oct 10, 2025",
+        "aus": "Oct 10, 2025",
+        "asi": "Oct 10, 2025"
+      },
+      "note": "",
+      "id": 181
+    },
+    {
+      "title": "Disgaea 7 Complete",
+      "publisher": "NIS America",
+      "developer": "Nippon Ichi Software",
+      "type": "t",
+      "genre": "Strategy RPG",
+      "date": "Oct 10, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Oct 10, 2025",
+        "eur": "Oct 10, 2025"
+      },
+      "note": "",
+      "id": 105
+    },
+    {
+      "title": "Final Fantasy Tactics: The Ivalice Chronicles -Nintendo Switch 2 Edition-",
+      "publisher": "Square Enix",
+      "developer": "Square Enix Creative Business Unit III",
+      "type": "n",
+      "genre": "Strategy RPG",
+      "date": "Sep 30, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Sep 30, 2025"
+      },
+      "note": "",
+      "id": 130
+    },
+    {
+      "title": "Pac-Man World 2 Re-Pac",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Now Production",
+      "type": "t",
+      "genre": "Platformer",
+      "date": "Sep 26, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Sep 26, 2025"
+      },
+      "note": "",
+      "id": 234
+    },
+    {
+      "title": "EA Sports FC 26",
+      "publisher": "EA Sports",
+      "developer": "EA Vancouver, ,, EA Romania",
+      "type": "t",
+      "genre": "Sports",
+      "date": "Sep 26, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Sep 26, 2025",
+        "kor": "Sep 26, 2025",
+        "jpn": "Sep 26, 2025",
+        "eur": "Sep 26, 2025",
+        "aus": "Sep 26, 2025"
+      },
+      "note": "",
+      "id": 118
+    },
+    {
+      "title": "NBA 2K26",
+      "publisher": "2K",
+      "developer": "Visual Concepts",
+      "type": "t",
+      "genre": "Sports",
+      "date": "Sep 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Sep 5, 2025",
+        "jpn": "Sep 5, 2025",
+        "eur": "Sep 5, 2025",
+        "aus": "Sep 5, 2025"
+      },
+      "note": "",
+      "id": 214
+    },
+    {
+      "title": "Daemon X Machina: Titanic Scion",
+      "publisher": "Marvelous",
+      "developer": "Marvelous First Studio",
+      "type": "t",
+      "genre": "Action",
+      "date": "Sep 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Sep 5, 2025",
+        "kor": "Sep 5, 2025",
+        "jpn": "Sep 5, 2025",
+        "eur": "Sep 5, 2025",
+        "cht": "Sep 5, 2025",
+        "aus": "Sep 5, 2025"
+      },
+      "note": "Full cart in West; GKC in Japan",
+      "id": 91
+    },
+    {
+      "title": "Cronos: The New Dawn",
+      "publisher": "Bloober Team",
+      "developer": "Bloober Team",
+      "type": "t",
+      "genre": "Horror",
+      "date": "Sep 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Oct 21, 2025",
+        "jpn": "Dec 11, 2025",
+        "eur": "Sep 5, 2025",
+        "aus": "Sep 5, 2025"
+      },
+      "note": "",
+      "id": 88
+    },
+    {
+      "title": "Star Wars Outlaws Gold Edition",
+      "publisher": "Ubisoft",
+      "developer": "Massive Entertainment",
+      "type": "t",
+      "genre": "Action-Adventure",
+      "date": "Sep 4, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Sep 4, 2025",
+        "kor": "Sep 4, 2025",
+        "jpn": "Sep 4, 2025",
+        "eur": "Sep 4, 2025",
+        "aus": "Sep 4, 2025",
+        "asi": "Sep 4, 2025"
+      },
+      "note": "",
+      "id": 298
+    },
+    {
+      "title": "Kirby and the Forgotten Land + Star-Crossed World -Nintendo Switch 2 Edition-",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Platformer",
+      "date": "Aug 28, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Aug 28, 2025",
+        "kor": "Aug 28, 2025",
+        "jpn": "Aug 28, 2025",
+        "eur": "Aug 28, 2025",
+        "cht": "Aug 28, 2025",
+        "aus": "Aug 28, 2025",
+        "asi": "Aug 28, 2025"
+      },
+      "note": "Includes new Star-Crossed World DLC expansion",
+      "id": 169
+    },
+    {
+      "title": "Story of Seasons: Grand Bazaar -Nintendo Switch 2 Edition-",
+      "publisher": "Marvelous",
+      "developer": "Marvelous",
+      "type": "n",
+      "genre": "Action RPG",
+      "date": "Aug 27, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Aug 27, 2025",
+        "jpn": "Aug 28, 2025",
+        "eur": "Aug 27, 2025",
+        "cht": "Aug 28, 2025",
+        "aus": "Aug 27, 2025"
+      },
+      "note": "",
+      "id": 305
+    },
+    {
+      "title": "EA Sports Madden NFL 26",
+      "publisher": "EA Sports",
+      "developer": "EA Orlando",
+      "type": "t",
+      "genre": "Sports",
+      "date": "Aug 14, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Aug 14, 2025",
+        "eur": "Aug 14, 2025"
+      },
+      "note": "",
+      "id": 119
+    },
+    {
+      "title": "Fantasy Life i: The Girl Who Steals Time -Nintendo Switch 2 Edition-",
+      "publisher": "Level-5",
+      "developer": "Level-5",
+      "type": "n",
+      "genre": "Action RPG",
+      "date": "Aug 7, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Aug 7, 2025"
+      },
+      "note": "",
+      "id": 126
+    },
+    {
+      "title": "Ys X: Proud Nordics",
+      "publisher": "Nihon Falcom",
+      "developer": "Nihon Falcom",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jul 31, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Feb 20, 2026",
+        "kor": "Aug 21, 2025",
+        "jpn": "Jul 31, 2025",
+        "eur": "Feb 20, 2026",
+        "cht": "Aug 21, 2025"
+      },
+      "note": "Japan released Summer 2025; West Jan 2026",
+      "id": 379
+    },
+    {
+      "title": "Wild Hearts S",
+      "publisher": "Koei Tecmo",
+      "developer": "Omega Force",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 25, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "kor": "Jul 25, 2025",
+        "jpn": "Jul 25, 2025",
+        "eur": "Jul 25, 2025",
+        "cht": "Jul 25, 2025",
+        "asi": "Jul 25, 2025"
+      },
+      "note": "",
+      "id": 363
+    },
+    {
+      "title": "No Sleep for Kaname Date - From AI: The Somnium Files",
+      "publisher": "Spike Chunsoft",
+      "developer": "Spike Chunsoft",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 25, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 25, 2025",
+        "jpn": "Jul 25, 2025",
+        "eur": "Jul 25, 2025"
+      },
+      "note": "",
+      "id": 219
+    },
+    {
+      "title": "Super Mario Party Jamboree + Jamboree TV -Nintendo Switch 2 Edition -",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Party",
+      "date": "Jul 24, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jul 24, 2025",
+        "kor": "Jul 24, 2025",
+        "jpn": "Jul 24, 2025",
+        "eur": "Jul 24, 2025",
+        "cht": "Jul 24, 2025",
+        "aus": "Jul 24, 2025",
+        "asi": "Jul 24, 2025"
+      },
+      "note": "",
+      "id": 315
+    },
+    {
+      "title": "WWE 2K25",
+      "publisher": "2K",
+      "developer": "Visual Concepts",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 23, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 23, 2025",
+        "eur": "Jul 23, 2025",
+        "aus": "Jul 23, 2025"
+      },
+      "note": "",
+      "id": 367
+    },
+    {
+      "title": "Shadow Labyrinth",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Bandai Namco Studios",
+      "type": "n",
+      "genre": "Action",
+      "date": "Jul 18, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "jp",
+      "releases": {
+        "jpn": "Jul 18, 2025"
+      },
+      "note": "",
+      "id": 277
+    },
+    {
+      "title": "Donkey Kong Bananza",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD",
+      "type": "e",
+      "genre": "Platformer",
+      "date": "Jul 17, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jul 17, 2025",
+        "kor": "Jul 17, 2025",
+        "jpn": "Jul 17, 2025",
+        "eur": "Jul 17, 2025",
+        "cht": "Jul 17, 2025",
+        "aus": "Jul 17, 2025",
+        "asi": "Jul 17, 2025"
+      },
+      "note": "",
+      "id": 109
+    },
+    {
+      "title": "Tony Hawk's Pro Skater 3+4",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 11, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 11, 2025",
+        "eur": "Jul 11, 2025"
+      },
+      "note": "",
+      "id": 347
+    },
+    {
+      "title": "Tamagotchi Plaza -Nintendo Switch 2 Edition-",
+      "publisher": "Bandai Namco Entertainment",
+      "developer": "Hyde",
+      "type": "n",
+      "genre": "Action",
+      "date": "Jun 26, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "kor": "Jun 26, 2025",
+        "jpn": "Jun 26, 2025",
+        "cht": "Jun 26, 2025",
+        "asi": "Jun 26, 2025"
+      },
+      "note": "",
+      "id": 322
+    },
+    {
+      "title": "Raidou Remastered: The Mystery of the Soulless Army",
+      "publisher": "Atlus,, Sega",
+      "developer": "Atlus",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 19, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 19, 2025",
+        "jpn": "Jun 19, 2025",
+        "eur": "Jun 19, 2025",
+        "cht": "Jun 19, 2025",
+        "aus": "Jun 19, 2025"
+      },
+      "note": "",
+      "id": 257
+    },
+    {
+      "title": "Yakuza 0 Director's Cut",
+      "publisher": "Sega",
+      "developer": "Ryu Ga Gotoku Studio",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "Switch 2 exclusive port",
+      "id": 370
+    },
+    {
+      "title": "Survival Kids",
+      "publisher": "Konami",
+      "developer": "Unity Technologies",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "jpn": "Jun 5, 2025",
+        "eur": "Nov 6, 2025"
+      },
+      "note": "",
+      "id": 318
+    },
+    {
+      "title": "Suikoden I & II Remaster: Gate Rune and Dunan Unification Wars",
+      "publisher": "",
+      "developer": "",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "jpn": "Jun 5, 2025",
+        "cht": "Jun 5, 2025"
+      },
+      "note": "Japan first release",
+      "id": 310
+    },
+    {
+      "title": "Street Fighter 6: Years 1-2 Fighters Edition",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Fighting",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 307
+    },
+    {
+      "title": "Split Fiction",
+      "publisher": "Electronic Arts",
+      "developer": "Hazelight Studios",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jul 10, 2025",
+        "eur": "Jun 5, 2025",
+        "aus": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 293
+    },
+    {
+      "title": "Sonic X Shadow Generations",
+      "publisher": "Sega",
+      "developer": "Sonic Team",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 289
+    },
+    {
+      "title": "Sid Meier's Civilization VII",
+      "publisher": "2K",
+      "developer": "Firaxis Games",
+      "type": "n",
+      "genre": "Strategy",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 283
+    },
+    {
+      "title": "Shine Post: Be Your Idol",
+      "publisher": "Konami",
+      "developer": "Konami",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Jun 5, 2025"
+      },
+      "note": "Japan exclusive (JP Direct reveal)",
+      "id": 281
+    },
+    {
+      "title": "Rune Factory: Guardians of Azuma -Nintendo Switch 2 Edition-",
+      "publisher": "Marvelous",
+      "developer": "Marvelous",
+      "type": "n",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Feb 13, 2026",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 273
+    },
+    {
+      "title": "Puyo Puyo Tetris 2S",
+      "publisher": "Sega",
+      "developer": "Sega",
+      "type": "t",
+      "genre": "Puzzle",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "Japan first; Western dates TBA",
+      "id": 253
+    },
+    {
+      "title": "Nobunaga's Ambition: Awakening Complete Edition / Nobunaga's Ambition: Rebirth with Power-Up Kit Complete Edition",
+      "publisher": "Koei Tecmo",
+      "developer": "Koei Tecmo",
+      "type": "t",
+      "genre": "Strategy RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "jpn": "Jun 5, 2025",
+        "cht": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 221
+    },
+    {
+      "title": "Mario Kart World",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD",
+      "type": "e",
+      "genre": "Racing",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 26, 2025"
+      },
+      "note": "Launch title; bundled with console",
+      "id": 193
+    },
+    {
+      "title": "The Legend of Zelda: Tears of the Kingdom -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD",
+      "type": "n",
+      "genre": "Action-Adventure",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 26, 2025"
+      },
+      "note": "4K/60fps; free upgrade from NS1",
+      "id": 333
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild -Nintendo Switch 2 Edition-",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD",
+      "type": "n",
+      "genre": "Action-Adventure",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 26, 2025"
+      },
+      "note": "4K/60fps; free upgrade from NS1",
+      "id": 332
+    },
+    {
+      "title": "Kunitsu-Gami: Path of the Goddess",
+      "publisher": "Capcom",
+      "developer": "Capcom",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 172
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "publisher": "Warner Bros. Games",
+      "developer": "Avalanche Software",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 154
+    },
+    {
+      "title": "Hitman: World of Assassination",
+      "publisher": "IO Interactive",
+      "developer": "IO Interactive",
+      "type": "t",
+      "genre": "Action-Adventure",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "jpn": "Jun 26, 2025",
+        "eur": "Jun 5, 2025",
+        "aus": "Jun 5, 2025"
+      },
+      "note": "",
+      "id": 152
+    },
+    {
+      "title": "Cyberpunk 2077: Ultimate Edition",
+      "publisher": "CD Projekt",
+      "developer": "CD Projekt Red",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 5, 2025"
+      },
+      "note": "Full 64GB cartridge",
+      "id": 89
+    },
+    {
+      "title": "Bravely Default: Flying Fairy HD Remaster",
+      "publisher": "Square Enix",
+      "developer": "Cattle Call",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 5, 2025",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 5, 2025",
+        "kor": "Jun 5, 2025",
+        "jpn": "Jun 5, 2025",
+        "eur": "Jun 5, 2025",
+        "cht": "Jun 5, 2025",
+        "aus": "Jun 5, 2025",
+        "asi": "Jun 26, 2025"
+      },
+      "note": "",
+      "id": 61
+    },
     {
       "title": "007 First Light",
       "publisher": "IO Interactive",
       "developer": "IO Interactive",
       "type": "t",
-      "genre": "Action",
-      "date": "Q3 2026",
+      "genre": "Action-Adventure",
+      "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
       "id": 1
     },
@@ -22,10 +2024,11 @@
       "developer": "3goo",
       "type": "t",
       "genre": "Action",
-      "date": "February 4, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
       "id": 2
     },
@@ -35,12 +2038,13 @@
       "developer": "Artdink",
       "type": "n",
       "genre": "Simulation",
-      "date": "December 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "jp",
+      "releases": {},
       "note": "Japan / Asia focus",
-      "id": 4
+      "id": 5
     },
     {
       "title": "A-Train9 Evolution",
@@ -48,12 +2052,13 @@
       "developer": "Artdink",
       "type": "t",
       "genre": "Simulation",
-      "date": "June 4, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 3
+      "id": 4
     },
     {
       "title": "Absolum",
@@ -61,12 +2066,13 @@
       "developer": "Guard Crush Games, Supamonks",
       "type": "t",
       "genre": "Action",
-      "date": "Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 5
+      "id": 6
     },
     {
       "title": "The Adventures of Elliot: The Millennium Tales",
@@ -74,12 +2080,13 @@
       "developer": "Square Enix",
       "type": "t",
       "genre": "Action",
-      "date": "June 18, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 304
+      "id": 324
     },
     {
       "title": "Aeterna Lucis",
@@ -87,12 +2094,13 @@
       "developer": "Aeternum Game Studios",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 6
+      "id": 7
     },
     {
       "title": "AFL 26",
@@ -100,12 +2108,13 @@
       "developer": "Big Ant Studios",
       "type": "t",
       "genre": "Action",
-      "date": "March 31, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 7
+      "id": 8
     },
     {
       "title": "Akiba Lost",
@@ -113,12 +2122,13 @@
       "developer": "IzanagiGames",
       "type": "t",
       "genre": "Action",
-      "date": "September 17, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 8
+      "id": 9
     },
     {
       "title": "Amnesia: Rebirth",
@@ -126,12 +2136,13 @@
       "developer": "Frictional Games",
       "type": "t",
       "genre": "Action",
-      "date": "April 30, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 9
+      "id": 10
     },
     {
       "title": "Anima: Gate of Memories 1 & 2 Remaster",
@@ -139,24 +2150,12 @@
       "developer": "Anima Project",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 10
-    },
-    {
-      "title": "Animal Crossing: New Horizons – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD",
-      "type": "n",
-      "genre": "Life Sim",
-      "date": "January 15, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "4K; 12-player island; mouse controls",
       "id": 11
     },
     {
@@ -169,8 +2168,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 12
+      "id": 13
     },
     {
       "title": "Another Eden Begins",
@@ -178,12 +2178,13 @@
       "developer": "Studio Prisma",
       "type": "t",
       "genre": "Action",
-      "date": "Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 13
+      "id": 14
     },
     {
       "title": "Apex Legends",
@@ -191,12 +2192,13 @@
       "developer": "Respawn Entertainment",
       "type": "t",
       "genre": "Battle Royale",
-      "date": "August 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "Free to play",
-      "id": 14
+      "id": 15
     },
     {
       "title": "Arcade Archives 2: Air Combat 22",
@@ -204,12 +2206,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "July 3, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 15
+      "id": 16
     },
     {
       "title": "Arcade Archives 2: Aqua Jet",
@@ -217,12 +2220,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "August 14, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 16
+      "id": 17
     },
     {
       "title": "Arcade Archives 2: Battlantis",
@@ -230,12 +2234,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "October 9, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 17
+      "id": 18
     },
     {
       "title": "Arcade Archives 2: Bomb Bee",
@@ -243,12 +2248,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "November 20, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 18
+      "id": 19
     },
     {
       "title": "Arcade Archives 2: Bomb Jack Twin",
@@ -256,12 +2262,13 @@
       "developer": "Tehkan",
       "type": "t",
       "genre": "Action",
-      "date": "January 15, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 19
+      "id": 20
     },
     {
       "title": "Arcade Archives 2: Galactic Warriors",
@@ -269,12 +2276,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 20
+      "id": 21
     },
     {
       "title": "Arcade Archives 2: Gee Bee",
@@ -282,12 +2290,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "October 2, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 21
+      "id": 22
     },
     {
       "title": "Arcade Archives 2: Labyrinth Runner",
@@ -295,12 +2304,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "January 22, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 22
+      "id": 23
     },
     {
       "title": "Arcade Archives 2: Mach Breakers",
@@ -308,12 +2318,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "September 4, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 23
+      "id": 24
     },
     {
       "title": "Arcade Archives 2: Midnight Landing",
@@ -321,12 +2332,13 @@
       "developer": "Taito",
       "type": "t",
       "genre": "Action",
-      "date": "October 23, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 24
+      "id": 25
     },
     {
       "title": "Arcade Archives 2: Quester",
@@ -334,12 +2346,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "January 29, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 25
+      "id": 26
     },
     {
       "title": "Arcade Archives 2: Ridge Racer",
@@ -347,12 +2360,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 26
+      "id": 27
     },
     {
       "title": "Arcade Archives 2: Roc'n Rope",
@@ -360,12 +2374,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "December 11, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 27
+      "id": 28
     },
     {
       "title": "Arcade Archives 2: Scion",
@@ -373,12 +2388,13 @@
       "developer": "Seibu Kaihatsu",
       "type": "t",
       "genre": "Action",
-      "date": "October 30, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 28
+      "id": 29
     },
     {
       "title": "Arcade Archives 2: Scrambled Egg",
@@ -386,12 +2402,13 @@
       "developer": "Technōs Japan",
       "type": "t",
       "genre": "Action",
-      "date": "August 28, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 29
+      "id": 30
     },
     {
       "title": "Arcade Archives 2: Space Invaders",
@@ -399,12 +2416,13 @@
       "developer": "Taito",
       "type": "t",
       "genre": "Action",
-      "date": "December 25, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 30
+      "id": 31
     },
     {
       "title": "Arcade Archives 2: Space Invaders Part 2",
@@ -412,12 +2430,13 @@
       "developer": "Taito",
       "type": "t",
       "genre": "Action",
-      "date": "January 1, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 31
+      "id": 32
     },
     {
       "title": "Arcade Archives 2: Steel Worker",
@@ -425,12 +2444,13 @@
       "developer": "Taito",
       "type": "t",
       "genre": "Action",
-      "date": "September 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 32
+      "id": 33
     },
     {
       "title": "Arcade Archives 2: Tokyo Wars",
@@ -438,12 +2458,13 @@
       "developer": "Namco",
       "type": "t",
       "genre": "Action",
-      "date": "November 6, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 33
+      "id": 34
     },
     {
       "title": "Arcade Archives 2: Video Hustler",
@@ -451,23 +2472,11 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "September 11, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
-      "note": "",
-      "id": 34
-    },
-    {
-      "title": "Assassin's Creed Shadows",
-      "publisher": "Ubisoft",
-      "developer": "Ubisoft Quebec",
-      "type": "t",
-      "genre": "Action-Adventure",
-      "date": "December 2, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
+      "releases": {},
       "note": "",
       "id": 35
     },
@@ -477,12 +2486,13 @@
       "developer": "Gust",
       "type": "t",
       "genre": "Action RPG",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 38
+      "id": 39
     },
     {
       "title": "Atelier Ryza 2: Lost Legends & the Secret Fairy DX",
@@ -490,12 +2500,13 @@
       "developer": "Gust",
       "type": "t",
       "genre": "Action RPG",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 36
+      "id": 37
     },
     {
       "title": "Atelier Ryza 3: Alchemist of the End & the Secret Key DX",
@@ -503,12 +2514,13 @@
       "developer": "Gust",
       "type": "t",
       "genre": "Action RPG",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 37
+      "id": 38
     },
     {
       "title": "Aurascope",
@@ -520,8 +2532,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 39
+      "id": 40
     },
     {
       "title": "Avatar Legends: The Fighting Game",
@@ -529,23 +2542,11 @@
       "developer": "Gameplay Group International",
       "type": "t",
       "genre": "Fighting",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
-      "note": "",
-      "id": 40
-    },
-    {
-      "title": "Back to the Dawn",
-      "publisher": "Clouded Leopard Entertainment, Sprial Up Games",
-      "developer": "Metal Head Games",
-      "type": "t",
-      "genre": "Action",
-      "date": "March 5, 2026",
-      "status": "r",
-      "fmt": "d",
-      "region": "ww",
+      "releases": {},
       "note": "",
       "id": 41
     },
@@ -555,12 +2556,13 @@
       "developer": "LocalThunk",
       "type": "t",
       "genre": "Action Roguelike",
-      "date": "February 25, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 42
+      "id": 43
     },
     {
       "title": "Ball x Pit – Nintendo Switch 2 Edition",
@@ -568,12 +2570,13 @@
       "developer": "Kenny Sun",
       "type": "n",
       "genre": "Action",
-      "date": "October 28, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 43
+      "id": 44
     },
     {
       "title": "Bel's Fanfare",
@@ -585,8 +2588,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 44
+      "id": 46
     },
     {
       "title": "Bestiario",
@@ -598,8 +2602,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 45
+      "id": 47
     },
     {
       "title": "Beyblade X Evobattle Nintendo Switch 2 Edition",
@@ -607,12 +2612,13 @@
       "developer": "Groovebox Japan Co., Ltd.",
       "type": "n",
       "genre": "Action",
-      "date": "December 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "jp",
+      "releases": {},
       "note": "Japan / Asia release",
-      "id": 46
+      "id": 48
     },
     {
       "title": "The Binding of Isaac: Repentance+",
@@ -620,12 +2626,13 @@
       "developer": "Edmund McMillen",
       "type": "t",
       "genre": "Action",
-      "date": "Q1 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 305
+      "id": 325
     },
     {
       "title": "Bit Boy!! Arcade 2",
@@ -637,8 +2644,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 47
+      "id": 49
     },
     {
       "title": "Blighted",
@@ -646,12 +2654,13 @@
       "developer": "Drinkbox Studios",
       "type": "t",
       "genre": "Action",
-      "date": "Q4 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 48
+      "id": 50
     },
     {
       "title": "Blood: Refreshed Supply",
@@ -659,12 +2668,13 @@
       "developer": "Monolith Productions, ,, Nightdive Studios",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 49
+      "id": 51
     },
     {
       "title": "Blue Prince",
@@ -672,64 +2682,69 @@
       "developer": "Dogubomb",
       "type": "t",
       "genre": "Action",
-      "date": "March 3, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 50
+      "id": 52
     },
     {
       "title": "Blue Reflection",
       "publisher": "Koei Tecmo",
       "developer": "Gust Co. Ltd.",
       "type": "t",
-      "genre": "Sports",
-      "date": "July 30, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 51
+      "id": 53
     },
     {
       "title": "Blue Reflection Ray",
       "publisher": "Koei Tecmo",
       "developer": "Gust Co. Ltd.",
       "type": "t",
-      "genre": "Sports",
-      "date": "July 30, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 52
+      "id": 54
     },
     {
       "title": "Blue Reflection: Second Light",
       "publisher": "Koei Tecmo",
       "developer": "Gust Co. Ltd.",
       "type": "t",
-      "genre": "Sports",
-      "date": "July 30, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 53
+      "id": 55
     },
     {
       "title": "Blue Reflection: Sun",
       "publisher": "Koei Tecmo",
       "developer": "Gust Co. Ltd.",
       "type": "t",
-      "genre": "Sports",
-      "date": "July 30, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 54
+      "id": 56
     },
     {
       "title": "Bluey's Quest for the Gold Pen",
@@ -737,12 +2752,13 @@
       "developer": "Halfbrick Studios",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 55
+      "id": 57
     },
     {
       "title": "Bokura",
@@ -752,10 +2768,11 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "d",
+      "fmt": "?",
       "region": "ww",
-      "note": "2-player co-op; two linked worlds",
-      "id": 56
+      "releases": {},
+      "note": "",
+      "id": 58
     },
     {
       "title": "Bokura: planet",
@@ -763,38 +2780,27 @@
       "developer": "Tokoronyori",
       "type": "t",
       "genre": "Action",
-      "date": "August 7, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "2-player co-op; two linked worlds",
-      "id": 57
+      "id": 59
     },
     {
       "title": "Borderlands 4",
       "publisher": "2K",
       "developer": "Gearbox Software",
       "type": "t",
-      "genre": "Action",
+      "genre": "Action RPG",
       "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "Delayed indefinitely",
-      "id": 58
-    },
-    {
-      "title": "Bravely Default: Flying Fairy HD Remaster",
-      "publisher": "Square Enix",
-      "developer": "Cattle Call",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 59
+      "id": 60
     },
     {
       "title": "Broken Sword – Shadow of the Templars: Reforged – Nintendo Switch 2 Edition",
@@ -802,12 +2808,13 @@
       "developer": "Revolution Software",
       "type": "n",
       "genre": "Action",
-      "date": "November 12, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 60
+      "id": 62
     },
     {
       "title": "Brotato – Nintendo Switch 2 Edition",
@@ -815,38 +2822,41 @@
       "developer": "Thomas Gervraud,, Evil Empire",
       "type": "n",
       "genre": "Action",
-      "date": "November 20, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 61
+      "id": 63
     },
     {
       "title": "Bubsy 4D",
       "publisher": "Atari",
       "developer": "Fabraz",
       "type": "t",
-      "genre": "Platformer",
-      "date": "May 22, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 62
+      "id": 64
     },
     {
       "title": "Carmageddon: Rogue Shift",
       "publisher": "34BigThings",
       "developer": "34BigThings",
       "type": "t",
-      "genre": "Action Roguelike",
-      "date": "February 6, 2026",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 65
+      "id": 67
     },
     {
       "title": "Call of the Elder Gods",
@@ -858,21 +2868,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 63
-    },
-    {
-      "title": "Card-en-Ciel – Nintendo Switch 2 Edition",
-      "publisher": "Inti Creates",
-      "developer": "Inti Creates",
-      "type": "n",
-      "genre": "Action",
-      "date": "January 29, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 64
+      "id": 65
     },
     {
       "title": "Cast n Chill – Nintendo Switch 2 Edition",
@@ -880,12 +2878,13 @@
       "developer": "Wombat Brawler",
       "type": "n",
       "genre": "Action",
-      "date": "December 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 66
+      "id": 68
     },
     {
       "title": "Castle of Heart: Retold",
@@ -897,8 +2896,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 67
+      "id": 69
     },
     {
       "title": "Chillin' by the Fire",
@@ -906,25 +2906,13 @@
       "developer": "Oink Games",
       "type": "t",
       "genre": "Action",
-      "date": "July 31, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 68
-    },
-    {
-      "title": "ChromaGun 2: Dye Hard",
-      "publisher": "PM Studios",
-      "developer": "Pixel Maniacs",
-      "type": "t",
-      "genre": "Action",
-      "date": "February 12, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 69
+      "id": 70
     },
     {
       "title": "City Hunter",
@@ -932,12 +2920,13 @@
       "developer": "Sunsoft, , Red Art Studios",
       "type": "t",
       "genre": "Action",
-      "date": "February 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 70
+      "id": 72
     },
     {
       "title": "Clean Up Earth",
@@ -949,8 +2938,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 71
+      "id": 73
     },
     {
       "title": "Content Warning",
@@ -958,12 +2948,13 @@
       "developer": "Wilnyl, Philip, thePetHen, Skog, Zorro",
       "type": "t",
       "genre": "Action",
-      "date": "April 1, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 83
+      "id": 85
     },
     {
       "title": "Console Archives: Cool Boarders",
@@ -971,12 +2962,13 @@
       "developer": "UEP Systems",
       "type": "t",
       "genre": "Action",
-      "date": "February 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 72
+      "id": 74
     },
     {
       "title": "Console Archives: Dezaemon Plus",
@@ -988,8 +2980,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 73
+      "id": 75
     },
     {
       "title": "Console Archives: Doraemon",
@@ -997,12 +2990,13 @@
       "developer": "Hudson Soft",
       "type": "t",
       "genre": "Action",
-      "date": "July 30, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 74
+      "id": 76
     },
     {
       "title": "Console Archives: MagMax",
@@ -1014,8 +3008,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 75
+      "id": 77
     },
     {
       "title": "Console Archives: Master of Monsters: Disciples of Gaia",
@@ -1027,8 +3022,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 76
+      "id": 78
     },
     {
       "title": "Console Archives: Monster Rancher Hop A Bout",
@@ -1040,8 +3036,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 77
+      "id": 79
     },
     {
       "title": "Console Archives: Ninja Gaiden II: The Dark Sword of Chaos",
@@ -1049,12 +3046,13 @@
       "developer": "Tecmo",
       "type": "t",
       "genre": "Action",
-      "date": "February 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 78
+      "id": 80
     },
     {
       "title": "Console Archives: Nobunaga's Ambition",
@@ -1066,8 +3064,9 @@
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 79
+      "id": 81
     },
     {
       "title": "Console Archives: Rhapsody: A Musical Adventure",
@@ -1079,8 +3078,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 80
+      "id": 82
     },
     {
       "title": "Console Archives: Seicross",
@@ -1088,12 +3088,13 @@
       "developer": "Nichibutsu",
       "type": "t",
       "genre": "Action",
-      "date": "April 9, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 81
+      "id": 83
     },
     {
       "title": "Console Archives: UFO: A Day in the Life",
@@ -1105,8 +3106,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 82
+      "id": 84
     },
     {
       "title": "Cookie Clicker",
@@ -1118,8 +3120,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 84
+      "id": 86
     },
     {
       "title": "Core Keeper – Nintendo Switch 2 Edition",
@@ -1127,37 +3130,12 @@
       "developer": "Pugstorm",
       "type": "n",
       "genre": "Action",
-      "date": "January 28, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 85
-    },
-    {
-      "title": "Cronos: The New Dawn",
-      "publisher": "Bloober Team",
-      "developer": "Bloober Team",
-      "type": "t",
-      "genre": "Horror",
-      "date": "September 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 86
-    },
-    {
-      "title": "Cyberpunk 2077: Ultimate Edition",
-      "publisher": "CD Projekt",
-      "developer": "CD Projekt Red",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "Full 64GB cartridge",
       "id": 87
     },
     {
@@ -1166,36 +3144,11 @@
       "developer": "Marumittu Games",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
-      "note": "",
-      "id": 88
-    },
-    {
-      "title": "Daemon X Machina: Titanic Scion",
-      "publisher": "Marvelous",
-      "developer": "Marvelous First Studio",
-      "type": "t",
-      "genre": "Action",
-      "date": "September 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "note": "Full cart in West; GKC in Japan",
-      "id": 89
-    },
-    {
-      "title": "Daisenryaku SSB2",
-      "publisher": "SystemSoft Beta",
-      "developer": "SystemSoft Beta",
-      "type": "t",
-      "genre": "Action",
-      "date": "February 26, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
+      "releases": {},
       "note": "",
       "id": 90
     },
@@ -1205,12 +3158,13 @@
       "developer": "Gemdrops,, Too Kyo Games, ,, Spike Chunsoft",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 91
+      "id": 93
     },
     {
       "title": "Darwin's Paradox!",
@@ -1218,12 +3172,13 @@
       "developer": "ZeDrimeTim",
       "type": "t",
       "genre": "Action",
-      "date": "April 2, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 92
+      "id": 94
     },
     {
       "title": "Dave the Diver – Nintendo Switch 2 Edition",
@@ -1231,25 +3186,27 @@
       "developer": "Mintrocket",
       "type": "n",
       "genre": "Life Sim",
-      "date": "November 6, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 93
+      "id": 95
     },
     {
       "title": "Deadzone Rogue",
       "publisher": "Prophecy Games",
       "developer": "Prophecy Games",
       "type": "t",
-      "genre": "Action Roguelike",
-      "date": "March 17, 2026",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 94
+      "id": 96
     },
     {
       "title": "Dear me, I was...",
@@ -1257,12 +3214,13 @@
       "developer": "Arc System Works",
       "type": "t",
       "genre": "Action",
-      "date": "July 31, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 95
+      "id": 97
     },
     {
       "title": "Deltarune",
@@ -1270,12 +3228,13 @@
       "developer": "Toby Fox",
       "type": "t",
       "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 96
+      "id": 98
     },
     {
       "title": "Demi and the Fractured Dream",
@@ -1283,12 +3242,13 @@
       "developer": "Yarn Owl",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 97
+      "id": 99
     },
     {
       "title": "Denshattack!",
@@ -1296,12 +3256,13 @@
       "developer": "Undercoders",
       "type": "t",
       "genre": "Action",
-      "date": "June 17, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 98
+      "id": 100
     },
     {
       "title": "Depth Loop",
@@ -1309,12 +3270,13 @@
       "developer": "Kemco",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 99
+      "id": 101
     },
     {
       "title": "Destroy All Humans!",
@@ -1322,12 +3284,13 @@
       "developer": "Black Forest Games",
       "type": "t",
       "genre": "Action",
-      "date": "June 23, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 100
+      "id": 102
     },
     {
       "title": "Destroy All Humans! 2: Reprobed",
@@ -1335,12 +3298,13 @@
       "developer": "Black Forest Games",
       "type": "t",
       "genre": "Action",
-      "date": "September 15, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 101
+      "id": 103
     },
     {
       "title": "Digimon Story: Time Stranger",
@@ -1348,25 +3312,13 @@
       "developer": "Media.Vision",
       "type": "t",
       "genre": "Action",
-      "date": "July 10, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 102
-    },
-    {
-      "title": "Disgaea 7 Complete",
-      "publisher": "NIS America",
-      "developer": "Nippon Ichi Software",
-      "type": "t",
-      "genre": "Strategy RPG",
-      "date": "October 10, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 103
+      "id": 104
     },
     {
       "title": "The Disney Afternoon Collection",
@@ -1374,12 +3326,13 @@
       "developer": "Digital Eclipse",
       "type": "t",
       "genre": "Action",
-      "date": "February 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 306
+      "id": 326
     },
     {
       "title": "Disney Dreamlight Valley – Nintendo Switch 2 Edition",
@@ -1387,12 +3340,13 @@
       "developer": "Gameloft Montreal",
       "type": "n",
       "genre": "Action",
-      "date": "March 25, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 104
+      "id": 106
     },
     {
       "title": "Dispatch – Nintendo Switch 2 Edition",
@@ -1400,12 +3354,13 @@
       "developer": "AdHoc Studio",
       "type": "n",
       "genre": "Action",
-      "date": "January 28, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 105
+      "id": 107
     },
     {
       "title": "Divinity: Original Sin II – Nintendo Switch 2 Edition",
@@ -1413,25 +3368,13 @@
       "developer": "Larian Studios",
       "type": "n",
       "genre": "Action",
-      "date": "December 15, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 106
-    },
-    {
-      "title": "Donkey Kong Bananza",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD",
-      "type": "e",
-      "genre": "Platformer",
-      "date": "July 17, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 107
+      "id": 108
     },
     {
       "title": "Drag x Drive",
@@ -1439,51 +3382,13 @@
       "developer": "Nintendo EPD",
       "type": "e",
       "genre": "Sports",
-      "date": "August 14, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
-      "note": "",
-      "id": 108
-    },
-    {
-      "title": "Dragon Ball: Sparking! Zero",
-      "publisher": "Bandai Namco Entertainment",
-      "developer": "Spike Chunsoft",
-      "type": "t",
-      "genre": "Fighting",
-      "date": "November 14, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 109
-    },
-    {
-      "title": "Dragon Quest I & II HD-2D Remake",
-      "publisher": "Square Enix",
-      "developer": "Square Enix",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "October 30, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
+      "releases": {},
       "note": "",
       "id": 110
-    },
-    {
-      "title": "Dragon Quest VII Reimagined",
-      "publisher": "Square Enix",
-      "developer": "Square Enix",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "February 5, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 111
     },
     {
       "title": "Draw King",
@@ -1491,25 +3396,27 @@
       "developer": "Takahiro Miyazawa",
       "type": "t",
       "genre": "Action",
-      "date": "February 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 112
+      "id": 114
     },
     {
       "title": "Dumb Ways to Party",
       "publisher": "PlaySide Studios",
       "developer": "PlaySide Studios",
       "type": "t",
-      "genre": "Party",
-      "date": "2026",
-      "status": "r",
+      "genre": "Action RPG",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 113
+      "id": 115
     },
     {
       "title": "Dynasty Warriors 3: Complete Edition Remastered",
@@ -1517,25 +3424,13 @@
       "developer": "Omega Force",
       "type": "t",
       "genre": "Strategy RPG",
-      "date": "March 19, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 114
-    },
-    {
-      "title": "Dynasty Warriors: Origins",
-      "publisher": "Koei Tecmo",
-      "developer": "Omega Force",
-      "type": "t",
-      "genre": "Strategy RPG",
-      "date": "January 22, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 115
+      "id": 116
     },
     {
       "title": "The Duskbloods",
@@ -1543,25 +3438,13 @@
       "developer": "FromSoftware",
       "type": "e",
       "genre": "Strategy RPG",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
-      "id": 307
-    },
-    {
-      "title": "EA Sports FC 26",
-      "publisher": "EA Sports",
-      "developer": "EA Vancouver, ,, EA Romania",
-      "type": "t",
-      "genre": "Sports",
-      "date": "September 26, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 116
+      "id": 327
     },
     {
       "title": "EFootball Kick Off!",
@@ -1569,12 +3452,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Sports",
-      "date": "Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 117
+      "id": 120
     },
     {
       "title": "Elden Ring: Tarnished Edition",
@@ -1582,12 +3466,13 @@
       "developer": "FromSoftware",
       "type": "t",
       "genre": "Action RPG",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 118
+      "id": 121
     },
     {
       "title": "The Elder Scrolls IV: Oblivion Remastered",
@@ -1595,12 +3480,13 @@
       "developer": "Virtuos, Bethesda Game Studios",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 308
+      "id": 328
     },
     {
       "title": "The Elder Scrolls V: Skyrim Anniversary Edition",
@@ -1608,12 +3494,13 @@
       "developer": "Bethesda Game Studios",
       "type": "t",
       "genre": "Action",
-      "date": "December 9, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 309
+      "id": 329
     },
     {
       "title": "Enter the Gungeon 2",
@@ -1621,12 +3508,13 @@
       "developer": "Dodge Roll",
       "type": "t",
       "genre": "Action Roguelike",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 119
+      "id": 122
     },
     {
       "title": "Epic Mickey: Rebrushed",
@@ -1634,12 +3522,13 @@
       "developer": "Purple Lamp Studios",
       "type": "t",
       "genre": "Action",
-      "date": "October 6, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 120
+      "id": 123
     },
     {
       "title": "The Exit 8 – Nintendo Switch 2 Edition",
@@ -1647,90 +3536,55 @@
       "developer": "Kotake Create",
       "type": "n",
       "genre": "Action",
-      "date": "August 29, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 310
+      "id": 330
     },
     {
       "title": "Factorio – Nintendo Switch 2 Edition",
       "publisher": "Wube Software",
       "developer": "Wube Software",
       "type": "n",
-      "genre": "Strategy",
-      "date": "December 22, 2025",
-      "status": "r",
+      "genre": "Simulation",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 121
+      "id": 124
     },
     {
       "title": "Fallout 4: Anniversary Edition",
       "publisher": "Bethesda Softworks",
       "developer": "Bethesda Game Studios",
       "type": "t",
-      "genre": "Action",
-      "date": "February 24, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 122
-    },
-    {
-      "title": "Fantasy Life i: The Girl Who Steals Time – Nintendo Switch 2 Edition",
-      "publisher": "Level-5",
-      "developer": "Level-5",
-      "type": "n",
       "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 123
-    },
-    {
-      "title": "Farming Simulator: Signature Edition",
-      "publisher": "Giants Software",
-      "developer": "Giants Software",
-      "type": "t",
-      "genre": "Life Sim",
-      "date": "December 9, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 124
+      "id": 125
     },
     {
       "title": "Fast Fusion",
       "publisher": "Shin'en Multimedia",
       "developer": "Shin'en Multimedia",
       "type": "t",
-      "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
+      "genre": "Racing",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 125
-    },
-    {
-      "title": "Fatal Frame II: Crimson Butterfly Remake",
-      "publisher": "Koei Tecmo",
-      "developer": "Team Ninja",
-      "type": "t",
-      "genre": "Horror",
-      "date": "March 12, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "var",
-      "note": "Known as PROJECT ZERO II in Europe",
-      "id": 126
+      "id": 128
     },
     {
       "title": "Final Fantasy VII Rebirth",
@@ -1738,25 +3592,13 @@
       "developer": "Square Enix Creative Business Unit I",
       "type": "t",
       "genre": "Action RPG",
-      "date": "June 3, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 128
-    },
-    {
-      "title": "Final Fantasy VII Remake Intergrade",
-      "publisher": "Square Enix",
-      "developer": "Square Enix Creative Business Unit I",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "January 22, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 129
+      "id": 131
     },
     {
       "title": "Untitled third Final Fantasy VII Remake game",
@@ -1768,21 +3610,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 333
-    },
-    {
-      "title": "Final Fantasy Tactics: The Ivalice Chronicles – Nintendo Switch 2 Edition",
-      "publisher": "Square Enix",
-      "developer": "Square Enix Creative Business Unit III",
-      "type": "n",
-      "genre": "Strategy RPG",
-      "date": "September 30, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 127
+      "id": 355
     },
     {
       "title": "Fire Emblem: Fortune's Weave",
@@ -1790,12 +3620,13 @@
       "developer": "Intelligent Systems",
       "type": "e",
       "genre": "Strategy RPG",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 130
+      "id": 133
     },
     {
       "title": "Fortnite",
@@ -1803,38 +3634,13 @@
       "developer": "Epic Games",
       "type": "t",
       "genre": "Battle Royale",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "Free to play",
-      "id": 131
-    },
-    {
-      "title": "Full Metal Schoolgirl",
-      "publisher": "D3 Publisher",
-      "developer": "Yuke's",
-      "type": "t",
-      "genre": "Action",
-      "date": "October 23, 2025",
-      "status": "r",
-      "fmt": "d",
-      "region": "var",
-      "note": "GKC in Japan; digital only in West",
-      "id": 132
-    },
-    {
-      "title": "Gear.Club Unlimited 3",
-      "publisher": "Nacon",
-      "developer": "Eden Games",
-      "type": "t",
-      "genre": "Action",
-      "date": "February 19, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 133
+      "id": 134
     },
     {
       "title": "Glaciered",
@@ -1842,12 +3648,13 @@
       "developer": "Studio Snowblind",
       "type": "t",
       "genre": "Action",
-      "date": "Q2 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 134
+      "id": 138
     },
     {
       "title": "Goat Simulator 3",
@@ -1855,12 +3662,13 @@
       "developer": "Coffee Stain North",
       "type": "t",
       "genre": "Simulation",
-      "date": "April 1, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 135
+      "id": 139
     },
     {
       "title": "Good Boy",
@@ -1872,21 +3680,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 136
-    },
-    {
-      "title": "Goodnight Universe",
-      "publisher": "Skybound Games",
-      "developer": "Nice Dream",
-      "type": "t",
-      "genre": "Action",
-      "date": "November 11, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 137
+      "id": 140
     },
     {
       "title": "Granblue Fantasy: Relink - Endless Ragnarok",
@@ -1894,12 +3690,13 @@
       "developer": "Osaka Cygames",
       "type": "t",
       "genre": "Action RPG",
-      "date": "July 9, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 138
+      "id": 142
     },
     {
       "title": "GRID Legends: Deluxe Edition",
@@ -1907,25 +3704,13 @@
       "developer": "Codemasters",
       "type": "t",
       "genre": "Action",
-      "date": "January 29, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 139
-    },
-    {
-      "title": "Hades II – Nintendo Switch 2 Edition",
-      "publisher": "Supergiant Games",
-      "developer": "Supergiant Games",
-      "type": "n",
-      "genre": "Action Roguelike",
-      "date": "September 25, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 140
+      "id": 143
     },
     {
       "title": "Handy Hockey",
@@ -1933,12 +3718,13 @@
       "developer": "ITL",
       "type": "t",
       "genre": "Sports",
-      "date": "July 31, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 141
+      "id": 145
     },
     {
       "title": "Haste",
@@ -1946,12 +3732,13 @@
       "developer": "Landfall",
       "type": "t",
       "genre": "Action",
-      "date": "April 1, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 142
+      "id": 146
     },
     {
       "title": "Heave Ho 2",
@@ -1959,12 +3746,13 @@
       "developer": "Le Cartel Studio",
       "type": "t",
       "genre": "Action",
-      "date": "Q2/Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 143
+      "id": 147
     },
     {
       "title": "Hela",
@@ -1972,12 +3760,13 @@
       "developer": "Windup Games",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 144
+      "id": 148
     },
     {
       "title": "Hello Kitty Island Adventure – Nintendo Switch 2 Edition",
@@ -1985,12 +3774,13 @@
       "developer": "Sunblink",
       "type": "n",
       "genre": "Action",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 145
+      "id": 149
     },
     {
       "title": "High on Life – Nintendo Switch 2 Edition",
@@ -1998,12 +3788,13 @@
       "developer": "Squanch Games",
       "type": "n",
       "genre": "Action",
-      "date": "August 28, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 146
+      "id": 150
     },
     {
       "title": "Hitman: Absolution",
@@ -2011,12 +3802,13 @@
       "developer": "IO Interactive",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 147
+      "id": 151
     },
     {
       "title": "Hitman: World of Assassination – Signature Edition",
@@ -2024,51 +3816,41 @@
       "developer": "IO Interactive",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 148
-    },
-    {
-      "title": "Hogwarts Legacy",
-      "publisher": "Warner Bros. Games",
-      "developer": "Avalanche Software",
-      "type": "t",
-      "genre": "Action-Adventure",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 149
+      "id": 153
     },
     {
       "title": "Hollow Knight – Nintendo Switch 2 Edition",
       "publisher": "Team Cherry",
       "developer": "Team Cherry",
       "type": "n",
-      "genre": "Action Roguelike",
-      "date": "February 5, 2026",
-      "status": "r",
+      "genre": "Platformer",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 150
+      "id": 155
     },
     {
       "title": "Hollow Knight: Silksong – Nintendo Switch 2 Edition",
       "publisher": "Team Cherry",
       "developer": "Team Cherry",
       "type": "n",
-      "genre": "Action Roguelike",
-      "date": "September 4, 2025",
-      "status": "r",
+      "genre": "Platformer",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 151
+      "id": 156
     },
     {
       "title": "Hono Gurashi no Niwa",
@@ -2076,12 +3858,13 @@
       "developer": "Nippon Ichi Software",
       "type": "t",
       "genre": "Action",
-      "date": "July 30, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 152
+      "id": 157
     },
     {
       "title": "Human: Fall Flat 2",
@@ -2093,8 +3876,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 153
+      "id": 158
     },
     {
       "title": "Hunter's Moon: A Sovereign Syndicate Adventure",
@@ -2106,21 +3890,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 154
-    },
-    {
-      "title": "Hyrule Warriors: Age of Imprisonment",
-      "publisher": "Koei Tecmo,, Nintendo",
-      "developer": "AAA Games Studio",
-      "type": "e",
-      "genre": "Action-Adventure",
-      "date": "November 6, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 155
+      "id": 159
     },
     {
       "title": "Inazuma Eleven: Victory Road – Nintendo Switch 2 Edition",
@@ -2128,12 +3900,13 @@
       "developer": "Level-5",
       "type": "n",
       "genre": "Action",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "jp",
+      "releases": {},
       "note": "Japan / Asia focus",
-      "id": 156
+      "id": 161
     },
     {
       "title": "Indiana Jones and the Great Circle",
@@ -2141,12 +3914,13 @@
       "developer": "MachineGames",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "May 12, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 157
+      "id": 162
     },
     {
       "title": "Infinite Alliance",
@@ -2154,12 +3928,13 @@
       "developer": "Critical Games",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 158
+      "id": 163
     },
     {
       "title": "InKobini: One Store. Many Stories",
@@ -2167,12 +3942,13 @@
       "developer": "Beep Japan Inc.",
       "type": "t",
       "genre": "Action",
-      "date": "April 30, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 159
+      "id": 164
     },
     {
       "title": "Isekai Rondo – Nintendo Switch 2 Edition",
@@ -2180,12 +3956,13 @@
       "developer": "Exe-Create",
       "type": "n",
       "genre": "Action",
-      "date": "January 22, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 160
+      "id": 165
     },
     {
       "title": "Junkster",
@@ -2197,8 +3974,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 161
+      "id": 166
     },
     {
       "title": "Kingdom's Return: Time-Eating Fruit and the Ancient Monster",
@@ -2206,25 +3984,13 @@
       "developer": "Inti Creates",
       "type": "t",
       "genre": "Action",
-      "date": "April 23, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 162
-    },
-    {
-      "title": "Kirby Air Riders",
-      "publisher": "Nintendo",
-      "developer": "Bandai Namco Studios, ,, Sora Ltd.",
-      "type": "e",
-      "genre": "Platformer",
-      "date": "November 20, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 163
+      "id": 167
     },
     {
       "title": "Kirby and the Forgotten Land – Nintendo Switch 2 Edition + Star-Crossed World",
@@ -2232,12 +3998,13 @@
       "developer": "HAL Laboratory",
       "type": "n",
       "genre": "Platformer",
-      "date": "August 28, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "Includes new Star-Crossed World DLC expansion",
-      "id": 164
+      "id": 170
     },
     {
       "title": "KochiKame: Ryo-san's Billion-yen Beat",
@@ -2249,21 +4016,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 165
-    },
-    {
-      "title": "Kunitsu-Gami: Path of the Goddess",
-      "publisher": "Capcom",
-      "developer": "Capcom",
-      "type": "t",
-      "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 166
+      "id": 171
     },
     {
       "title": "Kuukiyomi 4: Consider It Nintendo Switch 2 Edition",
@@ -2271,12 +4026,13 @@
       "developer": "G-Mode",
       "type": "n",
       "genre": "Action",
-      "date": "September 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 167
+      "id": 173
     },
     {
       "title": "Kyoto Xanadu",
@@ -2284,12 +4040,13 @@
       "developer": "Nihon Falcom",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 168
+      "id": 174
     },
     {
       "title": "Kyouran Makaism",
@@ -2297,12 +4054,13 @@
       "developer": "Nippon Ichi Software",
       "type": "t",
       "genre": "Action",
-      "date": "January 29, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 169
+      "id": 175
     },
     {
       "title": "Layers of Fear: Final Masterpiece Edition",
@@ -2310,51 +4068,13 @@
       "developer": "Bloober Team",
       "type": "t",
       "genre": "Horror",
-      "date": "December 19, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 170
-    },
-    {
-      "title": "The Legend of Heroes: Trails Beyond the Horizon",
-      "publisher": "NIS America",
-      "developer": "Nihon Falcom",
-      "type": "t",
-      "genre": "Action",
-      "date": "January 15, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 311
-    },
-    {
-      "title": "The Legend of Zelda: Breath of the Wild – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD",
-      "type": "n",
-      "genre": "Action-Adventure",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "4K/60fps; free upgrade from NS1",
-      "id": 312
-    },
-    {
-      "title": "The Legend of Zelda: Tears of the Kingdom – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD",
-      "type": "n",
-      "genre": "Action-Adventure",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "4K/60fps; free upgrade from NS1",
-      "id": 313
+      "id": 176
     },
     {
       "title": "Lego Batman: Legacy of the Dark Knight",
@@ -2362,12 +4082,13 @@
       "developer": "Traveller's Tales",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 171
+      "id": 177
     },
     {
       "title": "Lego Voyagers",
@@ -2375,12 +4096,13 @@
       "developer": "Light Brick Studio",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "September 15, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 172
+      "id": 178
     },
     {
       "title": "Little Nightmares Enhanced Edition",
@@ -2388,25 +4110,13 @@
       "developer": "Engine Software",
       "type": "t",
       "genre": "Horror",
-      "date": "October 10, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 173
-    },
-    {
-      "title": "Little Nightmares III",
-      "publisher": "Bandai Namco Entertainment",
-      "developer": "Supermassive Games",
-      "type": "t",
-      "genre": "Horror",
-      "date": "October 10, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 174
+      "id": 179
     },
     {
       "title": "Littlelands",
@@ -2418,8 +4128,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 176
+      "id": 183
     },
     {
       "title": "Little Rocket Lab – Nintendo Switch 2 Edition",
@@ -2427,12 +4138,13 @@
       "developer": "Teenage Astronauts",
       "type": "n",
       "genre": "Action",
-      "date": "December 10, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 175
+      "id": 182
     },
     {
       "title": "Lollipop Chainsaw RePOP – Nintendo Switch 2 Edition",
@@ -2440,12 +4152,13 @@
       "developer": "Dragami Games",
       "type": "n",
       "genre": "Action",
-      "date": "May 28, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 177
+      "id": 184
     },
     {
       "title": "Lorelei and the Laser Eyes – Nintendo Switch 2 Edition",
@@ -2453,12 +4166,13 @@
       "developer": "Simogo",
       "type": "n",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 178
+      "id": 185
     },
     {
       "title": "LoveR Kiss: Endless Memories",
@@ -2466,12 +4180,13 @@
       "developer": "Dragami Games",
       "type": "t",
       "genre": "Action",
-      "date": "November 27, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 179
+      "id": 186
     },
     {
       "title": "Lovish",
@@ -2479,12 +4194,13 @@
       "developer": "Labs Works",
       "type": "t",
       "genre": "Action",
-      "date": "Q1 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 180
+      "id": 187
     },
     {
       "title": "Lynked: Banner of the Spark – Nintendo Switch 2 Edition",
@@ -2492,12 +4208,13 @@
       "developer": "FuzzyBot",
       "type": "n",
       "genre": "Action",
-      "date": "September 12, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 181
+      "id": 188
     },
     {
       "title": "Madden NFL 26",
@@ -2505,12 +4222,13 @@
       "developer": "EA Orlando",
       "type": "t",
       "genre": "Sports",
-      "date": "August 14, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 182
+      "id": 189
     },
     {
       "title": "Majogami",
@@ -2518,51 +4236,13 @@
       "developer": "Inti Creates",
       "type": "t",
       "genre": "Action",
-      "date": "October 30, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 183
-    },
-    {
-      "title": "Mario Kart World",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD",
-      "type": "e",
-      "genre": "Racing",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "Launch title; bundled with console",
-      "id": 184
-    },
-    {
-      "title": "Mario Tennis Fever",
-      "publisher": "Nintendo",
-      "developer": "Camelot Software Planning",
-      "type": "e",
-      "genre": "Sports",
-      "date": "February 12, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 185
-    },
-    {
-      "title": "Marvel Cosmic Invasion",
-      "publisher": "Dotemu",
-      "developer": "Tribute Games",
-      "type": "t",
-      "genre": "Action",
-      "date": "December 1, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 186
+      "id": 190
     },
     {
       "title": "Marvel Rivals",
@@ -2574,8 +4254,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 187
+      "id": 196
     },
     {
       "title": "Maseylia: Echoes of the Past",
@@ -2583,12 +4264,13 @@
       "developer": "Sol Brothers",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 188
+      "id": 197
     },
     {
       "title": "Mega Man: Dual Override",
@@ -2596,12 +4278,13 @@
       "developer": "Capcom",
       "type": "t",
       "genre": "Platformer",
-      "date": "2027",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 189
+      "id": 198
     },
     {
       "title": "Metal Gear Solid: Master Collection Vol. 2",
@@ -2609,25 +4292,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action",
-      "date": "August 27, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 190
-    },
-    {
-      "title": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Retro Studios",
-      "type": "n",
-      "genre": "Horror",
-      "date": "December 4, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "Mouse aiming support",
-      "id": 191
+      "id": 199
     },
     {
       "title": "The Midnight Walk",
@@ -2635,12 +4306,13 @@
       "developer": "MoonHood",
       "type": "t",
       "genre": "Action",
-      "date": "March 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 314
+      "id": 334
     },
     {
       "title": "Milano's Odd Job Collection",
@@ -2648,25 +4320,13 @@
       "developer": "Implicit Conversions",
       "type": "t",
       "genre": "Action",
-      "date": "December 9, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 192
-    },
-    {
-      "title": "Mio: Memories in Orbit",
-      "publisher": "Focus Entertainment",
-      "developer": "Douze Dixièmes",
-      "type": "t",
-      "genre": "Action",
-      "date": "January 20, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 196
+      "id": 201
     },
     {
       "title": "Mina the Hollower",
@@ -2678,8 +4338,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 193
+      "id": 202
     },
     {
       "title": "Minecraft Dungeons II",
@@ -2687,12 +4348,13 @@
       "developer": "Mojang Studios",
       "type": "t",
       "genre": "Action",
-      "date": "Q4 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 194
+      "id": 203
     },
     {
       "title": "Minishoot' Adventures: Nintendo Switch 2 Edition",
@@ -2700,12 +4362,13 @@
       "developer": "SoulGame Studio",
       "type": "n",
       "genre": "Action",
-      "date": "March 3, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 195
+      "id": 204
     },
     {
       "title": "Mixtape",
@@ -2713,38 +4376,13 @@
       "developer": "Beethoven & Dinosaur",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 197
-    },
-    {
-      "title": "Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru – Nintendo Switch 2 Edition",
-      "publisher": "Konami",
-      "developer": "Konami",
-      "type": "n",
-      "genre": "Action",
-      "date": "November 13, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "jp",
-      "note": "Japan exclusive",
-      "id": 198
-    },
-    {
-      "title": "Monster Hunter Stories 3: Twisted Reflection",
-      "publisher": "Capcom",
-      "developer": "Capcom",
-      "type": "t",
-      "genre": "Sports",
-      "date": "March 13, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 199
+      "id": 206
     },
     {
       "title": "Moonlighter 2: The Endless Vault",
@@ -2752,25 +4390,13 @@
       "developer": "Digital Sun",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 200
-    },
-    {
-      "title": "Mortal Kombat: Legacy Kollection",
-      "publisher": "Atari",
-      "developer": "Digital Eclipse",
-      "type": "t",
-      "genre": "Fighting",
-      "date": "October 30, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 201
+      "id": 209
     },
     {
       "title": "Mouse: P.I. For Hire",
@@ -2778,12 +4404,13 @@
       "developer": "Fumi Games",
       "type": "t",
       "genre": "Action",
-      "date": "April 16, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 203
+      "id": 212
     },
     {
       "title": "Mouse Work",
@@ -2795,8 +4422,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 202
+      "id": 211
     },
     {
       "title": "My Time at Evershine",
@@ -2808,21 +4436,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 204
-    },
-    {
-      "title": "NBA 2K26",
-      "publisher": "2K",
-      "developer": "Visual Concepts",
-      "type": "t",
-      "genre": "Sports",
-      "date": "September 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 205
+      "id": 213
     },
     {
       "title": "The New Denpa Men",
@@ -2830,25 +4446,13 @@
       "developer": "Genius Sonority",
       "type": "t",
       "genre": "Action",
-      "date": "April 6, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 315
-    },
-    {
-      "title": "Nicktoons & the Dice of Destiny",
-      "publisher": "GameMill Entertainment",
-      "developer": "Fair Play Labs, Petit Fabrik",
-      "type": "t",
-      "genre": "Action",
-      "date": "December 5, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 206
+      "id": 335
     },
     {
       "title": "Nightmare Circus",
@@ -2860,8 +4464,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 207
+      "id": 216
     },
     {
       "title": "Nintendo Switch 2 Welcome Tour",
@@ -2869,12 +4474,13 @@
       "developer": "Nintendo EPD, ,, Nintendo Cube",
       "type": "e",
       "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "Free digital download",
-      "id": 208
+      "id": 217
     },
     {
       "title": "No Man's Sky – Nintendo Switch 2 Edition",
@@ -2882,25 +4488,13 @@
       "developer": "Hello Games",
       "type": "n",
       "genre": "Life Sim",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 209
-    },
-    {
-      "title": "No Sleep for Kaname Date – From AI: The Somnium Files",
-      "publisher": "Spike Chunsoft",
-      "developer": "Spike Chunsoft",
-      "type": "t",
-      "genre": "Action",
-      "date": "July 25, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 210
+      "id": 218
     },
     {
       "title": "Nobunaga's Ambition: Awakening Complete Edition",
@@ -2908,51 +4502,27 @@
       "developer": "Koei Tecmo",
       "type": "t",
       "genre": "Strategy RPG",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 211
+      "id": 220
     },
     {
       "title": "Novel Rogue – Nintendo Switch 2 Edition",
       "publisher": "Kemco",
       "developer": "Exe-Create",
       "type": "n",
-      "genre": "Action Roguelike",
-      "date": "January 29, 2026",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 212
-    },
-    {
-      "title": "Obakeidoro 2: Chase & Seek",
-      "publisher": "Free Style",
-      "developer": "Free Style",
-      "type": "t",
-      "genre": "Action",
-      "date": "October 9, 2025",
-      "status": "r",
-      "fmt": "d",
-      "region": "jp",
-      "note": "Revealed in JP Direct only",
-      "id": 213
-    },
-    {
-      "title": "Octopath Traveler 0",
-      "publisher": "Square Enix",
-      "developer": "Square Enix, , DokiDoki Grooveworks",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "December 4, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 214
+      "id": 222
     },
     {
       "title": "One Piece: Pirate Warriors 4 – Nintendo Switch 2 Edition",
@@ -2960,12 +4530,13 @@
       "developer": "Omega Force",
       "type": "n",
       "genre": "Action",
-      "date": "November 21, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 215
+      "id": 225
     },
     {
       "title": "Opus: Prism Peak",
@@ -2973,12 +4544,13 @@
       "developer": "Sigono",
       "type": "t",
       "genre": "Action",
-      "date": "March 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 216
+      "id": 226
     },
     {
       "title": "Orbitals",
@@ -2986,12 +4558,13 @@
       "developer": "Shapefarm",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 217
+      "id": 227
     },
     {
       "title": "Order Up!!",
@@ -2999,12 +4572,13 @@
       "developer": "SuperVillain Studios",
       "type": "t",
       "genre": "Action",
-      "date": "Q2 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 218
+      "id": 228
     },
     {
       "title": "Out of Words",
@@ -3012,12 +4586,13 @@
       "developer": "Kong Orange, Wired Fly, Morten Sondergaard",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 219
+      "id": 229
     },
     {
       "title": "Outbound",
@@ -3025,12 +4600,13 @@
       "developer": "Silver Lining Interactive",
       "type": "t",
       "genre": "Action",
-      "date": "April 23, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 220
+      "id": 230
     },
     {
       "title": "Overcooked! 2 – Nintendo Switch 2 Edition",
@@ -3038,25 +4614,27 @@
       "developer": "Team17, , Ghost Town Games",
       "type": "n",
       "genre": "Strategy",
-      "date": "November 6, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 221
+      "id": 231
     },
     {
       "title": "Overrogue – Nintendo Switch 2 Edition",
       "publisher": "Kemco",
       "developer": "Exe-Create",
       "type": "n",
-      "genre": "Action Roguelike",
-      "date": "January 15, 2026",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 222
+      "id": 232
     },
     {
       "title": "Overwatch 2",
@@ -3064,25 +4642,13 @@
       "developer": "Blizzard Entertainment",
       "type": "t",
       "genre": "Battle Royale",
-      "date": "Q2 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "Free to play",
-      "id": 223
-    },
-    {
-      "title": "Pac-Man World 2 Re-Pac",
-      "publisher": "Bandai Namco Entertainment",
-      "developer": "Now Production",
-      "type": "t",
-      "genre": "Platformer",
-      "date": "September 26, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 224
+      "id": 233
     },
     {
       "title": "Paper Sky",
@@ -3090,12 +4656,13 @@
       "developer": "Brute Force",
       "type": "t",
       "genre": "Action",
-      "date": "2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 225
+      "id": 235
     },
     {
       "title": "Pastry Panic!",
@@ -3103,12 +4670,13 @@
       "developer": "Megatent",
       "type": "t",
       "genre": "Action",
-      "date": "Q1 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 226
+      "id": 236
     },
     {
       "title": "People of Note",
@@ -3116,38 +4684,13 @@
       "developer": "Iridium Studios",
       "type": "t",
       "genre": "Action",
-      "date": "April 7, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 227
-    },
-    {
-      "title": "Persona 3 Reload",
-      "publisher": "Sega",
-      "developer": "Atlus",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "October 23, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 228
-    },
-    {
-      "title": "PGA Tour 2K25",
-      "publisher": "2K",
-      "developer": "HB Studios",
-      "type": "t",
-      "genre": "Sports",
-      "date": "February 6, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 229
+      "id": 237
     },
     {
       "title": "Phasmophobia",
@@ -3155,12 +4698,13 @@
       "developer": "Kinetic Games",
       "type": "t",
       "genre": "Horror",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 230
+      "id": 240
     },
     {
       "title": "Planet of Lana II: Children of the Leaf",
@@ -3168,12 +4712,13 @@
       "developer": "Wishfully",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 231
+      "id": 241
     },
     {
       "title": "Plants vs. Zombies: Replanted",
@@ -3181,38 +4726,13 @@
       "developer": "PopCap Games",
       "type": "t",
       "genre": "Action",
-      "date": "October 23, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 232
-    },
-    {
-      "title": "Pokémon Legends: Z-A – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo, ,, The Pokémon Company",
-      "developer": "Game Freak",
-      "type": "n",
-      "genre": "RPG",
-      "date": "October 16, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 233
-    },
-    {
-      "title": "Pokémon Pokopia",
-      "publisher": "Nintendo, ,, The Pokémon Company",
-      "developer": "Koei Tecmo",
-      "type": "e",
-      "genre": "RPG",
-      "date": "March 5, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 234
+      "id": 242
     },
     {
       "title": "Pokémon Winds and Waves",
@@ -3220,12 +4740,13 @@
       "developer": "Game Freak",
       "type": "e",
       "genre": "RPG",
-      "date": "2027",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 235
+      "id": 245
     },
     {
       "title": "Pool Room Billiard",
@@ -3233,12 +4754,13 @@
       "developer": "ITL",
       "type": "t",
       "genre": "Action",
-      "date": "January 22, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 236
+      "id": 246
     },
     {
       "title": "PowerWash Simulator 2",
@@ -3246,25 +4768,13 @@
       "developer": "FuturLab",
       "type": "t",
       "genre": "Simulation",
-      "date": "October 23, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "d",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 237
-    },
-    {
-      "title": "Pragmata",
-      "publisher": "Capcom",
-      "developer": "Capcom",
-      "type": "t",
-      "genre": "Action",
-      "date": "April 17, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 238
+      "id": 247
     },
     {
       "title": "The Prince of Tennis: Doki Doki Survival eternal passion",
@@ -3276,8 +4786,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 316
+      "id": 336
     },
     {
       "title": "The Prince of Tennis: Sweet School Festival 0-40 and more…",
@@ -3289,8 +4800,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 317
+      "id": 337
     },
     {
       "title": "Pritto Prisoner – Nintendo Switch 2 Edition",
@@ -3298,12 +4810,13 @@
       "developer": "PinCool",
       "type": "n",
       "genre": "Action",
-      "date": "December 25, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 239
+      "id": 249
     },
     {
       "title": "Professor Layton and the New World of Steam",
@@ -3311,12 +4824,13 @@
       "developer": "Level-5",
       "type": "t",
       "genre": "Puzzle",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 240
+      "id": 250
     },
     {
       "title": "Psyvariar 3",
@@ -3324,12 +4838,13 @@
       "developer": "Red Art Studios",
       "type": "t",
       "genre": "Action",
-      "date": "March 19, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 241
+      "id": 251
     },
     {
       "title": "Punyan for Nintendo Switch 2",
@@ -3337,25 +4852,13 @@
       "developer": "G-Mode",
       "type": "t",
       "genre": "Action",
-      "date": "November 20, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 242
-    },
-    {
-      "title": "Puyo Puyo Tetris 2S",
-      "publisher": "Sega",
-      "developer": "Sega",
-      "type": "t",
-      "genre": "Puzzle",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "var",
-      "note": "Japan first; Western dates TBA",
-      "id": 243
+      "id": 252
     },
     {
       "title": "R-Type Dimensions III",
@@ -3363,25 +4866,13 @@
       "developer": "ININ Games",
       "type": "t",
       "genre": "Action",
-      "date": "May 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 244
-    },
-    {
-      "title": "R-Type Tactics I – II Cosmos",
-      "publisher": "Granzella",
-      "developer": "Granzella",
-      "type": "t",
-      "genre": "Strategy RPG",
-      "date": "March 12, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 245
+      "id": 254
     },
     {
       "title": "Radiant Starlets",
@@ -3393,21 +4884,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 246
-    },
-    {
-      "title": "Raidou Remastered: The Mystery of the Soulless Army",
-      "publisher": "Atlus,, Sega",
-      "developer": "Atlus",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "June 19, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 247
+      "id": 256
     },
     {
       "title": "Ratatan",
@@ -3415,25 +4894,13 @@
       "developer": "Game Source Entertainment",
       "type": "t",
       "genre": "Action",
-      "date": "July 16, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 248
-    },
-    {
-      "title": "Reanimal",
-      "publisher": "THQ Nordic",
-      "developer": "Tarsier Studios",
-      "type": "t",
-      "genre": "Action",
-      "date": "February 13, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 249
+      "id": 258
     },
     {
       "title": "Red Dead Redemption - Nintendo Switch 2 Edition",
@@ -3441,12 +4908,13 @@
       "developer": "Rockstar San Diego, ,, Double Eleven, , Cast Iron Games",
       "type": "n",
       "genre": "Action",
-      "date": "December 2, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 250
+      "id": 260
     },
     {
       "title": "Relayer Advanced Definitive Edition",
@@ -3454,12 +4922,13 @@
       "developer": "Dragami Games",
       "type": "t",
       "genre": "Action",
-      "date": "September 25, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 251
+      "id": 261
     },
     {
       "title": "Resident Evil 7: Biohazard",
@@ -3467,25 +4936,13 @@
       "developer": "Capcom",
       "type": "t",
       "genre": "Horror",
-      "date": "February 27, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 252
-    },
-    {
-      "title": "Resident Evil Requiem",
-      "publisher": "Capcom",
-      "developer": "Capcom",
-      "type": "t",
-      "genre": "Horror",
-      "date": "February 27, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 253
+      "id": 262
     },
     {
       "title": "Resident Evil Village",
@@ -3493,12 +4950,13 @@
       "developer": "Capcom",
       "type": "t",
       "genre": "Horror",
-      "date": "February 27, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 254
+      "id": 265
     },
     {
       "title": "Ripple Island: Kyle & Cal's Restaurant",
@@ -3506,25 +4964,13 @@
       "developer": "Sunsoft",
       "type": "t",
       "genre": "Action",
-      "date": "November 27, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 255
-    },
-    {
-      "title": "The Rogue Prince of Persia",
-      "publisher": "Ubisoft",
-      "developer": "Evil Empire",
-      "type": "t",
-      "genre": "Action Roguelike",
-      "date": "December 16, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 318
+      "id": 267
     },
     {
       "title": "Rollin' Rascal",
@@ -3532,12 +4978,13 @@
       "developer": "Gabriel Gonzalez, Curiomatic",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 256
+      "id": 269
     },
     {
       "title": "Romancing SaGa 2: Revenge of the Seven – Nintendo Switch 2 Edition",
@@ -3545,12 +4992,13 @@
       "developer": "Xeen",
       "type": "n",
       "genre": "Action",
-      "date": "July 31, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 257
+      "id": 270
     },
     {
       "title": "Rotwood",
@@ -3558,12 +5006,13 @@
       "developer": "Klei Entertainment",
       "type": "t",
       "genre": "Action",
-      "date": "March 3, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 258
+      "id": 271
     },
     {
       "title": "The Rumble Fish 2 – Nintendo Switch 2 Edition",
@@ -3571,51 +5020,13 @@
       "developer": "Dimps",
       "type": "n",
       "genre": "Action",
-      "date": "January 22, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 319
-    },
-    {
-      "title": "Run for Money: Hunters vs. Runners! Can You Win as Either?",
-      "publisher": "D3 Publisher",
-      "developer": "D3 Publisher",
-      "type": "t",
-      "genre": "Action",
-      "date": "December 4, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 259
-    },
-    {
-      "title": "Rune Factory: Guardians of Azuma – Nintendo Switch 2 Edition",
-      "publisher": "Marvelous",
-      "developer": "Marvelous",
-      "type": "n",
-      "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 260
-    },
-    {
-      "title": "Rushing Beat X: Return of Brawl Brothers",
-      "publisher": "Clear River Games",
-      "developer": "City Connection",
-      "type": "t",
-      "genre": "Action",
-      "date": "March 19, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 261
+      "id": 339
     },
     {
       "title": "Sail Forth – Nintendo Switch 2 Edition",
@@ -3623,12 +5034,13 @@
       "developer": "Festive Vector",
       "type": "n",
       "genre": "Action",
-      "date": "January 16, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 262
+      "id": 275
     },
     {
       "title": "Sayonara Wild Hearts – Nintendo Switch 2 Edition",
@@ -3636,12 +5048,13 @@
       "developer": "Simogo",
       "type": "n",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 263
+      "id": 276
     },
     {
       "title": "Shadow Labyrinth – Nintendo Switch 2 Edition",
@@ -3649,12 +5062,13 @@
       "developer": "Bandai Namco Studios",
       "type": "n",
       "genre": "Action",
-      "date": "July 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 264
+      "id": 278
     },
     {
       "title": "ShapeHero Factory",
@@ -3662,12 +5076,13 @@
       "developer": "Asobism",
       "type": "t",
       "genre": "Action",
-      "date": "September 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 265
+      "id": 279
     },
     {
       "title": "Shenmue III Enhanced",
@@ -3675,25 +5090,13 @@
       "developer": "Ys Net",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 266
-    },
-    {
-      "title": "Shine Post: Be Your Idol!",
-      "publisher": "Konami",
-      "developer": "Konami",
-      "type": "t",
-      "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "jp",
-      "note": "Japan exclusive (JP Direct reveal)",
-      "id": 267
+      "id": 280
     },
     {
       "title": "Shuten Order – Nintendo Switch 2 Edition",
@@ -3701,12 +5104,13 @@
       "developer": "Too Kyo Games, , Neilo",
       "type": "n",
       "genre": "Action",
-      "date": "November 27, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 268
+      "id": 282
     },
     {
       "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
@@ -3714,12 +5118,13 @@
       "developer": "Firaxis Games",
       "type": "n",
       "genre": "Strategy",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 269
+      "id": 284
     },
     {
       "title": "Simogo Legacy Collection – Nintendo Switch 2 Edition",
@@ -3727,12 +5132,13 @@
       "developer": "Simogo",
       "type": "n",
       "genre": "Action",
-      "date": "December 2, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 270
+      "id": 285
     },
     {
       "title": "Skate Story",
@@ -3740,51 +5146,13 @@
       "developer": "Sam Eng",
       "type": "t",
       "genre": "Action",
-      "date": "December 8, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 271
-    },
-    {
-      "title": "Snoopy & The Great Mystery Club",
-      "publisher": "GameMill Entertainment",
-      "developer": "Cradle Games",
-      "type": "t",
-      "genre": "Action",
-      "date": "March 17, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 272
-    },
-    {
-      "title": "Sonic Racing: CrossWorlds – Nintendo Switch 2 Edition",
-      "publisher": "Sega",
-      "developer": "Sonic Team",
-      "type": "n",
-      "genre": "Racing",
-      "date": "December 4, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 273
-    },
-    {
-      "title": "Sonic X Shadow Generations",
-      "publisher": "Sega",
-      "developer": "Sonic Team",
-      "type": "t",
-      "genre": "Platformer",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 274
+      "id": 286
     },
     {
       "title": "South of Midnight",
@@ -3792,12 +5160,13 @@
       "developer": "Compulsion Games",
       "type": "t",
       "genre": "Action",
-      "date": "Q1/Q2 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 275
+      "id": 290
     },
     {
       "title": "Spine",
@@ -3805,51 +5174,27 @@
       "developer": "Nekki",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 276
+      "id": 291
     },
     {
       "title": "Splatoon Raiders",
       "publisher": "Nintendo",
       "developer": "Nintendo EPD",
       "type": "e",
-      "genre": "Sports",
-      "date": "July 23, 2026",
+      "genre": "Action",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 277
-    },
-    {
-      "title": "Split Fiction",
-      "publisher": "Electronic Arts",
-      "developer": "Hazelight Studios",
-      "type": "t",
-      "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 278
-    },
-    {
-      "title": "SpongeBob SquarePants: Titans of the Tide",
-      "publisher": "THQ Nordic",
-      "developer": "Purple Lamp",
-      "type": "t",
-      "genre": "Action",
-      "date": "November 18, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 279
+      "id": 292
     },
     {
       "title": "Squirrel with a Gun",
@@ -3857,12 +5202,13 @@
       "developer": "Dee Dee Creations",
       "type": "t",
       "genre": "Action",
-      "date": "November 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 280
+      "id": 295
     },
     {
       "title": "Starship Troopers: Ultimate Bug War!",
@@ -3870,12 +5216,13 @@
       "developer": "Auroch Digital",
       "type": "t",
       "genre": "Action",
-      "date": "March 16, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 287
+      "id": 303
     },
     {
       "title": "Star Trek: Voyager – Across the Unknown",
@@ -3883,12 +5230,13 @@
       "developer": "Gamexcite",
       "type": "t",
       "genre": "Action",
-      "date": "February 18, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 281
+      "id": 296
     },
     {
       "title": "Star Wars Outlaws",
@@ -3896,12 +5244,13 @@
       "developer": "Massive Entertainment",
       "type": "t",
       "genre": "Action-Adventure",
-      "date": "September 4, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 282
+      "id": 297
     },
     {
       "title": "Starbites",
@@ -3909,25 +5258,27 @@
       "developer": "Ikinagames",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 283
+      "id": 299
     },
     {
       "title": "Stardew Valley – Nintendo Switch 2 Edition",
       "publisher": "ConcernedApe",
       "developer": "ConcernedApe",
       "type": "n",
-      "genre": "Life Sim",
-      "date": "December 25, 2025",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 284
+      "id": 300
     },
     {
       "title": "Starsand Island",
@@ -3939,8 +5290,9 @@
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 285
+      "id": 301
     },
     {
       "title": "Starseeker: Astroneer Expeditions",
@@ -3948,12 +5300,13 @@
       "developer": "System Era Softworks",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 286
+      "id": 302
     },
     {
       "title": "Storm Lancers",
@@ -3961,25 +5314,13 @@
       "developer": "ProbablyMonsters",
       "type": "t",
       "genre": "Action",
-      "date": "December 9, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 288
-    },
-    {
-      "title": "Story of Seasons: Grand Bazaar – Nintendo Switch 2 Edition",
-      "publisher": "Marvelous",
-      "developer": "Marvelous",
-      "type": "n",
-      "genre": "Action RPG",
-      "date": "August 27, 2025",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 289
+      "id": 304
     },
     {
       "title": "Street Fighter 6",
@@ -3987,12 +5328,13 @@
       "developer": "Capcom",
       "type": "t",
       "genre": "Fighting",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 290
+      "id": 306
     },
     {
       "title": "Suika Game Planet",
@@ -4000,12 +5342,13 @@
       "developer": "Aladdin X",
       "type": "t",
       "genre": "Action",
-      "date": "January 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 291
+      "id": 308
     },
     {
       "title": "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
@@ -4013,12 +5356,13 @@
       "developer": "Konami",
       "type": "t",
       "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "var",
+      "releases": {},
       "note": "Japan first release",
-      "id": 292
+      "id": 309
     },
     {
       "title": "Super Battle Golf",
@@ -4026,12 +5370,13 @@
       "developer": "Brimstone Games",
       "type": "t",
       "genre": "Sports",
-      "date": "Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 293
+      "id": 311
     },
     {
       "title": "Super Bomberman Collection",
@@ -4039,12 +5384,13 @@
       "developer": "Red Art Games",
       "type": "t",
       "genre": "Action",
-      "date": "February 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 294
+      "id": 312
     },
     {
       "title": "Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park",
@@ -4052,12 +5398,13 @@
       "developer": "Nintendo EPD",
       "type": "n",
       "genre": "Platformer",
-      "date": "March 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 295
+      "id": 314
     },
     {
       "title": "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV",
@@ -4065,12 +5412,13 @@
       "developer": "Nintendo Cube",
       "type": "n",
       "genre": "Party",
-      "date": "July 24, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 296
+      "id": 316
     },
     {
       "title": "Super Meat Boy 3D",
@@ -4078,25 +5426,13 @@
       "developer": "Sluggerfly",
       "type": "t",
       "genre": "Action",
-      "date": "March 31, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 297
-    },
-    {
-      "title": "Survival Kids",
-      "publisher": "Konami",
-      "developer": "Unity Technologies",
-      "type": "t",
-      "genre": "Action",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 298
+      "id": 317
     },
     {
       "title": "System Shock",
@@ -4104,12 +5440,13 @@
       "developer": "Nightdive Studios",
       "type": "t",
       "genre": "Action",
-      "date": "December 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 299
+      "id": 319
     },
     {
       "title": "Tales of Arise – Beyond the Dawn Edition",
@@ -4117,12 +5454,13 @@
       "developer": "Bandai Namco Studios",
       "type": "t",
       "genre": "Action RPG",
-      "date": "May 22, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 300
+      "id": 320
     },
     {
       "title": "Tales of the Shire: A The Lord of the Rings Game",
@@ -4130,25 +5468,13 @@
       "developer": "Wētā Workshop",
       "type": "t",
       "genre": "Action RPG",
-      "date": "March 25, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 301
-    },
-    {
-      "title": "Tamagotchi Plaza Nintendo Switch 2 Edition",
-      "publisher": "Bandai Namco Entertainment",
-      "developer": "Hyde",
-      "type": "n",
-      "genre": "Action",
-      "date": "June 26, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 302
+      "id": 321
     },
     {
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate – Nintendo Switch 2 Edition",
@@ -4156,12 +5482,13 @@
       "developer": "Super Evil Megacorp",
       "type": "n",
       "genre": "Action",
-      "date": "December 16, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 303
+      "id": 323
     },
     {
       "title": "They Are Billions",
@@ -4169,12 +5496,13 @@
       "developer": "Numantian Games",
       "type": "t",
       "genre": "Action",
-      "date": "January 22, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 321
+      "id": 341
     },
     {
       "title": "Tokyo Scramble",
@@ -4182,12 +5510,13 @@
       "developer": "Adglobe",
       "type": "t",
       "genre": "Action",
-      "date": "February 11, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 322
+      "id": 342
     },
     {
       "title": "Tomb Raider: Definitive Edition",
@@ -4195,12 +5524,13 @@
       "developer": "Crystal Dynamics",
       "type": "t",
       "genre": "Action",
-      "date": "November 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 323
+      "id": 343
     },
     {
       "title": "Tomba! Special Edition",
@@ -4208,12 +5538,13 @@
       "developer": "Whoopee Camp, Limited Run Games",
       "type": "t",
       "genre": "Action",
-      "date": "January 5, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 325
+      "id": 345
     },
     {
       "title": "Tomba! 2: The Evil Swine Return Special Edition",
@@ -4221,12 +5552,13 @@
       "developer": "Whoopee Camp, Limited Run Games",
       "type": "t",
       "genre": "Action",
-      "date": "December 15, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 324
+      "id": 344
     },
     {
       "title": "Tony Hawk's Pro Skater 3 + 4",
@@ -4234,12 +5566,13 @@
       "developer": "Iron Galaxy",
       "type": "t",
       "genre": "Action",
-      "date": "July 11, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 326
+      "id": 346
     },
     {
       "title": "The Touryst: Deluxe",
@@ -4247,12 +5580,13 @@
       "developer": "Shin'en Multimedia",
       "type": "t",
       "genre": "Action",
-      "date": "September 25, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 320
+      "id": 340
     },
     {
       "title": "Trails in the Sky 1st Chapter – Nintendo Switch 2 Edition",
@@ -4260,12 +5594,13 @@
       "developer": "Nihon Falcom",
       "type": "n",
       "genre": "Action",
-      "date": "September 19, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 327
+      "id": 348
     },
     {
       "title": "Trails in the Sky 2nd Chapter",
@@ -4273,12 +5608,13 @@
       "developer": "Nihon Falcom",
       "type": "t",
       "genre": "Action",
-      "date": "Q4 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 328
+      "id": 349
     },
     {
       "title": "Two Point Museum",
@@ -4286,12 +5622,13 @@
       "developer": "Two Point Studios",
       "type": "t",
       "genre": "Action",
-      "date": "October 28, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 329
+      "id": 350
     },
     {
       "title": "Ultimate Sheep Raccoon",
@@ -4299,12 +5636,13 @@
       "developer": "Clever Endeavour Games",
       "type": "t",
       "genre": "Action",
-      "date": "December 9, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 330
+      "id": 352
     },
     {
       "title": "Underward: Lastboss, Genius Gyaru Doctor",
@@ -4312,12 +5650,13 @@
       "developer": "Intense",
       "type": "t",
       "genre": "Action",
-      "date": "December 18, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 331
+      "id": 353
     },
     {
       "title": "Unrailed 2: Back on Track",
@@ -4325,12 +5664,13 @@
       "developer": "Indoor Astronaut",
       "type": "t",
       "genre": "Action",
-      "date": "May 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 332
+      "id": 354
     },
     {
       "title": "Utawarerumono: Past and Present Rediscovered",
@@ -4338,12 +5678,13 @@
       "developer": "Aquaplus",
       "type": "t",
       "genre": "Action",
-      "date": "May 28, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 334
+      "id": 356
     },
     {
       "title": "Valheim",
@@ -4351,25 +5692,27 @@
       "developer": "Iron Gate Studio",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 335
+      "id": 357
     },
     {
       "title": "Virtua Fighter 5 R.E.V.O. World Stage",
       "publisher": "Sega",
       "developer": "Ryu Ga Gotoku Studio, ,, Sega AM2",
       "type": "t",
-      "genre": "Action",
-      "date": "March 26, 2026",
-      "status": "r",
+      "genre": "Fighting",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 336
+      "id": 358
     },
     {
       "title": "Wandering Sword",
@@ -4377,12 +5720,13 @@
       "developer": "The Swordman",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 337
+      "id": 360
     },
     {
       "title": "Warframe",
@@ -4390,38 +5734,27 @@
       "developer": "Digital Extremes",
       "type": "t",
       "genre": "Action",
-      "date": "March 25, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 338
+      "id": 361
     },
     {
       "title": "Warhammer 40,000: Rogue Trader",
       "publisher": "Owlcat Games",
       "developer": "Owlcat Games",
       "type": "t",
-      "genre": "Action Roguelike",
-      "date": "December 11, 2025",
-      "status": "r",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 339
-    },
-    {
-      "title": "Wild Hearts S",
-      "publisher": "Koei Tecmo",
-      "developer": "Omega Force",
-      "type": "t",
-      "genre": "Action",
-      "date": "July 25, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 340
+      "id": 362
     },
     {
       "title": "Winning Post 10 2026",
@@ -4429,12 +5762,13 @@
       "developer": "Koei Tecmo",
       "type": "t",
       "genre": "Action",
-      "date": "March 26, 2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 341
+      "id": 364
     },
     {
       "title": "Witchbrook",
@@ -4442,12 +5776,13 @@
       "developer": "Chucklefish",
       "type": "t",
       "genre": "Action",
-      "date": "2026",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 342
+      "id": 365
     },
     {
       "title": "Woodo",
@@ -4455,77 +5790,13 @@
       "developer": "Tiny Monks Tales",
       "type": "t",
       "genre": "Action",
-      "date": "Q2/Q3 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 343
-    },
-    {
-      "title": "WWE 2K25",
-      "publisher": "2K",
-      "developer": "Visual Concepts",
-      "type": "t",
-      "genre": "Action",
-      "date": "July 23, 2025",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 344
-    },
-    {
-      "title": "WWE 2K26",
-      "publisher": "2K",
-      "developer": "Visual Concepts",
-      "type": "t",
-      "genre": "Action",
-      "date": "March 13, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "note": "",
-      "id": 345
-    },
-    {
-      "title": "Xenoblade Chronicles X: Definitive Edition – Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Monolith Soft",
-      "type": "n",
-      "genre": "Action RPG",
-      "date": "February 19, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "ww",
-      "note": "",
-      "id": 346
-    },
-    {
-      "title": "Yakuza 0 Director's Cut",
-      "publisher": "Sega",
-      "developer": "Ryu Ga Gotoku Studio",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "June 5, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "Switch 2 exclusive port",
-      "id": 347
-    },
-    {
-      "title": "Yakuza Kiwami",
-      "publisher": "Sega",
-      "developer": "Ryu Ga Gotoku Studio",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "November 13, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 348
+      "id": 366
     },
     {
       "title": "Yakuza Kiwami 2",
@@ -4533,25 +5804,13 @@
       "developer": "Ryu Ga Gotoku Studio",
       "type": "t",
       "genre": "Action RPG",
-      "date": "November 13, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "k",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 349
-    },
-    {
-      "title": "Yakuza Kiwami 3 & Dark Ties",
-      "publisher": "Sega",
-      "developer": "Ryu Ga Gotoku Studio",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "February 12, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "note": "",
-      "id": 350
+      "id": 372
     },
     {
       "title": "Yobarai Detective: Miasma Breaker – Nintendo Switch 2 Edition",
@@ -4559,25 +5818,27 @@
       "developer": "Mebius",
       "type": "n",
       "genre": "Action",
-      "date": "October 30, 2025",
-      "status": "r",
+      "date": "TBA",
+      "status": "u",
       "fmt": "?",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 351
+      "id": 375
     },
     {
       "title": "Yooka-Replaylee",
       "publisher": "Playtonic Friends, PM Studios",
       "developer": "Playtonic Games",
       "type": "t",
-      "genre": "Puzzle",
-      "date": "October 9, 2025",
-      "status": "r",
+      "genre": "Platformer",
+      "date": "TBA",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 352
+      "id": 377
     },
     {
       "title": "Yoshi and the Mysterious Book",
@@ -4585,25 +5846,13 @@
       "developer": "Nintendo",
       "type": "e",
       "genre": "Platformer",
-      "date": "May 21, 2026",
+      "date": "TBA",
       "status": "u",
       "fmt": "c",
       "region": "ww",
+      "releases": {},
       "note": "",
-      "id": 353
-    },
-    {
-      "title": "Ys X: Proud Nordics",
-      "publisher": "Nihon Falcom",
-      "developer": "Nihon Falcom",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "July 31, 2025",
-      "status": "r",
-      "fmt": "k",
-      "region": "var",
-      "note": "Japan released Summer 2025; West Jan 2026",
-      "id": 354
+      "id": 378
     }
   ]
 }
