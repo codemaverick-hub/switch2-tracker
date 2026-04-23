@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e60012">
-<meta name="description" content="Track your Nintendo Switch 2 game collection by region, with platform compatibility info.">
+<meta name="description" content="Track your Nintendo Switch 2 game collection by region.">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Switch 2 Master Tracker</title>
@@ -20,42 +20,29 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;font-size:13px;min-height:100vh;padding:20px 16px 60px}
 .app{max-width:1200px;margin:0 auto}
-
-/* Header */
 .hdr{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
 .logo{display:flex;align-items:center;gap:12px}
 .logo-icon{width:38px;height:38px;background:linear-gradient(135deg,#e60012,#cc0010);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
 .logo h1{font-size:20px;font-weight:700;letter-spacing:-.3px}
 .logo p{font-size:11px;color:var(--muted);margin-top:2px;font-family:'DM Mono',monospace}
-
-/* Banners */
 .update-banner{background:var(--green-dim);border:1px solid var(--green);color:var(--green);border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:8px;justify-content:space-between}
 .update-banner.show{display:flex}
 .update-banner button{background:var(--green);color:#000;border:none;border-radius:5px;padding:4px 10px;font-size:11px;cursor:pointer;font-weight:600}
 .install-bar{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:12px;display:none;align-items:center;gap:10px;justify-content:space-between}
 .install-bar.show{display:flex}
 .install-bar .install-btn{background:var(--red);color:#fff;border:none;border-radius:5px;padding:5px 12px;font-size:11px;cursor:pointer;font-weight:600;white-space:nowrap}
-
-/* Tabs */
 .tabs{display:flex;gap:2px;margin-bottom:20px;background:var(--surface);border-radius:10px;padding:3px;width:fit-content}
 .tab{padding:7px 18px;border-radius:8px;font-size:12.5px;font-weight:500;cursor:pointer;border:none;background:transparent;color:var(--muted);transition:all .15s;letter-spacing:.2px}
 .tab.active{background:var(--surface2);color:var(--text);box-shadow:0 1px 3px rgba(0,0,0,.4)}
-
-/* Stats */
 .stats{display:grid;gap:8px;margin-bottom:16px}
 .stat{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px 14px}
 .stat-num{font-size:22px;font-weight:700;font-family:'DM Mono',monospace;line-height:1}
 .stat-lbl{font-size:10px;color:var(--muted);margin-top:4px;letter-spacing:.3px;text-transform:uppercase}
-
-/* Controls */
 .ctrl{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
 .ctrl input,.ctrl select{background:var(--surface);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:11.5px;padding:6px 10px;font-family:'DM Sans',sans-serif;outline:none}
 .ctrl input{flex:1;min-width:140px}
-
-/* Legend */
 .legend{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px;align-items:center;font-size:10.5px;color:var(--muted)}
 .legend strong{color:var(--text);font-size:10px;text-transform:uppercase;letter-spacing:.4px}
-
 /* Badges */
 .b{display:inline-block;font-size:9.5px;font-weight:500;padding:2px 7px;border-radius:999px;letter-spacing:.2px;line-height:1.6;white-space:nowrap;font-family:'DM Mono',monospace}
 .be{background:#0d2e1c;color:#3ddc84}
@@ -67,92 +54,52 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .fk{background:#2e1e00;color:#f5a623;border:1px solid #4a3000}
 .fd{background:#0d1e3d;color:#4b9eff;border:1px solid #1a2e5a}
 .fq{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
-.sr{background:#0a200a;color:#3ddc84}
-.su{background:#200a0a;color:#ff6b6b}
+.sr{background:#0a200a;color:#3ddc84}.su{background:#200a0a;color:#ff6b6b}
 .rj{background:#2e1500;color:#ff9940;border:1px solid #5a2a00}
 .rv{background:#001a2e;color:#4bb4ff;border:1px solid #003050}
-.ccat-ctrl{background:#1e0d3d;color:#b47eff}
-.ccat-grip{background:#1e0d3d;color:#d4a0ff}
-.ccat-cam{background:#0d1e3d;color:#4b9eff}
-.ccat-case{background:#0d2e2a;color:#3dd6c8}
-.ccat-dock{background:#2e2000;color:#f5a623}
-.ccat-stor{background:#0d2e1c;color:#3ddc84}
-
+.ccat-ctrl{background:#1e0d3d;color:#b47eff}.ccat-grip{background:#1e0d3d;color:#d4a0ff}
+.ccat-cam{background:#0d1e3d;color:#4b9eff}.ccat-case{background:#0d2e2a;color:#3dd6c8}
+.ccat-dock{background:#2e2000;color:#f5a623}.ccat-stor{background:#0d2e1c;color:#3ddc84}
 .rc{font-size:11px;color:var(--muted);margin-bottom:8px;font-family:'DM Mono',monospace}
-
-/* ── Game card ── */
+/* Cards */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s;position:relative}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .15s}
 .card:hover{border-color:var(--faint)}
 .card.plat-s2{border-left:3px solid #ff4b4b}
 .card.plat-b{border-left:3px solid #4b9eff}
-
-/* ── Box art area ── */
-.card-art{
-  height:150px;position:relative;overflow:hidden;flex-shrink:0;
-  display:flex;align-items:flex-end;
-}
-.card-art.art-s2only{background:linear-gradient(145deg,#2a0808 0%,#4a1010 40%,#1e0606 100%)}
-.card-art.art-both{background:linear-gradient(145deg,#06122a 0%,#0e244a 40%,#061020 100%)}
-.card-art.art-ns{background:linear-gradient(145deg,#1a0d2e 0%,#2e1a4a 40%,#110820 100%)}
-
-/* Art pattern overlay */
-.card-art::before{
-  content:'';position:absolute;inset:0;
-  background:radial-gradient(ellipse at 70% 30%,rgba(255,255,255,.06) 0%,transparent 70%);
-  z-index:1;pointer-events:none;
-}
-.art-img{
-  position:absolute;inset:0;width:100%;height:100%;
-  object-fit:cover;object-position:center top;
-  z-index:2;transition:opacity .3s;
-}
-.art-initials{
-  position:absolute;top:12px;right:12px;
-  font-size:36px;font-weight:800;
-  color:rgba(255,255,255,.1);
-  font-family:'DM Mono',monospace;
-  letter-spacing:-2px;z-index:1;
-  user-select:none;line-height:1;
-}
-.art-overlay{
-  position:relative;z-index:3;
-  width:100%;padding:6px 10px 8px;
-  background:linear-gradient(transparent,rgba(0,0,0,.85));
-}
+/* Box art */
+.card-art{height:145px;position:relative;overflow:hidden;flex-shrink:0;display:flex;align-items:flex-end;background:#111}
+.card-art.as{background:linear-gradient(145deg,#2a0808,#4a1010 50%,#1a0404)}
+.card-art.ab{background:linear-gradient(145deg,#06122a,#0e244a 50%,#040f1a)}
+.card-art.an{background:linear-gradient(145deg,#1a0d2e,#2a1444 50%,#100820)}
+.card-art::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 25%,rgba(255,255,255,.07),transparent 65%);z-index:1;pointer-events:none}
+.art-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;z-index:2;opacity:0;transition:opacity .4s}
+.art-img.loaded{opacity:1}
+.art-init{position:absolute;top:10px;right:12px;font-size:38px;font-weight:800;color:rgba(255,255,255,.1);font-family:'DM Mono',monospace;letter-spacing:-2px;z-index:1;user-select:none;line-height:1}
+.art-overlay{position:relative;z-index:3;width:100%;padding:6px 10px 8px;background:linear-gradient(transparent,rgba(0,0,0,.88))}
 .art-title{font-size:11.5px;font-weight:700;color:#fff;line-height:1.3;letter-spacing:-.2px}
-.art-pub{font-size:9.5px;color:rgba(255,255,255,.55);margin-top:2px}
-
-/* ── Card body ── */
+.art-pub{font-size:9.5px;color:rgba(255,255,255,.5);margin-top:2px}
+/* Card body */
 .card-body{padding:8px 12px 10px;display:flex;flex-direction:column;gap:5px;flex:1}
 .brow{display:flex;gap:3px;flex-wrap:wrap;align-items:center}
 .dt{font-size:10.5px;color:#9a9aaa}
 .nt{font-size:10px;color:var(--muted);font-style:italic;line-height:1.4}
-
-/* Regional date chips */
 .rdates{display:flex;flex-wrap:wrap;gap:3px;margin-top:2px}
 .rdate-chip{font-size:8.5px;font-family:'DM Mono',monospace;padding:1px 5px;border-radius:4px;border:1px solid var(--border);color:var(--muted)}
 .rdate-chip span{color:var(--text);font-weight:600}
-
-/* ── Ownership UI ── */
+/* Ownership */
 .own-section{margin-top:4px;display:flex;flex-direction:column;gap:3px;padding-top:6px;border-top:1px solid var(--border)}
-
-/* Global buttons */
 .own-global{display:flex;gap:3px}
 .obtn{flex:1;font-size:9px;font-weight:500;padding:5px 2px;border:1px solid var(--border);border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;transition:all .1s;font-family:'DM Sans',sans-serif;text-align:center;line-height:1.2}
 .obtn:hover:not(:disabled){background:var(--surface2);color:var(--text)}
 .obtn.op{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
 .obtn.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
 .obtn.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
-.obtn:disabled{opacity:.25;cursor:not-allowed;text-decoration:line-through}
-
-/* Regional expand toggle */
+.obtn:disabled{opacity:.22;cursor:not-allowed;font-size:8.5px}
 .region-toggle{display:flex;align-items:center;justify-content:space-between;margin-top:3px}
 .region-toggle-btn{font-size:9px;color:var(--muted);background:transparent;border:1px dashed var(--border);border-radius:4px;padding:2px 7px;cursor:pointer;font-family:'DM Mono',monospace;letter-spacing:.2px;transition:all .1s}
 .region-toggle-btn:hover{color:var(--text);border-color:var(--faint)}
 .owned-indicator{font-size:9px;font-family:'DM Mono',monospace;color:var(--green)}
-
-/* Per-region rows */
 .region-rows{display:flex;flex-direction:column;gap:3px;margin-top:4px}
 .own-row{display:flex;align-items:center;gap:3px}
 .own-rlabel{font-size:8.5px;font-family:'DM Mono',monospace;font-weight:600;min-width:28px;color:var(--muted);letter-spacing:.3px}
@@ -163,29 +110,23 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .obtn-sm.op{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
 .obtn-sm.od{background:var(--purple-dim)!important;color:var(--purple)!important;border-color:#2a1a5a!important}
 .obtn-sm.ow{background:var(--amber-dim)!important;color:var(--amber)!important;border-color:#4a3000!important}
-.obtn-sm:disabled{opacity:.2;cursor:not-allowed}
-
-/* Console / accessory cards */
+.obtn-sm:disabled{opacity:.2;cursor:not-allowed;text-decoration:line-through}
+/* Console/acc cards */
 .cgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
 .agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:8px}
 .acc-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:5px}
+.acc-card.ox{border-left:2px solid var(--green)}
 .pr{font-size:13px;font-weight:700;font-family:'DM Mono',monospace}
 .ul{font-size:10.5px;padding-left:16px;color:#9a9aaa;margin-top:2px}
 .ul li{margin-top:3px;line-height:1.3}
 .ct{font-size:12px;font-weight:600;line-height:1.35;letter-spacing:-.1px;margin-top:1px}
 .pub{font-size:10px;color:var(--muted)}
-.nt{font-size:10px;color:var(--muted);font-style:italic;line-height:1.4}
-.acc-card.ox{border-left:2px solid var(--green)}
 .xbtn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .1s}
 .xbtn:hover{background:var(--surface2);color:var(--text)}
 .xbtn.ax{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
-
-/* Compat info box */
 .compat-info{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:12px;font-size:11px;color:var(--muted);line-height:1.6}
 .compat-info strong{color:var(--text)}
 .compat-row{display:flex;align-items:center;gap:8px;margin-top:6px}
-
-/* Empty / loading */
 .empty{text-align:center;padding:40px;color:var(--muted);grid-column:1/-1;font-size:13px}
 .empty span{display:block;font-size:28px;margin-bottom:10px}
 .loading{text-align:center;padding:60px;color:var(--muted)}
@@ -216,56 +157,22 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
   <div id="grid"><div class="loading"><div class="spinner"></div>Fetching game data…</div></div>
 </div>
 <script>
-// ── Constants ──────────────────────────────────────────────────────────────
 const RATING_BOARD={usa:'ESRB',eur:'PEGI',jpn:'CERO',aus:'ACB',kor:'GRAC',cht:'CSRR',asi:'varies'};
 const REGION_LABEL={usa:'USA',eur:'EUR',jpn:'JPN',aus:'AUS',kor:'KOR',cht:'CHT',asi:'ASI'};
 const REGION_ORDER=['usa','eur','jpn','aus','kor','cht','asi'];
-const COLLECTOR_REGIONS=['usa','eur','jpn']; // default set for worldwide physical games
+const COLLECTOR_REGIONS=['usa','eur','jpn'];
 const FM={c:'Physical Cart',k:'Game-Key Card',d:'Digital Only','?':'Format TBA'};
 const FMC={c:'fc',k:'fk',d:'fd','?':'fq'};
 const TY={e:'NS2 Exclusive',n:'NS2 Edition',t:'Third-Party'};
 const TYC={e:'be',n:'bn',t:'bt'};
 const ACAT={Controller:'ccat-ctrl','Grip & Adapter':'ccat-grip',Camera:'ccat-cam',Case:'ccat-case','Dock & Power':'ccat-dock',Storage:'ccat-stor'};
+const ART_BG={s2only:'as',both:'ab'};
 
 function getPlatform(g){return g.type==='n'?'both':'s2only';}
 const PLAT_BADGE={s2only:'<span class="b plat-s2only">Switch 2 Only</span>',both:'<span class="b plat-both">Switch 1 &amp; 2</span>'};
 const PLAT_CLASS={s2only:'plat-s2',both:'plat-b'};
-const ART_CLASS={s2only:'art-s2only',both:'art-both',n:'art-both',e:'art-s2only',t:'art-ns'};
 
-// ── Art cache ──────────────────────────────────────────────────────────────
-const _art={};  // id → url | null
-const _artQ=new Set();
-let _artTimer=null;
-
-function queueArt(id,title){
-  if(_art[id]!==undefined||_artQ.has(id))return;
-  _artQ.add(id);
-  clearTimeout(_artTimer);
-  _artTimer=setTimeout(()=>drainArt(),80);
-}
-
-async function drainArt(){
-  const batch=[..._artQ].slice(0,12);
-  _artQ.clear();
-  await Promise.all(batch.map(id=>fetchArt(id)));
-}
-
-async function fetchArt(id){
-  const g=window._gameMap?.[id]; if(!g)return;
-  try{
-    const r=await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(g.title)}`,{signal:AbortSignal.timeout(4000)});
-    if(!r.ok)throw 0;
-    const d=await r.json();
-    _art[id]=d.thumbnail?.source||null;
-  }catch{_art[id]=null;}
-  // Apply to card if rendered
-  if(_art[id]){
-    const el=document.querySelector(`.art-img[data-gid="${id}"]`);
-    if(el){el.src=_art[id];el.style.opacity='1';}
-  }
-}
-
-// ── Static data ────────────────────────────────────────────────────────────
+// Static console & accessory data
 const C=[
 ['c1','Switch 2 Standard – International','Worldwide','$449.99 / €469.99 / £395.99 / AU$699.95 / CA$629.99',['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],'Released Jun 5, 2025. Region-free; 16 languages; all-region Nintendo Accounts.'],
 ['c2','Switch 2 Standard – JP Language Edition','Japan Only (retail)','¥49,980 (~$335)',['Console (Black)','Joy-Con 2 (L) Light Blue + (R) Light Red','Joy-Con 2 Grip','Joy-Con 2 Straps ×2','Nintendo Switch 2 Dock','Ultra High-Speed HDMI Cable','AC Adapter + USB-C Cable'],'Released Jun 5, 2025. Japanese language only; Japan-region accounts only.'],
@@ -295,34 +202,48 @@ const A=[
 ['a52','microSD Express Card – 1TB','Storage','~$149.99','Late 2025','Licensed for Switch 2.'],
 ];
 
-// ── State ──────────────────────────────────────────────────────────────────
 let GAMES=[], curTab='g';
-function loadState(){try{return JSON.parse(localStorage.getItem('sw2v6')||'{}');}catch{return {};}}
-function saveState(s){try{localStorage.setItem('sw2v6',JSON.stringify(s));}catch{}}
+function loadState(){try{return JSON.parse(localStorage.getItem('sw2v7')||'{}');}catch{return {};}}
+function saveState(s){try{localStorage.setItem('sw2v7',JSON.stringify(s));}catch{}}
 let state=loadState();
 
 function getV(id){const e=document.getElementById(id);return e?e.value:'';}
 function statEl(n,l,c=''){return `<div class="stat"><div class="stat-num"${c?` style="color:${c}"`:''}>${n}</div><div class="stat-lbl">${l}</div></div>`;}
-
 function getOwn(id,r=null){return state[(r?`g${id}_${r}`:`g${id}`)]||'0';}
-function setOwn(id,r,val){
-  const k=r?`g${id}_${r}`:`g${id}`;
-  state[k]=state[k]===val?'0':val;
-  saveState(state);render();
-}
+function setOwn(id,r,val){const k=r?`g${id}_${r}`:`g${id}`;state[k]=state[k]===val?'0':val;saveState(state);render();}
 function ownedRegions(id){return REGION_ORDER.filter(r=>getOwn(id,r)==='p'||getOwn(id,r)==='d');}
 function anyOwned(id){return getOwn(id)!=='0'||ownedRegions(id).length>0;}
 function isExpanded(id){return !!state[`exp_${id}`];}
 function toggleExpand(id){state[`exp_${id}`]=!state[`exp_${id}`];saveState(state);render();}
 
-// ── Fetch game data ────────────────────────────────────────────────────────
+// Determine if a region has physical available based on g.formats
+function regionHasPhysical(g, r) {
+  if (!g.formats) {
+    // No per-region data: fall back to global format
+    return g.fmt === 'c' || g.fmt === 'k';
+  }
+  const rf = g.formats[r];
+  if (rf) return rf === 'c' || rf === 'k';
+  // Region not in formats dict → not released physically there
+  // But if the overall format says physical exists somewhere, don't completely deny it
+  return false;
+}
+
+// Determine effective format badge: use best available format across all regions
+function effectiveFmt(g) {
+  if (!g.formats || Object.keys(g.formats).length === 0) return g.fmt || '?';
+  const vals = Object.values(g.formats);
+  if (vals.includes('c')) return 'c';
+  if (vals.includes('k')) return 'k';
+  if (vals.includes('?')) return '?';
+  return 'd';
+}
+
 async function fetchGames(){
   for(const url of [`data/games.json?t=${Math.floor(Date.now()/3600000)}`,'data/games.json']){
     try{
       const r=await fetch(url);if(!r.ok)continue;
-      const d=await r.json();GAMES=d.games||[];window._gamesData=d;
-      window._gameMap={};GAMES.forEach(g=>window._gameMap[g.id]=g);
-      return true;
+      const d=await r.json();GAMES=d.games||[];window._gamesData=d;return true;
     }catch{}
   }return false;
 }
@@ -331,11 +252,10 @@ function subText(){
   if(!window._gamesData)return`${GAMES.length} games`;
   const d=new Date(window._gamesData.updated||'');
   const ds=isNaN(d)?'':` · updated ${d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}`;
-  const src=window._gamesData.sources?.sheet?' · NSCollectors + Wikipedia':' · Wikipedia';
+  const src=' · NSCollectors + Nintendo EU';
   return`${GAMES.length} games${src}${ds}`;
 }
 
-// ── Tab switching ──────────────────────────────────────────────────────────
 function sw(t){
   curTab=t;
   ['g','c','a'].forEach(x=>document.getElementById('t'+x).classList.toggle('active',x===t));
@@ -348,59 +268,74 @@ function render(){
   if(curTab==='g')renderG();else if(curTab==='c')renderC();else renderA();
 }
 
-// ── Game card builder ──────────────────────────────────────────────────────
+// ── Game card ──────────────────────────────────────────────────────────────
 function buildGameCard(g){
   const plat=getPlatform(g);
-  const fmt=g.fmt||'?';
+  const fmt=effectiveFmt(g);       // best format across all regions
+  const rawFmt=g.fmt||'?';         // what the scraper stored
   const type=g.type||'t';
   const reg=g.region||'ww';
   const releases=g.releases||{};
-  const isPhysical=fmt==='c'||fmt==='k';
-  const isDigital=fmt==='d';
+  const formats=g.formats||{};
   const releaseRegions=REGION_ORDER.filter(r=>releases[r]);
   const hasMultiRegionData=releaseRegions.length>1;
 
-  // Box art
-  const initials=(g.title||'').split(' ').slice(0,2).map(w=>w[0]||'').join('').toUpperCase();
-  const artClass=ART_CLASS[plat]||'art-ns';
-  const artSrc=_art[g.id]||'';
-  queueArt(g.id,g.title);
+  // Physical availability
+  const hasAnyPhysical=fmt==='c'||fmt==='k';
+  // A game is "definitively digital only" if: no physical anywhere AND worldwide (no regional variants)
+  const definitelyDigital=!hasAnyPhysical&&(reg==='ww'||Object.keys(formats).length===0);
+
+  // Art
+  const artSrc=g.art||'';
+  const initials=(g.title||'').split(' ').filter(w=>w.length>1).slice(0,2).map(w=>w[0].toUpperCase()).join('');
+  const artBg=ART_BG[plat]||'an';
 
   // Regional date chips
-  const datechips=(reg!=='ww'&&hasMultiRegionData)
+  const datechips=(hasMultiRegionData)
     ?`<div class="rdates">${releaseRegions.map(r=>`<span class="rdate-chip"><span>${REGION_LABEL[r]}</span> ${releases[r]}</span>`).join('')}</div>`:'';
 
-  // Ownership section
-  let ownUI='';
+  // Ownership UI
   const expanded=isExpanded(g.id);
   const ownedR=ownedRegions(g.id);
+  let ownUI='';
 
-  if(isDigital){
-    // Digital only: no physical option
+  if(definitelyDigital){
+    // Worldwide digital only: no physical option at all
     const sv=getOwn(g.id);
     ownUI=`<div class="own-section">
       <div class="own-global">
-        <button class="obtn" disabled title="Digital only — no physical release">Phys N/A</button>
+        <button class="obtn" disabled title="No physical release">Phys N/A</button>
         <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,'d')">Own (dig)</button>
         <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,'w')">Wishlist</button>
       </div>
     </div>`;
-  } else if(isPhysical){
-    // Physical or GKC — show global + regional expand toggle
+  } else {
+    // Has physical in at least one region (or unknown) → show global + regional expand
     const sv=getOwn(g.id);
+
+    // Which regions to show in the expanded view
+    let regionsToShow;
+    if(Object.keys(formats).length>0){
+      // Use regions from formats dict (regions that have any release in details tab)
+      regionsToShow=REGION_ORDER.filter(r=>formats[r]||releases[r]);
+      if(regionsToShow.length===0) regionsToShow=COLLECTOR_REGIONS;
+    } else if(hasMultiRegionData){
+      regionsToShow=releaseRegions;
+    } else {
+      regionsToShow=COLLECTOR_REGIONS;
+    }
+
     const ownedStr=ownedR.length>0?`<span class="owned-indicator">✓ ${ownedR.length} region${ownedR.length>1?'s':''}</span>`:'';
-    
-    // Which regions to show when expanded
-    const regionsToShow=hasMultiRegionData?releaseRegions:COLLECTOR_REGIONS;
 
     const regionRows=expanded?`<div class="region-rows">
       ${regionsToShow.map(r=>{
         const rs=getOwn(g.id,r);
+        const physOk=regionHasPhysical(g,r)||(Object.keys(formats).length===0);
         return`<div class="own-row">
           <span class="own-rlabel">${REGION_LABEL[r]}</span>
           <span class="own-rating">${RATING_BOARD[r]||''}</span>
           <div class="own-btns">
-            <button class="obtn-sm${rs==='p'?' op':''}" onclick="setOwn(${g.id},'${r}','p')">Phys</button>
+            <button class="obtn-sm${rs==='p'?' op':''}"${!physOk?' disabled title="No physical in this region"':''} onclick="${physOk?`setOwn(${g.id},'${r}','p')`:''}">Phys</button>
             <button class="obtn-sm${rs==='d'?' od':''}" onclick="setOwn(${g.id},'${r}','d')">Dig</button>
             <button class="obtn-sm${rs==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}','w')">Wish</button>
           </div>
@@ -420,23 +355,12 @@ function buildGameCard(g){
       </div>
       ${regionRows}
     </div>`;
-  } else {
-    // Format TBA
-    const sv=getOwn(g.id);
-    ownUI=`<div class="own-section">
-      <div class="own-global">
-        <button class="obtn${sv==='p'?' op':''}" onclick="setOwn(${g.id},null,'p')">Own (phys)</button>
-        <button class="obtn${sv==='d'?' od':''}" onclick="setOwn(${g.id},null,'d')">Own (dig)</button>
-        <button class="obtn${sv==='w'?' ow':''}" onclick="setOwn(${g.id},null,'w')">Wishlist</button>
-      </div>
-    </div>`;
   }
 
   return`<div class="card ${PLAT_CLASS[plat]||''}">
-    <div class="card-art ${artClass}">
-      ${artSrc?`<img class="art-img" data-gid="${g.id}" src="${artSrc}" alt="" style="opacity:1">`:
-               `<img class="art-img" data-gid="${g.id}" src="" alt="" style="opacity:0">`}
-      <div class="art-initials">${initials}</div>
+    <div class="card-art ${artBg}">
+      ${artSrc?`<img class="art-img" src="${artSrc}" alt="" onload="this.classList.add('loaded')" onerror="this.style.display='none'">`:''}
+      <div class="art-init">${initials}</div>
       <div class="art-overlay">
         <div class="art-title">${g.title}</div>
         ${g.publisher?`<div class="art-pub">${g.publisher}</div>`:''}
@@ -458,7 +382,6 @@ function buildGameCard(g){
   </div>`;
 }
 
-// ── Games tab ──────────────────────────────────────────────────────────────
 function renderG(){
   if(!document.getElementById('sq')){
     const genres=[...new Set(GAMES.map(g=>g.genre||'Unknown'))].sort();
@@ -468,7 +391,7 @@ function renderG(){
       <select id="fpl" onchange="render()"><option value="">Any platform</option><option value="s2only">Switch 2 Only</option><option value="both">Switch 1 &amp; 2</option></select>
       <select id="fst" onchange="render()"><option value="">Any status</option><option value="r">Released</option><option value="u">Upcoming</option></select>
       <select id="ffm" onchange="render()"><option value="">Any format</option><option value="c">Physical Cart</option><option value="k">Game-Key Card</option><option value="d">Digital Only</option><option value="?">TBA</option></select>
-      <select id="frg" onchange="render()"><option value="">All regions</option><option value="ww">Worldwide</option><option value="jp">Japan Only</option><option value="var">Regional Variation</option></select>
+      <select id="frg" onchange="render()"><option value="">All regions</option><option value="ww">Worldwide</option><option value="jp">Japan Only</option><option value="var">Varies</option></select>
       <select id="fcl" onchange="render()"><option value="">All ownership</option><option value="owned">Any Owned</option><option value="w">Wishlisted</option><option value="0">Untracked</option></select>
       <select id="fgn" onchange="render()"><option value="">All genres</option>${genres.map(g=>`<option>${g}</option>`).join('')}</select>
     </div>`;
@@ -488,12 +411,12 @@ function renderG(){
         ffm=getV('ffm'),frg=getV('frg'),fcl=getV('fcl'),fgn=getV('fgn');
 
   const f=GAMES.filter(g=>{
-    const reg=g.region||'ww',plat=getPlatform(g);
+    const reg=g.region||'ww',plat=getPlatform(g),fmt=effectiveFmt(g);
     if(q&&!g.title.toLowerCase().includes(q)&&!(g.publisher||'').toLowerCase().includes(q))return false;
     if(fty&&g.type!==fty)return false;
     if(fpl&&plat!==fpl)return false;
     if(fst&&g.status!==fst)return false;
-    if(ffm&&g.fmt!==ffm)return false;
+    if(ffm&&fmt!==ffm)return false;
     if(frg&&(frg==='ww'?reg!=='ww':reg!==frg))return false;
     if(fgn&&g.genre!==fgn)return false;
     if(fcl==='owned'&&!anyOwned(g.id))return false;
@@ -508,7 +431,7 @@ function renderG(){
   const both=GAMES.filter(g=>getPlatform(g)==='both').length;
 
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(5,1fr)">
-    ${statEl(total,'Total games')}${statEl(owned,'In collection','#3ddc84')}${statEl(s2only,'Switch 2 Only','#ff6b6b')}${statEl(both,'Switch 1 & 2','#4b9eff')}${statEl(upc,'Upcoming')}
+    ${statEl(total,'Total games')}${statEl(owned,'In collection','#3ddc84')}${statEl(s2only,'S2 Only','#ff6b6b')}${statEl(both,'S1 & S2','#4b9eff')}${statEl(upc,'Upcoming')}
   </div>`;
   document.getElementById('rc').textContent=`Showing ${f.length} of ${GAMES.length} games`;
   document.getElementById('grid').className='grid';
@@ -516,7 +439,6 @@ function renderG(){
     :'<div class="empty"><span>🔍</span>No games match your filters.</div>';
 }
 
-// ── Consoles tab ───────────────────────────────────────────────────────────
 function renderC(){
   const ow=C.filter(c=>state['c'+c[0]]).length,jp=C.filter(c=>c[2].toLowerCase().includes('japan')).length;
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
@@ -537,7 +459,6 @@ function renderC(){
   }).join('');
 }
 
-// ── Accessories tab ────────────────────────────────────────────────────────
 function renderA(){
   if(!document.getElementById('facat')){
     const cats=[...new Set(A.map(a=>a[2]))];
@@ -546,7 +467,7 @@ function renderA(){
   const fcat=getV('facat'),fa=A.filter(a=>!fcat||a[2]===fcat);
   const ow=A.filter(a=>state['a'+a[0]]).length;
   document.getElementById('stats').innerHTML=`<div class="stats" style="grid-template-columns:repeat(4,1fr)">
-    ${statEl(A.length,'Total accessories')}${statEl(ow,'Owned','#3ddc84')}${statEl(A.filter(a=>a[2]==='Controller').length,'Controllers')}${statEl(A.filter(a=>a[2]==='Storage').length,'Storage cards')}
+    ${statEl(A.length,'Total accessories')}${statEl(ow,'Owned','#3ddc84')}${statEl(A.filter(a=>a[2]==='Controller').length,'Controllers')}${statEl(A.filter(a=>a[2]==='Storage').length,'Storage')}
   </div>`;
   document.getElementById('rc').textContent=`Showing ${fa.length} of ${A.length} accessories`;
   document.getElementById('grid').className='agrid';
@@ -565,7 +486,6 @@ function renderA(){
 
 function togB(p,id){const k=p+id;state[k]=!state[k];saveState(state);render();}
 
-// ── PWA ────────────────────────────────────────────────────────────────────
 let deferredInstall=null;
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;document.getElementById('install-bar').classList.add('show');});
 async function installPWA(){if(!deferredInstall)return;deferredInstall.prompt();const{outcome}=await deferredInstall.userChoice;if(outcome==='accepted')document.getElementById('install-bar').classList.remove('show');deferredInstall=null;}
@@ -583,7 +503,6 @@ if('serviceWorker' in navigator){
   });
 }
 
-// ── Boot ───────────────────────────────────────────────────────────────────
 (async()=>{
   const ok=await fetchGames();
   if(!ok){document.getElementById('grid').innerHTML='<div class="err">⚠️ Could not load game data. <a href="javascript:location.reload()">Retry</a></div>';return;}
