@@ -2,13 +2,11 @@ name: Update Switch 2 Game Data
 
 on:
   schedule:
-    # Run every day at 06:00 UTC (after Wikipedia editors in Asia/Europe have had time to update)
     - cron: '0 6 * * *'
   workflow_dispatch:
-    # Also allow manual runs from the Actions tab in GitHub
 
 permissions:
-  contents: write   # needed to commit the updated games.json
+  contents: write
 
 jobs:
   scrape:
@@ -23,7 +21,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          
+
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
@@ -44,7 +42,8 @@ jobs:
           COUNT=$(python3 -c "import json; d=json.load(open('data/games.json')); print(d['count'])")
           DATE=$(date -u '+%Y-%m-%d')
           git commit -m "chore: update game list → ${COUNT} games (${DATE})"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: No changes detected
         if: steps.diff.outputs.changed == 'false'
