@@ -161,6 +161,7 @@ def fetch_details():
     print("Fetching Release Details tab…")
     r = requests.get(DETAILS_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
+    r.encoding = "utf-8"
     rows = list(csv.reader(io.StringIO(r.text)))
     hdr_idx = next((i for i, row in enumerate(rows) if 'Game Title' in row and 'Card Type' in row), None)
     if hdr_idx is None:
@@ -204,6 +205,7 @@ def fetch_summary():
     print("Fetching Release Summary tab…")
     r = requests.get(SUMMARY_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
+    r.encoding = "utf-8"
     rows = list(csv.reader(io.StringIO(r.text)))
     hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
     if hdr_idx is None:
