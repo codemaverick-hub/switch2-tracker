@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-23T13:34:57.823010+00:00",
+  "updated": "2026-04-23T13:36:54.444235+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -1910,7 +1910,7 @@
         "usa": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/storyofseasonsgrandbazaar/2x1_StoryOfSeasonsGrandBazaar_image500w.jpg",
       "id": 305
     },
     {
@@ -1932,7 +1932,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/easportsmaddennfl26/2x1_EaSportsMaddenNFL26_image500w.jpg",
       "id": 119
     },
     {
@@ -1952,7 +1952,7 @@
         "jpn": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/fantasylifeithegirl_whostealstime/2x1_FantasyLifeITheGirl_WhoStealsTime_GBen_image500w.jpg",
       "id": 126
     },
     {
@@ -1980,7 +1980,7 @@
         "usa": "k"
       },
       "note": "Japan released Summer 2025; West Jan 2026",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ysxproudnordics/1x1_YsXProudNordics_image500w.jpg",
       "id": 379
     },
     {
@@ -2008,7 +2008,7 @@
         "kor": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheWildAtHeart_image500w.jpg",
       "id": 363
     },
     {
@@ -2032,7 +2032,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/nosleepforkanamedatefromaithesomniumfiles/2x1_NoSleepForKanameDateFromAiTheSomniumFiles_image500w.jpg",
       "id": 219
     },
     {
@@ -2088,7 +2088,7 @@
         "usa": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k25standardedition/2x1_WWE2K25StandardEdition_image500w.jpg",
       "id": 367
     },
     {
@@ -2108,7 +2108,7 @@
         "jpn": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/shadowlabyrinth/2x1_ShadowLabyrinth_image500w.jpg",
       "id": 277
     },
     {
@@ -2140,7 +2140,7 @@
         "usa": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/donkey_kong_bananza/2x1_NSwitch2_DonkeyKongBananza_Launch_image500w.jpg",
       "id": 109
     },
     {
@@ -2162,7 +2162,7 @@
         "usa": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
       "id": 347
     },
     {
@@ -2216,7 +2216,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/raidouremasteredthemysteryofthesoullessarmy/2x1_RaidouRemasteredTheMysteryOfTheSoullessArmy_image500w.jpg",
       "id": 257
     },
     {
@@ -2248,7 +2248,7 @@
         "usa": "k"
       },
       "note": "Switch 2 exclusive port",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuza0directorscut/2x1_NSwitch2_Yakuza0DC_image500w.jpg",
       "id": 370
     },
     {
@@ -2270,7 +2270,7 @@
         "jpn": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/survivalkids/2x1_SurvivalKids_image500w.jpg",
       "id": 318
     },
     {
@@ -2292,7 +2292,7 @@
         "jpn": "k"
       },
       "note": "Japan first release",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SuikodenIAndIIHDRemasterGateRuneAndDunan_image500w.jpg",
       "id": 310
     },
     {
@@ -2352,7 +2352,7 @@
         "usa": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splitfiction/2x1_NSwitch2_SplitFiction_image500w.jpg",
       "id": 293
     },
     {
@@ -2384,7 +2384,7 @@
         "usa": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SonicXShadowGenerations_image500w.jpg",
       "id": 289
     },
     {
@@ -2410,7 +2410,7 @@
         "usa": "?"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SidMeiersCivilizationVII_image500w.jpg",
       "id": 283
     },
     {
@@ -2460,7 +2460,7 @@
         "usa": "c"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runefactoryguardiansofazuma_1/2x1_RuneFactoryGuardiansOfAzuma_image500w.jpg",
       "id": 273
     },
     {
@@ -2488,7 +2488,7 @@
         "usa": "k"
       },
       "note": "Japan first; Western dates TBA",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/puyopuyotetris2s/2x1_PuyoPuyoTetris2S_image500w.jpg",
       "id": 253
     },
     {
@@ -2510,7 +2510,7 @@
         "jpn": "k"
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nobunagasambitionawakeningcompleteedition/2x1_NobunagasAmbitionAwakeningCompleteEdition_image500w.jpg",
       "id": 221
     },
     {
