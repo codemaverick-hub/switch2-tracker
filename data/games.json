@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-23T13:36:54.444235+00:00",
+  "updated": "2026-04-24T10:52:05.979700+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
   },
-  "count": 379,
+  "count": 380,
   "games": [
     {
       "title": "Pragmata",
@@ -24,6 +24,14 @@
       "formats": {
         "usa": "k",
         "eur": "k"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pragmata/1x1_Pragmata_image500w.jpg",
@@ -51,9 +59,23 @@
         "aus": "c",
         "asi": "c"
       },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 369
+      "id": 370
     },
     {
       "title": "The Rogue Prince of Persia",
@@ -70,9 +92,10 @@
         "eur": "Apr 10, 2026"
       },
       "formats": {},
+      "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/therogueprinceofpersia/1x1_TheRoguePrinceOfPersia_image500w.jpg",
-      "id": 338
+      "id": 339
     },
     {
       "title": "Mio: Memories In Orbit",
@@ -89,6 +112,11 @@
       },
       "formats": {
         "usa": "c"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/miomemoriesinorbit/1x1_MioMemoriesInOrbit_image500w.jpg",
@@ -112,9 +140,17 @@
         "usa": "k",
         "eur": "k"
       },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/virtuafighter5revoworldstage/1x1_VirtuaFighter5REVOWorldStage_image500w.jpg",
-      "id": 359
+      "id": 360
     },
     {
       "title": "Super Mario Bros. Wonder + Meetup in Bellabel Park -Nintendo Switch 2 Edition-",
@@ -144,9 +180,32 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 313
+      "id": 314
     },
     {
       "title": "Sonic Racing: CrossWorlds -Nintendo Switch 2 Edition-",
@@ -172,6 +231,23 @@
         "eur": "c",
         "usa": "c"
       },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/sonicracingcrossworlds/2x1_SonicRacingCrossWorlds_image500w.jpg",
       "id": 288
@@ -192,6 +268,11 @@
       "formats": {
         "jpn": "c"
       },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bangbangbandits/1x1_BangBangBandits_image500w.jpg",
       "id": 45
@@ -211,6 +292,11 @@
       },
       "formats": {
         "eur": "k"
+      },
+      "editions": {
+        "eur": [
+          "Deluxe"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/snoopythegreatmysteryclub/1x1_SnoopyTheGreatMysteryClub_image500w.jpg",
@@ -236,9 +322,20 @@
         "eur": "k",
         "aus": "k"
       },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k26/1x1_Wwe2K26_image500w.jpg",
-      "id": 368
+      "id": 369
     },
     {
       "title": "Monster Hunter Stories 3: Twisted Reflection",
@@ -266,6 +363,26 @@
         "cht": "k",
         "kor": "k"
       },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/monsterhunterstories3twistedreflection/1x1_MonsterHunterStories3TwistedReflection_image500w.jpg",
       "id": 208
@@ -292,6 +409,23 @@
         "jpn": "c",
         "cht": "c"
       },
+      "editions": {
+        "eur": [
+          "Standard",
+          "Deluxe"
+        ],
+        "usa": [
+          "Standard",
+          "Deluxe"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard",
+          "Deluxe"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/marvelcosmicinvasion/1x1_MarvelCosmicInvasion_image500w.jpg",
       "id": 195
@@ -316,6 +450,20 @@
         "eur": "c",
         "cht": "c"
       },
+      "editions": {
+        "jpn": [
+          "Standard",
+          "Steelbook"
+        ],
+        "eur": [
+          "Standard",
+          "Steelbook"
+        ],
+        "cht": [
+          "Standard",
+          "Steelbook"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/rushingbeatxreturnofbrawlbrothers_1/1x1_RushingBeatXReturnOfBrawlBrothers_image500w.jpg",
       "id": 274
@@ -335,6 +483,12 @@
       },
       "formats": {
         "jpn": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard",
+          "Premium Box"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rtypetacticsi_iicosmos/1x1_RTypeTacticsI_IICosmos_image500w.jpg",
@@ -366,6 +520,30 @@
         "aus": "k",
         "usa": "k"
       },
+      "editions": {
+        "jpn": [
+          "Standard",
+          "Premium Box",
+          "Special Collection Box"
+        ],
+        "cht": [
+          "Standard",
+          "Premium Box",
+          "Special Collection Box"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Known as PROJECT ZERO II in Europe",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fatalframeiicrimsonbutterflyremake/1x1_FatalFrameIICrimsonButterflyRemake_image500w.jpg",
       "id": 129
@@ -375,7 +553,7 @@
       "publisher": "Nintendo",
       "developer": "Koei Tecmo",
       "type": "e",
-      "genre": "Life Sim",
+      "genre": "RPG",
       "date": "Mar 5, 2026",
       "status": "r",
       "fmt": "c",
@@ -397,6 +575,29 @@
         "jpn": "k",
         "kor": "k",
         "usa": "k"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pokemonpokopia/1x1_NSwitch2_PokemonPokopia_image500w.png",
@@ -421,6 +622,20 @@
         "cht": "k",
         "asi": "k",
         "jpn": "k"
+      },
+      "editions": {
+        "cht": [
+          "Standard",
+          "Limited"
+        ],
+        "asi": [
+          "Standard",
+          "Limited"
+        ],
+        "jpn": [
+          "Standard",
+          "Limited"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/backtothedawn/1x1_BackToTheDawn_image500w.jpg",
@@ -451,6 +666,32 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "kor": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "cht": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "eur": [
+          "Standard",
+          "Steelbook",
+          "Deluxe",
+          "Generation Pack"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Generation Pack"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevilvillagegoldedition/1x1_ResidentEvilVillageGoldEdition_image500w.jpg",
@@ -484,6 +725,40 @@
         "jpn": "k",
         "usa": "k"
       },
+      "editions": {
+        "kor": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard",
+          "Steelbook",
+          "Generation Pack"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "eur": [
+          "Standard",
+          "Lenticular",
+          "Deluxe",
+          "Generation Pack"
+        ],
+        "jpn": [
+          "Standard",
+          "30th Special Pack"
+        ],
+        "usa": [
+          "Standard",
+          "Lenticular",
+          "Steelbook",
+          "Deluxe",
+          "Generation Pack"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevilrequiem/1x1_ResidentEvilRequiem_02_image500w.jpg",
       "id": 264
@@ -514,6 +789,30 @@
         "jpn": "k",
         "usa": "k"
       },
+      "editions": {
+        "kor": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "cht": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "eur": [
+          "Standard",
+          "Generation Pack"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Generation Pack"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevil7biohazardgoldedition/1x1_ResidentEvil7BiohazardGoldEdition_image500w.jpg",
       "id": 263
@@ -533,6 +832,11 @@
       },
       "formats": {
         "jpn": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": null,
@@ -555,6 +859,14 @@
       "formats": {
         "jpn": "k",
         "eur": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/gearclubunlimited3/1x1_GearClubUnlimited3_image500w.jpg",
@@ -583,6 +895,25 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "kor": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard",
+          "Collector's"
+        ],
+        "eur": [
+          "Standard",
+          "Collector's"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/reanimal/1x1_Reanimal_image500w.jpg",
@@ -614,9 +945,32 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami3anddarkties/1x1_YakuzaKiwami3AndDarkTies_image500w.jpg",
-      "id": 373
+      "id": 374
     },
     {
       "title": "Mario Tennis Fever",
@@ -646,6 +1000,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mariotennisfever/1x1_NSwitch2_MarioTennisFever_BASE_image500w.jpg",
       "id": 194
@@ -667,6 +1044,14 @@
       "formats": {
         "eur": "c",
         "usa": "c"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/chromagun2dy_hard/1x1_ChromaGun2DyeHard_image500w.jpg",
@@ -691,6 +1076,17 @@
         "aus": "k",
         "eur": "k",
         "usa": "k"
+      },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pgatour2k25/1x1_PgaTour2K25_image500w.jpg",
@@ -724,6 +1120,33 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard",
+          "Steelbook",
+          "Collector's"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Steelbook",
+          "Collector's"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonquestviireimagined/1x1_DragonQuestVIIReimagined_image500w.jpg",
       "id": 113
@@ -746,6 +1169,14 @@
         "asi": "k",
         "jpn": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
       "id": 192
@@ -765,6 +1196,12 @@
       },
       "formats": {
         "jpn": "c"
+      },
+      "editions": {
+        "jpn": [
+          "Standard",
+          "Limited"
+        ]
       },
       "note": "",
       "art": null,
@@ -798,6 +1235,29 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviiremakeintegrade/1x1_NSwitch2_FinalFantasyVIIRemakeI_image500w.jpg",
       "id": 132
@@ -830,6 +1290,29 @@
         "jpn": "k",
         "usa": "k"
       },
+      "editions": {
+        "kor": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dynastywarriorsorigins/1x1_DynastyWarriorsOrigins_image500w.jpg",
       "id": 117
@@ -849,9 +1332,10 @@
         "eur": "Jan 15, 2026"
       },
       "formats": {},
+      "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
-      "id": 331
+      "id": 332
     },
     {
       "title": "Animal Crossing: New Horizons -Nintendo Switch 2 Edition-",
@@ -881,6 +1365,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "4K; 12-player island; mouse controls",
       "art": null,
       "id": 12
@@ -905,9 +1412,20 @@
         "eur": "c",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 376
+      "id": 377
     },
     {
       "title": "Obakeidoro 2: Chase & Seek",
@@ -924,6 +1442,11 @@
       },
       "formats": {
         "jpn": "?"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "Revealed in JP Direct only",
       "art": null,
@@ -944,6 +1467,11 @@
       },
       "formats": {
         "jpn": "c"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": null,
@@ -969,6 +1497,23 @@
         "eur": "c",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard",
+          "Steelbook",
+          "Deluxe"
+        ],
+        "eur": [
+          "Standard",
+          "Steelbook",
+          "Deluxe"
+        ],
+        "usa": [
+          "Standard",
+          "Steelbook",
+          "Deluxe"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mortalkombatlegacykollection/1x1_MortalKombatLegacyKollection_image500w.jpg",
       "id": 210
@@ -990,6 +1535,14 @@
       "formats": {
         "eur": "k",
         "usa": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/goodnightuniverse/1x1_GoodnightUniverse_image500w.jpg",
@@ -1017,6 +1570,20 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/farmingsimulatorsignatureedition/1x1_FarmingSimulatorSignatureEdition_image500w.jpg",
       "id": 127
@@ -1038,6 +1605,14 @@
       "formats": {
         "eur": "k",
         "usa": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nicktoonsandthediceofdestiny_1/1x1_NicktoonsAndTheDiceOfDestiny_image500w.jpg",
@@ -1061,6 +1636,14 @@
         "eur": "?",
         "usa": "?"
       },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Free to play",
       "art": null,
       "id": 135
@@ -1080,6 +1663,11 @@
       },
       "formats": {
         "jpn": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/runformoneyhuntervsrunner_1/1x1_RunForMoneyHunterVsRunner_image500w.jpg",
@@ -1113,6 +1701,33 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard",
+          "Collector's"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard",
+          "Collector's"
+        ],
+        "eur": [
+          "Standard",
+          "Collector's"
+        ],
+        "jpn": [
+          "Standard",
+          "Collector's"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/octopathtraveler0/1x1_OctopathTraveler0_image500w.jpg",
       "id": 224
@@ -1144,6 +1759,29 @@
         "jpn": "c",
         "kor": "c",
         "usa": "c"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "Mouse aiming support",
       "art": null,
@@ -1177,6 +1815,29 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/assassinscreedshadows/1x1_AssassinsCreedShadows_image500w.jpg",
       "id": 36
@@ -1197,6 +1858,11 @@
       "formats": {
         "jpn": "k"
       },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rippleislandkyleandcalsrestaurant/1x1_RippleIslandKyleAndCalsRestaurant_image500w.jpg",
       "id": 268
@@ -1216,6 +1882,11 @@
       },
       "formats": {
         "eur": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlenightmaresenhancededitioncompleteedition/1x1_LittleNightmaresEnhancedEditionCompleteEdition_image500w.jpg",
@@ -1249,6 +1920,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kirby_air_riders/1x1_NSwitch2_KirbyAirRiders_02_image500w.jpg",
       "id": 168
@@ -1275,6 +1969,20 @@
         "jpn": "c",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
       "id": 144
@@ -1298,6 +2006,23 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard",
+          "Steelbook",
+          "Ghostly"
+        ],
+        "jpn": [
+          "Standard",
+          "Steelbook",
+          "Ghostly"
+        ],
+        "usa": [
+          "Standard",
+          "Steelbook",
+          "Ghostly"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/spongebobsquarepantstitansofthetide/1x1_SpongebobSquarepantsTitansOfTheTide_image500w.jpg",
@@ -1331,6 +2056,29 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonballsparkingzero/2x1_DragonBallSparkingZero_image500w.jpg",
       "id": 111
@@ -1363,9 +2111,32 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
-      "id": 374
+      "id": 375
     },
     {
       "title": "Yakuza Kiwami",
@@ -1395,9 +2166,32 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
-      "id": 371
+      "id": 372
     },
     {
       "title": "Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru -Nintendo Switch 2 Edition-",
@@ -1414,6 +2208,11 @@
       },
       "formats": {
         "jpn": "c"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "Japan exclusive",
       "art": null,
@@ -1447,6 +2246,31 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard",
+          "Special Box"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard",
+          "Treasure Box"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hyrulewarriorsageofimprisonment/1x1_NSwitch2_HWAoI_GB_en_image500w.jpg",
       "id": 160
@@ -1468,6 +2292,15 @@
       "formats": {
         "asi": "c",
         "jpn": "c"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard",
+          "Limited"
+        ]
       },
       "note": "",
       "art": null,
@@ -1501,6 +2334,29 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/dragonquestiandiihd2dremake_1/1x1_DragonQuestIAndIIHD2DRemake_image500w.jpg",
       "id": 112
@@ -1529,9 +2385,26 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/twopointmuseum/1x1_TwoPointMuseum_image500w.jpg",
-      "id": 351
+      "id": 352
     },
     {
       "title": "Persona 3 Reload",
@@ -1559,6 +2432,26 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/persona3reload/2x1_Persona3Reload_image500w.jpg",
       "id": 238
@@ -1582,6 +2475,17 @@
         "asi": "k",
         "jpn": "k",
         "kor": "k"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ]
       },
       "note": "GKC in Japan; digital only in West",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fullmetalschoolgirl/1x1_FullMetalSchoolgirl_image500w.jpg",
@@ -1615,6 +2519,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
       "id": 243
@@ -1647,6 +2574,31 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard",
+          "Mirror"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard",
+          "Mirror"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlenightmaresiii/1x1_LittleNightmaresIII_image500w.jpg",
       "id": 181
@@ -1669,6 +2621,16 @@
         "eur": "k",
         "usa": "k"
       },
+      "editions": {
+        "eur": [
+          "Deluxe",
+          "Ewwdo"
+        ],
+        "usa": [
+          "Deluxe",
+          "Ewwdo"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/disgaea7complete/1x1_Disgaea7Complete_image500w.jpg",
       "id": 105
@@ -1689,6 +2651,11 @@
       "formats": {
         "jpn": "?"
       },
+      "editions": {
+        "jpn": [
+          "Deluxe"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/finalfantasytacticstheivalicechronicles/2x1_FinalFantasyTacticsTheIvaliceChronicles_image500w.jpg",
       "id": 130
@@ -1708,6 +2675,11 @@
       },
       "formats": {
         "usa": "k"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_PacManWorldRePac_image500w.jpg",
@@ -1737,6 +2709,23 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/easportsfc26/2x1_NSwitch2_EaSportsFC26_image500w.jpg",
       "id": 118
@@ -1762,6 +2751,20 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nba2k26_1/1x1_NBA2K26_image500w.jpg",
@@ -1793,6 +2796,29 @@
         "kor": "k",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard",
+          "Limited"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard",
+          "Limited"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Limited"
+        ]
+      },
       "note": "Full cart in West; GKC in Japan",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/daemonxmachinatitanicscion/2x1_DaemonXMachinaTitanicScion_image500w.jpg",
       "id": 91
@@ -1818,6 +2844,20 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cronosthenewdawn/2x1_CronosTheNewDawn_image500w.jpg",
@@ -1848,6 +2888,26 @@
         "jpn": "k",
         "kor": "k",
         "usa": "k"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starwarsoutlawsgoldedition/2x1_StarWarsOutlawsGoldEdition_image500w.jpg",
@@ -1881,6 +2941,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Includes new Star-Crossed World DLC expansion",
       "art": null,
       "id": 169
@@ -1909,6 +2992,27 @@
         "jpn": "c",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard",
+          "Limited"
+        ],
+        "cht": [
+          "Standard",
+          "Special"
+        ],
+        "eur": [
+          "Standard",
+          "Limited"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Premium"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/storyofseasonsgrandbazaar/2x1_StoryOfSeasonsGrandBazaar_image500w.jpg",
       "id": 305
@@ -1931,6 +3035,14 @@
         "eur": "k",
         "usa": "k"
       },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/easportsmaddennfl26/2x1_EaSportsMaddenNFL26_image500w.jpg",
       "id": 119
@@ -1950,6 +3062,11 @@
       },
       "formats": {
         "jpn": "c"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/fantasylifeithegirl_whostealstime/2x1_FantasyLifeITheGirl_WhoStealsTime_GBen_image500w.jpg",
@@ -1979,9 +3096,26 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Japan released Summer 2025; West Jan 2026",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ysxproudnordics/1x1_YsXProudNordics_image500w.jpg",
-      "id": 379
+      "id": 380
     },
     {
       "title": "Wild Hearts S",
@@ -2007,9 +3141,26 @@
         "jpn": "k",
         "kor": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheWildAtHeart_image500w.jpg",
-      "id": 363
+      "id": 364
     },
     {
       "title": "No Sleep for Kaname Date - From AI: The Somnium Files",
@@ -2030,6 +3181,17 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/nosleepforkanamedatefromaithesomniumfiles/2x1_NoSleepForKanameDateFromAiTheSomniumFiles_image500w.jpg",
@@ -2063,9 +3225,32 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 315
+      "id": 316
     },
     {
       "title": "WWE 2K25",
@@ -2087,9 +3272,20 @@
         "eur": "k",
         "usa": "?"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k25standardedition/2x1_WWE2K25StandardEdition_image500w.jpg",
-      "id": 367
+      "id": 368
     },
     {
       "title": "Shadow Labyrinth",
@@ -2106,6 +3302,11 @@
       },
       "formats": {
         "jpn": "?"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/shadowlabyrinth/2x1_ShadowLabyrinth_image500w.jpg",
@@ -2139,6 +3340,29 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/donkey_kong_bananza/2x1_NSwitch2_DonkeyKongBananza_Launch_image500w.jpg",
       "id": 109
@@ -2161,9 +3385,17 @@
         "eur": "?",
         "usa": "?"
       },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
-      "id": 347
+      "id": 348
     },
     {
       "title": "Tamagotchi Plaza -Nintendo Switch 2 Edition-",
@@ -2187,9 +3419,23 @@
         "jpn": "c",
         "kor": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 322
+      "id": 323
     },
     {
       "title": "Raidou Remastered: The Mystery of the Soulless Army",
@@ -2214,6 +3460,23 @@
         "eur": "k",
         "jpn": "k",
         "usa": "k"
+      },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/raidouremasteredthemysteryofthesoullessarmy/2x1_RaidouRemasteredTheMysteryOfTheSoullessArmy_image500w.jpg",
@@ -2247,9 +3510,32 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Switch 2 exclusive port",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuza0directorscut/2x1_NSwitch2_Yakuza0DC_image500w.jpg",
-      "id": 370
+      "id": 371
     },
     {
       "title": "Survival Kids",
@@ -2269,9 +3555,17 @@
         "eur": "k",
         "jpn": "k"
       },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/survivalkids/2x1_SurvivalKids_image500w.jpg",
-      "id": 318
+      "id": 319
     },
     {
       "title": "Suikoden I & II Remaster: Gate Rune and Dunan Unification Wars",
@@ -2291,9 +3585,17 @@
         "cht": "k",
         "jpn": "k"
       },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "Japan first release",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SuikodenIAndIIHDRemasterGateRuneAndDunan_image500w.jpg",
-      "id": 310
+      "id": 311
     },
     {
       "title": "Street Fighter 6: Years 1-2 Fighters Edition",
@@ -2323,9 +3625,32 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": null,
-      "id": 307
+      "id": 308
     },
     {
       "title": "Split Fiction",
@@ -2350,6 +3675,23 @@
         "jpn": "?",
         "kor": "?",
         "usa": "?"
+      },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splitfiction/2x1_NSwitch2_SplitFiction_image500w.jpg",
@@ -2383,6 +3725,29 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SonicXShadowGenerations_image500w.jpg",
       "id": 289
@@ -2409,6 +3774,20 @@
         "eur": "?",
         "usa": "?"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SidMeiersCivilizationVII_image500w.jpg",
       "id": 283
@@ -2428,6 +3807,11 @@
       },
       "formats": {
         "jpn": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "Japan exclusive (JP Direct reveal)",
       "art": null,
@@ -2459,6 +3843,26 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runefactoryguardiansofazuma_1/2x1_RuneFactoryGuardiansOfAzuma_image500w.jpg",
       "id": 273
@@ -2487,6 +3891,23 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Japan first; Western dates TBA",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/puyopuyotetris2s/2x1_PuyoPuyoTetris2S_image500w.jpg",
       "id": 253
@@ -2508,6 +3929,14 @@
       "formats": {
         "cht": "k",
         "jpn": "k"
+      },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nobunagasambitionawakeningcompleteedition/2x1_NobunagasAmbitionAwakeningCompleteEdition_image500w.jpg",
@@ -2541,8 +3970,31 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Launch title; bundled with console",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mariokartworld/2x1_NSwitch2_MarioKartWorld_image500w.jpg",
       "id": 193
     },
     {
@@ -2565,9 +4017,10 @@
         "asi": "Jun 26, 2025"
       },
       "formats": {},
+      "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
       "art": null,
-      "id": 333
+      "id": 334
     },
     {
       "title": "The Legend of Zelda: Breath of the Wild -Nintendo Switch 2 Edition-",
@@ -2589,9 +4042,10 @@
         "asi": "Jun 26, 2025"
       },
       "formats": {},
+      "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
       "art": null,
-      "id": 332
+      "id": 333
     },
     {
       "title": "Kunitsu-Gami: Path of the Goddess",
@@ -2609,8 +4063,13 @@
       "formats": {
         "jpn": "k"
       },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
+      },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kunitsugamipathofthegoddess/2x1_KunitsuGamiPathOfTheGoddess_image500w.jpg",
       "id": 172
     },
     {
@@ -2641,8 +4100,31 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hogwartslegacy/2x1_NSwitch2_HogwartsLegacy_image500w.jpg",
       "id": 154
     },
     {
@@ -2667,8 +4149,22 @@
         "jpn": "k",
         "usa": "k"
       },
+      "editions": {
+        "aus": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hitmanworldofassassinationsignatureedition/2x1_NSwitch2_HitmanWolrdOfAssass_image500w.jpg",
       "id": 152
     },
     {
@@ -2699,8 +4195,31 @@
         "kor": "c",
         "usa": "c"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "Full 64GB cartridge",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cyberpunk2077ultimateedition/2x1_NSwitch2_Cyberpunk2077UE_image500w.jpg",
       "id": 89
     },
     {
@@ -2731,8 +4250,31 @@
         "kor": "k",
         "usa": "k"
       },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bravelydefaultflyingfairyhdremaster/2x1_BravelyDefaultFlyingFairyHDRemaster_image500w.jpg",
       "id": 61
     },
     {
@@ -2747,8 +4289,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/project007/2x1_007FirstLight_image500w.jpg",
       "id": 1
     },
     {
@@ -2763,8 +4306,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/4pgp/1x1_4PGP_image500w.jpg",
       "id": 2
     },
     {
@@ -2779,8 +4323,9 @@
       "region": "jp",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Japan / Asia focus",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/atrainallaboardtourismns2e/1x1_ATrainAllAboardTourismNS2E_image500w.jpg",
       "id": 5
     },
     {
@@ -2795,8 +4340,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AircraftEvolution_image500w.jpg",
       "id": 4
     },
     {
@@ -2811,8 +4357,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/absolum/1x1_Absolum_image500w.jpg",
       "id": 6
     },
     {
@@ -2827,9 +4374,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
-      "id": 324
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theadventuresofelliotthemillenniumtales/1x1_TheAdventuresOfElliotTheMillenniumTales_image500w.jpg",
+      "id": 325
     },
     {
       "title": "Aeterna Lucis",
@@ -2843,8 +4391,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_AeternaNoctis_image500w.jpg",
       "id": 7
     },
     {
@@ -2859,8 +4408,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/afl26/1x1_Afl26_image500w.jpg",
       "id": 8
     },
     {
@@ -2875,6 +4425,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 9
@@ -2891,8 +4442,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/amnesiarebirth/1x1_AmnesiaRebirth_image500w.jpg",
       "id": 10
     },
     {
@@ -2907,8 +4459,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_AnimaGateOfMemories_image500w.jpg",
       "id": 11
     },
     {
@@ -2923,8 +4476,9 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/pocketnook/1x1_PocketNook_image500w.jpg",
       "id": 13
     },
     {
@@ -2939,6 +4493,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 14
@@ -2955,6 +4510,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Free to play",
       "art": null,
       "id": 15
@@ -2971,6 +4527,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 16
@@ -2987,6 +4544,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 17
@@ -3003,6 +4561,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 18
@@ -3019,6 +4578,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 19
@@ -3035,6 +4595,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 20
@@ -3051,6 +4612,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 21
@@ -3067,6 +4629,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 22
@@ -3083,6 +4646,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 23
@@ -3099,6 +4663,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 24
@@ -3115,6 +4680,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 25
@@ -3131,6 +4697,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 26
@@ -3147,6 +4714,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 27
@@ -3163,6 +4731,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 28
@@ -3179,6 +4748,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 29
@@ -3195,6 +4765,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 30
@@ -3211,6 +4782,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 31
@@ -3227,6 +4799,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 32
@@ -3243,6 +4816,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 33
@@ -3259,6 +4833,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 34
@@ -3275,6 +4850,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 35
@@ -3291,6 +4867,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 39
@@ -3307,6 +4884,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 37
@@ -3323,6 +4901,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 38
@@ -3339,6 +4918,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 40
@@ -3355,6 +4935,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 41
@@ -3371,6 +4952,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 43
@@ -3387,6 +4969,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 44
@@ -3403,6 +4986,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 46
@@ -3419,6 +5003,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 47
@@ -3435,6 +5020,7 @@
       "region": "jp",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Japan / Asia release",
       "art": null,
       "id": 48
@@ -3451,9 +5037,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 325
+      "id": 326
     },
     {
       "title": "Bit Boy!! Arcade 2",
@@ -3467,6 +5054,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 49
@@ -3483,6 +5071,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 50
@@ -3499,6 +5088,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 51
@@ -3515,6 +5105,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 52
@@ -3531,6 +5122,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 53
@@ -3547,6 +5139,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 54
@@ -3563,6 +5156,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 55
@@ -3579,6 +5173,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 56
@@ -3595,6 +5190,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 57
@@ -3611,6 +5207,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 58
@@ -3627,6 +5224,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "2-player co-op; two linked worlds",
       "art": null,
       "id": 59
@@ -3643,6 +5241,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Delayed indefinitely",
       "art": null,
       "id": 60
@@ -3659,6 +5258,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 62
@@ -3675,6 +5275,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 63
@@ -3691,6 +5292,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 64
@@ -3707,6 +5309,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 67
@@ -3723,6 +5326,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 65
@@ -3739,6 +5343,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 68
@@ -3755,6 +5360,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 69
@@ -3771,6 +5377,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 70
@@ -3787,6 +5394,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 72
@@ -3803,6 +5411,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 73
@@ -3819,6 +5428,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 85
@@ -3835,6 +5445,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 74
@@ -3851,6 +5462,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 75
@@ -3867,6 +5479,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 76
@@ -3883,6 +5496,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 77
@@ -3899,6 +5513,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 78
@@ -3915,6 +5530,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 79
@@ -3931,6 +5547,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 80
@@ -3947,6 +5564,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 81
@@ -3963,6 +5581,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 82
@@ -3979,6 +5598,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 83
@@ -3995,6 +5615,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 84
@@ -4011,6 +5632,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 86
@@ -4027,6 +5649,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 87
@@ -4043,6 +5666,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 90
@@ -4059,6 +5683,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 93
@@ -4075,6 +5700,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 94
@@ -4091,6 +5717,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 95
@@ -4107,6 +5734,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 96
@@ -4123,6 +5751,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 97
@@ -4139,6 +5768,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 98
@@ -4155,6 +5785,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 99
@@ -4171,6 +5802,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 100
@@ -4187,6 +5819,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 101
@@ -4203,6 +5836,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 102
@@ -4219,6 +5853,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 103
@@ -4235,6 +5870,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 104
@@ -4251,9 +5887,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 326
+      "id": 327
     },
     {
       "title": "Disney Dreamlight Valley – Nintendo Switch 2 Edition",
@@ -4267,6 +5904,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 106
@@ -4283,6 +5921,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 107
@@ -4299,6 +5938,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 108
@@ -4315,6 +5955,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 110
@@ -4331,6 +5972,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 114
@@ -4347,6 +5989,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 115
@@ -4363,6 +6006,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 116
@@ -4379,9 +6023,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
       "art": null,
-      "id": 327
+      "id": 328
     },
     {
       "title": "EFootball Kick Off!",
@@ -4395,6 +6040,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 120
@@ -4411,6 +6057,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 121
@@ -4427,9 +6074,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 328
+      "id": 329
     },
     {
       "title": "The Elder Scrolls V: Skyrim Anniversary Edition",
@@ -4443,9 +6091,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 329
+      "id": 330
     },
     {
       "title": "Enter the Gungeon 2",
@@ -4459,6 +6108,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 122
@@ -4475,6 +6125,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 123
@@ -4491,9 +6142,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 330
+      "id": 331
     },
     {
       "title": "Factorio – Nintendo Switch 2 Edition",
@@ -4507,6 +6159,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 124
@@ -4523,6 +6176,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 125
@@ -4539,6 +6193,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 128
@@ -4555,6 +6210,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 131
@@ -4571,9 +6227,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 355
+      "id": 356
     },
     {
       "title": "Fire Emblem: Fortune's Weave",
@@ -4587,6 +6244,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 133
@@ -4603,6 +6261,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Free to play",
       "art": null,
       "id": 134
@@ -4619,6 +6278,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 138
@@ -4635,6 +6295,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 139
@@ -4651,6 +6312,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 140
@@ -4667,6 +6329,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 142
@@ -4683,6 +6346,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 143
@@ -4699,6 +6363,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 145
@@ -4715,6 +6380,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 146
@@ -4731,6 +6397,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 147
@@ -4747,6 +6414,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 148
@@ -4763,6 +6431,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 149
@@ -4779,6 +6448,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 150
@@ -4795,6 +6465,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 151
@@ -4811,6 +6482,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 153
@@ -4827,6 +6499,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 155
@@ -4843,6 +6516,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 156
@@ -4859,6 +6533,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 157
@@ -4875,6 +6550,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 158
@@ -4891,6 +6567,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 159
@@ -4907,6 +6584,7 @@
       "region": "jp",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Japan / Asia focus",
       "art": null,
       "id": 161
@@ -4923,6 +6601,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 162
@@ -4939,6 +6618,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 163
@@ -4955,6 +6635,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 164
@@ -4971,6 +6652,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 165
@@ -4987,6 +6669,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 166
@@ -5003,6 +6686,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 167
@@ -5019,6 +6703,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Includes new Star-Crossed World DLC expansion",
       "art": null,
       "id": 170
@@ -5035,6 +6720,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 171
@@ -5051,6 +6737,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 173
@@ -5067,6 +6754,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 174
@@ -5083,6 +6771,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 175
@@ -5099,6 +6788,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 176
@@ -5115,6 +6805,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 177
@@ -5131,6 +6822,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 178
@@ -5147,6 +6839,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 179
@@ -5163,6 +6856,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 183
@@ -5179,6 +6873,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 182
@@ -5195,6 +6890,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 184
@@ -5211,6 +6907,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 185
@@ -5227,6 +6924,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 186
@@ -5243,6 +6941,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 187
@@ -5259,6 +6958,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 188
@@ -5275,6 +6975,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 189
@@ -5291,6 +6992,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 190
@@ -5307,6 +7009,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 196
@@ -5323,6 +7026,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 197
@@ -5339,6 +7043,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 198
@@ -5355,6 +7060,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 199
@@ -5371,9 +7077,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 334
+      "id": 335
     },
     {
       "title": "Milano's Odd Job Collection",
@@ -5387,6 +7094,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 201
@@ -5403,6 +7111,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 202
@@ -5419,6 +7128,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 203
@@ -5435,6 +7145,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 204
@@ -5451,6 +7162,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 206
@@ -5467,6 +7179,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 209
@@ -5483,6 +7196,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 212
@@ -5499,6 +7213,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 211
@@ -5515,6 +7230,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 213
@@ -5531,9 +7247,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 335
+      "id": 336
     },
     {
       "title": "Nightmare Circus",
@@ -5547,6 +7264,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 216
@@ -5563,6 +7281,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Free digital download",
       "art": null,
       "id": 217
@@ -5579,6 +7298,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 218
@@ -5595,6 +7315,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 220
@@ -5611,6 +7332,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 222
@@ -5627,6 +7349,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 225
@@ -5643,6 +7366,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 226
@@ -5659,6 +7383,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 227
@@ -5675,6 +7400,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 228
@@ -5691,6 +7417,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 229
@@ -5707,6 +7434,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 230
@@ -5723,6 +7451,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 231
@@ -5739,6 +7468,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 232
@@ -5755,6 +7485,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Free to play",
       "art": null,
       "id": 233
@@ -5771,6 +7502,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 235
@@ -5787,6 +7519,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 236
@@ -5803,6 +7536,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 237
@@ -5819,6 +7553,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 240
@@ -5835,6 +7570,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 241
@@ -5851,6 +7587,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 242
@@ -5867,6 +7604,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 245
@@ -5883,6 +7621,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 246
@@ -5899,6 +7638,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 247
@@ -5915,9 +7655,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 336
+      "id": 337
     },
     {
       "title": "The Prince of Tennis: Sweet School Festival 0-40 and more…",
@@ -5931,9 +7672,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 337
+      "id": 338
     },
     {
       "title": "Pritto Prisoner – Nintendo Switch 2 Edition",
@@ -5947,6 +7689,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 249
@@ -5963,6 +7706,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 250
@@ -5979,6 +7723,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 251
@@ -5995,6 +7740,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 252
@@ -6011,6 +7757,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 254
@@ -6027,6 +7774,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 256
@@ -6043,6 +7791,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 258
@@ -6059,6 +7808,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 260
@@ -6075,6 +7825,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 261
@@ -6091,6 +7842,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 262
@@ -6107,6 +7859,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 265
@@ -6123,6 +7876,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 267
@@ -6139,6 +7893,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 269
@@ -6155,6 +7910,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 270
@@ -6171,6 +7927,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 271
@@ -6187,9 +7944,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 339
+      "id": 340
     },
     {
       "title": "Sail Forth – Nintendo Switch 2 Edition",
@@ -6203,6 +7961,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 275
@@ -6219,6 +7978,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 276
@@ -6235,6 +7995,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 278
@@ -6251,6 +8012,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 279
@@ -6267,6 +8029,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 280
@@ -6283,6 +8046,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 282
@@ -6299,6 +8063,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 284
@@ -6315,6 +8080,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 285
@@ -6331,6 +8097,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 286
@@ -6347,6 +8114,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 290
@@ -6363,6 +8131,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 291
@@ -6379,6 +8148,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 292
@@ -6395,6 +8165,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 295
@@ -6411,6 +8182,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 303
@@ -6427,6 +8199,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 296
@@ -6443,6 +8216,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 297
@@ -6459,6 +8233,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 299
@@ -6475,6 +8250,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 300
@@ -6491,6 +8267,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 301
@@ -6507,6 +8284,7 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 302
@@ -6523,9 +8301,27 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
       "id": 304
+    },
+    {
+      "title": "Stray – Nintendo Switch 2 Edition",
+      "publisher": "Annapurna Interactive",
+      "developer": "BlueTwelve Studio",
+      "type": "n",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": null,
+      "id": 306
     },
     {
       "title": "Street Fighter 6",
@@ -6539,9 +8335,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 306
+      "id": 307
     },
     {
       "title": "Suika Game Planet",
@@ -6555,9 +8352,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 308
+      "id": 309
     },
     {
       "title": "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
@@ -6571,9 +8369,10 @@
       "region": "var",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "Japan first release",
       "art": null,
-      "id": 309
+      "id": 310
     },
     {
       "title": "Super Battle Golf",
@@ -6587,9 +8386,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 311
+      "id": 312
     },
     {
       "title": "Super Bomberman Collection",
@@ -6603,9 +8403,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 312
+      "id": 313
     },
     {
       "title": "Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park",
@@ -6619,9 +8420,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 314
+      "id": 315
     },
     {
       "title": "Super Mario Party Jamboree – Nintendo Switch 2 Edition + Jamboree TV",
@@ -6635,9 +8437,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 316
+      "id": 317
     },
     {
       "title": "Super Meat Boy 3D",
@@ -6651,9 +8454,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 317
+      "id": 318
     },
     {
       "title": "System Shock",
@@ -6667,9 +8471,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 319
+      "id": 320
     },
     {
       "title": "Tales of Arise – Beyond the Dawn Edition",
@@ -6683,9 +8488,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 320
+      "id": 321
     },
     {
       "title": "Tales of the Shire: A The Lord of the Rings Game",
@@ -6699,9 +8505,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 321
+      "id": 322
     },
     {
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate – Nintendo Switch 2 Edition",
@@ -6715,9 +8522,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 323
+      "id": 324
     },
     {
       "title": "They Are Billions",
@@ -6731,9 +8539,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 341
+      "id": 342
     },
     {
       "title": "Tokyo Scramble",
@@ -6747,9 +8556,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 342
+      "id": 343
     },
     {
       "title": "Tomb Raider: Definitive Edition",
@@ -6763,9 +8573,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 343
+      "id": 344
     },
     {
       "title": "Tomba! Special Edition",
@@ -6779,9 +8590,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 345
+      "id": 346
     },
     {
       "title": "Tomba! 2: The Evil Swine Return Special Edition",
@@ -6795,9 +8607,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 344
+      "id": 345
     },
     {
       "title": "Tony Hawk's Pro Skater 3 + 4",
@@ -6811,9 +8624,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 346
+      "id": 347
     },
     {
       "title": "The Touryst: Deluxe",
@@ -6827,9 +8641,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 340
+      "id": 341
     },
     {
       "title": "Trails in the Sky 1st Chapter – Nintendo Switch 2 Edition",
@@ -6843,9 +8658,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 348
+      "id": 349
     },
     {
       "title": "Trails in the Sky 2nd Chapter",
@@ -6859,9 +8675,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 349
+      "id": 350
     },
     {
       "title": "Two Point Museum",
@@ -6875,9 +8692,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 350
+      "id": 351
     },
     {
       "title": "Ultimate Sheep Raccoon",
@@ -6891,9 +8709,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 352
+      "id": 353
     },
     {
       "title": "Underward: Lastboss, Genius Gyaru Doctor",
@@ -6907,9 +8726,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 353
+      "id": 354
     },
     {
       "title": "Unrailed 2: Back on Track",
@@ -6923,9 +8743,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 354
+      "id": 355
     },
     {
       "title": "Utawarerumono: Past and Present Rediscovered",
@@ -6939,9 +8760,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 356
+      "id": 357
     },
     {
       "title": "Valheim",
@@ -6955,9 +8777,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 357
+      "id": 358
     },
     {
       "title": "Virtua Fighter 5 R.E.V.O. World Stage",
@@ -6971,9 +8794,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 358
+      "id": 359
     },
     {
       "title": "Wandering Sword",
@@ -6987,9 +8811,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 360
+      "id": 361
     },
     {
       "title": "Warframe",
@@ -7003,9 +8828,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 361
+      "id": 362
     },
     {
       "title": "Warhammer 40,000: Rogue Trader",
@@ -7019,9 +8845,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 362
+      "id": 363
     },
     {
       "title": "Winning Post 10 2026",
@@ -7035,9 +8862,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 364
+      "id": 365
     },
     {
       "title": "Witchbrook",
@@ -7051,9 +8879,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 365
+      "id": 366
     },
     {
       "title": "Woodo",
@@ -7067,9 +8896,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 366
+      "id": 367
     },
     {
       "title": "Yakuza Kiwami 2",
@@ -7083,9 +8913,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 372
+      "id": 373
     },
     {
       "title": "Yobarai Detective: Miasma Breaker – Nintendo Switch 2 Edition",
@@ -7099,9 +8930,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 375
+      "id": 376
     },
     {
       "title": "Yooka-Replaylee",
@@ -7115,9 +8947,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 377
+      "id": 378
     },
     {
       "title": "Yoshi and the Mysterious Book",
@@ -7131,9 +8964,10 @@
       "region": "ww",
       "releases": {},
       "formats": {},
+      "editions": {},
       "note": "",
       "art": null,
-      "id": 378
+      "id": 379
     }
   ]
 }
