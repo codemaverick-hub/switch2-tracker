@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24T10:52:05.979700+00:00",
+  "updated": "2026-04-24T20:07:16.533498+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7,6 +7,41 @@
   },
   "count": 380,
   "games": [
+    {
+      "title": "Shuten Order -Nintendo Switch 2 Edition-",
+      "publisher": "Spike Chunsoft",
+      "developer": "Too Kyo Games, , Neilo",
+      "type": "n",
+      "genre": "Action",
+      "date": "Apr 23, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Apr 23, 2026",
+        "jpn": "Apr 23, 2026",
+        "eur": "Apr 23, 2026"
+      },
+      "formats": {
+        "eur": "c",
+        "usa": "c",
+        "jpn": "c"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": null,
+      "id": 282
+    },
     {
       "title": "Pragmata",
       "publisher": "Capcom",
@@ -16,16 +51,37 @@
       "date": "Apr 17, 2026",
       "status": "r",
       "fmt": "k",
-      "region": "var",
+      "region": "ww",
       "releases": {
         "usa": "Apr 17, 2026",
-        "eur": "Apr 17, 2026"
+        "kor": "Apr 24, 2026",
+        "jpn": "Apr 24, 2026",
+        "eur": "Apr 17, 2026",
+        "cht": "Apr 24, 2026",
+        "asi": "Apr 24, 2026"
       },
       "formats": {
+        "cht": "k",
+        "asi": "k",
+        "kor": "k",
+        "jpn": "k",
         "usa": "k",
         "eur": "k"
       },
       "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard",
+          "Deluxe"
+        ],
         "usa": [
           "Standard"
         ],
@@ -46,20 +102,30 @@
       "date": "Apr 16, 2026",
       "status": "r",
       "fmt": "c",
-      "region": "var",
+      "region": "ww",
       "releases": {
         "usa": "Apr 16, 2026",
+        "jpn": "Apr 16, 2026",
         "eur": "Apr 16, 2026",
+        "cht": "Apr 16, 2026",
         "aus": "Apr 16, 2026",
         "asi": "Apr 16, 2026"
       },
       "formats": {
+        "cht": "c",
+        "jpn": "c",
         "usa": "c",
         "eur": "c",
         "aus": "c",
         "asi": "c"
       },
       "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
         "usa": [
           "Standard"
         ],
@@ -441,16 +507,22 @@
       "fmt": "c",
       "region": "var",
       "releases": {
+        "usa": "Apr 23, 2026",
         "jpn": "Mar 19, 2026",
         "eur": "Mar 12, 2026",
         "cht": "Mar 19, 2026"
       },
       "formats": {
+        "usa": "c",
         "jpn": "c",
         "eur": "c",
         "cht": "c"
       },
       "editions": {
+        "usa": [
+          "Standard",
+          "Steelbook"
+        ],
         "jpn": [
           "Standard",
           "Steelbook"
@@ -4512,7 +4584,7 @@
       "formats": {},
       "editions": {},
       "note": "Free to play",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/apexlegends/1x1_ApexLegends_25_image500w.jpg",
       "id": 15
     },
     {
@@ -4529,7 +4601,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2aircombat22/2x1_ArcadeArchives2AirCombat22_image500w.jpg",
       "id": 16
     },
     {
@@ -4546,7 +4618,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2aquajet/1x1_ArcadeArchives2AquaJet_image500w.jpg",
       "id": 17
     },
     {
@@ -4563,7 +4635,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2battlantis/1x1_ArcadeArchives2Battlantis_image500w.jpg",
       "id": 18
     },
     {
@@ -4580,7 +4652,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2bombbee/1x1_ArcadeArchives2BombBee_image500w.jpg",
       "id": 19
     },
     {
@@ -4597,7 +4669,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/arcadearchivesbombjacktwin/1x1_ArcadeArchivesBombJackTwin_image500w.jpg",
       "id": 20
     },
     {
@@ -4614,7 +4686,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2galacticwarriors/1x1_ArcadeArchives2GalacticWarriors_image500w.jpg",
       "id": 21
     },
     {
@@ -4631,7 +4703,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2geebee/1x1_ArcadeArchives2GeeBee_image500w.jpg",
       "id": 22
     },
     {
@@ -4648,7 +4720,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2labyrinthrunner/1x1_ArcadeArchives2LabyrinthRunner_image500w.jpg",
       "id": 23
     },
     {
@@ -4665,7 +4737,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2machbreakers/1x1_ArcadeArchives2MachBreakers_image500w.jpg",
       "id": 24
     },
     {
@@ -4682,7 +4754,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2midnightlanding/1x1_ArcadeArchives2MidnightLanding_image500w.jpg",
       "id": 25
     },
     {
@@ -4716,7 +4788,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2ridgeracer/2x1_ArcadeArchives2RidgeRacer_image500w.jpg",
       "id": 27
     },
     {
@@ -4733,7 +4805,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/arcadearchivesrocnrope/1x1_ArcadeArchivesRocNRope_image500w.jpg",
       "id": 28
     },
     {
@@ -4750,7 +4822,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2scion/1x1_ArcadeArchives2Scion_image500w.jpg",
       "id": 29
     },
     {
@@ -8033,23 +8105,6 @@
       "note": "",
       "art": null,
       "id": 280
-    },
-    {
-      "title": "Shuten Order – Nintendo Switch 2 Edition",
-      "publisher": "DMM Games",
-      "developer": "Too Kyo Games, , Neilo",
-      "type": "n",
-      "genre": "Action",
-      "date": "TBA",
-      "status": "u",
-      "fmt": "?",
-      "region": "ww",
-      "releases": {},
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": null,
-      "id": 282
     },
     {
       "title": "Sid Meier's Civilization VII – Nintendo Switch 2 Edition",
