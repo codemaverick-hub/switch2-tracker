@@ -412,5 +412,32 @@
       "aus": "k"
     },
     "note": "USA: Code in Box (retail box + download code) · EUR/AUS: Game-Key Card"
+  },
+  "Split Fiction": {
+    "fmt": "b",
+    "formats": {
+      "usa": "b",
+      "eur": "b",
+      "aus": "b"
+    },
+    "note": "Code in Box — retail box contains download code, no cartridge or GKC"
+  },
+  "Tony Hawk's Pro Skater 3+4": {
+    "fmt": "b",
+    "formats": {
+      "usa": "b",
+      "eur": "b"
+    },
+    "note": "Code in Box — retail box contains download code, no cartridge or GKC"
+  },
+  "Sid Meier's Civilization VII": {
+    "fmt": "b",
+    "formats": {
+      "usa": "b",
+      "eur": "b",
+      "aus": "b",
+      "asi": "b"
+    },
+    "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately"
   }
 }

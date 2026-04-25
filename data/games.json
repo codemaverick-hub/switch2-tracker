@@ -3447,15 +3447,15 @@
       "genre": "Action",
       "date": "Jul 11, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "var",
       "releases": {
         "usa": "Jul 11, 2025",
         "eur": "Jul 11, 2025"
       },
       "formats": {
-        "eur": "?",
-        "usa": "?"
+        "usa": "b",
+        "eur": "b"
       },
       "editions": {
         "eur": [
@@ -3465,7 +3465,7 @@
           "Standard"
         ]
       },
-      "note": "",
+      "note": "Code in Box — retail box contains download code, no cartridge or GKC",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
       "id": 349
     },
@@ -3732,7 +3732,7 @@
       "genre": "Action",
       "date": "Jun 5, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {
         "usa": "Jun 5, 2025",
@@ -3742,11 +3742,9 @@
         "aus": "Jun 5, 2025"
       },
       "formats": {
-        "aus": "?",
-        "eur": "?",
-        "jpn": "?",
-        "kor": "?",
-        "usa": "?"
+        "usa": "b",
+        "eur": "b",
+        "aus": "b"
       },
       "editions": {
         "aus": [
@@ -3765,7 +3763,7 @@
           "Standard"
         ]
       },
-      "note": "",
+      "note": "Code in Box — retail box contains download code, no cartridge or GKC",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splitfiction/2x1_NSwitch2_SplitFiction_image500w.jpg",
       "id": 294
     },
@@ -3832,7 +3830,7 @@
       "genre": "Strategy",
       "date": "Jun 5, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "var",
       "releases": {
         "usa": "Jun 5, 2025",
@@ -3841,10 +3839,10 @@
         "asi": "Jun 5, 2025"
       },
       "formats": {
-        "asi": "?",
-        "aus": "?",
-        "eur": "?",
-        "usa": "?"
+        "usa": "b",
+        "eur": "b",
+        "aus": "b",
+        "asi": "b"
       },
       "editions": {
         "asi": [
@@ -3860,7 +3858,7 @@
           "Standard"
         ]
       },
-      "note": "",
+      "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SidMeiersCivilizationVII_image500w.jpg",
       "id": 284
     },
