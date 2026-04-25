@@ -39,7 +39,7 @@ DETAILS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=
 WIKI_URL    = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
 NINTENDO_EU = "https://searching.nintendo-europe.com/en/select"
 
-MAX_NEW_ART_PER_RUN = 40
+MAX_NEW_ART_PER_RUN = 200
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -288,30 +288,107 @@ def fetch_wiki():
 
 
 # ── 5. Box art ────────────────────────────────────────────────────────────────
+NINTENDO_EU_S2 = "https://searching.nintendo-europe.com/en/select"
+NINTENDO_JP    = "https://search.nintendo.jp/nintendo_soft/search.json"
+
+def clean_search_title(title):
+    """Strip platform/edition tags to improve search matching."""
+    t = re.sub(r'\s*[-–]?\s*nintendo switch 2 edition[-–]?\s*', ' ', title, flags=re.I)
+    t = re.sub(r'\s*[-–]?\s*ns2 edition[-–]?\s*', ' ', t, flags=re.I)
+    t = re.sub(r'\s*[\-\(\[].*?[\-\)\]]\s*', ' ', t)
+    return re.sub(r'\s+', ' ', t).strip()
+
+def title_match(found, query, threshold=0.45):
+    """Check if found title is a reasonable match for query."""
+    fn = re.sub(r'[^a-z0-9 ]', '', found.lower())
+    qn = re.sub(r'[^a-z0-9 ]', '', query.lower())
+    fw = set(w for w in fn.split() if len(w) > 2)
+    qw = [w for w in qn.split() if len(w) > 2]
+    if not qw or not fw: return False
+    return sum(1 for w in qw if w in fw) / len(qw) >= threshold
+
+def fetch_art_nintendo_eu(title, session, switch2_only=True):
+    """Fetch art from Nintendo Europe search API."""
+    try:
+        # Try Switch 2 specific first, then broaden
+        fq = "type:GAME AND system_type:nintendoswitch2*" if switch2_only else "type:GAME AND system_type:nintendoswitch*"
+        params = {"q": title, "fq": fq, "rows": "3",
+                  "fl": "image_url_h2x1_s,image_url_sq_s,title,system_type"}
+        r = session.get(NINTENDO_EU_S2, params=params, timeout=5)
+        r.raise_for_status()
+        docs = r.json().get("response", {}).get("docs", [])
+        for doc in docs:
+            if title_match(doc.get("title", ""), title):
+                url = doc.get("image_url_h2x1_s") or doc.get("image_url_sq_s")
+                if url: return url
+    except: pass
+    return None
+
+def fetch_art_nintendo_jp(title, session):
+    """Fetch art from Nintendo Japan search API (for JP-exclusive titles)."""
+    try:
+        # Search by English title — JP store indexes in romaji too
+        params = {"q": title, "hard": "05_BEE", "limit": "3"}
+        r = session.get(NINTENDO_JP, params=params, timeout=5)
+        r.raise_for_status()
+        items = r.json().get("result", {}).get("items", [])
+        for item in items:
+            item_title = item.get("title", "")
+            if title_match(item_title, title, threshold=0.35):
+                iurl = item.get("iurl")
+                if iurl:
+                    # Nintendo JP CDN image URL format
+                    return f"https://img-eshop.cdn.nintendo.net/i/{iurl}.jpg"
+    except: pass
+    return None
+
+def fetch_art_wikipedia(title, session):
+    """Fetch thumbnail from Wikipedia as last resort."""
+    try:
+        r = session.get(
+            f"https://en.wikipedia.org/api/rest_v1/page/summary/{requests.utils.quote(title)}",
+            timeout=4
+        )
+        if r.ok:
+            thumb = r.json().get("thumbnail", {}).get("source")
+            if thumb and "logo" not in thumb.lower(): return thumb
+    except: pass
+    return None
+
 def fetch_art_batch(titles_needing_art, session):
     results = {}
     batch = list(titles_needing_art)[:MAX_NEW_ART_PER_RUN]
-    print(f"  Fetching art for {len(batch)} new titles…")
+    print(f"  Fetching art for {len(batch)} new titles (of {len(titles_needing_art)} needed)…")
+    found_count = 0
+
     for title in batch:
-        try:
-            params = {"q":title,"fq":"type:GAME AND system_type:nintendoswitch*",
-                      "rows":"1","fl":"image_url_sq_s,image_url_h2x1_s,title"}
-            r = session.get(NINTENDO_EU, params=params, timeout=3)
-            r.raise_for_status()
-            docs = r.json().get("response",{}).get("docs",[])
-            if docs:
-                doc = docs[0]
-                found = re.sub(r'[^a-z0-9 ]','', (doc.get("title") or "").lower())
-                query = re.sub(r'[^a-z0-9 ]','', title.lower())
-                fw = set(w for w in found.split() if len(w)>2)
-                qw = [w for w in query.split() if len(w)>2]
-                if qw and fw and sum(1 for w in qw if w in fw)/len(qw) >= 0.5:
-                    results[title] = doc.get("image_url_h2x1_s") or doc.get("image_url_sq_s")
-                    continue
-            results[title] = None
-        except:
-            results[title] = None
-        time.sleep(0.1)
+        clean = clean_search_title(title)
+        url = None
+
+        # 1. Nintendo EU — Switch 2 specific
+        url = fetch_art_nintendo_eu(clean, session, switch2_only=True)
+
+        # 2. Nintendo EU — all Switch (gets the Switch 1 art as fallback, still looks good)
+        if not url:
+            url = fetch_art_nintendo_eu(clean, session, switch2_only=False)
+
+        # 3. Nintendo EU — with original (unclean) title
+        if not url and clean != title:
+            url = fetch_art_nintendo_eu(title, session, switch2_only=False)
+
+        # 4. Nintendo JP (for Japan-exclusive titles)
+        if not url:
+            url = fetch_art_nintendo_jp(clean, session)
+
+        # 5. Wikipedia thumbnail (last resort)
+        if not url:
+            url = fetch_art_wikipedia(clean, session)
+
+        results[title] = url
+        if url: found_count += 1
+        time.sleep(0.12)
+
+    print(f"  Found art for {found_count}/{len(batch)} titles")
     return results
 
 
