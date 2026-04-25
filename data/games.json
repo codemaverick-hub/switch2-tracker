@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25T20:17:37.716645+00:00",
+  "updated": "2026-04-25T20:20:34.578984+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7999,7 +7999,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/romancingsaga2revengeoftheseven_ns2e/2x1_RomancingSaGa2RevengeOfTheSeven_NS2E_image500w.jpg",
       "id": 271
     },
     {
@@ -8016,7 +8016,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/rotwood/1x1_Rotwood_image500w.jpg",
       "id": 272
     },
     {
@@ -8033,7 +8033,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/therumblefish2nintendoswitch2edition/1x1_TheRumbleFish2NintendoSwitch2Edition_image500w.jpg",
       "id": 341
     },
     {
@@ -8050,7 +8050,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sailforthnintendoswitch2edition/1x1_SailForthNintendoSwitch2Edition_image500w.jpg",
       "id": 276
     },
     {
@@ -8067,7 +8067,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sayonarawildheartsns2e/1x1_SayonaraWildHeartsNS2E_image500w.jpg",
       "id": 277
     },
     {
@@ -8084,7 +8084,7 @@
       "formats": {},
       "editions": {},
       "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade.",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shadowlabyrinthnintendoswitch2edition/2x1_ShadowLabyrinthNintendoSwitch2Edition_image500w.jpg",
       "id": 279
     },
     {
@@ -8101,7 +8101,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shapeherofactory_1/1x1_ShapeHeroFactory_image500w.jpg",
       "id": 280
     },
     {
@@ -8118,7 +8118,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/3/3f/ShnIIIDayOne.jpg",
       "id": 281
     },
     {
@@ -8140,7 +8140,7 @@
       },
       "editions": {},
       "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sidmeierscivilizationviinintendoswitch2edition/2x1_NSwitch2_CivilisationVII_image500w.jpg",
       "id": 285
     },
     {
@@ -8157,7 +8157,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/simogolegacycollectionns2e/1x1_SimogoLegacyCollectionNS2E_image500w.jpg",
       "id": 286
     },
     {
@@ -8174,7 +8174,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/skatestory/1x1_SkateStory_image500w.jpg",
       "id": 287
     },
     {
@@ -8191,7 +8191,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/southofmidnightweaversedition_1/1x1_SouthOfMidnightWeaverSEdition_image500w.jpg",
       "id": 291
     },
     {
@@ -8225,7 +8225,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
       "id": 293
     },
     {
@@ -8242,7 +8242,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/squirrelwithagun/1x1_SquirrelWithAGun_image500w.jpg",
       "id": 296
     },
     {
@@ -8259,7 +8259,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starshiptroopersultimatebugwar/1x1_StarshipTroopersUltimateBugWar_image500w.jpg",
       "id": 304
     },
     {
@@ -8276,7 +8276,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/startrekvoyageracrosstheunknown/1x1_StarTrekVoyagerAcrossTheUnknown_image500w.jpg",
       "id": 297
     },
     {
@@ -8293,7 +8293,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starwarsoutlawsgoldedition/2x1_StarWarsOutlawsGoldEdition_image500w.jpg",
       "id": 298
     },
     {
@@ -8310,7 +8310,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/starbites/1x1_Starbites_image500w.jpg",
       "id": 300
     },
     {
@@ -8327,7 +8327,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/stardewvalleynintendoswitch2edition/1x1_StardewValleyNintendoSwitch2Edition_image500w.jpg",
       "id": 301
     },
     {
@@ -8344,7 +8344,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hellokittyislandadventurens2e/1x1_HelloKittyIslandAdventureNS2E_image500w.jpg",
       "id": 302
     },
     {
@@ -8361,7 +8361,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/a/a9/Astroneer_cover_art.jpg",
       "id": 303
     },
     {
@@ -8378,7 +8378,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/stormlancersnintendoswitch2edition/1x1_StormLancersNintendoSwitch2Edition_image500w.jpg",
       "id": 305
     },
     {
@@ -8395,7 +8395,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/stray/2x1_Stray_image500w.jpg",
       "id": 307
     },
     {
@@ -8412,7 +8412,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/streetfighter6/2x1_StreetFighter6_image500w.jpg",
       "id": 308
     },
     {
@@ -8429,7 +8429,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/suikagameplanet_1/1x1_SuikaGamePlanet_image500w.jpg",
       "id": 310
     },
     {
@@ -8446,7 +8446,7 @@
       "formats": {},
       "editions": {},
       "note": "Japan first release",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/suikoden1and2hdremasterfornintendoswtich2/2x1_Suikoden1And2HDRemasterforNintendoSwtich2_image500w.jpg",
       "id": 311
     },
     {
@@ -8463,7 +8463,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_SuperInefficientGolf_image500w.jpg",
       "id": 313
     },
     {
@@ -8480,7 +8480,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/superbombermancollectionns2e/1x1_SuperBombermanCollectionNS2E_image500w.jpg",
       "id": 314
     },
     {
@@ -8497,7 +8497,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermariobroswonderns2edbellabelpark/1x1_NSwitch2_SMBWonderN2SEBP_GB_en_image500w.jpg",
       "id": 316
     },
     {
@@ -8514,7 +8514,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/super_mario_party_jamboree_nintendo_switch_2_edition_jamboree_tv/nswitch2_supermariopartyjamboreeplusjamboreetv/2x1_NSwitch2_SMPJamboreeNSW2PlusJTV_image500w.jpg",
       "id": 318
     },
     {
@@ -8531,7 +8531,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermeatboy3d/1x1_SuperMeatBoy3D_image500w.jpg",
       "id": 319
     },
     {
@@ -8548,7 +8548,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/systemshock/1x1_SystemShock_image500w.jpg",
       "id": 321
     },
     {
@@ -8565,7 +8565,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://img-eshop.cdn.nintendo.net/i/bdf5a0457c6c619d662b5f889525d08d829a7f1ed1180a9187b6a952599c4c69.jpg",
       "id": 322
     },
     {
@@ -8582,7 +8582,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/talesoftheshireathelordoftheringsgamens2e/1x1_TalesOfTheShireATheLordOfTheRingsGameNS2E_image500w.jpg",
       "id": 323
     },
     {
@@ -8599,7 +8599,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/teenagemutantninjaturtlessplinteredfatens2e/1x1_TeenageMutantNinjaTurtlesSplinteredFateNS2E_image500w.jpg",
       "id": 325
     },
     {
@@ -8616,7 +8616,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theyarebillions/1x1_TheyAreBillions_image500w.jpg",
       "id": 343
     },
     {
@@ -8633,7 +8633,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tokyoscramble/1x1_TokyoScramble_image500w.jpg",
       "id": 344
     },
     {
@@ -8650,7 +8650,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombraiderdefinitiveedition_1/1x1_TombRaiderDefinitiveEdition_image500w.jpg",
       "id": 345
     },
     {
@@ -8667,7 +8667,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/tombispecialedition/1x1_TombiSpecialEdition_image500w.jpg",
       "id": 347
     },
     {
@@ -8684,7 +8684,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombi2theevilswinereturnspecialedition/1x1_Tombi2TheEvilSwineReturnSpecialEdition_image500w.jpg",
       "id": 346
     },
     {
@@ -8701,7 +8701,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
       "id": 348
     },
     {
@@ -8718,7 +8718,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thetourystdeluxe/1x1_TheTourystDeluxe_image500w.jpg",
       "id": 342
     },
     {
@@ -8735,7 +8735,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/trailsinthesky1stchapternintendoswitch2edition_1/1x1_TrailsInTheSky1stChapterNintendoSwitch2Edition_image500w.jpg",
       "id": 350
     },
     {
@@ -8752,7 +8752,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/trailsinthesky1stchapternintendoswitch2edition_1/1x1_TrailsInTheSky1stChapterNintendoSwitch2Edition_image500w.jpg",
       "id": 351
     },
     {
@@ -8769,7 +8769,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/twopointmuseum/1x1_TwoPointMuseum_image500w.jpg",
       "id": 352
     },
     {
@@ -8786,7 +8786,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ultimatesheepraccoon_1/1x1_UltimateSheepRaccoon_image500w.jpg",
       "id": 354
     },
     {
@@ -8803,7 +8803,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/underwardlastbossgeniusgyarudoctor/1x1_UnderwardLastbossGeniusGyaruDoctor_image500w.jpg",
       "id": 355
     },
     {
@@ -8820,7 +8820,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/unrailed2backontrack/1x1_Unrailed2BackOnTrack_image500w.jpg",
       "id": 356
     },
     {
@@ -8854,7 +8854,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/valheim/1x1_Valheim_image500w.jpg",
       "id": 359
     },
     {
@@ -8871,7 +8871,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/virtuafighter5revoworldstage/1x1_VirtuaFighter5REVOWorldStage_image500w.jpg",
       "id": 360
     },
     {
@@ -8888,7 +8888,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesninjagaideniithedarkswordofchaos/1x1_ConsoleArchivesNinjaGaidenIITheDarkSwordOfChaos_image500w.jpg",
       "id": 362
     },
     {
@@ -8905,7 +8905,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/warframe/1x1_Warframe_image500w.jpg",
       "id": 363
     },
     {
@@ -8922,7 +8922,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/warhammer40000roguetrader/1x1_Warhammer40000RogueTrader_image500w.jpg",
       "id": 364
     },
     {
@@ -8939,7 +8939,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://img-eshop.cdn.nintendo.net/i/bb8586c2a75f58f6651d5cc3c3f39c3d88dc0f45a906f8c013494da96d091ee1.jpg",
       "id": 366
     },
     {
@@ -8956,7 +8956,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://img-eshop.cdn.nintendo.net/i/926de91ee31f8a5a74d2b49887d2b04a04ec01ae6bd575cbbe62f11463a79ff9.jpg",
       "id": 367
     },
     {
@@ -8990,7 +8990,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwamiandyakuzakiwami2bundle/1x1_YakuzaKiwamiAndYakuzaKiwami2Bundle_image500w.jpg",
       "id": 374
     },
     {
@@ -9024,7 +9024,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yookareplaylee/1x1_YookaReplaylee_image500w.jpg",
       "id": 379
     },
     {
@@ -9041,7 +9041,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yoshiandthemysteriousbook/1x1_NSwitch2_YoshiATMB_image500w.jpg",
       "id": 380
     }
   ]
