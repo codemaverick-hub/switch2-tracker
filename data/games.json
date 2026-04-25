@@ -3340,9 +3340,9 @@
         "aus": "Jul 23, 2025"
       },
       "formats": {
-        "aus": "k",
+        "usa": "b",
         "eur": "k",
-        "usa": "?"
+        "aus": "k"
       },
       "editions": {
         "aus": [
@@ -3355,7 +3355,7 @@
           "Standard"
         ]
       },
-      "note": "",
+      "note": "USA: Code in Box · EUR/AUS: Game-Key Card",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k25standardedition/2x1_WWE2K25StandardEdition_image500w.jpg",
       "id": 369
     },

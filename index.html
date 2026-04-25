@@ -436,6 +436,7 @@ function buildGameCard(g){
               <div class="region-header">
                 <span class="own-rlabel">${REGION_LABEL[r]}</span>
                 <span class="own-rating">${rating}</span>
+                ${fmtBadge(formats[r]||null)}
                 <div class="region-dig-wish">
                   <button class="obtn-xs${getOwn(g.id,r)==='d'?' od':''}" onclick="setOwn(${g.id},'${r}',null,'d')">Dig</button>
                   <button class="obtn-xs${getOwn(g.id,r)==='w'?' ow':''}" onclick="setOwn(${g.id},'${r}',null,'w')">Wish</button>
@@ -462,6 +463,7 @@ function buildGameCard(g){
               <div class="region-header">
                 <span class="own-rlabel">${REGION_LABEL[r]}</span>
                 <span class="own-rating">${rating}</span>
+                ${fmtBadge(formats[r]||null)}
                 ${regionEditions[0]!=='Standard'?`<span class="edition-label b ${edClass(regionEditions[0])}" style="margin-left:2px">${regionEditions[0]}</span>`:''}
                 <div class="region-dig-wish" style="margin-left:auto">
                   <button class="obtn-xs${rs==='p'?' op':''}"${!physOk?' disabled':''} onclick="${physOk?`setOwn(${g.id},'${r}',null,'p')`:''}">Phys</button>
@@ -642,6 +644,17 @@ if('serviceWorker' in navigator){
   });
 }
 
+
+
+// Short format label for per-region display
+function fmtBadge(fmt) {
+  const map = {c:'<span class="b fc" style="font-size:8px;padding:1px 5px">Cart</span>',
+               k:'<span class="b fk" style="font-size:8px;padding:1px 5px">GKC</span>',
+               b:'<span class="b fb" style="font-size:8px;padding:1px 5px">CiB</span>',
+               d:'<span class="b fd" style="font-size:8px;padding:1px 5px">Dig</span>',
+               '?':''};
+  return map[fmt]||'';
+}
 
 // ── Flag error modal ──────────────────────────────────────────────────────────
 function showFlag(id, evt) {
