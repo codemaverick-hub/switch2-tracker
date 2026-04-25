@@ -14,6 +14,14 @@ import csv, io, json, re, sys, time
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Nintendo Wire format scraper (separate module)
+try:
+    from scrape_formats import get_format_map, norm as nw_norm
+    HAS_FORMAT_SCRAPER = True
+except ImportError:
+    HAS_FORMAT_SCRAPER = False
+    def get_format_map(): return {}
+
 try:
     import requests
     from bs4 import BeautifulSoup
@@ -318,7 +326,7 @@ def load_overrides():
 
 
 # ── 7. Merge ──────────────────────────────────────────────────────────────────
-def merge_all(summary, wiki, details, overrides, art_cache):
+def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None):
     wiki_map = {norm(g["title"]): g for g in wiki}
     summary_norms = {norm(g["title"]) for g in summary}
     session = requests.Session()
@@ -354,7 +362,19 @@ def merge_all(summary, wiki, details, overrides, art_cache):
             if g["type"] == "t" and wg["type"] != "t": g["type"] = wg["type"]
             if g["genre"] == "Action": g["genre"] = wg["genre"]
 
-        # Overrides
+        # Nintendo Wire format (high-priority factual source)
+        if nw_formats:
+            nwk = fuzzy(g["title"], {k:k for k in nw_formats})
+            if nwk:
+                _, nw_fmt = nw_formats[nwk]
+                # Only apply if not already set by NSCollectors details tab (which has per-region data)
+                if not g.get('formats') or len(g['formats']) == 0:
+                    g['fmt'] = nw_fmt
+                elif nw_fmt in ('b', 'c') and g.get('fmt') not in ('b', 'c'):
+                    # NW says CiB or Cart but we have GKC — NW is more specific, trust it
+                    g['fmt'] = nw_fmt
+
+        # Overrides (highest priority — manual corrections override everything)
         ok = fuzzy(g["title"], overrides)
         if ok:
             for k,v in overrides[ok].items():
@@ -376,6 +396,12 @@ def merge_all(summary, wiki, details, overrides, art_cache):
             if ok:
                 for k,v in overrides[ok].items():
                     if not k.startswith("_"): g[k] = v
+            # Apply NW format for wiki-only games too
+            if nw_formats:
+                nwk = fuzzy(g["title"], {k:k for k in nw_formats})
+                if nwk and g.get('fmt') == '?':
+                    _, nw_fmt = nw_formats[nwk]
+                    g['fmt'] = nw_fmt
             nk = norm(g["title"])
             if nk in art_cache: g['art'] = art_cache[nk]
             else: titles_needing_art.append(g["title"])
@@ -417,7 +443,12 @@ def main():
 
     wiki      = fetch_wiki()
     overrides = load_overrides()
-    games     = merge_all(summary, wiki, details, overrides, art_cache)
+    # Fetch Nintendo Wire format map (Playwright-based, most accurate)
+    print("Fetching Nintendo Wire format data…")
+    nw_formats = get_format_map()
+    print(f"  {len(nw_formats)} games with confirmed format from Nintendo Wire")
+
+    games     = merge_all(summary, wiki, details, overrides, art_cache, nw_formats)
     games     = assign_ids(games)
 
     if len(games) == 0:

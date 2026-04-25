@@ -1397,7 +1397,7 @@
       "genre": "Action",
       "date": "Jan 15, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Jan 15, 2026",
@@ -1405,7 +1405,7 @@
       },
       "formats": {},
       "editions": {},
-      "note": "",
+      "note": "Game-Key Card (Switch 1 cart available separately)",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
       "id": 333
     },
@@ -3367,7 +3367,7 @@
       "genre": "Action",
       "date": "Jul 18, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "jp",
       "releases": {
         "jpn": "Jul 18, 2025"
@@ -3380,7 +3380,7 @@
           "Standard"
         ]
       },
-      "note": "",
+      "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade.",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/shadowlabyrinth/2x1_ShadowLabyrinth_image500w.jpg",
       "id": 278
     },
@@ -6140,12 +6140,12 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
-      "note": "",
+      "note": "Code in Box — physical retail box contains download code only",
       "art": null,
       "id": 330
     },
@@ -6157,12 +6157,12 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
-      "note": "",
+      "note": "Code in Box — physical retail box contains download code only",
       "art": null,
       "id": 331
     },
@@ -6242,12 +6242,12 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "k",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
-      "note": "",
+      "note": "Code in Box — physical retail box contains download code only",
       "art": null,
       "id": 125
     },

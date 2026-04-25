@@ -439,5 +439,25 @@
       "asi": "b"
     },
     "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately"
+  },
+  "Shadow Labyrinth": {
+    "fmt": "b",
+    "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade."
+  },
+  "The Elder Scrolls IV: Oblivion Remastered": {
+    "fmt": "b",
+    "note": "Code in Box — physical retail box contains download code only"
+  },
+  "The Elder Scrolls V: Skyrim Anniversary Edition": {
+    "fmt": "b",
+    "note": "Code in Box — physical retail box contains download code only"
+  },
+  "Fallout 4: Anniversary Edition": {
+    "fmt": "b",
+    "note": "Code in Box — physical retail box contains download code only"
+  },
+  "The Legend of Heroes: Trails Beyond the Horizon": {
+    "fmt": "k",
+    "note": "Game-Key Card (Switch 1 cart available separately)"
   }
 }

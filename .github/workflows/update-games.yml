@@ -11,7 +11,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -22,11 +22,15 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
+      - name: Install Python dependencies
+        run: pip install requests beautifulsoup4 playwright
+
+      - name: Install Playwright browser (for Nintendo Wire format scraping)
+        run: playwright install chromium --with-deps
 
       - name: Run scraper
-        run: python scripts/scrape.py
+        working-directory: scripts
+        run: python scrape.py
 
       - name: Check if data changed
         id: diff
@@ -40,11 +44,12 @@ jobs:
           git config user.email "actions@github.com"
           git add data/games.json
           COUNT=$(python3 -c "import json; d=json.load(open('data/games.json')); print(d['count'])")
+          CIB=$(python3 -c "import json; d=json.load(open('data/games.json')); print(sum(1 for g in d['games'] if g.get('fmt')=='b'))")
           DATE=$(date -u '+%Y-%m-%d')
-          git commit -m "chore: update game list → ${COUNT} games (${DATE})"
+          git commit -m "chore: update game list → ${COUNT} games, ${CIB} Code-in-Box (${DATE})"
           git pull --rebase origin main
           git push origin HEAD:main
 
       - name: No changes detected
         if: steps.diff.outputs.changed == 'false'
-        run: echo "Game data is already up to date. No commit needed."
+        run: echo "Game data is already up to date."
