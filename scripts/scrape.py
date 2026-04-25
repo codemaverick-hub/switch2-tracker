@@ -41,6 +41,10 @@ HEADERS = {
 REGION_COLS = ["USA","KOR","JPN","EUR","CHT","AUS","ASI"]
 
 CARD_TYPE_MAP = {
+    "code in box":   "b",
+    "code-in-box":   "b",
+    "code in a box": "b",
+    "retail code":   "b",
     "game card":     "c",
     "game-key card": "k",
     "digital only":  "d",

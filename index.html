@@ -68,6 +68,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .plat-both{background:#0d1e3d;color:#4b9eff;border:1px solid #1a3a6b;font-weight:700}
 .fc{background:#0d2e1c;color:#3ddc84;border:1px solid #1a4a2a}
 .fk{background:#2e1e00;color:#f5a623;border:1px solid #4a3000}
+.fb{background:#1e0030;color:#d080ff;border:1px solid #4a0060}
 .fd{background:#0d1e3d;color:#4b9eff;border:1px solid #1a2e5a}
 .fq{background:var(--surface2);color:var(--muted);border:1px solid var(--border)}
 .sr{background:#0a200a;color:#3ddc84}.su{background:#200a0a;color:#ff6b6b}
@@ -167,6 +168,19 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
 .ul li{margin-top:3px;line-height:1.3}
 .ct{font-size:12px;font-weight:600;line-height:1.35;letter-spacing:-.1px;margin-top:1px}
 .xbtn{flex:1;font-size:9.5px;font-weight:500;padding:5px 3px;border:1px solid var(--border);border-radius:6px;background:transparent;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .1s}
+.flag-btn{position:absolute;top:6px;right:6px;z-index:5;background:rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.1);border-radius:5px;color:rgba(255,255,255,.35);font-size:10px;padding:2px 6px;cursor:pointer;transition:all .15s;font-family:DM Sans,sans-serif;backdrop-filter:blur(4px)}
+.flag-btn:hover{background:rgba(255,75,75,.25);border-color:rgba(255,75,75,.5);color:#ff9999}
+/* Flag modal */
+.flag-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1000;align-items:center;justify-content:center;padding:20px}
+.flag-modal.show{display:flex}
+.flag-box{background:#17171a;border:1px solid #2a2a30;border-radius:14px;padding:22px 24px;max-width:520px;width:100%;font-family:DM Sans,sans-serif}
+.flag-box h3{font-size:15px;font-weight:700;margin-bottom:4px;color:#e8e8ec}
+.flag-box p{font-size:11.5px;color:#7a7a8a;margin-bottom:14px;line-height:1.5}
+.flag-code{background:#0f0f11;border:1px solid #2a2a30;border-radius:8px;padding:12px 14px;font-family:DM Mono,monospace;font-size:11px;color:#3ddc84;white-space:pre;overflow-x:auto;margin-bottom:14px;line-height:1.6}
+.flag-actions{display:flex;gap:8px;justify-content:flex-end}
+.flag-copy{background:#e60012;color:#fff;border:none;border-radius:7px;padding:7px 16px;font-size:12px;font-weight:600;cursor:pointer;font-family:DM Sans,sans-serif}
+.flag-close{background:transparent;color:#7a7a8a;border:1px solid #2a2a30;border-radius:7px;padding:7px 14px;font-size:12px;cursor:pointer;font-family:DM Sans,sans-serif}
+.flag-hint{font-size:10.5px;color:#5a5a6a;margin-top:10px;line-height:1.5}
 .xbtn:hover{background:var(--surface2);color:var(--text)}
 .xbtn.ax{background:var(--green-dim)!important;color:var(--green)!important;border-color:#1a4a2a!important}
 
@@ -206,6 +220,24 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;fon
   <div id="lgndi"></div>
   <div class="rc" id="rc"></div>
   <div id="grid"><div class="loading"><div class="spinner"></div>Fetching game data…</div></div>
+
+<!-- Flag error modal -->
+<div class="flag-modal" id="flagModal" onclick="if(event.target===this)closeFlagModal()">
+  <div class="flag-box">
+    <h3>🚩 Flag an error</h3>
+    <p>Copy the snippet below and paste it into <code style="color:#3ddc84;font-family:DM Mono,monospace">data/overrides.json</code> with your corrections. Keys you don't change can be removed.</p>
+    <div class="flag-code" id="flagCode"></div>
+    <div class="flag-actions">
+      <button class="flag-close" onclick="closeFlagModal()">Close</button>
+      <button class="flag-copy" onclick="copyFlag()" id="flagCopyBtn">Copy to clipboard</button>
+    </div>
+    <div class="flag-hint">
+      📖 Format codes: <strong style="color:#3ddc84">c</strong> = Physical Cart · <strong style="color:#f5a623">k</strong> = Game-Key Card · <strong style="color:#d080ff">b</strong> = Code in Box · <strong style="color:#4b9eff">d</strong> = Digital Only<br>
+      Region codes: <strong>ww</strong> = Worldwide · <strong>jp</strong> = Japan Only · <strong>var</strong> = Varies<br>
+      Push your edited overrides.json to GitHub and run the workflow to apply.
+    </div>
+  </div>
+</div>
 </div>
 <script>
 // ── Constants ────────────────────────────────────────────────────────────────
@@ -213,8 +245,8 @@ const RATING_BOARD={usa:'ESRB',eur:'PEGI',jpn:'CERO',aus:'ACB',kor:'GRAC',cht:'C
 const REGION_LABEL={usa:'USA',eur:'EUR',jpn:'JPN',aus:'AUS',kor:'KOR',cht:'CHT',asi:'ASI'};
 const REGION_ORDER=['usa','eur','jpn','aus','kor','cht','asi'];
 const COLLECTOR_REGIONS=['usa','eur','jpn'];
-const FM={c:'Physical Cart',k:'Game-Key Card',d:'Digital Only','?':'Format TBA'};
-const FMC={c:'fc',k:'fk',d:'fd','?':'fq'};
+const FM={c:'Physical Cart',k:'Game-Key Card',b:'Code in Box',d:'Digital Only','?':'Format TBA'};
+const FMC={c:'fc',k:'fk',b:'fb',d:'fd','?':'fq'};
 const TY={e:'NS2 Exclusive',n:'NS2 Edition',t:'Third-Party'};
 const TYC={e:'be',n:'bn',t:'bt'};
 const ACAT={Controller:'ccat-ctrl','Grip & Adapter':'ccat-grip',Camera:'ccat-cam',Case:'ccat-case','Dock & Power':'ccat-dock',Storage:'ccat-stor'};
@@ -301,7 +333,7 @@ function toggleExpand(id){state[`exp_${id}`]=!state[`exp_${id}`];saveState(state
 function effectiveFmt(g){
   if(!g.formats||Object.keys(g.formats).length===0) return g.fmt||'?';
   const v=Object.values(g.formats);
-  return v.includes('c')?'c':v.includes('k')?'k':v.includes('?')?'?':'d';
+  return v.includes('c')?'c':v.includes('k')?'k':v.includes('b')?'b':v.includes('?')?'?':'d';
 }
 
 // ── Fetch games ───────────────────────────────────────────────────────────────
@@ -344,8 +376,9 @@ function buildGameCard(g){
   const editions=g.editions||{};  // {region: ['Standard','Deluxe',...]}
   const releaseRegions=REGION_ORDER.filter(r=>releases[r]||formats[r]);
   const hasRegionData=releaseRegions.length>0;
-  const hasAnyPhysical=fmt==='c'||fmt==='k';
-  const definitelyDigital=!hasAnyPhysical&&(reg==='ww'||Object.keys(formats).length===0);
+  const hasAnyPhysical=fmt==='c'||fmt==='k'||fmt==='b';
+  // Only truly digital if no physical format anywhere AND worldwide with no regional variants
+  const definitelyDigital=fmt==='d'&&(reg==='ww'||Object.keys(formats).length===0)&&!Object.values(formats).some(f=>f==='c'||f==='k'||f==='b'||f==='?');
 
   // Box art
   const artSrc=g.art||'';
@@ -392,7 +425,7 @@ function buildGameCard(g){
     if(expanded){
       regionRows=`<div class="region-rows">
         ${regionsToShow.map(r=>{
-          const physOk=(formats[r]==='c'||formats[r]==='k')||(Object.keys(formats).length===0);
+          const rf=formats[r]||null; const physOk=rf!=='d'; // only disable physical when definitively digital-only
           const rating=RATING_BOARD[r]||'';
           const regionEditions=editions[r]||['Standard'];
           const hasMultiEd=regionEditions.length>1;
@@ -456,7 +489,8 @@ function buildGameCard(g){
     </div>`;
   }
 
-  return`<div class="card ${PLAT_CLASS[plat]||''}">
+  return`<div class="card ${PLAT_CLASS[plat]||''}" style="position:relative">
+    <button class="flag-btn" onclick="showFlag(${g.id},event)" title="Flag an error">🚩</button>
     <div class="card-art ${artBg}">
       ${artSrc?`<img class="art-img" src="${artSrc}" alt="" onload="this.classList.add('loaded')" onerror="this.style.display='none'">`:''}
       <div class="art-init">${initials}</div>
@@ -503,7 +537,7 @@ function renderG(){
       </div>
       <div class="legend">
         <strong>Type:</strong><span class="b be">NS2 Exclusive</span><span class="b bn">NS2 Edition</span><span class="b bt">Third-Party</span>
-        &ensp;<strong>Format:</strong><span class="b fc">Physical Cart</span><span class="b fk">Game-Key Card</span><span class="b fd">Digital Only</span>
+        &ensp;<strong>Format:</strong><span class="b fc">Physical Cart</span><span class="b fk">Game-Key Card</span><span class="b fb">Code in Box</span><span class="b fd">Digital Only</span>
         &ensp;<strong>Edition:</strong><span class="b ed-std">Standard</span><span class="b ed-dlx">Deluxe</span><span class="b ed-ltd">Limited</span><span class="b ed-col">Collector's</span>
       </div>`;
   }
@@ -606,6 +640,39 @@ if('serviceWorker' in navigator){
       document.getElementById('update-banner').classList.add('show');
     }
   });
+}
+
+
+// ── Flag error modal ──────────────────────────────────────────────────────────
+function showFlag(id, evt) {
+  evt.stopPropagation();
+  const g = GAMES.find(x => x.id === id);
+  if (!g) return;
+  const snippet = {
+    fmt: g.fmt || '?',
+    region: g.region || 'ww',
+  };
+  if (g.type) snippet.type = g.type;
+  if (g.note) snippet.note = g.note;
+  const json = JSON.stringify({[g.title]: snippet}, null, 2);
+  document.getElementById('flagCode').textContent = json;
+  document.getElementById('flagModal').classList.add('show');
+  document.getElementById('flagCopyBtn').textContent = 'Copy to clipboard';
+}
+function closeFlagModal() {
+  document.getElementById('flagModal').classList.remove('show');
+}
+async function copyFlag() {
+  const text = document.getElementById('flagCode').textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    document.getElementById('flagCopyBtn').textContent = '✓ Copied!';
+    setTimeout(() => {
+      document.getElementById('flagCopyBtn').textContent = 'Copy to clipboard';
+    }, 2000);
+  } catch {
+    document.getElementById('flagCopyBtn').textContent = 'Copy failed — select manually';
+  }
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
