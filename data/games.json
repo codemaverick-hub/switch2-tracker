@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25T08:38:30.572632+00:00",
+  "updated": "2026-04-25T20:17:37.716645+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -39,7 +39,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shutenordernintendoswitch2edition/1x1_ShutenOrderNintendoSwitch2Edition_image500w.jpg",
       "id": 283
     },
     {
@@ -140,7 +140,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechroniclesxdefnitiveeditionns2e/1x1_NSwitch2_XenobladeChroniclesXDefinitiveEdition_image500w.jpg",
       "id": 371
     },
     {
@@ -270,7 +270,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermariobroswonderns2edbellabelpark/1x1_NSwitch2_SMBWonderN2SEBP_GB_en_image500w.jpg",
       "id": 315
     },
     {
@@ -1276,7 +1276,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_CielFledgeADaughterRaisingSimulator_image500w.jpg",
       "id": 66
     },
     {
@@ -1461,7 +1461,7 @@
         ]
       },
       "note": "4K; 12-player island; mouse controls",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/animalcrossingnewhorizonsnintendoswitch2edition_1/1x1_NSwitch2_AnimalCrossingNewHorizonsNS2E_image500w.jpg",
       "id": 12
     },
     {
@@ -1513,7 +1513,7 @@
         "jpn": "Dec 18, 2025"
       },
       "formats": {
-        "jpn": "?"
+        "jpn": "b"
       },
       "editions": {
         "jpn": [
@@ -1521,7 +1521,7 @@
         ]
       },
       "note": "Revealed in JP Direct only",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/f/f3/Bail_or_Jail_cover_art.jpg",
       "id": 224
     },
     {
@@ -1705,8 +1705,8 @@
         "eur": "Dec 5, 2025"
       },
       "formats": {
-        "eur": "?",
-        "usa": "?"
+        "eur": "b",
+        "usa": "b"
       },
       "editions": {
         "eur": [
@@ -1856,7 +1856,7 @@
         ]
       },
       "note": "Mouse aiming support",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/metroid_prime_4_nintendo_switch_2_edition/2x1_NSwitch2_MetroidPrime4BeyondNS2Ed_image500w.jpg",
       "id": 201
     },
     {
@@ -2056,7 +2056,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hadesiinintendoswitch2edition/1x1_NSwitch2_HadesIINintendoSwitch2Edition_image500w.jpg",
       "id": 145
     },
     {
@@ -2375,7 +2375,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://img-eshop.cdn.nintendo.net/i/af9f5dd8e1e2c8aeda439c78e61bd880e2603664a264142e66e4317c484c0355.jpg",
       "id": 192
     },
     {
@@ -2615,7 +2615,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pokemonlegendszanintendoswitch2edition/2x1_HP_NSwitch2_PokemonLegendsZANS2Ed_GB_en_image500w.jpg",
       "id": 244
     },
     {
@@ -2721,7 +2721,7 @@
         "jpn": "Sep 30, 2025"
       },
       "formats": {
-        "jpn": "?"
+        "jpn": "b"
       },
       "editions": {
         "jpn": [
@@ -3037,7 +3037,7 @@
         ]
       },
       "note": "Includes new Star-Crossed World DLC expansion",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kirby_and_the_forgotten_land_nintendo_switch_2_edition_star_crossed_world/2x1_NSwitch2_KirbyForgottenLandNS2EdSCW_GB_en_image500w.jpg",
       "id": 170
     },
     {
@@ -3321,7 +3321,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/super_mario_party_jamboree_nintendo_switch_2_edition_jamboree_tv/nswitch2_supermariopartyjamboreeplusjamboreetv/2x1_NSwitch2_SMPJamboreeNSW2PlusJTV_image500w.jpg",
       "id": 317
     },
     {
@@ -3355,7 +3355,7 @@
           "Standard"
         ]
       },
-      "note": "USA: Code in Box · EUR/AUS: Game-Key Card",
+      "note": "USA: Code in Box (retail box + download code) · EUR/AUS: Game-Key Card",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k25standardedition/2x1_WWE2K25StandardEdition_image500w.jpg",
       "id": 369
     },
@@ -3373,7 +3373,7 @@
         "jpn": "Jul 18, 2025"
       },
       "formats": {
-        "jpn": "?"
+        "jpn": "b"
       },
       "editions": {
         "jpn": [
@@ -3506,7 +3506,7 @@
         ]
       },
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tamagotchiplazanintendoswitch2edition/2x1_TamagotchiPlazaNintendoSwitch2Edition_image500w.jpg",
       "id": 324
     },
     {
@@ -4089,7 +4089,7 @@
       "formats": {},
       "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofzeldatearsofthekingdomnintendoswitch2edition/2x1_HP_NSwitch2_TLoZTotKN_image500w.jpg",
       "id": 335
     },
     {
@@ -4114,7 +4114,7 @@
       "formats": {},
       "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofzeldabreathofthewild_nintendoswitch2edition/2x1_NSwitch2_TLoZTBotWNSwitch2Edition_image500w.jpg",
       "id": 334
     },
     {
@@ -4440,7 +4440,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -4497,7 +4497,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/atelierryza2lostlegendsandthesecretfairydx/1x1_AtelierRyza2LostLegendsAndTheSecretFairyDX_EN_image500w.jpg",
       "id": 9
     },
     {
@@ -4769,7 +4769,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/arcadearchives2theoutfoxies/1x1_ArcadeArchives2TheOutfoxies_image500w.jpg",
       "id": 26
     },
     {
@@ -5001,7 +5001,7 @@
       "genre": "Fighting",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -5075,7 +5075,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/d/d4/Bestiario_%28Julio_Cort%C3%A1zar_book%29.jpg",
       "id": 47
     },
     {
@@ -5092,7 +5092,7 @@
       "formats": {},
       "editions": {},
       "note": "Japan / Asia release",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/beybladexevobattlens2e/1x1_BeybladeXEvobattleNS2E_image500w.jpg",
       "id": 48
     },
     {
@@ -5103,13 +5103,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheBindingOfIsaacAfterbirthPlus_image500w.jpg",
       "id": 327
     },
     {
@@ -5126,7 +5126,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_ArcadeArchivesNaughtyBoy_image500w.jpg",
       "id": 49
     },
     {
@@ -5160,7 +5160,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/bloodrefreshedsupply/1x1_BloodRefreshedSupply_image500w.jpg",
       "id": 51
     },
     {
@@ -5177,7 +5177,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/blueprince/1x1_BluePrince_image500w.jpg",
       "id": 52
     },
     {
@@ -5194,7 +5194,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/blueprince/1x1_BluePrince_image500w.jpg",
       "id": 53
     },
     {
@@ -5211,7 +5211,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_BlueReflectionSecondLight_image500w.jpg",
       "id": 54
     },
     {
@@ -5228,7 +5228,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_BlueReflectionSecondLight_image500w.jpg",
       "id": 55
     },
     {
@@ -5245,7 +5245,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_BlueReflectionSecondLight_image500w.jpg",
       "id": 56
     },
     {
@@ -5256,13 +5256,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/blueysquestforthegoldpen/1x1_BlueysQuestForTheGoldPen_image500w.jpg",
       "id": 57
     },
     {
@@ -5279,7 +5279,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bokuraplanet/1x1_BokuraPlanet_image500w.jpg",
       "id": 58
     },
     {
@@ -5296,7 +5296,7 @@
       "formats": {},
       "editions": {},
       "note": "2-player co-op; two linked worlds",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bokuraplanet/1x1_BokuraPlanet_image500w.jpg",
       "id": 59
     },
     {
@@ -5313,7 +5313,7 @@
       "formats": {},
       "editions": {},
       "note": "Delayed indefinitely",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_TalesFromTheBorderlands_image500w.jpg",
       "id": 60
     },
     {
@@ -5330,7 +5330,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/brokenswordshadowofthetemplarsreforgedns2e/1x1_BrokenSwordShadowOfTheTemplarsReforgedNS2E_GBen_image500w.jpg",
       "id": 62
     },
     {
@@ -5347,7 +5347,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/brotatons2e/1x1_BrotatoNS2E_image500w.jpg",
       "id": 63
     },
     {
@@ -5358,13 +5358,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bubsy4d_1/1x1_Bubsy4D_image500w.jpg",
       "id": 64
     },
     {
@@ -5381,7 +5381,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/carmageddonrogueshift/1x1_CarmageddonRogueShift_image500w.jpg",
       "id": 67
     },
     {
@@ -5398,7 +5398,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/calloftheeldergods/1x1_CallOfTheElderGods_image500w.jpg",
       "id": 65
     },
     {
@@ -5415,7 +5415,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/castnchillns2e/1x1_CastNChillNS2E_image500w.jpg",
       "id": 68
     },
     {
@@ -5432,7 +5432,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/castleofheartretold/1x1_CastleOfHeartRetold_image500w.jpg",
       "id": 69
     },
     {
@@ -5449,7 +5449,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/chillinbythefire/2x1_ChillinByTheFire_image500w.jpg",
       "id": 70
     },
     {
@@ -5466,7 +5466,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cityhunter_1/1x1_CityHunter_image500w.jpg",
       "id": 72
     },
     {
@@ -5483,7 +5483,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_EarthMarines_image500w.jpg",
       "id": 73
     },
     {
@@ -5500,7 +5500,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/contentwarning_1/1x1_ContentWarning_image500w.jpg",
       "id": 85
     },
     {
@@ -5517,7 +5517,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivescoolboarders/1x1_ConsoleArchivesCoolBoarders_image500w.jpg",
       "id": 74
     },
     {
@@ -5534,7 +5534,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
       "id": 75
     },
     {
@@ -5551,7 +5551,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
       "id": 76
     },
     {
@@ -5568,7 +5568,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
       "id": 77
     },
     {
@@ -5585,7 +5585,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/f/f9/Master_of_Monsters_cover.png",
       "id": 78
     },
     {
@@ -5619,7 +5619,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesninjagaideniithedarkswordofchaos/1x1_ConsoleArchivesNinjaGaidenIITheDarkSwordOfChaos_image500w.jpg",
       "id": 80
     },
     {
@@ -5636,7 +5636,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesnobunagasambition/1x1_ConsoleArchivesNobunagasAmbition_image500w.jpg",
       "id": 81
     },
     {
@@ -5653,7 +5653,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_PrinnyPresentsPrinnyNisClassicsVolume3_image500w.jpg",
       "id": 82
     },
     {
@@ -5670,7 +5670,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/consolearchivesseicross/1x1_ConsoleArchivesSeicross_image500w.jpg",
       "id": 83
     },
     {
@@ -5687,7 +5687,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/0/0f/UFO_A_Day_in_the_Life_cover.jpg",
       "id": 84
     },
     {
@@ -5704,7 +5704,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/cookieclicker/2x1_CookieClicker_image500w.jpg",
       "id": 86
     },
     {
@@ -5721,7 +5721,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/corekeeperns2e/1x1_CoreKeeperNS2E_image500w.jpg",
       "id": 87
     },
     {
@@ -5755,7 +5755,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Danganronpa2GoodbyeDespairAnniversaryEdition_image500w.jpg",
       "id": 93
     },
     {
@@ -5772,7 +5772,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/darwinsparadox/1x1_DarwinsParadox_image500w.jpg",
       "id": 94
     },
     {
@@ -5789,7 +5789,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/davethedivernintendoswitch2edition/1x1_DaveTheDiverNintendoSwitch2Edition_image500w.jpg",
       "id": 95
     },
     {
@@ -5806,7 +5806,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/deadzonerogue/1x1_DeadzoneRogue_image500w.jpg",
       "id": 96
     },
     {
@@ -5823,7 +5823,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dearmeiwas/2x1_DearMeIWas_image500w.jpg",
       "id": 97
     },
     {
@@ -5840,7 +5840,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/deltarune/2x1_Deltarune_image500w.jpg",
       "id": 98
     },
     {
@@ -5874,7 +5874,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/denshattack/1x1_Denshattack_image500w.jpg",
       "id": 100
     },
     {
@@ -5891,7 +5891,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Loop_image500w.jpg",
       "id": 101
     },
     {
@@ -5908,7 +5908,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DestroyAllHumans_image500w.jpg",
       "id": 102
     },
     {
@@ -5925,7 +5925,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DestroyAllHumans_image500w.jpg",
       "id": 103
     },
     {
@@ -5936,13 +5936,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/digimonstorytimestranger_1/1x1_DigimonStoryTimeStranger_image500w.jpg",
       "id": 104
     },
     {
@@ -5953,13 +5953,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thedisneyafternooncollection/1x1_TheDisneyAfternoonCollection_image500w.jpg",
       "id": 328
     },
     {
@@ -5976,7 +5976,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/disneydreamlightvalleynintendoswitch2edition/1x1_DisneyDreamlightValleyNintendoSwitch2Edition_image500w.jpg",
       "id": 106
     },
     {
@@ -5993,7 +5993,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dispatchns2e/1x1_DispatchNS2E_image500w.jpg",
       "id": 107
     },
     {
@@ -6010,7 +6010,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/divinityoriginalsin2ns2e/1x1_DivinityOriginalSin2NS2E_image500w.jpg",
       "id": 108
     },
     {
@@ -6027,7 +6027,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dragxdrive/2x1_NSwitch2_DragXDrive_image500w.jpg",
       "id": 110
     },
     {
@@ -6044,7 +6044,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/drawking/1x1_DrawKing_image500w.jpg",
       "id": 114
     },
     {
@@ -6061,7 +6061,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Dumb_Ways_to_Die.png/330px-Dumb_Ways_to_Die.png",
       "id": 115
     },
     {
@@ -6078,7 +6078,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DynastyWarriors8XtremeLegendsDefinitiveEdition_image500w.jpg",
       "id": 116
     },
     {
@@ -6095,7 +6095,7 @@
       "formats": {},
       "editions": {},
       "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theduskbloods/2x1_NSwitch2_TheDuskbloods_image500w.jpg",
       "id": 329
     },
     {
@@ -6129,7 +6129,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/eldenringtarnishededition/2x1_NSwitch2_EldenRing_image500w.jpg",
       "id": 121
     },
     {
@@ -6146,7 +6146,7 @@
       "formats": {},
       "editions": {},
       "note": "Code in Box — physical retail box contains download code only",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsivoblivionremaster/1x1_TheElderScrollsIVOblivionRemaster_image500w.jpg",
       "id": 330
     },
     {
@@ -6163,7 +6163,7 @@
       "formats": {},
       "editions": {},
       "note": "Code in Box — physical retail box contains download code only",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsvskyrimanniversaryedition/1x1_TheElderScrollsVSkyrimAnniversaryEdition_image500w.jpg",
       "id": 331
     },
     {
@@ -6180,7 +6180,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/enterthegungeon2/2x1_NSwitch2_EnterTheGungeon2_image500w.jpg",
       "id": 122
     },
     {
@@ -6197,7 +6197,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_DisneyEpicMickeyRebrushed_image500w.jpg",
       "id": 123
     },
     {
@@ -6214,7 +6214,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theexit8nintendoswitch2edition/1x1_TheExit8NintendoSwitch2Edition_image500w.jpg",
       "id": 332
     },
     {
@@ -6231,7 +6231,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/factorions2e/1x1_FactorioNS2E_image500w.jpg",
       "id": 124
     },
     {
@@ -6242,13 +6242,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "b",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
-      "note": "Code in Box — physical retail box contains download code only",
-      "art": null,
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fallout4anniversaryedition/1x1_Fallout4AnniversaryEdition_image500w.jpg",
       "id": 125
     },
     {
@@ -6265,7 +6265,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fastfusion/2x1_FastFusion_image500w.jpg",
       "id": 128
     },
     {
@@ -6282,7 +6282,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
       "id": 131
     },
     {
@@ -6293,13 +6293,13 @@
       "genre": "Action RPG",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviiremakeintegrade/1x1_NSwitch2_FinalFantasyVIIRemakeI_image500w.jpg",
       "id": 357
     },
     {
@@ -6316,7 +6316,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
       "id": 133
     },
     {
@@ -6333,7 +6333,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fireemblemfortunesweave/1x1_NSwitch2_FireEmblemFortunesWeave_image500w.jpg",
       "id": 134
     },
     {
@@ -6350,7 +6350,7 @@
       "formats": {},
       "editions": {},
       "note": "Free to play",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fortnite/1x1_Fortnite_202604_image500w.jpg",
       "id": 135
     },
     {
@@ -6367,7 +6367,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/b/b3/Glaciered_steam_cover.jpg",
       "id": 139
     },
     {
@@ -6384,7 +6384,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/goatsimulator3/1x1_GoatSimulator3_image500w.jpg",
       "id": 140
     },
     {
@@ -6401,7 +6401,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermeatboy3d/1x1_SuperMeatBoy3D_image500w.jpg",
       "id": 141
     },
     {
@@ -6418,7 +6418,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/granbluefantasyrelinkendlessragnarok/1x1_GranblueFantasyRelinkEndlessRagnarok_image500w.jpg",
       "id": 143
     },
     {
@@ -6435,7 +6435,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/gridlegendsdeluxeedition/1x1_GridLegendsDeluxeEdition_image500w.jpg",
       "id": 144
     },
     {
@@ -6452,7 +6452,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/handyhockey/2x1_HandyHockey_image500w.jpg",
       "id": 146
     },
     {
@@ -6469,7 +6469,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/haste/1x1_Haste_image500w.jpg",
       "id": 147
     },
     {
@@ -6486,7 +6486,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_HeaveHo_image500w.jpg",
       "id": 148
     },
     {
@@ -6520,7 +6520,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hellokittyislandadventurens2e/1x1_HelloKittyIslandAdventureNS2E_image500w.jpg",
       "id": 150
     },
     {
@@ -6537,7 +6537,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/highonlife2/1x1_HighOnLife2_image500w.jpg",
       "id": 151
     },
     {
@@ -6554,7 +6554,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hitmanworldofassassinationsignatureedition/2x1_NSwitch2_HitmanWolrdOfAssass_image500w.jpg",
       "id": 152
     },
     {
@@ -6571,7 +6571,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hitmanworldofassassinationsignatureedition/2x1_NSwitch2_HitmanWolrdOfAssass_image500w.jpg",
       "id": 154
     },
     {
@@ -6588,7 +6588,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hollowknightnintendoswitch2edition/1x1_HollowKnightNintendoSwitch2Edition_image500w.jpg",
       "id": 156
     },
     {
@@ -6605,7 +6605,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hollowknightsilksongns2e/1x1_HollowKnightSilksongNS2E_image500w.jpg",
       "id": 157
     },
     {
@@ -6639,7 +6639,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/humanfallflatns2e/1x1_HumanFallFlatNS2E_image500w.jpg",
       "id": 159
     },
     {
@@ -6656,7 +6656,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Sovereign_Syndicate_cover.png/330px-Sovereign_Syndicate_cover.png",
       "id": 160
     },
     {
@@ -6673,7 +6673,7 @@
       "formats": {},
       "editions": {},
       "note": "Japan / Asia focus",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/inazumaelevenvictoryroadns2e/1x1_InazumaElevenVictoryRoadNS2E_EN_image500w.jpg",
       "id": 162
     },
     {
@@ -6684,13 +6684,13 @@
       "genre": "Action-Adventure",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/indianajonesandthegreatcircle/1x1_IndianaJonesAndTheGreatCircle_EN_image500w.jpg",
       "id": 163
     },
     {
@@ -6707,7 +6707,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_OutThereTheAlliance_image500w.jpg",
       "id": 164
     },
     {
@@ -6741,7 +6741,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/isekairondons2e/1x1_IsekaiRondoNS2E_image500w.jpg",
       "id": 166
     },
     {
@@ -6775,7 +6775,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kingdomsreturntimeeatingfruitandtheancientmonsterns2e/1x1_KingdomsReturnTimeEatingFruitAndTheAncientMonsterNS2E_image500w.jpg",
       "id": 168
     },
     {
@@ -6792,7 +6792,7 @@
       "formats": {},
       "editions": {},
       "note": "Includes new Star-Crossed World DLC expansion",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kirby_and_the_forgotten_land_nintendo_switch_2_edition_star_crossed_world/2x1_NSwitch2_KirbyForgottenLandNS2EdSCW_GB_en_image500w.jpg",
       "id": 171
     },
     {
@@ -6826,7 +6826,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/kuukiyomi4consideritnintendoswitch2edition/1x1_Kuukiyomi4ConsiderItNintendoSwitch2Edition_image500w.jpg",
       "id": 174
     },
     {
@@ -6843,7 +6843,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/kyotoxanadu/1x1_KyotoXanadu_image500w.jpg",
       "id": 175
     },
     {
@@ -6877,7 +6877,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/layersoffearthefinalmasterpieceedition/1x1_LayersOfFearTheFinalMasterpieceEdition_image500w.jpg",
       "id": 177
     },
     {
@@ -6894,7 +6894,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/legobatmanlegacyofthedarkknight/1x1_LegoBatmanLegacyOfTheDarkKnight_image500w.jpg",
       "id": 178
     },
     {
@@ -6911,7 +6911,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/legovoyagers_1/1x1_LegoVoyagers_image500w.jpg",
       "id": 179
     },
     {
@@ -6928,7 +6928,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlenightmaresenhancededitioncompleteedition/1x1_LittleNightmaresEnhancedEditionCompleteEdition_image500w.jpg",
       "id": 180
     },
     {
@@ -6962,7 +6962,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/littlerocketlabns2e/1x1_LittleRocketLabNS2E_image500w.jpg",
       "id": 183
     },
     {
@@ -6973,13 +6973,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_LollipoChainsawRePop_image500w.jpg",
       "id": 185
     },
     {
@@ -6996,7 +6996,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/loreleiandthelasereyesns2e/1x1_LoreleiAndTheLaserEyesNS2E_image500w.jpg",
       "id": 186
     },
     {
@@ -7007,13 +7007,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_EndlessMemories_image500w.jpg",
       "id": 187
     },
     {
@@ -7030,7 +7030,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/lovish/1x1_Lovish_image500w.jpg",
       "id": 188
     },
     {
@@ -7047,7 +7047,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/lynkedbannerofthesparknintendoswitch2edition/1x1_LynkedBannerOfTheSpark_image500w.jpg",
       "id": 189
     },
     {
@@ -7064,7 +7064,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/easportsmaddennfl26/2x1_EaSportsMaddenNFL26_image500w.jpg",
       "id": 190
     },
     {
@@ -7081,7 +7081,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/majogami_1/1x1_Majogami_image500w.jpg",
       "id": 191
     },
     {
@@ -7098,7 +7098,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/marvelcosmicinvasion/1x1_MarvelCosmicInvasion_image500w.jpg",
       "id": 197
     },
     {
@@ -7115,7 +7115,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_WhenThePastWasAround_image500w.jpg",
       "id": 198
     },
     {
@@ -7132,7 +7132,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_MegaMan11_image500w.jpg",
       "id": 199
     },
     {
@@ -7149,7 +7149,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/metalgearsolidmastercollectionvol2/1x1_MetalGearSolidMasterCollectionVol2_image500w.jpg",
       "id": 200
     },
     {
@@ -7166,7 +7166,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/themidnightwalk/1x1_TheMidnightWalk_image500w.jpg",
       "id": 336
     },
     {
@@ -7183,7 +7183,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/milanosoddjobcollection/1x1_MilanosOddJobCollection_image500w.jpg",
       "id": 202
     },
     {
@@ -7200,7 +7200,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/6/6a/Mina_the_Hollower_cover_art.png",
       "id": 203
     },
     {
@@ -7217,7 +7217,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/minecraftdungeonsii_1/1x1_MinecraftDungeonsII_image500w.jpg",
       "id": 204
     },
     {
@@ -7234,7 +7234,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/minishootadventuresnintendoswitch2edition/1x1_MinishootAdventuresNintendoSwitch2Edition_image500w.jpg",
       "id": 205
     },
     {
@@ -7251,7 +7251,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mixtape/1x1_Mixtape_image500w.jpg",
       "id": 207
     },
     {
@@ -7268,7 +7268,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/b/bc/Moonlighter_2_The_Endless_Vault_cover_art.jpg",
       "id": 210
     },
     {
@@ -7285,7 +7285,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mousepiforhire/1x1_MousePIForHire_image500w.jpg",
       "id": 213
     },
     {
@@ -7302,7 +7302,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mousepiforhire/1x1_MousePIForHire_image500w.jpg",
       "id": 212
     },
     {
@@ -7319,7 +7319,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/digimonstorytimestranger_1/1x1_DigimonStoryTimeStranger_image500w.jpg",
       "id": 214
     },
     {
@@ -7336,7 +7336,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thenewdenpamen/1x1_TheNewDenpaMen_image500w.jpg",
       "id": 337
     },
     {
@@ -7353,7 +7353,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_CircusPocus_image500w.jpg",
       "id": 217
     },
     {
@@ -7370,7 +7370,7 @@
       "formats": {},
       "editions": {},
       "note": "Free digital download",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/welcometour/2x1_NSwitch2_NS2WelcomeTour_image500w.jpg",
       "id": 218
     },
     {
@@ -7387,7 +7387,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nomansskynintendoswitch2edition/2x1_NoMansSkyNintendoSwitch2Edition_image500w.jpg",
       "id": 219
     },
     {
@@ -7404,7 +7404,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nobunagasambitionawakeningcompleteedition/2x1_NobunagasAmbitionAwakeningCompleteEdition_image500w.jpg",
       "id": 221
     },
     {
@@ -7421,7 +7421,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/novelroguens2e/1x1_NovelRogueNS2E_image500w.jpg",
       "id": 223
     },
     {
@@ -7438,7 +7438,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/onepiecepiratewarriors4ns2e/1x1_OnePiecePirateWarriors4NS2E_image500w.jpg",
       "id": 226
     },
     {
@@ -7455,7 +7455,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/opusprismpeak/1x1_OpusPrismPeak_image500w.jpg",
       "id": 227
     },
     {
@@ -7472,7 +7472,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_image500w.jpg",
       "id": 228
     },
     {
@@ -7483,13 +7483,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shutenordernintendoswitch2edition/1x1_ShutenOrderNintendoSwitch2Edition_image500w.jpg",
       "id": 229
     },
     {
@@ -7506,7 +7506,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_WordsInWord_image500w.jpg",
       "id": 230
     },
     {
@@ -7517,13 +7517,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/outbound/1x1_Outbound_image500w.jpg",
       "id": 231
     },
     {
@@ -7540,7 +7540,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/overcooked2nintendoswitch2edition/1x1_Overcooked2NintendoSwitch2Edition_image500w.jpg",
       "id": 232
     },
     {
@@ -7557,7 +7557,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/overroguens2e/1x1_OverrogueNS2E_image500w.jpg",
       "id": 233
     },
     {
@@ -7574,7 +7574,7 @@
       "formats": {},
       "editions": {},
       "note": "Free to play",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/overwatch_/1x1_Overwatch_image500w.jpg",
       "id": 234
     },
     {
@@ -7591,7 +7591,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/nomansskynintendoswitch2edition/2x1_NoMansSkyNintendoSwitch2Edition_image500w.jpg",
       "id": 236
     },
     {
@@ -7602,13 +7602,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_PoolPanic_image500w.jpg",
       "id": 237
     },
     {
@@ -7625,7 +7625,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/peopleofnote/1x1_PeopleOfNote_image500w.jpg",
       "id": 238
     },
     {
@@ -7659,7 +7659,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/f/fb/Planet_of_Lana_II_cover_art.jpg",
       "id": 242
     },
     {
@@ -7676,7 +7676,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/plantsvszombiesreplanted_1/2x1_PlantsvsZombiesReplanted_image500w.jpg",
       "id": 243
     },
     {
@@ -7693,7 +7693,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pokemonwindswaves/1x1_NSwitch2_PokemonWinds_GB_en_image500w.jpg",
       "id": 246
     },
     {
@@ -7710,7 +7710,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/poolroombilliard/1x1_PoolRoomBilliard_image500w.jpg",
       "id": 247
     },
     {
@@ -7727,7 +7727,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/powerwashsimulator2/1x1_PowerWashSimulator2_image500w.jpg",
       "id": 248
     },
     {
@@ -7744,7 +7744,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/theprinceoftennisdokidokisurvivaleternalpassiontiebreakgame/1x1_ThePrinceOfTennisDokiDokiSurvivalEternalPassionTieBreakGame_image500w.jpg",
       "id": 338
     },
     {
@@ -7761,7 +7761,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theprinceoftennissweetschoolfestivalns2e/1x1_ThePrinceOfTennisSweetSchoolFestivalNS2E_image500w.jpg",
       "id": 339
     },
     {
@@ -7778,7 +7778,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/prittoprisonerns2e/1x1_PrittoPrisonerNS2E_image500w.jpg",
       "id": 250
     },
     {
@@ -7795,7 +7795,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_ProfessorLaytonAndTheNewWorldOfSteam_enGB_image500w.jpg",
       "id": 251
     },
     {
@@ -7812,7 +7812,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_PsyvariarDelta_image500w.jpg",
       "id": 252
     },
     {
@@ -7829,7 +7829,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/punyanfornintendoswitch2/1x1_PunyanForNintendoSwitch2_image500w.jpg",
       "id": 253
     },
     {
@@ -7840,13 +7840,13 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RTypeDimensionsEx_image500w.jpg",
       "id": 255
     },
     {
@@ -7863,7 +7863,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_RadiantSilvergun_image500w.jpg",
       "id": 257
     },
     {
@@ -7880,7 +7880,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/a/aa/Patapon.jpg",
       "id": 259
     },
     {
@@ -7897,7 +7897,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/reddeadredemptionnintendoswitch2edition/1x1_RedDeadRedemptionNintendoSwitch2Edition_image500w.jpg",
       "id": 261
     },
     {
@@ -7914,7 +7914,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/relayeradvanceddefinitiveedition/1x1_RelayerAdvancedDefinitiveEdition_image500w.jpg",
       "id": 262
     },
     {
@@ -7925,13 +7925,13 @@
       "genre": "Horror",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevil7biohazardgoldedition/1x1_ResidentEvil7BiohazardGoldEdition_image500w.jpg",
       "id": 263
     },
     {
@@ -7942,13 +7942,13 @@
       "genre": "Horror",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/residentevilvillagegoldedition/1x1_ResidentEvilVillageGoldEdition_image500w.jpg",
       "id": 266
     },
     {
@@ -7965,7 +7965,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rippleislandkyleandcalsrestaurant/1x1_RippleIslandKyleAndCalsRestaurant_image500w.jpg",
       "id": 268
     },
     {
@@ -7982,7 +7982,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RollinEggz_image500w.jpg",
       "id": 270
     },
     {
@@ -8078,12 +8078,12 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
-      "note": "",
+      "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade.",
       "art": null,
       "id": 279
     },
@@ -8129,12 +8129,17 @@
       "genre": "Strategy",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
-      "formats": {},
+      "formats": {
+        "usa": "b",
+        "eur": "b",
+        "aus": "b",
+        "asi": "b"
+      },
       "editions": {},
-      "note": "",
+      "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately",
       "art": null,
       "id": 285
     },
@@ -8231,7 +8236,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8299,7 +8304,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8418,7 +8423,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8571,7 +8576,7 @@
       "genre": "Action RPG",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8690,7 +8695,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
