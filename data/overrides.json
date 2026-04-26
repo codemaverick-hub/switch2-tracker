@@ -459,5 +459,29 @@
   "The Legend of Heroes: Trails Beyond the Horizon": {
     "fmt": "k",
     "note": "Game-Key Card (Switch 1 cart available separately)"
+  },
+  "Street Fighter 6: Years 1-2 Fighters Edition": {
+    "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/streetfighter6/2x1_StreetFighter6_image500w.jpg"
+  },
+  "Yooka-Re-Playlee": {
+    "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yookareplaylee/1x1_YookaReplaylee_image500w.jpg"
+  },
+  "Fortnite: Darkfire & Ice Bundle": {
+    "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/fortnite/1x1_Fortnite_202604_image500w.jpg"
+  },
+  "Makaism: Frenzy of the Netherworld": {
+    "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/netherworld/2x1_NetherWorld_image500w.jpg"
+  },
+  "A-Train Hajimaru Kankou Keikaku -Nintendo Switch 2 Edition- Guidebook Pack": {
+    "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_ATrainAllAboardTourism_image500w.jpg"
+  },
+  "Daisenryaku SSB2": {
+    "art": "https://img-eshop.cdn.nintendo.net/i/6c352732658e64c3fadb968b096b7acebaac9d304b467e2a16d84e93ed527eb7.jpg"
+  },
+  "Momotaro Dentetsu 2: Anata no Machi mo Kitto Aru -Nintendo Switch 2 Edition-": {
+    "art": "https://img-eshop.cdn.nintendo.net/i/ccf71d86158430f060156e179ffbe308f414a4baa0cbb6d6952a4d438279e95e.jpg"
+  },
+  "Shine Post: Be Your Idol": {
+    "art": "https://img-eshop.cdn.nintendo.net/i/6e9a520bd4fa3b3646e29a745c63d2c4fcb2679cd78a4a5443d08643072d8cd7.jpg"
   }
 }
