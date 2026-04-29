@@ -142,7 +142,9 @@ def classify_type(title, pub, dev="", ns1=False):
     return "t"
 
 def norm(t):
-    t = re.sub(r'[-\u2013\u2014]', ' ', t.lower())
+    import unicodedata
+    t = unicodedata.normalize('NFKD', str(t)).encode('ascii', 'ignore').decode('ascii')
+    t = re.sub(r'[-]', ' ', t.lower())
     t = re.sub(r'[^a-z0-9 ]', '', t)
     return re.sub(r'\s+', ' ', t).strip()
 

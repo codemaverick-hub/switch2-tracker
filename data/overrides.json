@@ -35,7 +35,9 @@
   },
   "The Duskbloods": {
     "fmt": "?",
-    "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo"
+    "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
+    "date": "2026",
+    "status": "u"
   },
   "Zelda: Tears of the Kingdom": {
     "fmt": "c",
@@ -382,14 +384,18 @@
   },
   "Borderlands 4": {
     "fmt": "k",
-    "note": "Delayed indefinitely"
+    "note": "Delayed indefinitely",
+    "date": "2026",
+    "status": "u"
   },
   "Enter the Gungeon 2": {
     "fmt": "d"
   },
   "Overwatch 2": {
     "fmt": "d",
-    "note": "Free to play"
+    "note": "Free to play",
+    "date": "2026",
+    "status": "u"
   },
   "Yakuza Kiwami 3": {
     "fmt": "k",
@@ -446,7 +452,9 @@
   },
   "The Elder Scrolls IV: Oblivion Remastered": {
     "fmt": "b",
-    "note": "Code in Box — physical retail box contains download code only"
+    "note": "Code in Box — physical retail box contains download code only",
+    "date": "2026",
+    "status": "u"
   },
   "The Elder Scrolls V: Skyrim Anniversary Edition": {
     "fmt": "b",
@@ -483,5 +491,64 @@
   },
   "Shine Post: Be Your Idol": {
     "art": "https://img-eshop.cdn.nintendo.net/i/6e9a520bd4fa3b3646e29a745c63d2c4fcb2679cd78a4a5443d08643072d8cd7.jpg"
+  },
+  "The Elder Scrolls IV: Oblivion Remaster": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Witchbrook": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Fire Emblem: Fortune's Weave": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Final Fantasy XIV": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Lollipop Chainsaw RePOP – Nintendo Switch 2 Edition": {
+    "date": "May 28, 2026",
+    "status": "u",
+    "note": "Delayed from Mar 26 → May 28, 2026"
+  },
+  "Lorelei and the Laser Eyes – Nintendo Switch 2 Edition": {
+    "date": "Apr 22, 2026",
+    "status": "r",
+    "note": "NS2 Edition — released Apr 22, 2026"
+  },
+  "Marvel Rivals": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Phasmophobia": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Pokémon Winds and Waves": {
+    "date": "2027",
+    "status": "u"
+  },
+  "Sayonara Wild Hearts – Nintendo Switch 2 Edition": {
+    "date": "Apr 22, 2026",
+    "status": "r",
+    "note": "NS2 Edition — released Apr 22, 2026"
+  },
+  "South of Midnight": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Spine": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Splatoon Raiders": {
+    "date": "2026",
+    "status": "u"
+  },
+  "Stray – Nintendo Switch 2 Edition": {
+    "date": "2026",
+    "status": "u"
   }
 }
