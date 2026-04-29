@@ -36,6 +36,16 @@ OUT_FILE       = ROOT / "data" / "games.json"
 SHEET_ID    = "1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8"
 SUMMARY_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=558942722"
 DETAILS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=764784245"
+# Upcoming tabs — GIDs auto-discovered at run time
+UPCOMING_SUMMARY_GID = None
+
+# GID candidates to try (brute-force discovery)
+UPCOMING_GID_CANDIDATES = [
+    "929714088","1534533164","400000000","600000000","800000000",
+    "1000000000","1200000000","1400000000","1600000000","1800000000",
+    "200000000","300000000","500000000","700000000","900000000",
+    "1100000000","1300000000","1500000000","1700000000","1900000000",
+]
 WIKI_URL    = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
 NINTENDO_EU = "https://searching.nintendo-europe.com/en/select"
 
@@ -212,6 +222,98 @@ def fetch_details():
     return details
 
 
+
+
+# ── Discover Upcoming tab GID ─────────────────────────────────────────────────
+def discover_upcoming_gids():
+    global UPCOMING_SUMMARY_GID
+    print("Discovering Upcoming tab GID…")
+    for gid in UPCOMING_GID_CANDIDATES:
+        if gid == "558942722":
+            continue
+        try:
+            url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}"
+            r = requests.get(url, headers=HEADERS, timeout=8)
+            if not r.ok:
+                continue
+            r.encoding = "utf-8"
+            rows = list(csv.reader(io.StringIO(r.text)))
+            hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
+            if hdr_idx is None:
+                continue
+            hdrs = rows[hdr_idx]
+            if not any(c in hdrs for c in ["USA", "JPN", "EUR"]):
+                continue
+            # Check it has future dates
+            has_future = any(
+                re.search(r"202[6-9]/", cell)
+                for row in rows[hdr_idx+1:hdr_idx+15]
+                for cell in row
+            )
+            if has_future and gid != "558942722":
+                UPCOMING_SUMMARY_GID = gid
+                print(f"  Upcoming Summary GID: {gid}")
+                return gid
+        except Exception:
+            pass
+    print("  Could not discover Upcoming GID — dates will come from Wikipedia only")
+    return None
+
+
+# ── Fetch Upcoming Release Summary tab ────────────────────────────────────────
+def fetch_upcoming_summary():
+    if not UPCOMING_SUMMARY_GID:
+        return []
+    print(f"Fetching Upcoming Release Summary (GID={UPCOMING_SUMMARY_GID})…")
+    url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={UPCOMING_SUMMARY_GID}"
+    r = requests.get(url, headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    r.encoding = "utf-8"
+    rows = list(csv.reader(io.StringIO(r.text)))
+    hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
+    if hdr_idx is None:
+        print("  Header not found in Upcoming Summary")
+        return []
+    headers = rows[hdr_idx]
+    games = []
+    for row in rows[hdr_idx+1:]:
+        if not row or not row[0].strip().isdigit():
+            continue
+        rec = {headers[i].strip(): row[i].strip() for i in range(min(len(headers), len(row)))}
+        title = clean_title(rec.get("Game Title", ""))
+        if not title:
+            continue
+        releases, filled = {}, {}
+        for col in REGION_COLS:
+            val = rec.get(col, "").strip()
+            if val and re.match(r"\d{4}/\d{2}/\d{2}", val):
+                filled[col] = val
+                disp, _ = parse_ymd(val)
+                releases[col.lower()] = disp
+        if not filled:
+            region = "ww"
+        elif set(filled.keys()) == {"JPN"}:
+            region = "jp"
+        elif len(filled) >= 5:
+            region = "ww"
+        else:
+            region = "var"
+        gt = rec.get("Grand Total", "").strip()
+        if gt and re.match(r"\d{4}/\d{2}/\d{2}", gt):
+            date, status = parse_ymd(gt)
+        elif filled:
+            date, status = parse_ymd(min(filled.values()))
+        else:
+            date, status = "TBA", "u"
+        games.append({
+            "title": title, "publisher": "", "developer": "", "type": "t",
+            "genre": infer_genre(title), "date": date, "status": status,
+            "fmt": "?", "region": region, "releases": releases,
+            "formats": {}, "editions": {}, "note": "",
+        })
+    print(f"  {len(games)} upcoming games from Upcoming Summary tab")
+    return games
+
 # ── 3. Release Summary tab ────────────────────────────────────────────────────
 def fetch_summary():
     print("Fetching Release Summary tab…")
@@ -281,8 +383,20 @@ def fetch_wiki():
         dev   = cells[1].get_text(", ",strip=True)
         pub   = cells[2].get_text(", ",strip=True)
         if title:
-            games.append({"title":title,"publisher":pub,"developer":dev,
-                          "type":classify_type(title,pub,dev),"genre":infer_genre(title,pub)})
+            date_hint = ""
+        for cell in cells[3:7]:
+            txt = cell.get_text(" ", strip=True)
+            mq = re.search(r"Q([1-4])\s*(20[2-9]\d)", txt)
+            my = re.search(r"\b(20[2-9]\d)\b", txt)
+            if mq:
+                date_hint = f"Q{mq.group(1)} {mq.group(2)}"
+                break
+            elif my:
+                date_hint = my.group(1)
+                break
+        games.append({"title":title,"publisher":pub,"developer":dev,
+                      "type":classify_type(title,pub,dev),"genre":infer_genre(title,pub),
+                      "date_hint": date_hint})
     print(f"  {len(games)} games from Wikipedia")
     return games
 
@@ -438,6 +552,8 @@ def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None):
             g["developer"] = wg["developer"]
             if g["type"] == "t" and wg["type"] != "t": g["type"] = wg["type"]
             if g["genre"] == "Action": g["genre"] = wg["genre"]
+            if g.get("date") == "TBA" and wg.get("date_hint"):
+                g["date"] = wg["date_hint"]
 
         # Nintendo Wire format (high-priority factual source)
         if nw_formats:
@@ -507,6 +623,11 @@ def main():
     print(f"  {len(art_cache)} art URLs cached · {len(existing_games)} existing games")
 
     try:
+        discover_upcoming_gids()
+    except Exception as e:
+        print(f"  GID discovery: {e}")
+
+    try:
         details = fetch_details()
     except Exception as e:
         print(f"  ⚠ Details tab failed ({e})")
@@ -517,6 +638,15 @@ def main():
     except Exception as e:
         print(f"  ⚠ Summary tab failed ({e})")
         summary = []
+
+    try:
+        upcoming_extra = fetch_upcoming_summary()
+        existing_norms = {norm(g["title"]) for g in summary}
+        new_upcoming = [g for g in upcoming_extra if norm(g["title"]) not in existing_norms]
+        print(f"  {len(new_upcoming)} new titles from Upcoming tab")
+        summary = summary + new_upcoming
+    except Exception as e:
+        print(f"  ⚠ Upcoming fetch failed ({e})")
 
     wiki      = fetch_wiki()
     overrides = load_overrides()
