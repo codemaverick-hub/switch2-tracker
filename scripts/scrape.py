@@ -36,16 +36,9 @@ OUT_FILE       = ROOT / "data" / "games.json"
 SHEET_ID    = "1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8"
 SUMMARY_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=558942722"
 DETAILS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid=764784245"
-# Upcoming tabs — GIDs auto-discovered at run time
-UPCOMING_SUMMARY_GID = None
-
-# GID candidates to try (brute-force discovery)
-UPCOMING_GID_CANDIDATES = [
-    "929714088","1534533164","400000000","600000000","800000000",
-    "1000000000","1200000000","1400000000","1600000000","1800000000",
-    "200000000","300000000","500000000","700000000","900000000",
-    "1100000000","1300000000","1500000000","1700000000","1900000000",
-]
+# Upcoming tabs — confirmed GIDs (discovered 2026-04-29)
+UPCOMING_SUMMARY_GID = "887819792"   # "Upcoming Switch 2 Release Summary" tab
+UPCOMING_GID_CANDIDATES = [UPCOMING_SUMMARY_GID]  # kept for auto-discovery fallback
 WIKI_URL    = "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
 NINTENDO_EU = "https://searching.nintendo-europe.com/en/select"
 
@@ -224,39 +217,46 @@ def fetch_details():
 
 
 
-# ── Discover Upcoming tab GID ─────────────────────────────────────────────────
+# ── Verify/Discover Upcoming tab GID ─────────────────────────────────────────
 def discover_upcoming_gids():
+    """Verify the hardcoded GID works, or try to rediscover it."""
     global UPCOMING_SUMMARY_GID
-    print("Discovering Upcoming tab GID…")
-    for gid in UPCOMING_GID_CANDIDATES:
-        if gid == "558942722":
-            continue
+    if UPCOMING_SUMMARY_GID:
+        # Quick sanity check — confirm the GID still works
+        try:
+            url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={UPCOMING_SUMMARY_GID}"
+            r = requests.get(url, headers=HEADERS, timeout=8)
+            if r.ok:
+                r.encoding = "utf-8"
+                rows = list(csv.reader(io.StringIO(r.text)))
+                hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
+                if hdr_idx is not None:
+                    print(f"  Upcoming Summary GID {UPCOMING_SUMMARY_GID} verified ✓")
+                    return UPCOMING_SUMMARY_GID
+        except Exception:
+            pass
+        print(f"  ⚠ Hardcoded GID {UPCOMING_SUMMARY_GID} no longer valid — trying candidates…")
+        UPCOMING_SUMMARY_GID = None
+
+    # Fallback: brute-force discover
+    for gid in ["929714088","1534533164","200000000","300000000","500000000",
+                "700000000","900000000","1100000000","1300000000","1500000000"]:
         try:
             url = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={gid}"
             r = requests.get(url, headers=HEADERS, timeout=8)
-            if not r.ok:
-                continue
+            if not r.ok: continue
             r.encoding = "utf-8"
             rows = list(csv.reader(io.StringIO(r.text)))
             hdr_idx = next((i for i, row in enumerate(rows) if "Game Title" in row), None)
-            if hdr_idx is None:
-                continue
-            hdrs = rows[hdr_idx]
-            if not any(c in hdrs for c in ["USA", "JPN", "EUR"]):
-                continue
-            # Check it has future dates
-            has_future = any(
-                re.search(r"202[6-9]/", cell)
-                for row in rows[hdr_idx+1:hdr_idx+15]
-                for cell in row
-            )
-            if has_future and gid != "558942722":
+            if hdr_idx is None: continue
+            has_future = any(re.search(r"202[6-9]/", cell) for row in rows[hdr_idx+1:hdr_idx+15] for cell in row)
+            if has_future:
                 UPCOMING_SUMMARY_GID = gid
-                print(f"  Upcoming Summary GID: {gid}")
+                print(f"  Rediscovered Upcoming GID: {gid}")
                 return gid
         except Exception:
             pass
-    print("  Could not discover Upcoming GID — dates will come from Wikipedia only")
+    print("  Could not find Upcoming GID")
     return None
 
 
