@@ -22,6 +22,14 @@ except ImportError:
     HAS_FORMAT_SCRAPER = False
     def get_format_map(): return {}
 
+# Multi-source release date scraper
+try:
+    from scrape_dates import get_date_map
+    HAS_DATE_SCRAPER = True
+except ImportError:
+    HAS_DATE_SCRAPER = False
+    def get_date_map(): return {}
+
 try:
     import requests
     from bs4 import BeautifulSoup
@@ -517,7 +525,7 @@ def load_overrides():
 
 
 # ── 7. Merge ──────────────────────────────────────────────────────────────────
-def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None):
+def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None, date_map=None):
     wiki_map = {norm(g["title"]): g for g in wiki}
     summary_norms = {norm(g["title"]) for g in summary}
     session = requests.Session()
@@ -554,6 +562,25 @@ def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None):
             if g["genre"] == "Action": g["genre"] = wg["genre"]
             if g.get("date") == "TBA" and wg.get("date_hint"):
                 g["date"] = wg["date_hint"]
+
+        # Multi-source date map (EU/NintendoLife/Wikipedia) — higher priority than wiki hint
+        if date_map:
+            from scrape_dates import norm as dn
+            dk = next((k for k in date_map if k == dn(g["title"]) or
+                       (len(dn(g["title"])) > 8 and (dn(g["title"]) in k or k in dn(g["title"])))), None)
+            if dk:
+                _, ext_date, ext_status = date_map[dk]
+                # Only update if we have better (more specific) date info
+                cur = g.get("date", "TBA")
+                if cur == "TBA":
+                    g["date"] = ext_date
+                    if ext_status == "r":
+                        g["status"] = "r"
+                elif re.match(r"^\d{4}$", cur) and not re.match(r"^\d{4}$", ext_date):
+                    # Replace year-only with more specific date
+                    g["date"] = ext_date
+                    if ext_status == "r":
+                        g["status"] = "r" 
 
         # Nintendo Wire format (high-priority factual source)
         if nw_formats:
@@ -595,6 +622,17 @@ def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None):
                 if nwk and g.get('fmt') == '?':
                     _, nw_fmt = nw_formats[nwk]
                     g['fmt'] = nw_fmt
+            # Apply date_map for wiki-only games too
+            if date_map:
+                from scrape_dates import norm as dn
+                dk = next((k for k in date_map if k == dn(g["title"]) or
+                           (len(dn(g["title"])) > 8 and (dn(g["title"]) in k or k in dn(g["title"])))), None)
+                if dk:
+                    _, ext_date, ext_status = date_map[dk]
+                    if g.get("date", "TBA") == "TBA" and ext_date:
+                        g["date"] = ext_date
+                        if ext_status == "r":
+                            g["status"] = "r"
             nk = norm(g["title"])
             if nk in art_cache: g['art'] = art_cache[nk]
             else: titles_needing_art.append(g["title"])
@@ -655,7 +693,12 @@ def main():
     nw_formats = get_format_map()
     print(f"  {len(nw_formats)} games with confirmed format from Nintendo Wire")
 
-    games     = merge_all(summary, wiki, details, overrides, art_cache, nw_formats)
+    # Fetch multi-source release dates (EU, NintendoLife, Wikipedia)
+    print("Fetching multi-source release dates…")
+    date_map = get_date_map()
+    print(f"  {len(date_map)} games with dates from external sources")
+
+    games     = merge_all(summary, wiki, details, overrides, art_cache, nw_formats, date_map)
     games     = assign_ids(games)
 
     if len(games) == 0:
