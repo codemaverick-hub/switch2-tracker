@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03T08:03:43.561736+00:00",
+  "updated": "2026-05-04T08:32:05.091437+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -9691,7 +9691,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://upload.wikimedia.org/wikipedia/en/5/52/Wanderstop-key-art1.png",
       "id": 396
     },
     {
