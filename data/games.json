@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T08:23:38.275568+00:00",
+  "updated": "2026-05-18T10:06:51.053227+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7,6 +7,36 @@
   },
   "count": 432,
   "games": [
+    {
+      "title": "Indiana Jones and the Great Circle",
+      "publisher": "Bethesda",
+      "developer": "MachineGames",
+      "type": "t",
+      "genre": "Action-Adventure",
+      "date": "May 12, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "May 12, 2026",
+        "eur": "May 12, 2026"
+      },
+      "formats": {
+        "usa": "c",
+        "eur": "c"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/indianajonesandthegreatcircle/1x1_IndianaJonesAndTheGreatCircle_EN_image500w.jpg",
+      "id": 184
+    },
     {
       "title": "Shuten Order -Nintendo Switch 2 Edition-",
       "publisher": "Spike Chunsoft",
@@ -4366,27 +4396,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fallout4anniversaryedition/1x1_Fallout4AnniversaryEdition_image500w.jpg",
       "id": 143
-    },
-    {
-      "title": "Indiana Jones and the Great Circle",
-      "publisher": "Bethesda Softworks",
-      "developer": "MachineGames",
-      "type": "t",
-      "genre": "Action-Adventure",
-      "date": "May 12, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "releases": {
-        "usa": "May 12, 2026",
-        "eur": "May 12, 2026",
-        "asi": "May 12, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/indianajonesandthegreatcircle/1x1_IndianaJonesAndTheGreatCircle_EN_image500w.jpg",
-      "id": 184
     },
     {
       "title": "R-Type Dimensions III",
