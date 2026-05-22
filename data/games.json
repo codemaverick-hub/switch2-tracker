@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21T09:43:09.542979+00:00",
+  "updated": "2026-05-22T09:26:27.894616+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -4449,7 +4449,7 @@
       "type": "t",
       "genre": "Action",
       "date": "May 22, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "var",
       "releases": {
@@ -4469,7 +4469,7 @@
       "type": "t",
       "genre": "Action RPG",
       "date": "May 22, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
