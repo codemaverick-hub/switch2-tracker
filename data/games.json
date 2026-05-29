@@ -1,12 +1,37 @@
 {
-  "updated": "2026-05-28T10:04:44.427503+00:00",
+  "updated": "2026-05-29T09:59:52.738937+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
   },
-  "count": 428,
+  "count": 429,
   "games": [
+    {
+      "title": "The Disney Afternoon Collection",
+      "publisher": "Atart",
+      "developer": "Digital Eclipse",
+      "type": "t",
+      "genre": "Action",
+      "date": "May 29, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "May 29, 2026"
+      },
+      "formats": {
+        "usa": "c"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thedisneyafternooncollection/1x1_TheDisneyAfternoonCollection_image500w.jpg",
+      "id": 369
+    },
     {
       "title": "Tales of Arise - Beyond the Dawn Edition",
       "publisher": "Bandai Namco",
@@ -55,7 +80,7 @@
       },
       "note": "",
       "art": "https://img-eshop.cdn.nintendo.net/i/bdf5a0457c6c619d662b5f889525d08d829a7f1ed1180a9187b6a952599c4c69.jpg",
-      "id": 361
+      "id": 362
     },
     {
       "title": "Bubsy 4D - Pawsome Edition",
@@ -140,7 +165,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yoshiandthemysteriousbook/1x1_NSwitch2_YoshiATMB_image500w.jpg",
-      "id": 427
+      "id": 428
     },
     {
       "title": "Psyvariar 3",
@@ -316,7 +341,7 @@
       },
       "note": "",
       "art": null,
-      "id": 319
+      "id": 320
     },
     {
       "title": "LoveR Kiss: Endless Memories Nintendo Switch 2 Edition",
@@ -391,7 +416,7 @@
       "editions": {},
       "note": "Code in Box — physical retail box contains download code only",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsvskyrimanniversaryedition/1x1_TheElderScrollsVSkyrimAnniversaryEdition_image500w.jpg",
-      "id": 372
+      "id": 373
     },
     {
       "title": "Shuten Order Nintendo Switch 2 Edition",
@@ -426,7 +451,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shutenordernintendoswitch2edition/1x1_ShutenOrderNintendoSwitch2Edition_image500w.jpg",
-      "id": 320
+      "id": 321
     },
     {
       "title": "Pragmata",
@@ -537,7 +562,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechroniclesxdefnitiveeditionns2e/1x1_NSwitch2_XenobladeChroniclesXDefinitiveEdition_image500w.jpg",
-      "id": 420
+      "id": 421
     },
     {
       "title": "The Rogue Prince of Persia",
@@ -560,7 +585,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/therogueprinceofpersia/1x1_TheRoguePrinceOfPersia_image500w.jpg",
-      "id": 384
+      "id": 385
     },
     {
       "title": "Mio: Memories In Orbit",
@@ -610,7 +635,7 @@
       },
       "note": "",
       "art": null,
-      "id": 324
+      "id": 325
     },
     {
       "title": "SIMPLE Series for Nintendo Switch 2 Vol. 1 The Mahjong",
@@ -635,7 +660,7 @@
       },
       "note": "",
       "art": null,
-      "id": 323
+      "id": 324
     },
     {
       "title": "Winning Post 10 2026",
@@ -660,7 +685,7 @@
       },
       "note": "",
       "art": "https://img-eshop.cdn.nintendo.net/i/bb8586c2a75f58f6651d5cc3c3f39c3d88dc0f45a906f8c013494da96d091ee1.jpg",
-      "id": 415
+      "id": 416
     },
     {
       "title": "Virtua Fighter 5 R.E.V.O. World Stage",
@@ -695,7 +720,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/virtuafighter5revoworldstage/1x1_VirtuaFighter5REVOWorldStage_image500w.jpg",
-      "id": 408
+      "id": 409
     },
     {
       "title": "Super Mario Bros. Wonder Nintendo Switch 2 Edition + Meetup in Bellabel Park",
@@ -750,7 +775,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermariobroswonderns2edbellabelpark/1x1_NSwitch2_SMBWonderN2SEBP_GB_en_image500w.jpg",
-      "id": 356
+      "id": 357
     },
     {
       "title": "Sonic Racing: CrossWorlds Nintendo Switch 2 Edition",
@@ -800,7 +825,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/sonicracingcrossworlds/2x1_SonicRacingCrossWorlds_image500w.jpg",
-      "id": 328
+      "id": 329
     },
     {
       "title": "Bang! Bang! Bandits Nintendo Switch 2 Edition",
@@ -860,7 +885,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/snoopythegreatmysteryclub/1x1_SnoopyTheGreatMysteryClub_image500w.jpg",
-      "id": 327
+      "id": 328
     },
     {
       "title": "WWE 2K26",
@@ -895,7 +920,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k26/1x1_Wwe2K26_image500w.jpg",
-      "id": 419
+      "id": 420
     },
     {
       "title": "Monster Hunter Stories 3: Twisted Reflection",
@@ -1042,7 +1067,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/rushingbeatxreturnofbrawlbrothers_1/1x1_RushingBeatXReturnOfBrawlBrothers_image500w.jpg",
-      "id": 310
+      "id": 311
     },
     {
       "title": "R-Type Tactics I & II Cosmos",
@@ -1427,7 +1452,7 @@
       },
       "note": "",
       "art": "https://img-eshop.cdn.nintendo.net/i/6c352732658e64c3fadb968b096b7acebaac9d304b467e2a16d84e93ed527eb7.jpg",
-      "id": 103
+      "id": 104
     },
     {
       "title": "Gear.Club Unlimited 3",
@@ -1573,7 +1598,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami3anddarkties/1x1_YakuzaKiwami3AndDarkTies_image500w.jpg",
-      "id": 424
+      "id": 425
     },
     {
       "title": "Mario Tennis Fever",
@@ -1663,7 +1688,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/chromagun2dy_hard/1x1_ChromaGun2DyeHard_image500w.jpg",
-      "id": 78
+      "id": 79
     },
     {
       "title": "PGA Tour 2K25",
@@ -1823,7 +1848,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_CielFledgeADaughterRaisingSimulator_image500w.jpg",
-      "id": 73
+      "id": 74
     },
     {
       "title": "Final Fantasy VII Remake Intergrade",
@@ -1953,7 +1978,7 @@
       "editions": {},
       "note": "Game-Key Card (Switch 1 cart available separately)",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
-      "id": 375
+      "id": 376
     },
     {
       "title": "Animal Crossing: New Horizons Nintendo Switch 2 Edition",
@@ -2043,7 +2068,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yookareplaylee/1x1_YookaReplaylee_image500w.jpg",
-      "id": 426
+      "id": 427
     },
     {
       "title": "Obakeidoro 2",
@@ -2309,7 +2334,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/runformoneyhuntervsrunner_1/1x1_RunForMoneyHunterVsRunner_image500w.jpg",
-      "id": 308
+      "id": 309
     },
     {
       "title": "Octopath Traveler 0",
@@ -2671,7 +2696,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/spongebobsquarepantstitansofthetide/1x1_SpongebobSquarepantsTitansOfTheTide_image500w.jpg",
-      "id": 334
+      "id": 335
     },
     {
       "title": "Dragon Ball: Sparking! Zero",
@@ -2781,7 +2806,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwamiandyakuzakiwami2bundle/1x1_YakuzaKiwamiAndYakuzaKiwami2Bundle_image500w.jpg",
-      "id": 423
+      "id": 424
     },
     {
       "title": "Yakuza Kiwami",
@@ -2836,7 +2861,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
-      "id": 422
+      "id": 423
     },
     {
       "title": "Momotaro Dentetsu 2 ~Anata no Machi mo Kitto Aru~ Nintendo Switch 2 Edition",
@@ -3054,7 +3079,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/twopointmuseum/1x1_TwoPointMuseum_image500w.jpg",
-      "id": 401
+      "id": 402
     },
     {
       "title": "Persona 3 Reload",
@@ -3288,7 +3313,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/disgaea7complete/1x1_Disgaea7Complete_image500w.jpg",
-      "id": 119
+      "id": 120
     },
     {
       "title": "Final Fantasy Tactics: The Ivalice Chronicles -Nintendo Switch 2 Edition-",
@@ -3476,7 +3501,7 @@
       },
       "note": "Full cart in West; GKC in Japan",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/daemonxmachinatitanicscion/2x1_DaemonXMachinaTitanicScion_image500w.jpg",
-      "id": 102
+      "id": 103
     },
     {
       "title": "Cronos: The New Dawn",
@@ -3516,7 +3541,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cronosthenewdawn/2x1_CronosTheNewDawn_image500w.jpg",
-      "id": 97
+      "id": 98
     },
     {
       "title": "Star Wars Outlaws Gold Edition",
@@ -3566,7 +3591,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starwarsoutlawsgoldedition/2x1_StarWarsOutlawsGoldEdition_image500w.jpg",
-      "id": 339
+      "id": 340
     },
     {
       "title": "Kirby and the Forgotten Land Nintendo Switch 2 Edition + Star-Crossed World",
@@ -3670,7 +3695,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/storyofseasonsgrandbazaar/2x1_StoryOfSeasonsGrandBazaar_image500w.jpg",
-      "id": 347
+      "id": 348
     },
     {
       "title": "EA Sports Madden NFL 26",
@@ -3775,7 +3800,7 @@
       },
       "note": "Japan released Summer 2025; West Jan 2026",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ysxproudnordics/1x1_YsXProudNordics_image500w.jpg",
-      "id": 428
+      "id": 429
     },
     {
       "title": "Wild Hearts S",
@@ -3820,7 +3845,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheWildAtHeart_image500w.jpg",
-      "id": 414
+      "id": 415
     },
     {
       "title": "No Sleep for Kaname Date - From AI: The Somnium Files",
@@ -3910,7 +3935,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/super_mario_party_jamboree_nintendo_switch_2_edition_jamboree_tv/nswitch2_supermariopartyjamboreeplusjamboreetv/2x1_NSwitch2_SMPJamboreeNSW2PlusJTV_image500w.jpg",
-      "id": 357
+      "id": 358
     },
     {
       "title": "WWE 2K25",
@@ -3945,7 +3970,7 @@
       },
       "note": "USA: Code in Box (retail box + download code) · EUR/AUS: Game-Key Card",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/wwe2k25standardedition/2x1_WWE2K25StandardEdition_image500w.jpg",
-      "id": 418
+      "id": 419
     },
     {
       "title": "Shadow Labyrinth Nintendo Switch 2 Edition",
@@ -3970,7 +3995,7 @@
       },
       "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade.",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shadowlabyrinthnintendoswitch2edition/2x1_ShadowLabyrinthNintendoSwitch2Edition_image500w.jpg",
-      "id": 314
+      "id": 315
     },
     {
       "title": "Donkey Kong Bananza",
@@ -4055,7 +4080,7 @@
       },
       "note": "Code in Box — retail box contains download code, no cartridge or GKC",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
-      "id": 394
+      "id": 395
     },
     {
       "title": "Tamagotchi Plaza Nintendo Switch 2 Edition",
@@ -4095,7 +4120,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tamagotchiplazanintendoswitch2edition/2x1_TamagotchiPlazaNintendoSwitch2Edition_image500w.jpg",
-      "id": 363
+      "id": 364
     },
     {
       "title": "Raidou Remastered: The Mystery of the Soulless Army",
@@ -4195,7 +4220,7 @@
       },
       "note": "Switch 2 exclusive port",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuza0directorscut/2x1_NSwitch2_Yakuza0DC_image500w.jpg",
-      "id": 421
+      "id": 422
     },
     {
       "title": "Survival Kids",
@@ -4230,7 +4255,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/survivalkids/2x1_SurvivalKids_image500w.jpg",
-      "id": 359
+      "id": 360
     },
     {
       "title": "Suikoden I & II Remaster: Gate Rune and Dunan Unification Wars",
@@ -4260,7 +4285,7 @@
       },
       "note": "Japan first release",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SuikodenIAndIIHDRemasterGateRuneAndDunan_image500w.jpg",
-      "id": 353
+      "id": 354
     },
     {
       "title": "Street Fighter 6 Years 1-2 Fighters Edition",
@@ -4315,7 +4340,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/streetfighter6/2x1_StreetFighter6_image500w.jpg",
-      "id": 350
+      "id": 351
     },
     {
       "title": "Split Fiction",
@@ -4358,7 +4383,7 @@
       },
       "note": "Code in Box — retail box contains download code, no cartridge or GKC",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splitfiction/2x1_NSwitch2_SplitFiction_image500w.jpg",
-      "id": 333
+      "id": 334
     },
     {
       "title": "Sonic X Shadow Generations",
@@ -4413,7 +4438,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_SonicXShadowGenerations_image500w.jpg",
-      "id": 329
+      "id": 330
     },
     {
       "title": "Sid Meier's Civilization VII Nintendo Switch 2 Edition",
@@ -4453,7 +4478,7 @@
       },
       "note": "Code in Box — Switch 2 version is download code only; Switch 1 cart available separately",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sidmeierscivilizationviinintendoswitch2edition/2x1_NSwitch2_CivilisationVII_image500w.jpg",
-      "id": 321
+      "id": 322
     },
     {
       "title": "Shine Post: Be Your Idol",
@@ -4478,7 +4503,7 @@
       },
       "note": "Japan exclusive (JP Direct reveal)",
       "art": "https://img-eshop.cdn.nintendo.net/i/6e9a520bd4fa3b3646e29a745c63d2c4fcb2679cd78a4a5443d08643072d8cd7.jpg",
-      "id": 318
+      "id": 319
     },
     {
       "title": "Rune Factory: Guardians of Azuma - Nintendo Switch 2 Edition",
@@ -4528,7 +4553,7 @@
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/runefactoryguardiansofazuma_1/2x1_RuneFactoryGuardiansOfAzuma_image500w.jpg",
-      "id": 309
+      "id": 310
     },
     {
       "title": "Puyo Puyo Tetris 2S",
@@ -4683,7 +4708,7 @@
       "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofzeldatearsofthekingdomnintendoswitch2edition/2x1_HP_NSwitch2_TLoZTotKN_image500w.jpg",
-      "id": 379
+      "id": 380
     },
     {
       "title": "The Legend of Zelda: Breath of the Wild Nintendo Switch 2 Edition",
@@ -4708,7 +4733,7 @@
       "editions": {},
       "note": "4K/60fps; free upgrade from NS1",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofzeldabreathofthewild_nintendoswitch2edition/2x1_NSwitch2_TLoZTBotWNSwitch2Edition_image500w.jpg",
-      "id": 378
+      "id": 379
     },
     {
       "title": "Kunitsu-Gami: Path of the Goddess",
@@ -4883,7 +4908,7 @@
       },
       "note": "Full 64GB cartridge",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cyberpunk2077ultimateedition/2x1_NSwitch2_Cyberpunk2077UE_image500w.jpg",
-      "id": 100
+      "id": 101
     },
     {
       "title": "Bravely Default Flying Fairy HD Remaster",
@@ -4948,7 +4973,7 @@
       "genre": "Action",
       "date": "May 28, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "May 28, 2026",
@@ -4961,34 +4986,13 @@
       "id": 61
     },
     {
-      "title": "Disney Afternoon Collection",
-      "publisher": "Atari",
-      "developer": "Digital Eclipse",
-      "type": "t",
-      "genre": "Action",
-      "date": "May 29, 2026",
-      "status": "u",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "May 29, 2026",
-        "eur": "May 29, 2026",
-        "aus": "May 29, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thedisneyafternooncollection/1x1_TheDisneyAfternoonCollection_image500w.jpg",
-      "id": 121
-    },
-    {
       "title": "Lego Batman Legacy of the Dark Knight",
       "publisher": "Warner Bros. Games",
       "developer": "Traveller's Tales",
       "type": "t",
       "genre": "Action-Adventure",
       "date": "May 29, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
@@ -5099,7 +5103,7 @@
       "genre": "Action",
       "date": "Jun 18, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {
         "usa": "Jun 18, 2026",
@@ -5114,7 +5118,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theadventuresofelliotthemillenniumtales/1x1_TheAdventuresOfElliotTheMillenniumTales_image500w.jpg",
-      "id": 366
+      "id": 367
     },
     {
       "title": "Star Fox",
@@ -5139,7 +5143,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starfox/1x1_Starfox_image500w.jpg",
-      "id": 336
+      "id": 337
     },
     {
       "title": "Darwin's Paradox!",
@@ -5158,7 +5162,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/darwinsparadox/1x1_DarwinsParadox_image500w.jpg",
-      "id": 106
+      "id": 107
     },
     {
       "title": "The Elder Scrolls IV: Oblivion Remaster",
@@ -5178,7 +5182,7 @@
       "editions": {},
       "note": "Code in Box — physical retail box contains download code only",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsivoblivionremaster/1x1_TheElderScrollsIVOblivionRemaster_image500w.jpg",
-      "id": 370
+      "id": 371
     },
     {
       "title": "Order Up!!",
@@ -5188,7 +5192,7 @@
       "genre": "Action",
       "date": "Jun 30, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Jun 30, 2026"
@@ -5226,7 +5230,7 @@
       "genre": "Action",
       "date": "Jun 30, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Jun 30, 2026"
@@ -5280,7 +5284,7 @@
       "editions": {},
       "note": "",
       "art": "https://img-eshop.cdn.nintendo.net/i/16855637f5901e981c12ea7e0c3c1395a6825da94475b783903d7779dfb6b279.jpg",
-      "id": 387
+      "id": 388
     },
     {
       "title": "Witchbrook",
@@ -5303,7 +5307,7 @@
       "editions": {},
       "note": "",
       "art": "https://img-eshop.cdn.nintendo.net/i/926de91ee31f8a5a74d2b49887d2b04a04ec01ae6bd575cbbe62f11463a79ff9.jpg",
-      "id": 416
+      "id": 417
     },
     {
       "title": "Digimon Story Time Stranger",
@@ -5313,7 +5317,7 @@
       "genre": "Action",
       "date": "Jul 10, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
         "usa": "Jul 10, 2026",
@@ -5323,7 +5327,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/digimonstorytimestranger_1/1x1_DigimonStoryTimeStranger_image500w.jpg",
-      "id": 117
+      "id": 118
     },
     {
       "title": "MOUSE: P.I. For Hire",
@@ -5365,7 +5369,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 99
+      "id": 100
     },
     {
       "title": "Ratatan",
@@ -5410,7 +5414,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
-      "id": 332
+      "id": 333
     },
     {
       "title": "R-Type Dimensions III",
@@ -5420,7 +5424,7 @@
       "genre": "Action",
       "date": "Aug 11, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Aug 11, 2026",
@@ -5450,7 +5454,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/superbombermancollectionns2e/1x1_SuperBombermanCollectionNS2E_image500w.jpg",
-      "id": 355
+      "id": 356
     },
     {
       "title": "Metal Gear Solid: Master Collection Vol. 2",
@@ -5549,7 +5553,7 @@
       "genre": "Action",
       "date": "Sep 30, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "var",
       "releases": {
         "usa": "Sep 30, 2026"
@@ -5558,7 +5562,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_TheBindingOfIsaacAfterbirthPlus_image500w.jpg",
-      "id": 367
+      "id": 368
     },
     {
       "title": "Dave the Diver Complete Edition",
@@ -5578,7 +5582,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/davethedivernintendoswitch2edition/1x1_DaveTheDiverNintendoSwitch2Edition_image500w.jpg",
-      "id": 107
+      "id": 108
     },
     {
       "title": "Trails in the Sky 2nd Chapter -Nintendo Switch 2 Edition-",
@@ -5598,7 +5602,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/trailsinthesky1stchapternintendoswitch2edition_1/1x1_TrailsInTheSky1stChapterNintendoSwitch2Edition_image500w.jpg",
-      "id": 399
+      "id": 400
     },
     {
       "title": "Danganronpa 2x2",
@@ -5618,7 +5622,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DanganronpaSUltimateSummerCamp_image500w.jpg",
-      "id": 104
+      "id": 105
     },
     {
       "title": "Bluey's Happy Snaps: Deluxe Edition",
@@ -5688,7 +5692,7 @@
       "editions": {},
       "note": "PvPvE; Switch 2 exclusive from FromSoftware / Nintendo",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theduskbloods/2x1_NSwitch2_TheDuskbloods_image500w.jpg",
-      "id": 369
+      "id": 370
     },
     {
       "title": "Elden Ring",
@@ -5805,7 +5809,7 @@
       "editions": {},
       "note": "",
       "art": "https://upload.wikimedia.org/wikipedia/en/a/a9/Astroneer_cover_art.jpg",
-      "id": 343
+      "id": 344
     },
     {
       "title": "Wandering Sword",
@@ -5824,7 +5828,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesninjagaideniithedarkswordofchaos/1x1_ConsoleArchivesNinjaGaidenIITheDarkSwordOfChaos_image500w.jpg",
-      "id": 409
+      "id": 410
     },
     {
       "title": "4PGP",
@@ -5858,7 +5862,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_The7thGuest_image500w.jpg",
-      "id": 365
+      "id": 366
     },
     {
       "title": "A-Train: All Aboard! Tourism – Nintendo Switch 2 Edition",
@@ -6497,7 +6501,7 @@
       "genre": "Fighting",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -6820,7 +6824,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -6844,7 +6848,24 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/carmageddonrogueshift/1x1_CarmageddonRogueShift_image500w.jpg",
-      "id": 74
+      "id": 75
+    },
+    {
+      "title": "Call of Duty: Modern Warfare 4",
+      "publisher": "Activision",
+      "developer": "Infinity Ward",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 23, 2026",
+      "status": "u",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/callofdutymodernwarfare4/1x1_CallOfDutyModernWarfare4_image500w.jpg",
+      "id": 71
     },
     {
       "title": "Call of the Elder Gods",
@@ -6861,7 +6882,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/calloftheeldergods/1x1_CallOfTheElderGods_image500w.jpg",
-      "id": 71
+      "id": 72
     },
     {
       "title": "Card & Casino",
@@ -6878,7 +6899,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_CasinoGolf_image500w.jpg",
-      "id": 72
+      "id": 73
     },
     {
       "title": "Cast n Chill – Nintendo Switch 2 Edition",
@@ -6895,7 +6916,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/castnchillns2e/1x1_CastNChillNS2E_image500w.jpg",
-      "id": 75
+      "id": 76
     },
     {
       "title": "Castle of Heart: Retold",
@@ -6912,7 +6933,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/castleofheartretold/1x1_CastleOfHeartRetold_image500w.jpg",
-      "id": 76
+      "id": 77
     },
     {
       "title": "Chillin' by the Fire",
@@ -6929,7 +6950,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/chillinbythefire/2x1_ChillinByTheFire_image500w.jpg",
-      "id": 77
+      "id": 78
     },
     {
       "title": "City Hunter",
@@ -6946,7 +6967,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/cityhunter_1/1x1_CityHunter_image500w.jpg",
-      "id": 79
+      "id": 80
     },
     {
       "title": "Clean Up Earth",
@@ -6963,7 +6984,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_EarthMarines_image500w.jpg",
-      "id": 80
+      "id": 81
     },
     {
       "title": "Content Warning",
@@ -6980,7 +7001,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/contentwarning_1/1x1_ContentWarning_image500w.jpg",
-      "id": 94
+      "id": 95
     },
     {
       "title": "Console Archives: Cool Boarders",
@@ -6997,7 +7018,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivescoolboarders/1x1_ConsoleArchivesCoolBoarders_image500w.jpg",
-      "id": 81
+      "id": 82
     },
     {
       "title": "Console Archives: Dezaemon Plus",
@@ -7014,7 +7035,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
-      "id": 82
+      "id": 83
     },
     {
       "title": "Console Archives: Doraemon",
@@ -7031,7 +7052,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
-      "id": 83
+      "id": 84
     },
     {
       "title": "Console Archives: MagMax",
@@ -7048,7 +7069,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesdezaemon/1x1_ConsoleArchivesDezaemon_image500w.jpg",
-      "id": 84
+      "id": 85
     },
     {
       "title": "Console Archives: Master of Monsters: Disciples of Gaia",
@@ -7065,7 +7086,7 @@
       "editions": {},
       "note": "",
       "art": "https://upload.wikimedia.org/wikipedia/en/f/f9/Master_of_Monsters_cover.png",
-      "id": 85
+      "id": 86
     },
     {
       "title": "Console Archives: Monster Rancher Hop A Bout",
@@ -7082,7 +7103,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 86
+      "id": 87
     },
     {
       "title": "Console Archives: Ninja Gaiden II: The Dark Sword of Chaos",
@@ -7099,7 +7120,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesninjagaideniithedarkswordofchaos/1x1_ConsoleArchivesNinjaGaidenIITheDarkSwordOfChaos_image500w.jpg",
-      "id": 87
+      "id": 88
     },
     {
       "title": "Console Archives: Ninja Gaiden III: The Ancient Ship of Doom",
@@ -7116,7 +7137,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesninjagaideniiitheancientshipofdoom/1x1_ConsoleArchivesNinjaGaidenIiiTheAncientShipOfDoom_image500w.jpg",
-      "id": 88
+      "id": 89
     },
     {
       "title": "Console Archives: Nobunaga's Ambition",
@@ -7133,7 +7154,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesnobunagasambition/1x1_ConsoleArchivesNobunagasAmbition_image500w.jpg",
-      "id": 89
+      "id": 90
     },
     {
       "title": "Console Archives: Rhapsody: A Musical Adventure",
@@ -7150,7 +7171,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_PrinnyPresentsPrinnyNisClassicsVolume3_image500w.jpg",
-      "id": 90
+      "id": 91
     },
     {
       "title": "Console Archives: Rohga: Armor Force",
@@ -7167,7 +7188,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/consolearchivesrohgaarmorforce/1x1_ConsoleArchivesRohgaArmorForce_image500w.jpg",
-      "id": 91
+      "id": 92
     },
     {
       "title": "Console Archives: Seicross",
@@ -7184,7 +7205,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/consolearchivesseicross/1x1_ConsoleArchivesSeicross_image500w.jpg",
-      "id": 92
+      "id": 93
     },
     {
       "title": "Console Archives: UFO: A Day in the Life",
@@ -7201,7 +7222,7 @@
       "editions": {},
       "note": "",
       "art": "https://upload.wikimedia.org/wikipedia/en/0/0f/UFO_A_Day_in_the_Life_cover.jpg",
-      "id": 93
+      "id": 94
     },
     {
       "title": "Cookie Clicker",
@@ -7218,7 +7239,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/cookieclicker/2x1_CookieClicker_image500w.jpg",
-      "id": 95
+      "id": 96
     },
     {
       "title": "Core Keeper – Nintendo Switch 2 Edition",
@@ -7235,7 +7256,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/corekeeperns2e/1x1_CoreKeeperNS2E_image500w.jpg",
-      "id": 96
+      "id": 97
     },
     {
       "title": "Crymelight",
@@ -7252,7 +7273,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 98
+      "id": 99
     },
     {
       "title": "D-topia",
@@ -7269,7 +7290,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 101
+      "id": 102
     },
     {
       "title": "Danganronpa 2×2",
@@ -7286,7 +7307,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Danganronpa2GoodbyeDespairAnniversaryEdition_image500w.jpg",
-      "id": 105
+      "id": 106
     },
     {
       "title": "Dave the Diver – Nintendo Switch 2 Edition",
@@ -7303,7 +7324,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/davethedivernintendoswitch2edition/1x1_DaveTheDiverNintendoSwitch2Edition_image500w.jpg",
-      "id": 108
+      "id": 109
     },
     {
       "title": "Deadzone Rogue",
@@ -7320,7 +7341,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/deadzonerogue/1x1_DeadzoneRogue_image500w.jpg",
-      "id": 109
+      "id": 110
     },
     {
       "title": "Dear me, I was...",
@@ -7337,7 +7358,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dearmeiwas/2x1_DearMeIWas_image500w.jpg",
-      "id": 110
+      "id": 111
     },
     {
       "title": "Deltarune",
@@ -7354,7 +7375,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/deltarune/2x1_Deltarune_image500w.jpg",
-      "id": 111
+      "id": 112
     },
     {
       "title": "Demi and the Fractured Dream",
@@ -7371,7 +7392,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 112
+      "id": 113
     },
     {
       "title": "Denshattack!",
@@ -7388,7 +7409,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/denshattack/1x1_Denshattack_image500w.jpg",
-      "id": 113
+      "id": 114
     },
     {
       "title": "Depth Loop",
@@ -7405,7 +7426,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Loop_image500w.jpg",
-      "id": 114
+      "id": 115
     },
     {
       "title": "Destroy All Humans!",
@@ -7422,7 +7443,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DestroyAllHumans_image500w.jpg",
-      "id": 115
+      "id": 116
     },
     {
       "title": "Destroy All Humans! 2: Reprobed",
@@ -7439,7 +7460,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DestroyAllHumans_image500w.jpg",
-      "id": 116
+      "id": 117
     },
     {
       "title": "Dinkum – Nintendo Switch 2 Edition",
@@ -7456,7 +7477,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/dinkumnintendoswitch2edition/1x1_DinkumNintendoSwitch2Edition_image500w.jpg",
-      "id": 118
+      "id": 119
     },
     {
       "title": "Disgaea Mayhem",
@@ -7473,24 +7494,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/disgaea7complete/1x1_Disgaea7Complete_image500w.jpg",
-      "id": 120
-    },
-    {
-      "title": "The Disney Afternoon Collection",
-      "publisher": "Atari",
-      "developer": "Digital Eclipse",
-      "type": "t",
-      "genre": "Action",
-      "date": "Feb 26, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "releases": {},
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thedisneyafternooncollection/1x1_TheDisneyAfternoonCollection_image500w.jpg",
-      "id": 368
+      "id": 121
     },
     {
       "title": "Disney Dreamlight Valley – Nintendo Switch 2 Edition",
@@ -7694,7 +7698,7 @@
       "editions": {},
       "note": "Code in Box — physical retail box contains download code only",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsivoblivionremaster/1x1_TheElderScrollsIVOblivionRemaster_image500w.jpg",
-      "id": 371
+      "id": 372
     },
     {
       "title": "Epic Mickey: Rebrushed",
@@ -7728,7 +7732,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theexit8nintendoswitch2edition/1x1_TheExit8NintendoSwitch2Edition_image500w.jpg",
-      "id": 373
+      "id": 374
     },
     {
       "title": "Factorio – Nintendo Switch 2 Edition",
@@ -7772,14 +7776,14 @@
       "genre": "Action RPG",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviiremakeintegrade/1x1_NSwitch2_FinalFantasyVIIRemakeI_image500w.jpg",
-      "id": 405
+      "id": 406
     },
     {
       "title": "Final Fantasy XIV",
@@ -8102,7 +8106,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_JohnTheZombie_image500w.jpg",
-      "id": 374
+      "id": 375
     },
     {
       "title": "Inazuma Eleven: Victory Road – Nintendo Switch 2 Edition",
@@ -8323,7 +8327,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
-      "id": 376
+      "id": 377
     },
     {
       "title": "The Legend of Heroes: Trails to Azure",
@@ -8340,7 +8344,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thelegendofheroestrailsbeyondthehorizon/1x1_TheLegendOfHeroesTrailsBeyondTheHorizon_image500w.jpg",
-      "id": 377
+      "id": 378
     },
     {
       "title": "Lego Voyagers",
@@ -8418,7 +8422,7 @@
       "genre": "Action",
       "date": "May 28, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8452,7 +8456,7 @@
       "genre": "Action",
       "date": "Nov 27, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8680,7 +8684,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/themidnightwalk/1x1_TheMidnightWalk_image500w.jpg",
-      "id": 380
+      "id": 381
     },
     {
       "title": "Milano's Odd Job Collection",
@@ -8833,7 +8837,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thenewdenpamen/1x1_TheNewDenpaMen_image500w.jpg",
-      "id": 381
+      "id": 382
     },
     {
       "title": "Nightmare Circus",
@@ -8973,7 +8977,7 @@
     },
     {
       "title": "Orbitals",
-      "publisher": "Kepler Interactive, [, 216, ]",
+      "publisher": "Kepler Interactive, [, 218, ]",
       "developer": "Shapefarm",
       "type": "t",
       "genre": "Action",
@@ -9258,7 +9262,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/theprinceoftennisdokidokisurvivaleternalpassiontiebreakgame/1x1_ThePrinceOfTennisDokiDokiSurvivalEternalPassionTieBreakGame_image500w.jpg",
-      "id": 382
+      "id": 383
     },
     {
       "title": "The Prince of Tennis: Sweet School Festival 0-40 and more…",
@@ -9275,11 +9279,11 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theprinceoftennissweetschoolfestivalns2e/1x1_ThePrinceOfTennisSweetSchoolFestivalNS2E_image500w.jpg",
-      "id": 383
+      "id": 384
     },
     {
       "title": "Pritto Prisoner – Nintendo Switch 2 Edition",
-      "publisher": "PinCool, [, 240, ]",
+      "publisher": "PinCool, [, 242, ]",
       "developer": "PinCool",
       "type": "n",
       "genre": "Action",
@@ -9370,7 +9374,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -9387,7 +9391,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -9431,6 +9435,23 @@
       "id": 303
     },
     {
+      "title": "RollerCoaster Tycoon Classic - Nintendo Switch 2 Edition",
+      "publisher": "Atari",
+      "developer": "Graphite Lab",
+      "type": "n",
+      "genre": "Action",
+      "date": "TBA",
+      "status": "u",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/rollercoastertycoonclassic/2x1_RollerCoasterTycoonClassic_image500w.jpg",
+      "id": 305
+    },
+    {
       "title": "Rollin' Rascal",
       "publisher": "Gabriel Gonzalez, Curiomatic",
       "developer": "Gabriel Gonzalez, Curiomatic",
@@ -9445,7 +9466,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_RollinEggz_image500w.jpg",
-      "id": 305
+      "id": 306
     },
     {
       "title": "Romancing SaGa 2: Revenge of the Seven – Nintendo Switch 2 Edition",
@@ -9462,7 +9483,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/romancingsaga2revengeoftheseven_ns2e/2x1_RomancingSaGa2RevengeOfTheSeven_NS2E_image500w.jpg",
-      "id": 306
+      "id": 307
     },
     {
       "title": "Rotwood",
@@ -9479,7 +9500,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/rotwood/1x1_Rotwood_image500w.jpg",
-      "id": 307
+      "id": 308
     },
     {
       "title": "The Rumble Fish 2 – Nintendo Switch 2 Edition",
@@ -9496,7 +9517,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/therumblefish2nintendoswitch2edition/1x1_TheRumbleFish2NintendoSwitch2Edition_image500w.jpg",
-      "id": 385
+      "id": 386
     },
     {
       "title": "Sail Forth – Nintendo Switch 2 Edition",
@@ -9513,7 +9534,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sailforthnintendoswitch2edition/1x1_SailForthNintendoSwitch2Edition_image500w.jpg",
-      "id": 311
+      "id": 312
     },
     {
       "title": "Sanrio Party Land",
@@ -9530,7 +9551,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 312
+      "id": 313
     },
     {
       "title": "Sayonara Wild Hearts – Nintendo Switch 2 Edition",
@@ -9547,7 +9568,7 @@
       "editions": {},
       "note": "NS2 Edition — released Apr 22, 2026",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/sayonarawildheartsns2e/1x1_SayonaraWildHeartsNS2E_image500w.jpg",
-      "id": 313
+      "id": 314
     },
     {
       "title": "ShapeHero Factory",
@@ -9564,7 +9585,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shapeherofactory_1/1x1_ShapeHeroFactory_image500w.jpg",
-      "id": 315
+      "id": 316
     },
     {
       "title": "Shenmue III Enhanced",
@@ -9581,7 +9602,7 @@
       "editions": {},
       "note": "",
       "art": "https://upload.wikimedia.org/wikipedia/en/3/3f/ShnIIIDayOne.jpg",
-      "id": 316
+      "id": 317
     },
     {
       "title": "Shikhondo: Blue Pieta",
@@ -9598,7 +9619,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 317
+      "id": 318
     },
     {
       "title": "Simogo Legacy Collection – Nintendo Switch 2 Edition",
@@ -9615,7 +9636,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/simogolegacycollectionns2e/1x1_SimogoLegacyCollectionNS2E_image500w.jpg",
-      "id": 322
+      "id": 323
     },
     {
       "title": "Skate Story",
@@ -9632,7 +9653,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/skatestory/1x1_SkateStory_image500w.jpg",
-      "id": 325
+      "id": 326
     },
     {
       "title": "Snoopy & The Great Mystery Club",
@@ -9649,7 +9670,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/snoopythegreatmysteryclub/1x1_SnoopyTheGreatMysteryClub_image500w.jpg",
-      "id": 326
+      "id": 327
     },
     {
       "title": "South of Midnight",
@@ -9666,7 +9687,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/southofmidnightweaversedition_1/1x1_SouthOfMidnightWeaverSEdition_image500w.jpg",
-      "id": 330
+      "id": 331
     },
     {
       "title": "Spine",
@@ -9683,7 +9704,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 331
+      "id": 332
     },
     {
       "title": "Squirrel with a Gun",
@@ -9693,14 +9714,14 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/squirrelwithagun/1x1_SquirrelWithAGun_image500w.jpg",
-      "id": 335
+      "id": 336
     },
     {
       "title": "Starship Troopers: Ultimate Bug War!",
@@ -9717,7 +9738,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starshiptroopersultimatebugwar/1x1_StarshipTroopersUltimateBugWar_image500w.jpg",
-      "id": 344
+      "id": 345
     },
     {
       "title": "Star Trek: Voyager – Across the Unknown",
@@ -9734,7 +9755,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/startrekvoyageracrosstheunknown/1x1_StarTrekVoyagerAcrossTheUnknown_image500w.jpg",
-      "id": 337
+      "id": 338
     },
     {
       "title": "Star Wars Outlaws",
@@ -9751,7 +9772,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/starwarsoutlawsgoldedition/2x1_StarWarsOutlawsGoldEdition_image500w.jpg",
-      "id": 338
+      "id": 339
     },
     {
       "title": "Starbites",
@@ -9761,14 +9782,14 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/starbites/1x1_Starbites_image500w.jpg",
-      "id": 340
+      "id": 341
     },
     {
       "title": "Stardew Valley – Nintendo Switch 2 Edition",
@@ -9785,7 +9806,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/stardewvalleynintendoswitch2edition/1x1_StardewValleyNintendoSwitch2Edition_image500w.jpg",
-      "id": 341
+      "id": 342
     },
     {
       "title": "Starsand Island",
@@ -9802,7 +9823,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hellokittyislandadventurens2e/1x1_HelloKittyIslandAdventureNS2E_image500w.jpg",
-      "id": 342
+      "id": 343
     },
     {
       "title": "Steins;Gate Re:Boot",
@@ -9819,7 +9840,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SteinsGateElite_image500w.jpg",
-      "id": 345
+      "id": 346
     },
     {
       "title": "Storm Lancers",
@@ -9836,7 +9857,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/stormlancersnintendoswitch2edition/1x1_StormLancersNintendoSwitch2Edition_image500w.jpg",
-      "id": 346
+      "id": 347
     },
     {
       "title": "Stray – Nintendo Switch 2 Edition",
@@ -9853,7 +9874,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/stray/2x1_Stray_image500w.jpg",
-      "id": 348
+      "id": 349
     },
     {
       "title": "Street Fighter 6",
@@ -9870,7 +9891,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/streetfighter6/2x1_StreetFighter6_image500w.jpg",
-      "id": 349
+      "id": 350
     },
     {
       "title": "Suika Game Planet",
@@ -9880,14 +9901,14 @@
       "genre": "Action",
       "date": "Jan 5, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/suikagameplanet_1/1x1_SuikaGamePlanet_image500w.jpg",
-      "id": 351
+      "id": 352
     },
     {
       "title": "Suikoden I & II HD Remaster: Gate Rune and Dunan Unification Wars",
@@ -9904,7 +9925,7 @@
       "editions": {},
       "note": "Japan first release",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/suikoden1and2hdremasterfornintendoswtich2/2x1_Suikoden1And2HDRemasterforNintendoSwtich2_image500w.jpg",
-      "id": 352
+      "id": 353
     },
     {
       "title": "Super Battle Golf",
@@ -9921,7 +9942,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_SuperInefficientGolf_image500w.jpg",
-      "id": 354
+      "id": 355
     },
     {
       "title": "Super Meat Boy 3D",
@@ -9938,7 +9959,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/supermeatboy3d/1x1_SuperMeatBoy3D_image500w.jpg",
-      "id": 358
+      "id": 359
     },
     {
       "title": "System Shock",
@@ -9955,7 +9976,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/systemshock/1x1_SystemShock_image500w.jpg",
-      "id": 360
+      "id": 361
     },
     {
       "title": "Tales of the Shire: A The Lord of the Rings Game",
@@ -9965,14 +9986,14 @@
       "genre": "Action RPG",
       "date": "Mar 25, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/talesoftheshireathelordoftheringsgamens2e/1x1_TalesOfTheShireATheLordOfTheRingsGameNS2E_image500w.jpg",
-      "id": 362
+      "id": 363
     },
     {
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate – Nintendo Switch 2 Edition",
@@ -9989,7 +10010,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/teenagemutantninjaturtlessplinteredfatens2e/1x1_TeenageMutantNinjaTurtlesSplinteredFateNS2E_image500w.jpg",
-      "id": 364
+      "id": 365
     },
     {
       "title": "They Are Billions",
@@ -10006,7 +10027,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theyarebillions/1x1_TheyAreBillions_image500w.jpg",
-      "id": 388
+      "id": 389
     },
     {
       "title": "Tokyo Scramble",
@@ -10023,7 +10044,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tokyoscramble/1x1_TokyoScramble_image500w.jpg",
-      "id": 389
+      "id": 390
     },
     {
       "title": "Tomb Raider: Definitive Edition",
@@ -10040,7 +10061,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombraiderdefinitiveedition_1/1x1_TombRaiderDefinitiveEdition_image500w.jpg",
-      "id": 390
+      "id": 391
     },
     {
       "title": "Tomba! Special Edition",
@@ -10057,7 +10078,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/tombispecialedition/1x1_TombiSpecialEdition_image500w.jpg",
-      "id": 392
+      "id": 393
     },
     {
       "title": "Tomba! 2: The Evil Swine Return Special Edition",
@@ -10074,7 +10095,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombi2theevilswinereturnspecialedition/1x1_Tombi2TheEvilSwineReturnSpecialEdition_image500w.jpg",
-      "id": 391
+      "id": 392
     },
     {
       "title": "Tony Hawk's Pro Skater 3 + 4",
@@ -10084,14 +10105,14 @@
       "genre": "Action",
       "date": "Jul 11, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "b",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tonyhawkproskater3plus4/2x1_TonyHawksProSkater3Plus4_image500w.jpg",
-      "id": 393
+      "id": 394
     },
     {
       "title": "Total Chaos",
@@ -10108,7 +10129,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/totalchaos/1x1_TotalChaos_image500w.jpg",
-      "id": 395
+      "id": 396
     },
     {
       "title": "Touhou Yukkuri Mountain",
@@ -10125,7 +10146,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/touhouyukkurimountainnintendoswitch2edition/1x1_TouhouYukkuriMountainNintendoSwitch2Edition_image500w.jpg",
-      "id": 396
+      "id": 397
     },
     {
       "title": "The Touryst: Deluxe",
@@ -10142,7 +10163,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/thetourystdeluxe/1x1_TheTourystDeluxe_image500w.jpg",
-      "id": 386
+      "id": 387
     },
     {
       "title": "Trails in the Sky 1st Chapter – Nintendo Switch 2 Edition",
@@ -10159,7 +10180,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/trailsinthesky1stchapternintendoswitch2edition_1/1x1_TrailsInTheSky1stChapterNintendoSwitch2Edition_image500w.jpg",
-      "id": 397
+      "id": 398
     },
     {
       "title": "Trails in the Sky 2nd Chapter",
@@ -10176,7 +10197,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/trailsinthesky1stchapternintendoswitch2edition_1/1x1_TrailsInTheSky1stChapterNintendoSwitch2Edition_image500w.jpg",
-      "id": 398
+      "id": 399
     },
     {
       "title": "Two Point Museum",
@@ -10193,7 +10214,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/twopointmuseum/1x1_TwoPointMuseum_image500w.jpg",
-      "id": 400
+      "id": 401
     },
     {
       "title": "Ultimate Sheep Raccoon",
@@ -10210,7 +10231,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ultimatesheepraccoon_1/1x1_UltimateSheepRaccoon_image500w.jpg",
-      "id": 402
+      "id": 403
     },
     {
       "title": "Underward: Lastboss, Genius Gyaru Doctor",
@@ -10227,7 +10248,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/underwardlastbossgeniusgyarudoctor/1x1_UnderwardLastbossGeniusGyaruDoctor_image500w.jpg",
-      "id": 403
+      "id": 404
     },
     {
       "title": "Unrailed 2: Back on Track",
@@ -10244,7 +10265,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/unrailed2backontrack/1x1_Unrailed2BackOnTrack_image500w.jpg",
-      "id": 404
+      "id": 405
     },
     {
       "title": "Utawarerumono: Past and Present Rediscovered",
@@ -10261,7 +10282,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 406
+      "id": 407
     },
     {
       "title": "Valheim",
@@ -10278,7 +10299,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/valheim/1x1_Valheim_image500w.jpg",
-      "id": 407
+      "id": 408
     },
     {
       "title": "Wanderstop",
@@ -10295,7 +10316,7 @@
       "editions": {},
       "note": "",
       "art": "https://upload.wikimedia.org/wikipedia/en/5/52/Wanderstop-key-art1.png",
-      "id": 410
+      "id": 411
     },
     {
       "title": "Warframe",
@@ -10312,7 +10333,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/warframe/1x1_Warframe_image500w.jpg",
-      "id": 411
+      "id": 412
     },
     {
       "title": "Warhammer 40,000: Rogue Trader",
@@ -10329,7 +10350,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/warhammer40000roguetrader/1x1_Warhammer40000RogueTrader_image500w.jpg",
-      "id": 412
+      "id": 413
     },
     {
       "title": "Warota: I Live Next to The Demon King’s Castle LOL",
@@ -10346,7 +10367,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 413
+      "id": 414
     },
     {
       "title": "Woodo",
@@ -10363,7 +10384,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 417
+      "id": 418
     },
     {
       "title": "Yobarai Detective: Miasma Breaker – Nintendo Switch 2 Edition",
@@ -10380,7 +10401,7 @@
       "editions": {},
       "note": "",
       "art": null,
-      "id": 425
+      "id": 426
     }
   ]
 }
