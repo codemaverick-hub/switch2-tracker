@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04T09:58:03.946389+00:00",
+  "updated": "2026-06-05T09:53:08.814888+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7,6 +7,102 @@
   },
   "count": 440,
   "games": [
+    {
+      "title": "eFootball Kick-Off!",
+      "publisher": "Konami",
+      "developer": "Konami",
+      "type": "t",
+      "genre": "Sports",
+      "date": "Jun 4, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "kor": "Jun 4, 2026",
+        "jpn": "Jun 4, 2026",
+        "cht": "Jun 4, 2026",
+        "asi": "Jun 4, 2026"
+      },
+      "formats": {
+        "jpn": "k",
+        "asi": "k",
+        "cht": "k",
+        "kor": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/efootballkickoff/1x1_EfootballKickOff_image500w.jpg",
+      "id": 139
+    },
+    {
+      "title": "Final Fantasy VII Rebirth",
+      "publisher": "Square Enix",
+      "developer": "Square Enix Creative Business Unit I",
+      "type": "t",
+      "genre": "Action RPG",
+      "date": "Jun 3, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {
+        "usa": "Jun 3, 2026",
+        "kor": "Jun 3, 2026",
+        "jpn": "Jun 3, 2026",
+        "eur": "Jun 3, 2026",
+        "cht": "Jun 3, 2026",
+        "aus": "Jun 3, 2026",
+        "asi": "Jun 3, 2026"
+      },
+      "formats": {
+        "asi": "k",
+        "aus": "k",
+        "cht": "k",
+        "eur": "k",
+        "jpn": "k",
+        "kor": "k",
+        "usa": "k"
+      },
+      "editions": {
+        "asi": [
+          "Standard"
+        ],
+        "aus": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Day One"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
+      "id": 151
+    },
     {
       "title": "The Disney Afternoon Collection",
       "publisher": "Atari",
@@ -5175,31 +5271,6 @@
       "id": 66
     },
     {
-      "title": "Final Fantasy VII Rebirth",
-      "publisher": "Square Enix",
-      "developer": "Square Enix Creative Business Unit I",
-      "type": "t",
-      "genre": "Action RPG",
-      "date": "Jun 3, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "releases": {
-        "usa": "Jun 3, 2026",
-        "kor": "Jun 3, 2026",
-        "jpn": "Jun 3, 2026",
-        "eur": "Jun 3, 2026",
-        "cht": "Jun 3, 2026",
-        "aus": "Jun 3, 2026",
-        "asi": "Jun 3, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/finalfantasyviirebirth/1x1_FinalFantasyVIIRebirth_image500w.jpg",
-      "id": 151
-    },
-    {
       "title": "Monopoly: Star Wars Heroes vs. Villains",
       "publisher": "",
       "developer": "",
@@ -7837,23 +7908,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DynastyWarriors8XtremeLegendsDefinitiveEdition_image500w.jpg",
       "id": 135
-    },
-    {
-      "title": "EFootball Kick Off!",
-      "publisher": "Konami",
-      "developer": "Konami",
-      "type": "t",
-      "genre": "Sports",
-      "date": "TBA",
-      "status": "u",
-      "fmt": "?",
-      "region": "ww",
-      "releases": {},
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": null,
-      "id": 139
     },
     {
       "title": "Elden Ring: Tarnished Edition",
