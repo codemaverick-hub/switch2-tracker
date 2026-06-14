@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T09:19:47.285682+00:00",
+  "updated": "2026-06-14T09:37:06.596863+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -277,10 +277,11 @@
       "date": "May 28, 2026",
       "status": "r",
       "fmt": "c",
-      "region": "var",
+      "region": "ww",
       "releases": {
         "usa": "May 28, 2026",
         "eur": "May 28, 2026",
+        "cht": "May 28, 2026",
         "aus": "May 28, 2026",
         "asi": "May 28, 2026"
       },
@@ -288,6 +289,7 @@
         "aus": "c",
         "eur": "c",
         "usa": "c",
+        "cht": "c",
         "asi": "c"
       },
       "editions": {
@@ -298,6 +300,9 @@
           "Standard"
         ],
         "usa": [
+          "Standard"
+        ],
+        "cht": [
           "Standard"
         ],
         "asi": [
@@ -483,20 +488,26 @@
       "date": "May 21, 2026",
       "status": "r",
       "fmt": "c",
-      "region": "var",
+      "region": "ww",
       "releases": {
         "usa": "May 21, 2026",
         "kor": "May 21, 2026",
         "jpn": "May 21, 2026",
+        "eur": "Jun 9, 2026",
         "cht": "May 21, 2026"
       },
       "formats": {
+        "eur": "c",
         "cht": "c",
         "jpn": "c",
         "kor": "c",
         "usa": "c"
       },
       "editions": {
+        "eur": [
+          "Standard",
+          "Deluxe"
+        ],
         "cht": [
           "Standard",
           "Limited"
@@ -5306,26 +5317,6 @@
       "id": 96
     },
     {
-      "title": "Monopoly: Star Wars Heroes vs. Villains",
-      "publisher": "Ubisoft",
-      "developer": "Ubisoft",
-      "type": "t",
-      "genre": "Action-Adventure",
-      "date": "Jun 11, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Jun 11, 2026",
-        "aus": "Jun 11, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/monopolystarwarsheroesvsvillains/1x1_MonopolyStarWarsHeroesVsVillains_image500w.jpg",
-      "id": 336
-    },
-    {
       "title": "High on Life -Nintendo Switch 2 Edition-",
       "publisher": "Squanch Games",
       "developer": "Squanch Games",
@@ -5432,6 +5423,26 @@
       "note": "Code in Box — physical retail box contains download code only",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/theelderscrollsivoblivionremaster/1x1_TheElderScrollsIVOblivionRemaster_image500w.jpg",
       "id": 508
+    },
+    {
+      "title": "Monopoly: Star Wars Heroes vs. Villains",
+      "publisher": "Ubisoft",
+      "developer": "Ubisoft",
+      "type": "t",
+      "genre": "Action-Adventure",
+      "date": "Jun 30, 2026",
+      "status": "u",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "eur": "Jun 30, 2026",
+        "aus": "Jun 30, 2026"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/monopolystarwarsheroesvsvillains/1x1_MonopolyStarWarsHeroesVsVillains_image500w.jpg",
+      "id": 336
     },
     {
       "title": "Order Up!!",
