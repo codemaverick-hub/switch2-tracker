@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T10:59:41.741770+00:00",
+  "updated": "2026-06-18T10:23:31.720165+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -5342,7 +5342,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Jun 18, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {
@@ -6644,7 +6644,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Jun 18, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -9592,7 +9592,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://img-eshop.cdn.nintendo.net/i/1d8efb1727302025b5b02a7f3a921c7a0f004db543ed13b97ac33c2b340ebd49.jpg",
       "id": 232
     },
     {
@@ -10316,7 +10316,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Jun 18, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -11200,7 +11200,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Jun 18, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -12873,7 +12873,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/teeto/1x1_Teeto_image500w.jpg",
       "id": 514
     },
     {
