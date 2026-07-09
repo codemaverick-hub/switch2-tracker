@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T08:31:26.083377+00:00",
+  "updated": "2026-07-09T09:41:53.670727+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -10546,7 +10546,7 @@
       "type": "t",
       "genre": "Action RPG",
       "date": "Jul 9, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -10648,7 +10648,7 @@
       "type": "n",
       "genre": "Action",
       "date": "Jul 9, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -11896,7 +11896,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/memoryofmemorieachillstorynintendoswitch2edition/1x1_MemoryOfMemorieAChillStoryNintendoSwitch2Edition_image500w.jpg",
       "id": 372
     },
     {
