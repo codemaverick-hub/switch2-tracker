@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T08:15:47.939206+00:00",
+  "updated": "2026-07-17T08:12:07.377847+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -5783,7 +5783,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Jul 17, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
