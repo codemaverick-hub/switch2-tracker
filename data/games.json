@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T08:21:28.327191+00:00",
+  "updated": "2026-07-20T09:00:29.020497+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7,6 +7,164 @@
   },
   "count": 725,
   "games": [
+    {
+      "title": "Momento",
+      "publisher": "Silver Lining Interactive",
+      "developer": "Fat Alien Cat, Nomo Studios",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 17, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "eur": "Jul 17, 2026"
+      },
+      "formats": {
+        "eur": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/momento_1/1x1_Momento_image500w.jpg",
+      "id": 394
+    },
+    {
+      "title": "Culdcept Begins -Nintendo Switch 2 Edition-",
+      "publisher": "Neos Corporation",
+      "developer": "Neos Corporation",
+      "type": "n",
+      "genre": "Action",
+      "date": "Jul 16, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "jpn": "Jul 16, 2026",
+        "cht": "Jul 16, 2026"
+      },
+      "formats": {
+        "cht": "c",
+        "jpn": "c"
+      },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard",
+          "Special"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/culdceptbeginsnintendoswitch2edition/1x1_CuldceptBeginsNintendoSwitch2Edition_image500w.jpg",
+      "id": 168
+    },
+    {
+      "title": "Minishoot' Adventures - Nintendo Switch 2 Edition",
+      "publisher": "Super Rare Games",
+      "developer": "SoulGame Studio",
+      "type": "n",
+      "genre": "Action",
+      "date": "Jul 13, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "eur": "Jul 13, 2026"
+      },
+      "formats": {
+        "eur": "c"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/minishootadventuresnintendoswitch2edition/1x1_MinishootAdventuresNintendoSwitch2Edition_image500w.jpg",
+      "id": 390
+    },
+    {
+      "title": "MOUSE: P.I. For Hire",
+      "publisher": "Playside",
+      "developer": "Fumi Games",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 10, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 10, 2026",
+        "jpn": "Jul 10, 2026",
+        "eur": "Jul 10, 2026",
+        "aus": "Jul 10, 2026"
+      },
+      "formats": {
+        "usa": "c",
+        "eur": "c",
+        "aus": "c",
+        "jpn": "c"
+      },
+      "editions": {
+        "usa": [
+          "Standard"
+        ],
+        "eur": [
+          "Standard",
+          "Mouseburg"
+        ],
+        "aus": [
+          "Standard",
+          "Mouseburg"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mousepiforhire/1x1_MousePIForHire_image500w.jpg",
+      "id": 409
+    },
+    {
+      "title": "Digimon Story Time Stranger",
+      "publisher": "Bandai Namco",
+      "developer": "Media.Vision",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 10, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 10, 2026",
+        "jpn": "Jul 10, 2026",
+        "eur": "Jul 10, 2026"
+      },
+      "formats": {
+        "eur": "k",
+        "usa": "k",
+        "jpn": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ],
+        "jpn": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/digimonstorytimestranger_1/1x1_DigimonStoryTimeStranger_image500w.jpg",
+      "id": 198
+    },
     {
       "title": "R-Type Dimensions III",
       "publisher": "Tozai Games",
@@ -172,6 +330,7 @@
       "region": "ww",
       "releases": {
         "usa": "Jun 25, 2026",
+        "kor": "Jun 25, 2026",
         "jpn": "Jun 25, 2026",
         "eur": "Jun 25, 2026",
         "cht": "Jun 25, 2026",
@@ -184,7 +343,8 @@
         "eur": "c",
         "aus": "c",
         "jpn": "c",
-        "usa": "c"
+        "usa": "c",
+        "kor": "c"
       },
       "editions": {
         "asi": [
@@ -203,6 +363,9 @@
           "Standard"
         ],
         "usa": [
+          "Standard"
+        ],
+        "kor": [
           "Standard"
         ]
       },
@@ -5715,87 +5878,6 @@
       "id": 107
     },
     {
-      "title": "Digimon Story Time Stranger",
-      "publisher": "Bandai Namco Entertainment",
-      "developer": "Media.Vision",
-      "type": "t",
-      "genre": "Action",
-      "date": "Jul 10, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "Jul 10, 2026",
-        "eur": "Jul 10, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/digimonstorytimestranger_1/1x1_DigimonStoryTimeStranger_image500w.jpg",
-      "id": 198
-    },
-    {
-      "title": "MOUSE: P.I. For Hire",
-      "publisher": "PlaySide Studios",
-      "developer": "Fumi Games",
-      "type": "t",
-      "genre": "Action",
-      "date": "Jul 10, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Jul 10, 2026",
-        "aus": "Jul 10, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/mousepiforhire/1x1_MousePIForHire_image500w.jpg",
-      "id": 409
-    },
-    {
-      "title": "Culdcept Begins -Nintendo Switch 2 Edition-",
-      "publisher": "Neos Corporation",
-      "developer": "Neos Corporation",
-      "type": "n",
-      "genre": "Action",
-      "date": "Jul 16, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "Jul 16, 2026",
-        "jpn": "Jul 16, 2026",
-        "eur": "Jul 16, 2026",
-        "cht": "Jul 16, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/culdceptbeginsnintendoswitch2edition/1x1_CuldceptBeginsNintendoSwitch2Edition_image500w.jpg",
-      "id": 168
-    },
-    {
-      "title": "Momento",
-      "publisher": "Silver Lining",
-      "developer": "Fat Alien Cat, Nomo Studios",
-      "type": "t",
-      "genre": "Action",
-      "date": "Jul 17, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Jul 17, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/momento_1/1x1_Momento_image500w.jpg",
-      "id": 394
-    },
-    {
       "title": "Splatoon Raiders",
       "publisher": "Nintendo",
       "developer": "Nintendo EPD",
@@ -5819,25 +5901,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/splatoonraiders/1x1_NSwitch2_SplatoonRaiders_BASE_image500w.jpg",
       "id": 566
-    },
-    {
-      "title": "Minishoot Adventures Nintendo Switch 2 Edition",
-      "publisher": "Seaven Studio",
-      "developer": "SoulGame Studio",
-      "type": "n",
-      "genre": "Action",
-      "date": "Jul 31, 2026",
-      "status": "u",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Jul 31, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/minishootadventuresnintendoswitch2edition/1x1_MinishootAdventuresNintendoSwitch2Edition_image500w.jpg",
-      "id": 390
     },
     {
       "title": "The Elder Scrolls IV: Oblivion Remaster",
@@ -5965,7 +6028,7 @@
     },
     {
       "title": "Orbitals",
-      "publisher": "Kepler Interactive, [, 380, ]",
+      "publisher": "Kepler Interactive, [, 379, ]",
       "developer": "Shapefarm",
       "type": "t",
       "genre": "Action",
@@ -13244,7 +13307,7 @@
     },
     {
       "title": "Pritto Prisoner – Nintendo Switch 2 Edition",
-      "publisher": "PinCool, [, 413, ]",
+      "publisher": "PinCool, [, 411, ]",
       "developer": "PinCool",
       "type": "n",
       "genre": "Action",
@@ -15708,7 +15771,7 @@
       "id": 709
     },
     {
-      "title": "Xenoblade Chronicles 2 — Nintendo Switch 2 Edition",
+      "title": "Xenoblade Chronicles 2 – Nintendo Switch 2 Edition",
       "publisher": "Nintendo",
       "developer": "Monolith Soft",
       "type": "n",
@@ -15725,7 +15788,7 @@
       "id": 712
     },
     {
-      "title": "Xenoblade Chronicles 3 — Nintendo Switch 2 Edition",
+      "title": "Xenoblade Chronicles 3 – Nintendo Switch 2 Edition",
       "publisher": "Nintendo",
       "developer": "Monolith Soft",
       "type": "n",
@@ -15742,7 +15805,7 @@
       "id": 713
     },
     {
-      "title": "Xenoblade Chronicles: Definitive Edition — Nintendo Switch 2 Edition",
+      "title": "Xenoblade Chronicles: Definitive Edition – Nintendo Switch 2 Edition",
       "publisher": "Nintendo",
       "developer": "Monolith Soft",
       "type": "n",
