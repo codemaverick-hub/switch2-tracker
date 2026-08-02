@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T08:23:16.885539+00:00",
+  "updated": "2026-08-02T08:26:05.257874+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -7,6 +7,68 @@
   },
   "count": 752,
   "games": [
+    {
+      "title": "Truxton Extreme",
+      "publisher": "Clear River Games",
+      "developer": "Tatsujin",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 30, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "var",
+      "releases": {
+        "usa": "Jul 30, 2026",
+        "jpn": "Jul 30, 2026",
+        "eur": "Jul 30, 2026"
+      },
+      "formats": {
+        "eur": "c",
+        "usa": "c",
+        "jpn": "c"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard",
+          "Thunder Master"
+        ],
+        "jpn": [
+          "Standard",
+          "Premium Box"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/truxtonextreme/1x1_TruxtonExtreme_image500w.jpg",
+      "id": 700
+    },
+    {
+      "title": "Hono Gurashi no Niwa",
+      "publisher": "Nippon Ichi Software",
+      "developer": "",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 30, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "jp",
+      "releases": {
+        "jpn": "Jul 30, 2026"
+      },
+      "formats": {
+        "jpn": "k"
+      },
+      "editions": {
+        "jpn": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": null,
+      "id": 319
+    },
     {
       "title": "Splatoon Raiders",
       "publisher": "Nintendo",
@@ -1147,6 +1209,7 @@
       "region": "ww",
       "releases": {
         "usa": "May 28, 2026",
+        "jpn": "Jul 30, 2026",
         "eur": "May 28, 2026",
         "cht": "May 28, 2026",
         "aus": "May 28, 2026",
@@ -1157,7 +1220,8 @@
         "aus": "c",
         "cht": "c",
         "eur": "c",
-        "usa": "c"
+        "usa": "c",
+        "jpn": "c"
       },
       "editions": {
         "asi": [
@@ -1173,6 +1237,9 @@
           "Standard"
         ],
         "usa": [
+          "Standard"
+        ],
+        "jpn": [
           "Standard"
         ]
       },
@@ -6247,25 +6314,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/bravelydefaultflyingfairyhdremaster/2x1_BravelyDefaultFlyingFairyHDRemaster_image500w.jpg",
       "id": 114
-    },
-    {
-      "title": "Hono Gurashi no Niwa",
-      "publisher": "",
-      "developer": "",
-      "type": "t",
-      "genre": "Action",
-      "date": "Jul 30, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "jp",
-      "releases": {
-        "jpn": "Jul 30, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": null,
-      "id": 319
     },
     {
       "title": "The Elder Scrolls IV: Oblivion Remaster",
@@ -15892,23 +15940,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_PartyTrivia_image500w.jpg",
       "id": 699
-    },
-    {
-      "title": "Truxton Extreme",
-      "publisher": "Clear River Games",
-      "developer": "Tatsujin",
-      "type": "t",
-      "genre": "Action",
-      "date": "Jul 30, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "ww",
-      "releases": {},
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/truxtonextreme/1x1_TruxtonExtreme_image500w.jpg",
-      "id": 700
     },
     {
       "title": "Turok: Origins",
