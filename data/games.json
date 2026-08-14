@@ -5367,7 +5367,7 @@
       "formats": {},
       "editions": {},
       "note": "Digital only — Kemco",
-      "art": null,
+      "art": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3623050/986021ef16a6a718a4835e61c7dbb154f0e50355/header.jpg?t=1775693915",
       "id": 252
     },
     {
@@ -11887,7 +11887,7 @@
       "formats": {},
       "editions": {},
       "note": "Digital only — Annapurna Interactive",
-      "art": null,
+      "art": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000115642/86f9aa452d58267a8ece56ebd5bb1f6ba5e4f1be056901325607cdc0cef32bd6",
       "id": 683
     },
     {
@@ -12474,15 +12474,15 @@
       "developer": "Sting",
       "type": "n",
       "genre": "Action",
-      "date": "Jul 30, 2026",
-      "status": "r",
+      "date": "Sep 30, 2026",
+      "status": "u",
       "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2909580/3be0683f48f4db94e0f0ae6b74ab7ad22f3e57a1/header.jpg?t=1785215842",
       "id": 718
     },
     {
