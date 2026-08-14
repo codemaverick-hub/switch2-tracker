@@ -135,6 +135,17 @@ def infer_genre(title, pub=""):
         if re.search(pat, s): return g
     return "Action"
 
+# Known digital-only title patterns
+DIGITAL_ONLY_PATTERNS = [
+    r"arcade archives",       # Hamster Arcade Archives series — always digital
+    r"g-mode archives",       # G-Mode Archives — always digital
+    r"indie world",
+]
+
+def is_definitely_digital(title):
+    tl = title.lower()
+    return any(re.search(p, tl) for p in DIGITAL_ONLY_PATTERNS)
+
 def classify_type(title, pub, dev="", ns1=False):
     if "nintendo switch 2 edition" in title.lower(): return "n"
     if ns1: return "n"
@@ -584,16 +595,19 @@ def merge_all(summary, wiki, details, overrides, art_cache, nw_formats=None, dat
                     if ext_status == "r":
                         g["status"] = "r" 
 
-        # Nintendo Wire format (high-priority factual source)
+        # Auto-detect digital-only titles
+        if is_definitely_digital(g["title"]) and g.get("fmt") == "?":
+            g["fmt"] = "d"
+
+        # Nintendo Wire / format scraper (high-priority factual source)
         if nw_formats:
             nwk = fuzzy(g["title"], {k:k for k in nw_formats})
             if nwk:
                 _, nw_fmt = nw_formats[nwk]
-                # Only apply if not already set by NSCollectors details tab (which has per-region data)
+                # Only apply if not already set by NSCollectors details tab
                 if not g.get('formats') or len(g['formats']) == 0:
                     g['fmt'] = nw_fmt
                 elif nw_fmt in ('b', 'c') and g.get('fmt') not in ('b', 'c'):
-                    # NW says CiB or Cart but we have GKC — NW is more specific, trust it
                     g['fmt'] = nw_fmt
 
         # Overrides (highest priority — manual corrections override everything)
