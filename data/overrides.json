@@ -9,7 +9,9 @@
     "note": "Free digital download"
   },
   "Donkey Kong Bananza": {
-    "fmt": "c"
+    "fmt": "c",
+    "status": "r",
+    "date": "Jul 17, 2026"
   },
   "Drag x Drive": {
     "fmt": "c"
@@ -451,10 +453,10 @@
     "note": "Code in Box (NS2 Edition) — retail box with download code; Switch 1 cart available separately. Free Switch 2 upgrade."
   },
   "The Elder Scrolls IV: Oblivion Remastered": {
-    "fmt": "b",
-    "note": "Code in Box — physical retail box contains download code only",
-    "date": "2026",
-    "status": "u"
+    "fmt": "c",
+    "note": "Physical Deluxe Edition = full cartridge. Digital Standard also available.",
+    "date": "Aug 11, 2026",
+    "status": "r"
   },
   "The Elder Scrolls V: Skyrim Anniversary Edition": {
     "fmt": "b",
@@ -462,7 +464,7 @@
   },
   "Fallout 4: Anniversary Edition": {
     "fmt": "b",
-    "note": "Code in Box — physical retail box contains download code only"
+    "note": "Code in Box — retail box contains download code"
   },
   "The Legend of Heroes: Trails Beyond the Horizon": {
     "fmt": "k",
@@ -574,5 +576,9 @@
   "The Touryst: Deluxe": {
     "fmt": "d",
     "note": "Digital only — Shin'en Multimedia"
+  },
+  "Sonic Racing: CrossWorlds – Nintendo Switch 2 Edition": {
+    "date": "Mar 26, 2026",
+    "fmt": "c"
   }
 }
