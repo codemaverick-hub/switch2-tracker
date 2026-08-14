@@ -550,5 +550,29 @@
   "Stray – Nintendo Switch 2 Edition": {
     "date": "2026",
     "status": "u"
+  },
+  "Ending the Happy Route": {
+    "fmt": "d",
+    "note": "Digital only — Kemco"
+  },
+  "The Necromancer's Tale": {
+    "fmt": "d",
+    "note": "Digital only — Silver Lining"
+  },
+  "Shinigami Hime to Ishokan no Kaibutsu": {
+    "fmt": "d",
+    "note": "Digital only — NIS America JP"
+  },
+  "To a T": {
+    "fmt": "d",
+    "note": "Digital only — Annapurna Interactive"
+  },
+  "Tony Hawk's Pro Skater 3 + 4": {
+    "fmt": "b",
+    "note": "Code in Box (Switch 2) — confirmed via retailer listings"
+  },
+  "The Touryst: Deluxe": {
+    "fmt": "d",
+    "note": "Digital only — Shin'en Multimedia"
   }
 }
