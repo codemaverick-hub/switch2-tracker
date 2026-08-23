@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T06:41:00.678297+00:00",
+  "updated": "2026-08-23T06:41:57.841993+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -6619,7 +6619,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
