@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T17:26:26.538823+00:00",
+  "updated": "2026-08-28T18:18:30.173454+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -79,7 +79,7 @@
       "type": "t",
       "genre": "Action RPG",
       "date": "Aug 28, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "ww",
       "releases": {
@@ -104,7 +104,7 @@
       "type": "n",
       "genre": "Action",
       "date": "Aug 28, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "var",
       "releases": {
@@ -142,7 +142,7 @@
       "type": "n",
       "genre": "Action",
       "date": "Aug 28, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
@@ -162,7 +162,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Aug 28, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
@@ -5642,7 +5642,7 @@
       "type": "t",
       "genre": "Action RPG",
       "date": "Aug 28, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "ww",
       "releases": {},
