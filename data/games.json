@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T12:27:30.773429+00:00",
+  "updated": "2026-08-30T11:25:23.993425+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -20,22 +20,21 @@
       "releases": {
         "kor": "Aug 27, 2026",
         "cht": "Aug 27, 2026",
-        "aus": "Aug 27, 2026",
-        "asi": "Aug 27, 2026"
+        "aus": "Aug 27, 2026"
       },
       "formats": {
-        "usa": "k",
         "eur": "k",
-        "jpn": "k"
+        "jpn": "k",
+        "usa": "k"
       },
       "editions": {
-        "usa": [
-          "Day One"
-        ],
         "eur": [
           "Day One"
         ],
         "jpn": [
+          "Day One"
+        ],
+        "usa": [
           "Day One"
         ]
       },
@@ -89,8 +88,8 @@
       "id": 266
     },
     {
-      "title": "Moonlight Peaks Nintendo Switch 2 Edition",
-      "publisher": "Clouded Leopard Entertainment",
+      "title": "Moonlight Peaks - Nintendo Switch 2 Edition",
+      "publisher": "Marvelous",
       "developer": "Little Chicken",
       "type": "n",
       "genre": "Action",
@@ -99,26 +98,29 @@
       "fmt": "c",
       "region": "var",
       "releases": {
-        "eur": "Aug 28, 2026",
         "aus": "Aug 28, 2026"
       },
       "formats": {
         "asi": "c",
+        "cht": "c",
+        "eur": "c",
         "jpn": "c",
-        "kor": "c",
-        "cht": "c"
+        "kor": "c"
       },
       "editions": {
         "asi": [
+          "Standard"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "eur": [
           "Standard"
         ],
         "jpn": [
           "Standard"
         ],
         "kor": [
-          "Standard"
-        ],
-        "cht": [
           "Standard"
         ]
       },
@@ -145,26 +147,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/orbitals/1x1_Orbitals_image500w.jpg",
       "id": 498
-    },
-    {
-      "title": "The Witch's Bakery",
-      "publisher": "Silver Lining Interactive",
-      "developer": "Sunny Lab",
-      "type": "t",
-      "genre": "Action",
-      "date": "Sep 3, 2026",
-      "status": "u",
-      "fmt": "k",
-      "region": "var",
-      "releases": {
-        "usa": "Sep 3, 2026",
-        "eur": "Oct 16, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://img-eshop.cdn.nintendo.net/i/16855637f5901e981c12ea7e0c3c1395a6825da94475b783903d7779dfb6b279.jpg",
-      "id": 717
     },
     {
       "title": "Coffee Talk Tokyo",
@@ -722,6 +704,26 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hollowknightsilksongns2e/1x1_HollowKnightSilksongNS2E_image500w.jpg",
       "id": 342
+    },
+    {
+      "title": "The Witch's Bakery",
+      "publisher": "Silver Lining Interactive",
+      "developer": "Sunny Lab",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 16, 2026",
+      "status": "u",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Oct 16, 2026",
+        "eur": "Oct 16, 2026"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://img-eshop.cdn.nintendo.net/i/16855637f5901e981c12ea7e0c3c1395a6825da94475b783903d7779dfb6b279.jpg",
+      "id": 717
     },
     {
       "title": "Azure Striker Gunvolt Trilogy Enhanced",
