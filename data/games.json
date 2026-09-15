@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T12:01:22.162119+00:00",
+  "updated": "2026-09-15T11:16:34.266541+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -133,7 +133,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 15, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
@@ -5241,7 +5241,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 15, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -11973,7 +11973,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 15, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -13563,7 +13563,7 @@
       "type": "t",
       "genre": "Simulation",
       "date": "Sep 15, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
