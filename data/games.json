@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T10:47:51.420265+00:00",
+  "updated": "2026-09-21T12:11:43.020782+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -382,7 +382,7 @@
     },
     {
       "title": "Super Bomberman Collection Nintendo Switch 2 Edition",
-      "publisher": "Konami",
+      "publisher": "Clouded Leopard Entertainment",
       "developer": "Red Art Games",
       "type": "n",
       "genre": "Action",
@@ -395,12 +395,20 @@
         "eur": "Sep 25, 2026"
       },
       "formats": {
-        "jpn": "c"
+        "jpn": "c",
+        "cht": "c",
+        "asi": "c"
       },
       "editions": {
         "jpn": [
           "Standard",
           "Limited"
+        ],
+        "cht": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
         ]
       },
       "note": "",
