@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T12:17:24.934071+00:00",
+  "updated": "2026-09-30T12:03:38.371922+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -175,7 +175,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "var",
       "releases": {
@@ -194,7 +194,7 @@
       "type": "t",
       "genre": "Life Sim",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
@@ -214,7 +214,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
@@ -233,7 +233,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
@@ -255,7 +255,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
@@ -275,7 +275,7 @@
       "type": "t",
       "genre": "Action-Adventure",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "var",
       "releases": {
@@ -321,7 +321,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "var",
       "releases": {
@@ -340,7 +340,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "var",
       "releases": {
@@ -359,7 +359,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "var",
       "releases": {
@@ -6860,10 +6860,10 @@
       "id": 325
     },
     {
-      "title": "Fitness Boxing: Touken Ranbu",
-      "publisher": "Nintendo",
+      "title": "Fitness Boxing: Touken Ranbu – Shutsujin! Exercise Honmaru",
+      "publisher": "Imagineer",
       "developer": "Imagineer",
-      "type": "e",
+      "type": "t",
       "genre": "Action",
       "date": "Jan 15, 2027",
       "status": "u",
@@ -6873,7 +6873,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/fitnessboxing3yourpersonaltrainernintendoswitch2edition/1x1_NSwitch2_FitnessBoxing3NS2E_image500w.jpg",
+      "art": null,
       "id": 327
     },
     {
@@ -9236,7 +9236,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_TheBannerSaga_image500w.jpg",
       "id": 463
     },
     {
@@ -9739,7 +9739,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -9756,7 +9756,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Sep 30, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -10828,7 +10828,7 @@
       "genre": "Action",
       "date": "Oct 23, 2026",
       "status": "u",
-      "fmt": "?",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -10907,7 +10907,7 @@
     },
     {
       "title": "Orbitals",
-      "publisher": "Kepler Interactive, [, 329, ]",
+      "publisher": "Kepler Interactive, [, 280, ]",
       "developer": "Shapefarm",
       "type": "t",
       "genre": "Action",
@@ -11638,7 +11638,7 @@
     },
     {
       "title": "Pritto Prisoner – Nintendo Switch 2 Edition",
-      "publisher": "PinCool, [, 368, ]",
+      "publisher": "PinCool, [, 319, ]",
       "developer": "PinCool",
       "type": "n",
       "genre": "Action",
@@ -12041,7 +12041,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/bebletcqd3r4e6mmr3fe",
       "id": 637
     },
     {
