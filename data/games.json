@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-05T13:49:43.436744+00:00",
+  "updated": "2026-10-06T12:54:49.352948+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
     "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nintendo_Switch_2_games"
   },
-  "count": 930,
+  "count": 929,
   "games": [
     {
       "title": "Metal Gear Solid: Master Collection Vol. 2",
@@ -144,98 +144,6 @@
       "id": 509
     },
     {
-      "title": "Over the Hill",
-      "publisher": "Funselektor",
-      "developer": "Strelka Games, Funselektor",
-      "type": "t",
-      "genre": "Action",
-      "date": "Sep 30, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "Sep 30, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thepalaceonthehill/1x1_ThePalaceOnTheHill_image500w.jpg",
-      "id": 582
-    },
-    {
-      "title": "Darwin's Paradox!",
-      "publisher": "Konami",
-      "developer": "ZeDrimeTim",
-      "type": "t",
-      "genre": "Action",
-      "date": "Oct 1, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "Oct 1, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/darwinsparadox/1x1_DarwinsParadox_image500w.jpg",
-      "id": 234
-    },
-    {
-      "title": "Dynasty Warriors 3 Complete Edition Remastered",
-      "publisher": "Koei Tecmo",
-      "developer": "Omega Force",
-      "type": "t",
-      "genre": "Strategy RPG",
-      "date": "Oct 1, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "var",
-      "releases": {
-        "kor": "Oct 1, 2026"
-      },
-      "formats": {
-        "asi": "k"
-      },
-      "editions": {
-        "asi": [
-          "Standard"
-        ]
-      },
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DynastyWarriors8XtremeLegendsDefinitiveEdition_image500w.jpg",
-      "id": 290
-    },
-    {
-      "title": "Xenoblade 2 Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "",
-      "type": "n",
-      "genre": "Action RPG",
-      "date": "Oct 1, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "releases": {
-        "kor": "Oct 1, 2026"
-      },
-      "formats": {
-        "jpn": "c",
-        "cht": "c"
-      },
-      "editions": {
-        "jpn": [
-          "Standard"
-        ],
-        "cht": [
-          "Standard"
-        ]
-      },
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles2nintendoswitch2edition/1x1_XenobladeChronicles2_NS2Edition_image500w.jpg",
-      "id": 912
-    },
-    {
       "title": "Xenoblade Chronicles 2 Nintendo Switch 2 Edition",
       "publisher": "Nintendo",
       "developer": "Monolith Soft",
@@ -251,6 +159,8 @@
       "formats": {
         "usa": "c",
         "eur": "c",
+        "cht": "c",
+        "kor": "c",
         "asi": "c"
       },
       "editions": {
@@ -260,51 +170,42 @@
         "eur": [
           "Standard"
         ],
+        "cht": [
+          "Standard"
+        ],
+        "kor": [
+          "Standard"
+        ],
         "asi": [
           "Standard"
         ]
       },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles2nintendoswitch2edition/1x1_XenobladeChronicles2_NS2Edition_image500w.jpg",
-      "id": 913
-    },
-    {
-      "title": "Lies of P: Complete Edition",
-      "publisher": "Neowiz",
-      "developer": "Neowiz, , Round8 Studio",
-      "type": "t",
-      "genre": "Action",
-      "date": "Oct 2, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "releases": {
-        "usa": "Oct 2, 2026",
-        "eur": "Oct 2, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/liesofpcompleteedition/1x1_LiesOfPCompleteEdition_image500w.jpg",
-      "id": 457
+      "id": 912
     },
     {
       "title": "Walking Dead: Streets of Survival - Deluxe Edition",
-      "publisher": "",
+      "publisher": "Trailmark Games",
       "developer": "",
       "type": "t",
       "genre": "Action",
       "date": "Oct 2, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "k",
       "region": "var",
       "releases": {
-        "usa": "Oct 2, 2026",
-        "eur": "Oct 2, 2026",
+        "usa": "Oct 16, 2026",
         "aus": "Oct 2, 2026"
       },
-      "formats": {},
-      "editions": {},
+      "formats": {
+        "eur": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://assets.nintendo.eu/image/private/f_auto,q_auto,w_500/tklkfxiqugjzrosfjs3h",
       "id": 883
@@ -354,6 +255,25 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/humanfallflatns2e/1x1_HumanFallFlatNS2E_image500w.jpg",
       "id": 399
+    },
+    {
+      "title": "Darwin's Paradox!",
+      "publisher": "Konami",
+      "developer": "ZeDrimeTim",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 10, 2026",
+      "status": "u",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Oct 10, 2026"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/darwinsparadox/1x1_DarwinsParadox_image500w.jpg",
+      "id": 234
     },
     {
       "title": "It Takes Two",
@@ -1234,6 +1154,25 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/project007/2x1_007FirstLight_image500w.jpg",
       "id": 1
+    },
+    {
+      "title": "Over the Hill",
+      "publisher": "Funselektor",
+      "developer": "Strelka Games, Funselektor",
+      "type": "t",
+      "genre": "Action",
+      "date": "Mar 31, 2027",
+      "status": "u",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "usa": "Mar 31, 2027"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/thepalaceonthehill/1x1_ThePalaceOnTheHill_image500w.jpg",
+      "id": 582
     },
     {
       "title": "Pastry Panic!",
@@ -6170,6 +6109,23 @@
       "id": 289
     },
     {
+      "title": "Dynasty Warriors 3: Complete Edition Remastered",
+      "publisher": "Koei Tecmo",
+      "developer": "Omega Force",
+      "type": "t",
+      "genre": "Strategy RPG",
+      "date": "Oct 1, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_DynastyWarriors8XtremeLegendsDefinitiveEdition_image500w.jpg",
+      "id": 290
+    },
+    {
       "title": "Dynasty Warriors: Origins",
       "publisher": "Koei Tecmo",
       "developer": "Omega Force",
@@ -6397,7 +6353,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 6, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "ww",
       "releases": {},
@@ -7679,7 +7635,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Heartworm.JPG/330px-Heartworm.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "id": 374
     },
     {
@@ -9058,6 +9014,23 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_LetsSing2021_image500w.jpg",
       "id": 455
+    },
+    {
+      "title": "Lies of P: Complete Edition",
+      "publisher": "Neowiz",
+      "developer": "Neowiz, , Round8 Studio",
+      "type": "t",
+      "genre": "Action",
+      "date": "Aug 6, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/liesofpcompleteedition/1x1_LiesOfPCompleteEdition_image500w.jpg",
+      "id": 457
     },
     {
       "title": "Lifted",
@@ -15921,7 +15894,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechroniclesdefinitiveeditionnintendoswitch2edition/1x1_XenobladeChroniclesDefinitiveEdition_NS2Edition_image500w.jpg",
-      "id": 916
+      "id": 915
     },
     {
       "title": "Xenoblade Chronicles 3 – Nintendo Switch 2 Edition",
@@ -15938,7 +15911,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles3nintendoswitch2edition/1x1_XenobladeChronicles3_NS2Edition_image500w.jpg",
-      "id": 914
+      "id": 913
     },
     {
       "title": "Xenoblade Chronicles X: Definitive Edition – Nintendo Switch 2 Edition",
@@ -15955,7 +15928,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechroniclesxdefnitiveeditionns2e/1x1_NSwitch2_XenobladeChroniclesXDefinitiveEdition_image500w.jpg",
-      "id": 915
+      "id": 914
     },
     {
       "title": "Xenoblade Genesis",
@@ -15972,7 +15945,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles3nintendoswitch2edition/1x1_XenobladeChronicles3_NS2Edition_image500w.jpg",
-      "id": 917
+      "id": 916
     },
     {
       "title": "Xenotilt: Hostile Pinball Action",
@@ -15989,7 +15962,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenotilthostilepinballaction_1/1x1_XenotiltHostilePinballAction_image500w.jpg",
-      "id": 918
+      "id": 917
     },
     {
       "title": "Yakuza 0 Director's Cut",
@@ -16006,7 +15979,7 @@
       "editions": {},
       "note": "Switch 2 exclusive port",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuza0directorscut/2x1_NSwitch2_Yakuza0DC_image500w.jpg",
-      "id": 919
+      "id": 918
     },
     {
       "title": "Yakuza Kiwami",
@@ -16023,7 +15996,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami/1x1_YakuzaKiwami_image500w.jpg",
-      "id": 920
+      "id": 919
     },
     {
       "title": "Yakuza Kiwami 2",
@@ -16040,7 +16013,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwamiandyakuzakiwami2bundle/1x1_YakuzaKiwamiAndYakuzaKiwami2Bundle_image500w.jpg",
-      "id": 921
+      "id": 920
     },
     {
       "title": "Yakuza Kiwami 3 & Dark Ties",
@@ -16057,7 +16030,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yakuzakiwami3anddarkties/1x1_YakuzaKiwami3AndDarkTies_image500w.jpg",
-      "id": 922
+      "id": 921
     },
     {
       "title": "Yeah! You Want \"Those Games,\" Right? So Here You Go! Now, Let's See You Clear Them!",
@@ -16074,7 +16047,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_YeahYouWantThoseGamesSoHereYouGo_image500w.jpg",
-      "id": 923
+      "id": 922
     },
     {
       "title": "Yeah! You Want \"Those Games,\" Right? So Here You Go! Now, Let's See You Clear Them! 2",
@@ -16091,7 +16064,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_YeahYouWantThoseGamesSoHereYouGo_image500w.jpg",
-      "id": 924
+      "id": 923
     },
     {
       "title": "Yobarai Detective: Miasma Breaker – Nintendo Switch 2 Edition",
@@ -16108,7 +16081,7 @@
       "editions": {},
       "note": "",
       "art": "https://gamefaqs.gamespot.com/a/box/2/8/3/1171283.jpg",
-      "id": 926
+      "id": 925
     },
     {
       "title": "Yo-kai Watch 2: Haunted Domain",
@@ -16125,7 +16098,7 @@
       "editions": {},
       "note": "",
       "art": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/cb/Yo-kai_Watch_2_Bony_Spirits_artwork.png/330px-Yo-kai_Watch_2_Bony_Spirits_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "id": 925
+      "id": 924
     },
     {
       "title": "Yooka-Replaylee",
@@ -16142,7 +16115,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yookareplaylee/1x1_YookaReplaylee_image500w.jpg",
-      "id": 927
+      "id": 926
     },
     {
       "title": "Yoshi and the Mysterious Book",
@@ -16159,7 +16132,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yoshiandthemysteriousbook/1x1_NSwitch2_YoshiATMB_image500w.jpg",
-      "id": 928
+      "id": 927
     },
     {
       "title": "Ys X: Proud Nordics",
@@ -16176,7 +16149,7 @@
       "editions": {},
       "note": "Japan released Summer 2025; West Jan 2026",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/ysxproudnordics/1x1_YsXProudNordics_image500w.jpg",
-      "id": 929
+      "id": 928
     },
     {
       "title": "Yu-Gi-Oh! Tag Force GX",
@@ -16193,7 +16166,7 @@
       "editions": {},
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/yugiohtagforcegx/1x1_YuGiOhTagForceGx_image500w.jpg",
-      "id": 930
+      "id": 929
     }
   ]
 }
