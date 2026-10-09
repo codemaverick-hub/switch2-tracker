@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T12:57:21.865617+00:00",
+  "updated": "2026-10-09T12:43:36.848699+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -263,7 +263,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 9, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "ww",
       "releases": {
@@ -288,7 +288,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 9, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {
@@ -10495,7 +10495,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/My_Friendly_Neighborhood_cover.png/330px-My_Friendly_Neighborhood_cover.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "id": 544
     },
     {
@@ -12273,7 +12273,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 9, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
