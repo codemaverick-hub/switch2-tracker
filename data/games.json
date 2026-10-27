@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T12:25:00.524464+00:00",
+  "updated": "2026-10-27T11:44:19.543276+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -80,47 +80,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DestroyAllHumans_image500w.jpg",
       "id": 279
-    },
-    {
-      "title": "Xenoblade Chronicles 2 Nintendo Switch 2 Edition",
-      "publisher": "Nintendo",
-      "developer": "Monolith Soft",
-      "type": "n",
-      "genre": "Action RPG",
-      "date": "Oct 1, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "releases": {
-        "aus": "Oct 1, 2026"
-      },
-      "formats": {
-        "asi": "c",
-        "cht": "c",
-        "eur": "c",
-        "kor": "c",
-        "usa": "c"
-      },
-      "editions": {
-        "asi": [
-          "Standard"
-        ],
-        "cht": [
-          "Standard"
-        ],
-        "eur": [
-          "Standard"
-        ],
-        "kor": [
-          "Standard"
-        ],
-        "usa": [
-          "Standard"
-        ]
-      },
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles2nintendoswitch2edition/1x1_XenobladeChronicles2_NS2Edition_image500w.jpg",
-      "id": 976
     },
     {
       "title": "Walking Dead: Streets of Survival - Deluxe Edition",
@@ -429,25 +388,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pokemonpokopia/1x1_NSwitch2_PokemonPokopia_image500w.png",
       "id": 657
-    },
-    {
-      "title": "Tomb Raider: Definitive Edition",
-      "publisher": "Aspyr",
-      "developer": "Eidos-Montréal",
-      "type": "t",
-      "genre": "Action",
-      "date": "Oct 31, 2026",
-      "status": "u",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "usa": "Oct 31, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombraiderdefinitiveedition_1/1x1_TombRaiderDefinitiveEdition_image500w.jpg",
-      "id": 902
     },
     {
       "title": "Trails in the Sky 2nd Chapter -Nintendo Switch 2 Edition-",
@@ -3016,7 +2956,7 @@
     {
       "title": "Arcade Archives 2: Lady Bug",
       "publisher": "Hamster Corporation",
-      "developer": "Universal",
+      "developer": "Universal Entertainment",
       "type": "t",
       "genre": "Action",
       "date": "Jul 2, 2026",
@@ -4601,7 +4541,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 27, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "c",
       "region": "ww",
       "releases": {},
@@ -5974,7 +5914,7 @@
     {
       "title": "Croc: Legend of the Gobbos Platinum Edition – Nintendo Switch 2 Edition",
       "publisher": "Argonaut Games, , PM Studios",
-      "developer": "Titanium Studios, Big Boat Interactive",
+      "developer": "Titanium Studios,, Big Boat Interactive",
       "type": "n",
       "genre": "Action",
       "date": "TBA",
@@ -10925,7 +10865,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 27, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "k",
       "region": "ww",
       "releases": {},
@@ -14019,7 +13959,7 @@
       "type": "t",
       "genre": "Action",
       "date": "Oct 27, 2026",
-      "status": "u",
+      "status": "r",
       "fmt": "?",
       "region": "ww",
       "releases": {},
@@ -15892,6 +15832,23 @@
       "id": 901
     },
     {
+      "title": "Tomb Raider: Definitive Edition",
+      "publisher": "Aspyr",
+      "developer": "Crystal Dynamics",
+      "type": "t",
+      "genre": "Action",
+      "date": "Oct 22, 2026",
+      "status": "r",
+      "fmt": "?",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/tombraiderdefinitiveedition_1/1x1_TombRaiderDefinitiveEdition_image500w.jpg",
+      "id": 902
+    },
+    {
       "title": "Tomb Raider: Legacy of Atlantis",
       "publisher": "Amazon Game Studios",
       "developer": "Crystal Dynamics",
@@ -17186,6 +17143,23 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechroniclesdefinitiveeditionnintendoswitch2edition/1x1_XenobladeChroniclesDefinitiveEdition_NS2Edition_image500w.jpg",
       "id": 979
+    },
+    {
+      "title": "Xenoblade Chronicles 2 – Nintendo Switch 2 Edition",
+      "publisher": "Nintendo",
+      "developer": "Monolith Soft",
+      "type": "n",
+      "genre": "Action RPG",
+      "date": "Jul 30, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/xenobladechronicles2nintendoswitch2edition/1x1_XenobladeChronicles2_NS2Edition_image500w.jpg",
+      "id": 976
     },
     {
       "title": "Xenoblade Chronicles 3 – Nintendo Switch 2 Edition",
