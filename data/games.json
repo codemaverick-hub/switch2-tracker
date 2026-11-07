@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T13:52:21.365129+00:00",
+  "updated": "2026-11-07T12:35:52.595519+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -235,14 +235,14 @@
       "region": "var",
       "releases": {
         "cht": "Nov 6, 2026",
-        "aus": "Nov 6, 2026",
         "asi": "Nov 6, 2026"
       },
       "formats": {
         "eur": "c",
         "usa": "c",
         "jpn": "c",
-        "kor": "c"
+        "kor": "c",
+        "aus": "c"
       },
       "editions": {
         "eur": [
@@ -260,6 +260,10 @@
         "kor": [
           "Standard",
           "Steelbook"
+        ],
+        "aus": [
+          "Standard",
+          "Steelbook"
         ]
       },
       "note": "",
@@ -274,17 +278,28 @@
       "genre": "Action",
       "date": "Nov 6, 2026",
       "status": "r",
-      "fmt": "?",
-      "region": "ww",
+      "fmt": "k",
+      "region": "var",
       "releases": {
-        "usa": "Nov 6, 2026",
         "jpn": "Nov 6, 2026",
-        "eur": "Nov 6, 2026",
-        "cht": "Nov 6, 2026",
-        "asi": "Nov 6, 2026"
+        "eur": "Nov 6, 2026"
       },
-      "formats": {},
-      "editions": {},
+      "formats": {
+        "cht": "k",
+        "asi": "k",
+        "usa": "k"
+      },
+      "editions": {
+        "cht": [
+          "Standard"
+        ],
+        "asi": [
+          "Standard"
+        ],
+        "usa": [
+          "Standard"
+        ]
+      },
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_TwoPointHospitalAndTwoPointCampusDoublePack_image500w.jpg",
       "id": 956
@@ -2260,7 +2275,7 @@
     {
       "title": "Apex Legends",
       "publisher": "Electronic Arts",
-      "developer": "Respawn Entertainment",
+      "developer": "Respawn Entertainment, ,, Iron Galaxy",
       "type": "t",
       "genre": "Battle Royale",
       "date": "Aug 5, 2025",
@@ -17946,7 +17961,7 @@
     },
     {
       "title": "Ys X: Proud Nordics",
-      "publisher": "Nihon Falcom",
+      "publisher": "Nihon Falcom,, NIS America",
       "developer": "Nihon Falcom",
       "type": "t",
       "genre": "Action RPG",
