@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T14:03:53.439616+00:00",
+  "updated": "2026-11-14T13:05:27.817654+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -196,8 +196,7 @@
       "region": "var",
       "releases": {
         "kor": "Nov 5, 2026",
-        "aus": "Nov 5, 2026",
-        "asi": "Nov 5, 2026"
+        "aus": "Nov 5, 2026"
       },
       "formats": {
         "eur": "k",
@@ -224,48 +223,6 @@
       "id": 550
     },
     {
-      "title": "Pikmin 4 Nintendo Switch 2 Edition + Dandori Academy",
-      "publisher": "Nintendo",
-      "developer": "Nintendo EPD, ,, Eighting",
-      "type": "n",
-      "genre": "Action",
-      "date": "Nov 12, 2026",
-      "status": "r",
-      "fmt": "c",
-      "region": "var",
-      "releases": {
-        "kor": "Nov 12, 2026",
-        "aus": "Nov 12, 2026"
-      },
-      "formats": {
-        "eur": "c",
-        "asi": "c",
-        "jpn": "c",
-        "cht": "c",
-        "usa": "c"
-      },
-      "editions": {
-        "eur": [
-          "Standard"
-        ],
-        "asi": [
-          "Standard"
-        ],
-        "jpn": [
-          "Standard"
-        ],
-        "cht": [
-          "Standard"
-        ],
-        "usa": [
-          "Standard"
-        ]
-      },
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pikmin4nintendoswitch2editiondandoriacademy/1x1_Pikmin4NS2EditionDandoriAcademy_EN_image500w.jpg",
-      "id": 677
-    },
-    {
       "title": "Starsand Island",
       "publisher": "Game Source Entertainment",
       "developer": "Seed Sparkle Lab",
@@ -276,15 +233,18 @@
       "fmt": "c",
       "region": "var",
       "releases": {
-        "usa": "Nov 12, 2026",
         "eur": "Nov 12, 2026"
       },
       "formats": {
+        "usa": "c",
         "asi": "c",
         "cht": "c",
         "jpn": "c"
       },
       "editions": {
+        "usa": [
+          "Day One"
+        ],
         "asi": [
           "Standard"
         ],
@@ -298,25 +258,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hellokittyislandadventurens2e/1x1_HelloKittyIslandAdventureNS2E_image500w.jpg",
       "id": 840
-    },
-    {
-      "title": "Moonlighter 2: The Endless Vault",
-      "publisher": "11 Bit Studios",
-      "developer": "Digital Sun",
-      "type": "t",
-      "genre": "Action",
-      "date": "Nov 13, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Nov 13, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://upload.wikimedia.org/wikipedia/en/b/bc/Moonlighter_2_The_Endless_Vault_cover_art.jpg",
-      "id": 592
     },
     {
       "title": "Screenbound",
@@ -465,6 +406,25 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/hollowknightsilksongns2e/1x1_HollowKnightSilksongNS2E_image500w.jpg",
       "id": 445
+    },
+    {
+      "title": "Moonlighter 2: The Endless Vault",
+      "publisher": "11 Bit Studios",
+      "developer": "Digital Sun",
+      "type": "t",
+      "genre": "Action",
+      "date": "Nov 27, 2026",
+      "status": "u",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "eur": "Nov 27, 2026"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://upload.wikimedia.org/wikipedia/en/b/bc/Moonlighter_2_The_Endless_Vault_cover_art.jpg",
+      "id": 592
     },
     {
       "title": "Danganronpa 2x2",
@@ -1874,7 +1834,7 @@
       "genre": "Action",
       "date": "Jun 18, 2026",
       "status": "r",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -3897,7 +3857,7 @@
       "genre": "Action",
       "date": "Apr 30, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -4254,7 +4214,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -4458,7 +4418,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -6685,7 +6645,7 @@
       "genre": "Action",
       "date": "Jul 10, 2026",
       "status": "r",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -8946,7 +8906,7 @@
       "genre": "Action",
       "date": "Dec 1, 2026",
       "status": "u",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -10629,7 +10589,7 @@
       "genre": "Action",
       "date": "Nov 27, 2025",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -12743,7 +12703,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": null,
+      "art": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Chigul_on_NDaniTv_for_reuse_licence_02.png/330px-Chigul_on_NDaniTv_for_reuse_licence_02.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "id": 660
     },
     {
@@ -13000,6 +12960,23 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_PicrossS_image500w.jpg",
       "id": 676
+    },
+    {
+      "title": "Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy",
+      "publisher": "Nintendo",
+      "developer": "Nintendo EPD, ,, Eighting",
+      "type": "n",
+      "genre": "Action",
+      "date": "Nov 12, 2026",
+      "status": "r",
+      "fmt": "c",
+      "region": "ww",
+      "releases": {},
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/pikmin4nintendoswitch2editiondandoriacademy/1x1_Pikmin4NS2EditionDandoriAcademy_EN_image500w.jpg",
+      "id": 677
     },
     {
       "title": "Pikuniku 2",
@@ -13689,7 +13666,7 @@
       "genre": "Action",
       "date": "Feb 13, 2026",
       "status": "r",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -13893,7 +13870,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -13944,7 +13921,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -14369,7 +14346,7 @@
       "genre": "Action",
       "date": "Mar 19, 2026",
       "status": "r",
-      "fmt": "?",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -15483,7 +15460,7 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -15585,7 +15562,7 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "k",
+      "fmt": "c",
       "region": "ww",
       "releases": {},
       "formats": {},
