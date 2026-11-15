@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T13:05:27.817654+00:00",
+  "updated": "2026-11-15T13:33:13.710181+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -221,6 +221,31 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/marvelsguardiansofthegalaxyencoreedition/1x1_MarvelsGuardiansOfTheGalaxyEncoreEdition_image500w.jpg",
       "id": 550
+    },
+    {
+      "title": "Hasbro Games Junior Collection",
+      "publisher": "Outright Games",
+      "developer": "Casual Brothers",
+      "type": "t",
+      "genre": "Action",
+      "date": "Nov 6, 2026",
+      "status": "r",
+      "fmt": "k",
+      "region": "var",
+      "releases": {
+        "usa": "Nov 6, 2026"
+      },
+      "formats": {
+        "eur": "k"
+      },
+      "editions": {
+        "eur": [
+          "Standard"
+        ]
+      },
+      "note": "",
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_JuniorLeagueSports3In1Collection_image500w.jpg",
+      "id": 425
     },
     {
       "title": "Starsand Island",
@@ -1834,7 +1859,7 @@
       "genre": "Action",
       "date": "Jun 18, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -3857,7 +3882,7 @@
       "genre": "Action",
       "date": "Apr 30, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -4214,7 +4239,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -4418,7 +4443,7 @@
       "genre": "Action",
       "date": "TBA",
       "status": "u",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -6645,7 +6670,7 @@
       "genre": "Action",
       "date": "Jul 10, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -7896,7 +7921,7 @@
       "id": 371
     },
     {
-      "title": "Figment",
+      "title": "Figment 1",
       "publisher": "Bedtime Digital",
       "developer": "Bedtime Digital",
       "type": "t",
@@ -7909,7 +7934,7 @@
       "formats": {},
       "editions": {},
       "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Figment_image500w.jpg",
+      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Figment1PlusFigment2_image500w.jpg",
       "id": 373
     },
     {
@@ -8797,23 +8822,6 @@
       "id": 424
     },
     {
-      "title": "Hasbro Games Junior Collection",
-      "publisher": "Outright Games",
-      "developer": "Casual Brothers",
-      "type": "t",
-      "genre": "Action",
-      "date": "Nov 6, 2026",
-      "status": "r",
-      "fmt": "k",
-      "region": "ww",
-      "releases": {},
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_JuniorLeagueSports3In1Collection_image500w.jpg",
-      "id": 425
-    },
-    {
       "title": "Haste",
       "publisher": "Landfall",
       "developer": "Landfall",
@@ -8906,7 +8914,7 @@
       "genre": "Action",
       "date": "Dec 1, 2026",
       "status": "u",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -10589,7 +10597,7 @@
       "genre": "Action",
       "date": "Nov 27, 2025",
       "status": "r",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -13666,7 +13674,7 @@
       "genre": "Action",
       "date": "Feb 13, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -13870,7 +13878,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -13921,7 +13929,7 @@
       "genre": "Horror",
       "date": "Feb 27, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -14346,7 +14354,7 @@
       "genre": "Action",
       "date": "Mar 19, 2026",
       "status": "r",
-      "fmt": "c",
+      "fmt": "?",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -15460,7 +15468,7 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
@@ -15562,7 +15570,7 @@
       "genre": "Action",
       "date": "Nov 18, 2025",
       "status": "r",
-      "fmt": "c",
+      "fmt": "k",
       "region": "ww",
       "releases": {},
       "formats": {},
