@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T15:37:25.884648+00:00",
+  "updated": "2026-11-18T15:14:24.805542+00:00",
   "sources": {
     "summary": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=558942722",
     "details": "https://docs.google.com/spreadsheets/d/1LEIJUOanvkKq9kv1fSOnD40GdE1Jt5LzSYsg8yAPmb8/export?format=csv&gid=764784245",
@@ -246,25 +246,6 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_JuniorLeagueSports3In1Collection_image500w.jpg",
       "id": 427
-    },
-    {
-      "title": "Screenbound",
-      "publisher": "Crescent Moon Games, Digital Pajamas",
-      "developer": "Crescent Moon Games, Radical Forge",
-      "type": "t",
-      "genre": "Action",
-      "date": "Nov 17, 2026",
-      "status": "r",
-      "fmt": "?",
-      "region": "var",
-      "releases": {
-        "eur": "Nov 17, 2026"
-      },
-      "formats": {},
-      "editions": {},
-      "note": "",
-      "art": null,
-      "id": 770
     },
     {
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate Legendary Edition Nintendo Switch 2 Edition",
@@ -1626,6 +1607,25 @@
       "note": "",
       "art": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_2_games/shutenordernintendoswitch2edition/1x1_ShutenOrderNintendoSwitch2Edition_image500w.jpg",
       "id": 648
+    },
+    {
+      "title": "Screenbound",
+      "publisher": "Crescent Moon Games, Digital Pajamas",
+      "developer": "Crescent Moon Games, Radical Forge",
+      "type": "t",
+      "genre": "Action",
+      "date": "Jul 31, 2027",
+      "status": "u",
+      "fmt": "?",
+      "region": "var",
+      "releases": {
+        "eur": "Jul 31, 2027"
+      },
+      "formats": {},
+      "editions": {},
+      "note": "",
+      "art": null,
+      "id": 770
     },
     {
       "title": "007 First Light - Deluxe Edition",
